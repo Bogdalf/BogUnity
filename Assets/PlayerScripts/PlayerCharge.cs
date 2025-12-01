@@ -20,7 +20,7 @@ public class PlayerCharge : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
     private PlayerStats playerStats;
-
+    private TalentTreeUI talentTreeUI;
     private bool isCharging = false;
     private bool isAiming = false;
     private float chargeTimeLeft = 0f;
@@ -32,15 +32,21 @@ public class PlayerCharge : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
         playerStats = GetComponent<PlayerStats>();
+        talentTreeUI = FindObjectOfType<TalentTreeUI>();
 
         if (telegraphObject != null)
         {
             telegraphObject.SetActive(false);
         }
+        
     }
 
     void Update()
     {
+        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        {
+            return;
+        }
         if (Input.GetMouseButtonDown(1) && CanCharge())
         {
             StartAiming();

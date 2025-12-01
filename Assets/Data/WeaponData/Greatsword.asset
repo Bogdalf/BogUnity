@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f3f016192cf1b48be8508d427f6583, type: 3}
-  m_Name: Bludgeon
+  m_Name: Greatsword
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: Bludgeon
-  weaponType: 1
-  weaponClass: 1
-  minDamage: 3
-  maxDamage: 4
-  attackCooldown: 1
+  weaponName: Greatsword
+  weaponType: 0
+  weaponClass: 3
+  minDamage: 6
+  maxDamage: 10
+  attackCooldown: 1.5
   bonusStrength: 0
   bonusVitality: 0

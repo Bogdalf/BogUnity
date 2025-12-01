@@ -8,18 +8,20 @@ public class PlayerEquipment : MonoBehaviour
 
     private PlayerStats playerStats;
     private PlayerMelee playerMelee;
-
+    private PlayerBuffs playerBuffs;
     // Cached values
     private float totalMinDamage;
     private float totalMaxDamage;
     private float attackSpeed;
     private float equipmentBonusStrength; // Add this
     private float equipmentBonusVitality; // Add this
+    
 
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
         playerMelee = GetComponent<PlayerMelee>();
+        playerBuffs = GetComponent<PlayerBuffs>();
 
         CalculateEquipmentStats();
         ApplyEquipmentStats();
@@ -156,19 +158,31 @@ public class PlayerEquipment : MonoBehaviour
 
     float ApplyWeaponMasterySpeed(float baseSpeed, WeaponClass weaponClass)
     {
+        float modifiedSpeed = baseSpeed;
+
+        // Apply talent mastery bonuses
         PlayerTalents talents = GetComponent<PlayerTalents>();
         if (talents != null && weaponClass != WeaponClass.None)
         {
             float speedBonus = talents.GetWeaponMasterySpeedBonus(weaponClass);
             if (speedBonus > 0)
             {
-                // Speed bonus reduces cooldown (5% faster = 0.95x cooldown)
-                float modifiedSpeed = baseSpeed * (1f - (speedBonus / 100f));
-                Debug.Log("Weapon Speed Mastery: -" + speedBonus + "% cooldown (" + baseSpeed + " -> " + modifiedSpeed + ")");
-                return modifiedSpeed;
+                modifiedSpeed *= (1f - (speedBonus / 100f));
             }
         }
-        return baseSpeed;
+
+        // Apply Axe Frenzy buff (if using an axe)
+        if (weaponClass == WeaponClass.Axe && playerBuffs != null)
+        {
+            float buffBonus = playerBuffs.GetAxeFrenzySpeedBonus();
+            if (buffBonus > 0)
+            {
+                modifiedSpeed *= (1f - (buffBonus / 100f));
+                Debug.Log("Axe Frenzy bonus applied: -" + buffBonus + "% speed");
+            }
+        }
+
+        return modifiedSpeed;
     }
 
     public float GetOffHandDamage()
@@ -196,5 +210,38 @@ public class PlayerEquipment : MonoBehaviour
             return offHandWeapon.weaponClass;
         }
         return WeaponClass.None;
+    }
+
+    // Getters for UI
+    public WeaponData GetMainHandWeapon()
+    {
+        return mainHandWeapon;
+    }
+
+    public WeaponData GetOffHandWeapon()
+    {
+        return offHandWeapon;
+    }
+
+    // Unequip methods
+    public void UnequipMainHand()
+    {
+        mainHandWeapon = null;
+        CalculateEquipmentStats();
+        ApplyEquipmentStats();
+        Debug.Log("Unequipped main hand");
+    }
+
+    public void UnequipOffHand()
+    {
+        offHandWeapon = null;
+        CalculateEquipmentStats();
+        ApplyEquipmentStats();
+        Debug.Log("Unequipped off hand");
+    }
+    public void RecalculateStats()
+    {
+        CalculateEquipmentStats();
+        ApplyEquipmentStats();
     }
 }

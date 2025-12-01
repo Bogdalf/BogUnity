@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f3f016192cf1b48be8508d427f6583, type: 3}
-  m_Name: Greatsword
+  m_Name: Shortsword
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: Greatsword
-  weaponType: 0
+  weaponName: Shortsword
+  weaponType: 1
   weaponClass: 3
-  minDamage: 4
-  maxDamage: 8
-  attackCooldown: 1.5
+  minDamage: 3
+  maxDamage: 4
+  attackCooldown: 0.6
   bonusStrength: 0
   bonusVitality: 0

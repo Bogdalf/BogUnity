@@ -11,19 +11,28 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private GameObject slashVisualObject;
     [SerializeField] private float slashDuration = 0.2f;
 
+    private TalentTreeUI talentTreeUI;
+    private InventoryUI inventoryUI; 
+    
     private PlayerStats playerStats;
     private float lastAttackTime = -999f;
     private bool isAttacking = false;
     private PlayerEquipment playerEquipment;
-
+    private PlayerBuffs playerBuffs;
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
         playerEquipment = GetComponent<PlayerEquipment>();
+        talentTreeUI = FindObjectOfType<TalentTreeUI>();
+        playerBuffs = GetComponent<PlayerBuffs>();
     }
 
     void Update()
     {
+        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        {
+            return; // Exit early, don't process combat input
+        }
         // Right mouse button for melee
         if (Input.GetMouseButton(0) && CanAttack())
         {
@@ -97,6 +106,24 @@ public class PlayerMelee : MonoBehaviour
 
                             enemy.TakeDamage(totalDamage);
                             Debug.Log("Dealt " + totalDamage + " damage");
+                        }
+                        if (playerEquipment != null && playerBuffs != null)
+                        {
+                            WeaponClass weaponClass = playerEquipment.GetMainHandWeaponClass();
+                            if (weaponClass == WeaponClass.Axe)
+                            {
+                                playerBuffs.OnAxeHit();
+                            }
+
+                            // If dual wielding, check offhand too
+                            if (playerEquipment.IsDualWielding())
+                            {
+                                WeaponClass offHandClass = playerEquipment.GetOffHandWeaponClass();
+                                if (offHandClass == WeaponClass.Axe)
+                                {
+                                    playerBuffs.OnAxeHit();
+                                }
+                            }
                         }
                     }
                 }

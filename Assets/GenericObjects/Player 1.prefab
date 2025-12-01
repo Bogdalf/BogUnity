@@ -34,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2513172331506814436}
@@ -163,7 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11dde8a641549f64f9695cb08e192da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 10
   invulnerabilityTime: 0.1
 --- !u!61 &4598068621782329791
 BoxCollider2D:
@@ -241,7 +240,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMelee
   attackRange: 1.5
   attackArc: 90
-  attackDamage: 2
   attackCooldown: 0.5
   slashVisualObject: {fileID: 0}
   slashDuration: 0.1

@@ -36,8 +36,9 @@ public enum TalentEffectType
     IncreaseMeleeRange,
     IncreaseMeleeArc,
 
-    // Special effects (for later)
+    // Special effects
     DualWieldExtraHit,
     TwoHandedCritChance,
-    ShieldBlock
+    ShieldBlock,
+    AxeFrenzy,              // NEW: Stacking attack speed buff on axe hits
 }

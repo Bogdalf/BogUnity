@@ -14,7 +14,7 @@ public class PlayerDash : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
-
+    private TalentTreeUI talentTreeUI;
     private bool isDashing = false;
     private float dashTimeLeft = 0f;
     private float lastDashTime = -999f;
@@ -28,12 +28,18 @@ public class PlayerDash : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerHealth = GetComponent<PlayerHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        playerCollider = GetComponent<Collider2D>(); 
+        playerCollider = GetComponent<Collider2D>();
+        talentTreeUI = FindObjectOfType<TalentTreeUI>();
     }
 
     void Update()
     {
-        // Check for dash input
+        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        {
+            return;
+        }
+        
+        // Check for dash input        
         if (Input.GetKeyDown(KeyCode.Space) && CanDash())
         {
             StartDash();
