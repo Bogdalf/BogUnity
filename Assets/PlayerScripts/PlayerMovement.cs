@@ -12,11 +12,18 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerCharge = GetComponent<PlayerCharge>(); // Add this line
+        playerCharge = GetComponent<PlayerCharge>();
     }
 
     void Update()
     {
+        // Check centralized input manager
+        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        {
+            moveInput = Vector2.zero;
+            return;
+        }
+
         // Get input every frame
         moveInput.x = Input.GetAxisRaw("Horizontal"); // A/D or Arrow keys
         moveInput.y = Input.GetAxisRaw("Vertical");   // W/S or Arrow keys

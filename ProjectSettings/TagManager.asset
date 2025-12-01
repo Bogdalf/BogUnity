@@ -13,8 +13,8 @@ TagManager:
   - Water
   - UI
   - UI Tooltip
-  - 
-  - 
+  - Player
+  - Background
   - 
   - 
   - 
@@ -39,11 +39,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: UI Tooltip
-    uniqueID: 3339932707
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 782079445
+    locked: 0
+  - name: Ground
+    uniqueID: 979381867
+    locked: 0
+  - name: Player
+    uniqueID: 3224519689
+    locked: 0
+  - name: Foreground
+    uniqueID: 2913370363
+    locked: 0
+  - name: UI Tooltip
+    uniqueID: 3339932707
     locked: 0
   m_RenderingLayers:
   - Default

@@ -14,7 +14,7 @@ public class BuffUI : MonoBehaviour
             {
                 int stacks = playerBuffs.GetAxeFrenzyStacks();
                 float duration = playerBuffs.GetAxeFrenzyDuration();
-                buffText.text = stacks + "(" + duration.ToString("F1") + "s)";
+                buffText.text = stacks + " Flurry stacks (" + duration.ToString("F1") + "s)";
             }
             else
             {

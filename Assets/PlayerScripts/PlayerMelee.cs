@@ -12,38 +12,42 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private float slashDuration = 0.2f;
 
     private TalentTreeUI talentTreeUI;
-    private InventoryUI inventoryUI; 
-    
+    private InventoryUI inventoryUI;
+
     private PlayerStats playerStats;
     private float lastAttackTime = -999f;
     private bool isAttacking = false;
     private PlayerEquipment playerEquipment;
     private PlayerBuffs playerBuffs;
+
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
         playerEquipment = GetComponent<PlayerEquipment>();
-        talentTreeUI = FindObjectOfType<TalentTreeUI>();
         playerBuffs = GetComponent<PlayerBuffs>();
     }
 
     void Update()
     {
-        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        // Check centralized input manager FIRST before any input processing
+        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
         {
-            return; // Exit early, don't process combat input
+            return;
         }
-        // Right mouse button for melee
+
+        // Now safe to process combat input
         if (Input.GetMouseButton(0) && CanAttack())
         {
             Attack();
         }
     }
+
     public void SetAttackSpeed(float newCooldown)
     {
         attackCooldown = newCooldown;
         Debug.Log("Attack speed set to: " + attackCooldown);
     }
+
     bool CanAttack()
     {
         return !isAttacking && Time.time >= lastAttackTime + attackCooldown;
@@ -78,8 +82,10 @@ public class PlayerMelee : MonoBehaviour
                 if (angleToEnemy <= attackArc / 2f)
                 {
                     Debug.Log("ENEMY IN ARC - DEALING DAMAGE!");
-                    EnemyAI enemy = hit.GetComponent<EnemyAI>();
-                    if (enemy != null)
+
+                    // Use IDamageable interface instead of specific enemy type
+                    IDamageable damageable = hit.GetComponent<IDamageable>();
+                    if (damageable != null)
                     {
                         // Check if dual wielding
                         if (playerEquipment != null && playerEquipment.IsDualWielding())
@@ -89,11 +95,11 @@ public class PlayerMelee : MonoBehaviour
 
                             // First hit - main hand (with mastery bonus)
                             float mainHandDamage = CalculateDamageWithMastery(baseAttack, playerEquipment.GetMainHandDamage(), playerEquipment.GetMainHandWeaponClass());
-                            enemy.TakeDamage(mainHandDamage);
+                            damageable.TakeDamage(mainHandDamage);
                             Debug.Log("Main Hand Hit: " + mainHandDamage + " damage");
 
                             // Slight delay for second hit
-                            StartCoroutine(DualWieldSecondHit(enemy, baseAttack));
+                            StartCoroutine(DualWieldSecondHit(damageable, baseAttack));
                         }
                         else
                         {
@@ -104,9 +110,10 @@ public class PlayerMelee : MonoBehaviour
 
                             float totalDamage = CalculateDamageWithMastery(baseAttack, weaponDamage, weaponClass);
 
-                            enemy.TakeDamage(totalDamage);
+                            damageable.TakeDamage(totalDamage);
                             Debug.Log("Dealt " + totalDamage + " damage");
                         }
+
                         if (playerEquipment != null && playerBuffs != null)
                         {
                             WeaponClass weaponClass = playerEquipment.GetMainHandWeaponClass();
@@ -187,14 +194,15 @@ public class PlayerMelee : MonoBehaviour
             return 1f - (timeSinceLastAttack / attackCooldown);
         }
     }
-    System.Collections.IEnumerator DualWieldSecondHit(EnemyAI enemy, float baseAttack)
+
+    System.Collections.IEnumerator DualWieldSecondHit(IDamageable damageable, float baseAttack)
     {
         yield return new WaitForSeconds(0.1f);
 
-        if (enemy != null && playerEquipment != null)
+        if (damageable != null && playerEquipment != null)
         {
             float offHandDamage = CalculateDamageWithMastery(baseAttack, playerEquipment.GetOffHandDamage(), playerEquipment.GetOffHandWeaponClass());
-            enemy.TakeDamage(offHandDamage);
+            damageable.TakeDamage(offHandDamage);
             Debug.Log("Off Hand Hit: " + offHandDamage + " damage");
         }
     }
@@ -218,6 +226,4 @@ public class PlayerMelee : MonoBehaviour
 
         return totalDamage;
     }
-
-
 }

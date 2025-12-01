@@ -14,7 +14,6 @@ public class PlayerDash : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
-    private TalentTreeUI talentTreeUI;
     private bool isDashing = false;
     private float dashTimeLeft = 0f;
     private float lastDashTime = -999f;
@@ -29,16 +28,16 @@ public class PlayerDash : MonoBehaviour
         playerHealth = GetComponent<PlayerHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerCollider = GetComponent<Collider2D>();
-        talentTreeUI = FindObjectOfType<TalentTreeUI>();
     }
 
     void Update()
     {
-        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        // Check centralized input manager
+        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
         {
             return;
         }
-        
+
         // Check for dash input        
         if (Input.GetKeyDown(KeyCode.Space) && CanDash())
         {
@@ -103,7 +102,7 @@ public class PlayerDash : MonoBehaviour
         // Disable collision during dash
         if (playerCollider != null)
         {
-            playerCollider.enabled = false; // Add this line
+            playerCollider.enabled = false;
         }
 
         // Visual feedback - make player semi-transparent during dash
@@ -128,7 +127,7 @@ public class PlayerDash : MonoBehaviour
         // Re-enable collision
         if (playerCollider != null)
         {
-            playerCollider.enabled = true; // Add this line
+            playerCollider.enabled = true;
         }
 
         // Restore normal appearance

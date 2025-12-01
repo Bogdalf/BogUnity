@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-            spriteRenderer.color = Color.white;
+            spriteRenderer.color = Color.orange;
         }
     }
 

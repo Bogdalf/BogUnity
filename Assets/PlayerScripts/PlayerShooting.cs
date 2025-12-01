@@ -12,6 +12,12 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
+        // Check centralized input manager
+        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        {
+            return;
+        }
+
         // Hold left mouse button to shoot
         if (Input.GetMouseButton(0) && Time.time >= nextFireTime)
         {

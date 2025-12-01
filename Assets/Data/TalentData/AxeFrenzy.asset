@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: AxeFrenzy
   m_EditorClassIdentifier: Assembly-CSharp::TalentData
   talentName: Flurry
-  talentDescription: Increases Attack Speed with Axe attacks by 5%
+  talentDescription: Increases Attack Speed with Axe attacks by 5% for 5 seconds.
+    Stacks 5 times.
   maxRank: 1
   requiredLevel: 0
-  prerequisiteTalent: {fileID: 0}
-  effectType: 3
+  prerequisiteTalent: {fileID: 11400000, guid: 6b9da60771c305049b56befdfc9df50d, type: 2}
+  effectType: 13
   effectValue: 5
   affectedWeaponClass: 1

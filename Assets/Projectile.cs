@@ -14,12 +14,12 @@ public class Projectile : MonoBehaviour
         // When projectile hits enemy, deal damage
         if (collision.CompareTag("Enemy"))
         {
-            EnemyAI enemy = collision.GetComponent<EnemyAI>();
-            if (enemy != null)
+            IDamageable damageable = collision.GetComponent<IDamageable>();
+            if (damageable != null)
             {
-                enemy.TakeDamage(1f); // Deal 1 damage
+                damageable.TakeDamage(1f); // Deal 1 damage
+                Destroy(gameObject); // Destroy projectile
             }
-            Destroy(gameObject); // Destroy projectile
         }
     }
 }

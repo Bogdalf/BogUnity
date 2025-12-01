@@ -242,4 +242,8 @@ public class InventoryUI : MonoBehaviour
         RefreshInventoryDisplay();
         UpdateEquipmentSlotsDisplay();
     }
+    public bool IsInventoryOpen()
+    {
+        return isInventoryOpen;
+    }
 }

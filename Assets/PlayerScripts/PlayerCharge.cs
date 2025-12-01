@@ -20,7 +20,6 @@ public class PlayerCharge : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
     private PlayerStats playerStats;
-    private TalentTreeUI talentTreeUI;
     private bool isCharging = false;
     private bool isAiming = false;
     private float chargeTimeLeft = 0f;
@@ -32,21 +31,21 @@ public class PlayerCharge : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
         playerStats = GetComponent<PlayerStats>();
-        talentTreeUI = FindObjectOfType<TalentTreeUI>();
 
         if (telegraphObject != null)
         {
             telegraphObject.SetActive(false);
         }
-        
     }
 
     void Update()
     {
-        if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
+        // Check centralized input manager
+        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
         {
             return;
         }
+
         if (Input.GetMouseButtonDown(1) && CanCharge())
         {
             StartAiming();
@@ -185,12 +184,13 @@ public class PlayerCharge : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            EnemyAI enemy = collision.gameObject.GetComponent<EnemyAI>();
-            if (enemy != null)
+            // Use IDamageable interface instead of specific enemy type
+            IDamageable damageable = collision.gameObject.GetComponent<IDamageable>();
+            if (damageable != null)
             {
                 float baseDamage = playerStats != null ? playerStats.GetAttackDamage() : 2f;
                 float chargeDamage = baseDamage * damageMultiplier;
-                enemy.TakeDamage(chargeDamage);
+                damageable.TakeDamage(chargeDamage);
                 Debug.Log("Charge hit enemy for " + chargeDamage + " damage!");
             }
         }
