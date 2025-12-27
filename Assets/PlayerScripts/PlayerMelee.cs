@@ -19,12 +19,14 @@ public class PlayerMelee : MonoBehaviour
     private bool isAttacking = false;
     private PlayerEquipment playerEquipment;
     private PlayerBuffs playerBuffs;
+    private PlayerWarCry playerWarCry;
 
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
         playerEquipment = GetComponent<PlayerEquipment>();
         playerBuffs = GetComponent<PlayerBuffs>();
+        playerWarCry = GetComponent<PlayerWarCry>();
     }
 
     void Update()
@@ -221,6 +223,18 @@ public class PlayerMelee : MonoBehaviour
                 float bonusDamage = totalDamage * (masteryBonus / 100f);
                 totalDamage += bonusDamage;
                 Debug.Log("Weapon Mastery Bonus: +" + masteryBonus + "% (+" + bonusDamage + " damage)");
+            }
+        }
+
+        // Apply War Cry damage multiplier
+        if (playerWarCry != null)
+        {
+            float warCryMultiplier = playerWarCry.GetDamageMultiplier();
+            if (warCryMultiplier > 1f)
+            {
+                float originalDamage = totalDamage;
+                totalDamage *= warCryMultiplier;
+                Debug.Log("War Cry Bonus: " + (warCryMultiplier - 1f) * 100f + "% (+" + (totalDamage - originalDamage) + " damage)");
             }
         }
 

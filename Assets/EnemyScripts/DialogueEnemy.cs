@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DialogueEnemy : MonoBehaviour, IDamageable
+public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
 {
     [Header("NPC Dialogue Settings")]
     [SerializeField] private string npcName = "Hostile Villager";
@@ -34,14 +34,31 @@ public class DialogueEnemy : MonoBehaviour, IDamageable
     private Transform player;
     private Rigidbody2D rb;
 
+    // Stun system
+    private bool isStunned = false;
+    private float stunTimeRemaining = 0f;
+    private SpriteRenderer spriteRenderer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
     {
+        // Update stun timer
+        if (isStunned)
+        {
+            stunTimeRemaining -= Time.deltaTime;
+            if (stunTimeRemaining <= 0f)
+            {
+                EndStun();
+            }
+            return; // Don't process other logic while stunned
+        }
+
         // Check if player is in range
         if (player != null)
         {
@@ -73,6 +90,13 @@ public class DialogueEnemy : MonoBehaviour, IDamageable
 
     void FixedUpdate()
     {
+        // Don't move if stunned
+        if (isStunned)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         // Only move toward player when aggressive
         if (currentState == State.Aggressive && player != null)
         {
@@ -165,8 +189,8 @@ public class DialogueEnemy : MonoBehaviour, IDamageable
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Only damage player when aggressive
-        if (currentState == State.Aggressive && collision.gameObject.CompareTag("Player"))
+        // Only damage player when aggressive and not stunned
+        if (currentState == State.Aggressive && !isStunned && collision.gameObject.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
@@ -174,6 +198,46 @@ public class DialogueEnemy : MonoBehaviour, IDamageable
                 playerHealth.TakeDamage(damage);
             }
         }
+    }
+
+    // IStunnable implementation
+    public void Stun(float duration)
+    {
+        isStunned = true;
+        stunTimeRemaining = duration;
+
+        // Hide dialogue if showing
+        if (currentState == State.ShowingDialogue)
+        {
+            HideDialogue();
+        }
+
+        // Visual feedback - change color to yellow
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.yellow;
+        }
+
+        Debug.Log(gameObject.name + " is stunned for " + duration + " seconds!");
+    }
+
+    void EndStun()
+    {
+        isStunned = false;
+        stunTimeRemaining = 0f;
+
+        // Restore original color
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.white;
+        }
+
+        Debug.Log(gameObject.name + " stun ended!");
+    }
+
+    public bool IsStunned()
+    {
+        return isStunned;
     }
 
     void OnDrawGizmosSelected()

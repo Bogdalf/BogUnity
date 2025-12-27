@@ -10,7 +10,6 @@ public class PlayerDash : MonoBehaviour
     [Header("Invulnerability")]
     [SerializeField] private bool invulnerableDuringDash = true;
 
-    private Collider2D playerCollider;
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
     private PlayerHealth playerHealth;
@@ -27,7 +26,6 @@ public class PlayerDash : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerHealth = GetComponent<PlayerHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        playerCollider = GetComponent<Collider2D>();
     }
 
     void Update()
@@ -99,12 +97,6 @@ public class PlayerDash : MonoBehaviour
             playerMovement.enabled = false;
         }
 
-        // Disable collision during dash
-        if (playerCollider != null)
-        {
-            playerCollider.enabled = false;
-        }
-
         // Visual feedback - make player semi-transparent during dash
         if (spriteRenderer != null)
         {
@@ -122,12 +114,6 @@ public class PlayerDash : MonoBehaviour
         if (playerMovement != null)
         {
             playerMovement.enabled = true;
-        }
-
-        // Re-enable collision
-        if (playerCollider != null)
-        {
-            playerCollider.enabled = true;
         }
 
         // Restore normal appearance

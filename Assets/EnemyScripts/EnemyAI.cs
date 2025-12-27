@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour, IDamageable
+public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
 {
     [Header("Enemy Settings")]
     [SerializeField] private float moveSpeed = 2f;
@@ -15,9 +15,15 @@ public class EnemyAI : MonoBehaviour, IDamageable
     private Rigidbody2D rb;
     private bool isAggressive = false;
 
+    // Stun system
+    private bool isStunned = false;
+    private float stunTimeRemaining = 0f;
+    private SpriteRenderer spriteRenderer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         // If set to start aggressive, activate immediately
@@ -26,6 +32,17 @@ public class EnemyAI : MonoBehaviour, IDamageable
 
     void Update()
     {
+        // Update stun timer
+        if (isStunned)
+        {
+            stunTimeRemaining -= Time.deltaTime;
+            if (stunTimeRemaining <= 0f)
+            {
+                EndStun();
+            }
+            return; // Don't process other logic while stunned
+        }
+
         // Check if player is in range (if not already aggressive)
         if (!isAggressive && player != null)
         {
@@ -39,6 +56,13 @@ public class EnemyAI : MonoBehaviour, IDamageable
 
     void FixedUpdate()
     {
+        // Don't move if stunned
+        if (isStunned)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         // Only move toward player when aggressive
         if (isAggressive && player != null)
         {
@@ -59,6 +83,39 @@ public class EnemyAI : MonoBehaviour, IDamageable
         Debug.Log(gameObject.name + " detected player and is now aggressive!");
     }
 
+    public void Stun(float duration)
+    {
+        isStunned = true;
+        stunTimeRemaining = duration;
+
+        // Visual feedback - change color to yellow
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.yellow;
+        }
+
+        Debug.Log(gameObject.name + " is stunned for " + duration + " seconds!");
+    }
+
+    void EndStun()
+    {
+        isStunned = false;
+        stunTimeRemaining = 0f;
+
+        // Restore original color
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.white;
+        }
+
+        Debug.Log(gameObject.name + " stun ended!");
+    }
+
+    public bool IsStunned()
+    {
+        return isStunned;
+    }
+
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
@@ -75,8 +132,11 @@ public class EnemyAI : MonoBehaviour, IDamageable
             DamageNumberManager.Instance.SpawnDamageNumber(transform.position, damageAmount, false);
         }
 
-        // Visual feedback - flash red
-        StartCoroutine(FlashRed());
+        // Visual feedback - flash red (unless stunned)
+        if (!isStunned)
+        {
+            StartCoroutine(FlashRed());
+        }
 
         if (health <= 0)
         {
@@ -100,8 +160,8 @@ public class EnemyAI : MonoBehaviour, IDamageable
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Only damage player when aggressive
-        if (isAggressive && collision.gameObject.CompareTag("Player"))
+        // Only damage player when aggressive and not stunned
+        if (isAggressive && !isStunned && collision.gameObject.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
