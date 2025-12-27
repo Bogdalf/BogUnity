@@ -49,7 +49,7 @@ public class PlayerEquipment : MonoBehaviour
             totalBonusStrength += mainHandWeapon.bonusStrength;
             totalBonusVitality += mainHandWeapon.bonusVitality;
 
-            Debug.Log("Main Hand: " + mainHandWeapon.weaponName + " (Base Speed: " + mainHandWeapon.attackCooldown + ", Modified: " + attackSpeed + ")");
+            Debug.Log("Main Hand: " + mainHandWeapon.itemName + " (Base Speed: " + mainHandWeapon.attackCooldown + ", Modified: " + attackSpeed + ")");
         }
 
         // Off hand (weapon or shield)
@@ -65,13 +65,13 @@ public class PlayerEquipment : MonoBehaviour
                 {
                     float offHandSpeed = ApplyWeaponMasterySpeed(offHandWeapon.attackCooldown, offHandWeapon.weaponClass);
                     attackSpeed = (attackSpeed + offHandSpeed) / 2f;
-                    Debug.Log("Off Hand Weapon: " + offHandWeapon.weaponName + " (Speed: " + offHandSpeed + ")");
+                    Debug.Log("Off Hand Weapon: " + offHandWeapon.itemName + " (Speed: " + offHandSpeed + ")");
                     Debug.Log("Dual Wield - Averaged Attack Speed: " + attackSpeed);
                 }
             }
             else if (offHandWeapon.weaponType == WeaponType.Shield)
             {
-                Debug.Log("Off Hand Shield: " + offHandWeapon.weaponName);
+                Debug.Log("Off Hand Shield: " + offHandWeapon.itemName);
             }
 
             totalBonusStrength += offHandWeapon.bonusStrength;

@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f3f016192cf1b48be8508d427f6583, type: 3}
   m_Name: Greatsword
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: Greatsword
+  itemName: Greatsword
+  itemType: 0
+  icon: {fileID: 0}
+  gridWidth: 1
+  gridHeight: 1
+  isStackable: 0
+  maxStackSize: 1
   weaponType: 0
   weaponClass: 3
   minDamage: 6

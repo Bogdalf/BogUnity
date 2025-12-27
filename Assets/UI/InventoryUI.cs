@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class InventoryUI : MonoBehaviour
@@ -8,32 +9,34 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private Inventory inventory;
     [SerializeField] private PlayerEquipment playerEquipment;
     [SerializeField] private GameObject inventoryPanel;
-    [SerializeField] private Transform weaponListContainer;
-    [SerializeField] private GameObject weaponSlotPrefab;
+    [SerializeField] private Transform gridContainer;
+    [SerializeField] private GameObject gridSlotPrefab;
 
-    [Header("Equipment Slot UI")]
+    [Header("Equipment Display")]
     [SerializeField] private TextMeshProUGUI mainHandText;
     [SerializeField] private TextMeshProUGUI offHandText;
-    [SerializeField] private Button mainHandUnequipButton;
-    [SerializeField] private Button offHandUnequipButton;
 
     [Header("Settings")]
     [SerializeField] private KeyCode toggleKey = KeyCode.I;
 
     private bool isInventoryOpen = false;
 
+    // Drag state
+    private GameObject draggedItemVisual;
+    private int dragFromX;
+    private int dragFromY;
+    private ItemData draggedItem;
+
     void Update()
     {
-        // Toggle inventory with I key
         if (Input.GetKeyDown(toggleKey))
         {
             ToggleInventory();
         }
 
-        // Update equipment slots display if inventory is open
         if (isInventoryOpen)
         {
-            UpdateEquipmentSlotsDisplay();
+            UpdateEquipmentDisplay();
         }
     }
 
@@ -48,200 +51,184 @@ public class InventoryUI : MonoBehaviour
 
         if (isInventoryOpen)
         {
-            RefreshInventoryDisplay();
-            UpdateEquipmentSlotsDisplay();
+            RefreshGridDisplay();
         }
     }
 
-    void RefreshInventoryDisplay()
+    void RefreshGridDisplay()
     {
-        if (inventory == null || weaponListContainer == null) return;
+        if (inventory == null || gridContainer == null) return;
 
         // Clear existing slots
-        foreach (Transform child in weaponListContainer)
+        foreach (Transform child in gridContainer)
         {
             Destroy(child.gameObject);
         }
 
-        // Create a slot for each weapon
-        foreach (WeaponData weapon in inventory.GetWeapons())
+        int gridWidth = inventory.GetGridWidth();
+        int gridHeight = inventory.GetGridHeight();
+
+        // Create a slot for every grid position
+        for (int y = 0; y < gridHeight; y++)
         {
-            CreateWeaponSlot(weapon);
-        }
-    }
-
-    void CreateWeaponSlot(WeaponData weapon)
-    {
-        if (weaponSlotPrefab == null || weaponListContainer == null) return;
-
-        GameObject slot = Instantiate(weaponSlotPrefab, weaponListContainer);
-
-        // Set weapon name
-        TextMeshProUGUI nameText = slot.transform.Find("WeaponName")?.GetComponent<TextMeshProUGUI>();
-        if (nameText != null)
-        {
-            nameText.text = weapon.weaponName;
-        }
-
-        // Set weapon stats
-        TextMeshProUGUI statsText = slot.transform.Find("WeaponStats")?.GetComponent<TextMeshProUGUI>();
-        if (statsText != null)
-        {
-            string typeText = weapon.weaponType.ToString();
-            string damageText = weapon.minDamage + "-" + weapon.maxDamage;
-            statsText.text = typeText + " | Dmg: " + damageText;
-        }
-
-        // Check if weapon is currently equipped
-        bool isEquipped = IsWeaponEquipped(weapon);
-
-        // Set up equip button
-        Button equipButton = slot.transform.Find("EquipButton")?.GetComponent<Button>();
-        if (equipButton != null)
-        {
-            equipButton.onClick.AddListener(() => OnEquipWeapon(weapon));
-
-            // Change button text if equipped
-            TextMeshProUGUI buttonText = equipButton.GetComponentInChildren<TextMeshProUGUI>();
-            if (buttonText != null && isEquipped)
+            for (int x = 0; x < gridWidth; x++)
             {
-                buttonText.text = "EQUIPPED";
-                equipButton.interactable = false; // Disable if already equipped
-            }
-        }
-
-        // Set up drop button
-        Button dropButton = slot.transform.Find("DropButton")?.GetComponent<Button>();
-        if (dropButton != null)
-        {
-            dropButton.onClick.AddListener(() => OnDropWeapon(weapon));
-
-            // Can't drop equipped weapons
-            if (isEquipped)
-            {
-                dropButton.interactable = false;
-            }
-        }
-
-        // Highlight if equipped
-        if (isEquipped)
-        {
-            Image slotImage = slot.GetComponent<Image>();
-            if (slotImage != null)
-            {
-                slotImage.color = new Color(0.3f, 0.8f, 0.3f, 0.5f); // Green tint
+                CreateGridSlot(x, y);
             }
         }
     }
 
-    bool IsWeaponEquipped(WeaponData weapon)
+    void CreateGridSlot(int x, int y)
     {
-        if (playerEquipment == null) return false;
-        return playerEquipment.GetMainHandWeapon() == weapon ||
-               playerEquipment.GetOffHandWeapon() == weapon;
-    }
+        if (gridSlotPrefab == null || gridContainer == null) return;
 
-    void OnEquipWeapon(WeaponData weapon)
-    {
-        if (inventory != null)
+        GameObject slotObj = Instantiate(gridSlotPrefab, gridContainer);
+        InventorySlot slot = slotObj.GetComponent<InventorySlot>();
+
+        if (slot != null)
         {
-            inventory.EquipWeaponFromInventory(weapon);
-            RefreshInventoryDisplay(); // Refresh to update button states
+            ItemData item = inventory.GetItemAtPosition(x, y);
+            int stackSize = inventory.GetStackSizeAtPosition(x, y);
+            slot.Initialize(x, y, item, stackSize, this);
         }
     }
 
-    void OnDropWeapon(WeaponData weapon)
+    // Called by InventorySlot when right-clicked (EQUIP)
+    public void OnSlotRightClicked(int x, int y, ItemData item)
     {
-        // Don't drop equipped weapons
-        if (IsWeaponEquipped(weapon))
+        if (item == null) return;
+
+        Debug.Log("Right-clicked " + item.itemName + " at (" + x + ", " + y + ")");
+
+        // Equip weapons when right-clicked
+        if (item.itemType == ItemType.Weapon)
         {
-            Debug.Log("Can't drop equipped weapon! Unequip it first.");
+            inventory.EquipWeaponFromPosition(x, y);
+            RefreshGridDisplay();
+        }
+    }
+
+    // Drag and Drop handlers
+    public void OnBeginDrag(int fromX, int fromY, ItemData item, GameObject slotObject)
+    {
+        dragFromX = fromX;
+        dragFromY = fromY;
+        draggedItem = item;
+
+        // Create a visual representation that follows the mouse
+        draggedItemVisual = new GameObject("DraggedItem");
+        draggedItemVisual.transform.SetParent(gridContainer.parent); // Parent to inventory panel
+
+        Image image = draggedItemVisual.AddComponent<Image>();
+        if (item.icon != null)
+        {
+            image.sprite = item.icon;
+        }
+        else
+        {
+            image.color = new Color(0.5f, 0.5f, 0.5f, 0.8f); // Gray placeholder
+        }
+
+        RectTransform rt = draggedItemVisual.GetComponent<RectTransform>();
+        rt.sizeDelta = new Vector2(80, 80); // Match slot size
+
+        // Make it semi-transparent
+        CanvasGroup canvasGroup = draggedItemVisual.AddComponent<CanvasGroup>();
+        canvasGroup.alpha = 0.6f;
+        canvasGroup.blocksRaycasts = false; // Allow raycasts to pass through to slots below
+
+        Debug.Log("Started dragging " + item.itemName);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (draggedItemVisual != null)
+        {
+            // Follow the mouse
+            draggedItemVisual.transform.position = eventData.position;
+        }
+    }
+
+    public void OnEndDrag(int fromX, int fromY, PointerEventData eventData)
+    {
+        // Clean up the visual
+        if (draggedItemVisual != null)
+        {
+            Destroy(draggedItemVisual);
+            draggedItemVisual = null;
+        }
+
+        // Find what slot we dropped on
+        GameObject dropTarget = eventData.pointerCurrentRaycast.gameObject;
+
+        if (dropTarget == null)
+        {
+            Debug.Log("Dropped outside inventory - cancelled");
             return;
         }
 
-        if (inventory != null)
+        // Check if we dropped on a valid inventory slot
+        InventorySlot targetSlot = dropTarget.GetComponent<InventorySlot>();
+        if (targetSlot == null)
         {
-            inventory.RemoveWeapon(weapon);
-            RefreshInventoryDisplay();
-            Debug.Log("Dropped: " + weapon.weaponName);
+            // Might have dropped on a child (like the image), check parent
+            targetSlot = dropTarget.GetComponentInParent<InventorySlot>();
         }
+
+        if (targetSlot != null)
+        {
+            int toX = targetSlot.GetGridX();
+            int toY = targetSlot.GetGridY();
+
+            Debug.Log("Dropped on slot (" + toX + ", " + toY + ")");
+
+            // Move the item
+            if (inventory.MoveItem(fromX, fromY, toX, toY))
+            {
+                Debug.Log("Moved " + draggedItem.itemName + " from (" + fromX + ", " + fromY + ") to (" + toX + ", " + toY + ")");
+                RefreshGridDisplay();
+            }
+            else
+            {
+                Debug.Log("Could not move item - target slot occupied or invalid");
+            }
+        }
+        else
+        {
+            Debug.Log("Did not drop on a valid slot");
+        }
+
+        draggedItem = null;
     }
 
-    void UpdateEquipmentSlotsDisplay()
+    void UpdateEquipmentDisplay()
     {
         if (playerEquipment == null) return;
 
         WeaponData mainHand = playerEquipment.GetMainHandWeapon();
         WeaponData offHand = playerEquipment.GetOffHandWeapon();
 
-        // Update main hand display
         if (mainHandText != null)
         {
-            if (mainHand != null)
-            {
-                mainHandText.text = mainHand.weaponName + "\n" +
-                                   mainHand.minDamage + "-" + mainHand.maxDamage + " Dmg";
-            }
-            else
-            {
-                mainHandText.text = "Empty";
-            }
+            mainHandText.text = mainHand != null ?
+                mainHand.itemName + "\n" + mainHand.minDamage + "-" + mainHand.maxDamage + " Dmg" :
+                "Empty";
         }
 
-        // Update off hand display
         if (offHandText != null)
         {
-            if (offHand != null)
-            {
-                offHandText.text = offHand.weaponName + "\n" +
-                                  offHand.minDamage + "-" + offHand.maxDamage + " Dmg";
-            }
-            else
-            {
-                offHandText.text = "Empty";
-            }
-        }
-
-        // Update unequip buttons
-        if (mainHandUnequipButton != null)
-        {
-            mainHandUnequipButton.interactable = (mainHand != null);
-            mainHandUnequipButton.onClick.RemoveAllListeners();
-            mainHandUnequipButton.onClick.AddListener(() => OnUnequipMainHand());
-        }
-
-        if (offHandUnequipButton != null)
-        {
-            offHandUnequipButton.interactable = (offHand != null);
-            offHandUnequipButton.onClick.RemoveAllListeners();
-            offHandUnequipButton.onClick.AddListener(() => OnUnequipOffHand());
+            offHandText.text = offHand != null ?
+                offHand.itemName + "\n" + offHand.minDamage + "-" + offHand.maxDamage + " Dmg" :
+                "Empty";
         }
     }
 
-    void OnUnequipMainHand()
-    {
-        if (playerEquipment != null)
-        {
-            playerEquipment.UnequipMainHand();
-            RefreshInventoryDisplay();
-        }
-    }
-
-    void OnUnequipOffHand()
-    {
-        if (playerEquipment != null)
-        {
-            playerEquipment.UnequipOffHand();
-            RefreshInventoryDisplay();
-        }
-    }
-
-    // Call this when inventory opens to ensure it's up to date
     void OnEnable()
     {
-        RefreshInventoryDisplay();
-        UpdateEquipmentSlotsDisplay();
+        RefreshGridDisplay();
+        UpdateEquipmentDisplay();
     }
+
     public bool IsInventoryOpen()
     {
         return isInventoryOpen;
