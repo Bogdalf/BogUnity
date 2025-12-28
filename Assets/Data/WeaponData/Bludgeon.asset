@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   itemName: Bludgeon
   itemType: 0
-  icon: {fileID: 0}
+  icon: {fileID: 7345222536804776289, guid: 7b057f3e864478f4a91fa1b6aa79c972, type: 3}
   gridWidth: 1
   gridHeight: 1
   isStackable: 0

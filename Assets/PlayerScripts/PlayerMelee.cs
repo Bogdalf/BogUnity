@@ -32,7 +32,7 @@ public class PlayerMelee : MonoBehaviour
     void Update()
     {
         // Check centralized input manager FIRST before any input processing
-        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        if (InputManager.Instance != null && InputManager.Instance.IsCombatInputBlocked())
         {
             return;
         }

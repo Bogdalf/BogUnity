@@ -18,6 +18,6 @@ MonoBehaviour:
   gridWidth: 1
   gridHeight: 1
   isStackable: 1
-  maxStackSize: 99
+  maxStackSize: 5
   description: Wood from a tree
   materialType: 0

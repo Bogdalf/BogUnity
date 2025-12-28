@@ -14,7 +14,10 @@ public class CraftingMaterialData : ItemData
 
         // Crafting materials ARE stackable
         isStackable = true;
-        maxStackSize = 99; // Stack up to 99
+        if (maxStackSize == 1)
+        {
+            maxStackSize = 99;
+        }
     }
 }
 

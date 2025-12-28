@@ -21,8 +21,9 @@ public class InputManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Returns true if player gameplay input (movement, combat, abilities) should be blocked.
-    /// This happens when UI menus are open or dialogue is active.
+    /// Returns true if player gameplay input (movement, gathering, abilities) should be blocked.
+    /// This happens when dialogue is active or talent tree is open.
+    /// Note: Inventory no longer blocks movement/gathering.
     /// </summary>
     public bool IsPlayerInputBlocked()
     {
@@ -33,22 +34,41 @@ public class InputManager : MonoBehaviour
         }
 
         // Check if talent tree is open
-        TalentTreeUI talentTreeUI = FindObjectOfType<TalentTreeUI>();
+        TalentTreeUI talentTreeUI = FindFirstObjectByType<TalentTreeUI>();
         if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
         {
             return true;
         }
 
-        // Check if inventory is open
-        InventoryUI inventoryUI = FindObjectOfType<InventoryUI>();
-        if (inventoryUI != null && inventoryUI.IsInventoryOpen())
+        // Inventory no longer blocks all input - only combat clicks
+        // Movement and gathering still work with inventory open
+
+        return false; // Input is not blocked
+    }
+
+    /// <summary>
+    /// Returns true if combat input (attacks, abilities) should be blocked.
+    /// Blocks when dialogue/talents are open, OR when mouse is over inventory UI.
+    /// </summary>
+    public bool IsCombatInputBlocked()
+    {
+        // Block combat during dialogue or talent tree
+        if (IsPlayerInputBlocked())
         {
             return true;
         }
 
-        // Add more UI checks here as needed (pause menu, shop, etc.)
+        // Block combat if mouse is over inventory panel
+        InventoryUI inventoryUI = FindFirstObjectByType<InventoryUI>();
+        if (inventoryUI != null && inventoryUI.IsInventoryOpen())
+        {
+            if (inventoryUI.IsMouseOverInventory())
+            {
+                return true;
+            }
+        }
 
-        return false; // Input is not blocked
+        return false;
     }
 
     /// <summary>
