@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 7b057f3e864478f4a91fa1b6aa79c972
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7166569462567030093
+    second: 32x32pixelmeleeweapon_0
+  - first:
+      213: 8802887352863760977
+    second: 32x32pixelmeleeweapon_1
+  - first:
+      213: -8380637227964418143
+    second: 32x32pixelmeleeweapon_2
+  - first:
+      213: -1103379913677867603
+    second: 32x32pixelmeleeweapon_3
+  - first:
+      213: 6836741054620484339
+    second: 32x32pixelmeleeweapon_4
+  - first:
+      213: -5488646003172344080
+    second: 32x32pixelmeleeweapon_5
+  - first:
+      213: -9010227095838756942
+    second: 32x32pixelmeleeweapon_6
+  - first:
+      213: 1195334138242918324
+    second: 32x32pixelmeleeweapon_7
+  - first:
+      213: -961976178828189577
+    second: 32x32pixelmeleeweapon_8
+  - first:
+      213: 9037615799337978644
+    second: 32x32pixelmeleeweapon_9
+  - first:
+      213: -1751707110695085109
+    second: 32x32pixelmeleeweapon_10
+  - first:
+      213: 7345222536804776289
+    second: 32x32pixelmeleeweapon_11
+  - first:
+      213: 5643974413836586847
+    second: 32x32pixelmeleeweapon_12
+  - first:
+      213: -3397561520265299116
+    second: 32x32pixelmeleeweapon_13
+  - first:
+      213: -3799466786525942055
+    second: 32x32pixelmeleeweapon_14
+  - first:
+      213: 6058094315582204532
+    second: 32x32pixelmeleeweapon_15
+  - first:
+      213: 6170209373021298309
+    second: 32x32pixelmeleeweapon_16
+  - first:
+      213: -6021233710154207042
+    second: 32x32pixelmeleeweapon_17
+  - first:
+      213: 8440514405232019799
+    second: 32x32pixelmeleeweapon_18
+  - first:
+      213: -3147924108239638052
+    second: 32x32pixelmeleeweapon_19
+  - first:
+      213: 3768960944545095317
+    second: 32x32pixelmeleeweapon_20
+  - first:
+      213: -3608718852028809236
+    second: 32x32pixelmeleeweapon_21
+  - first:
+      213: -909514559934199158
+    second: 32x32pixelmeleeweapon_22
+  - first:
+      213: -7268663585262955753
+    second: 32x32pixelmeleeweapon_23
+  - first:
+      213: 7224071642084045176
+    second: 32x32pixelmeleeweapon_24
+  - first:
+      213: 4542238785977123456
+    second: 32x32pixelmeleeweapon_25
+  - first:
+      213: -2758224297637007902
+    second: 32x32pixelmeleeweapon_26
+  - first:
+      213: 8549646214481492070
+    second: 32x32pixelmeleeweapon_27
+  - first:
+      213: 4436761911733939724
+    second: 32x32pixelmeleeweapon_28
+  - first:
+      213: -2018273370315221604
+    second: 32x32pixelmeleeweapon_29
+  - first:
+      213: -4042745560788427675
+    second: 32x32pixelmeleeweapon_30
+  - first:
+      213: -906599849803877413
+    second: 32x32pixelmeleeweapon_31
+  - first:
+      213: 7561447578109234746
+    second: 32x32pixelmeleeweapon_32
+  - first:
+      213: -3160153510012454746
+    second: 32x32pixelmeleeweapon_33
+  - first:
+      213: -8663420638263901927
+    second: 32x32pixelmeleeweapon_34
+  - first:
+      213: -2860485696844649653
+    second: 32x32pixelmeleeweapon_35
+  - first:
+      213: -592773887950607701
+    second: 32x32pixelmeleeweapon_36
+  - first:
+      213: 1987445300342105523
+    second: 32x32pixelmeleeweapon_37
+  - first:
+      213: -7843040561253694036
+    second: 32x32pixelmeleeweapon_38
+  - first:
+      213: -9001109266256456628
+    second: 32x32pixelmeleeweapon_39
+  - first:
+      213: -3877853640923016989
+    second: 32x32pixelmeleeweapon_40
+  - first:
+      213: 8973035163123689881
+    second: 32x32pixelmeleeweapon_41
+  - first:
+      213: -2162006035357480689
+    second: 32x32pixelmeleeweapon_42
+  - first:
+      213: -8458740176093855393
+    second: 32x32pixelmeleeweapon_43
+  - first:
+      213: 4607034172600000891
+    second: 32x32pixelmeleeweapon_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2b78d3b0b3b8c90800000000000000
+      internalID: -7166569462567030093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152293168632a2a70800000000000000
+      internalID: 8802887352863760977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a734cbf7def1bb80800000000000000
+      internalID: -8380637227964418143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5fde080d100b0f0800000000000000
+      internalID: -1103379913677867603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2cbfd34cbf0ee50800000000000000
+      internalID: 6836741054620484339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe7b0b4a8964d3b0800000000000000
+      internalID: -5488646003172344080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf6eeec13e35f280800000000000000
+      internalID: -9010227095838756942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7edd9c01ea69010800000000000000
+      internalID: 1195334138242918324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770ee8a13cf56a2f0800000000000000
+      internalID: -961976178828189577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b8ff7afaf0c6d70800000000000000
+      internalID: 9037615799337978644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb5e7ce9afa0b7e0800000000000000
+      internalID: -1751707110695085109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16931760bf87fe560800000000000000
+      internalID: 7345222536804776289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f8f1a83dc635e40800000000000000
+      internalID: 5643974413836586847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bfc026ccf69d0d0800000000000000
+      internalID: -3397561520265299116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_14
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dee93d8615954bc0800000000000000
+      internalID: -3799466786525942055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a2710deaca21450800000000000000
+      internalID: 6058094315582204532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e58bccbbcf0a550800000000000000
+      internalID: 6170209373021298309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 95
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0b6aca7d7407ca0800000000000000
+      internalID: -6021233710154207042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 65
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7590c6db12bb22570800000000000000
+      internalID: 8440514405232019799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1fc74b3b35054d0800000000000000
+      internalID: -3147924108239638052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e5eef920a0e4430800000000000000
+      internalID: 3768960944545095317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef319ae2514bedc0800000000000000
+      internalID: -3608718852028809236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 63
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a83199351c063f0800000000000000
+      internalID: -909514559934199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7139590faf4802b90800000000000000
+      internalID: -7268663585262955753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871746a32ee014460800000000000000
+      internalID: 7224071642084045176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 65
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0820b2b2c16490f30800000000000000
+      internalID: 4542238785977123456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edae707d91d8b9d0800000000000000
+      internalID: -2758224297637007902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 31
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668be612fe176a670800000000000000
+      internalID: 8549646214481492070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_28
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e62e5a37b829d30800000000000000
+      internalID: 4436761911733939724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c951bbe1017adf3e0800000000000000
+      internalID: -2018273370315221604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_30
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 31
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c1be3f45845e7c0800000000000000
+      internalID: -4042745560788427675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3740f6d3c1b63f0800000000000000
+      internalID: -906599849803877413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 33
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e40f09288afe860800000000000000
+      internalID: 7561447578109234746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 33
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8f0083021e424d0800000000000000
+      internalID: -3160153510012454746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 32
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9110e7c84d855c780800000000000000
+      internalID: -8663420638263901927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b2d7a0a638d48d0800000000000000
+      internalID: -2860485696844649653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_36
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaa3902a4b06c7f0800000000000000
+      internalID: -592773887950607701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5296188f2d49b10800000000000000
+      internalID: 1987445300342105523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca54e7be92ce72390800000000000000
+      internalID: -7843040561253694036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c449e40ffc2a51380800000000000000
+      internalID: -9001109266256456628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e014d9c8a81f2ac0800000000000000
+      internalID: -3877853640923016989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_41
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999a31f80ff968c70800000000000000
+      internalID: 8973035163123689881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09444437f20ff1e0800000000000000
+      internalID: -2162006035357480689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_43
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51c99c40a48c9a80800000000000000
+      internalID: -8458740176093855393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32pixelmeleeweapon_44
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71a8edbb297fef30800000000000000
+      internalID: 4607034172600000891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      32x32pixelmeleeweapon_0: -7166569462567030093
+      32x32pixelmeleeweapon_1: 8802887352863760977
+      32x32pixelmeleeweapon_10: -1751707110695085109
+      32x32pixelmeleeweapon_11: 7345222536804776289
+      32x32pixelmeleeweapon_12: 5643974413836586847
+      32x32pixelmeleeweapon_13: -3397561520265299116
+      32x32pixelmeleeweapon_14: -3799466786525942055
+      32x32pixelmeleeweapon_15: 6058094315582204532
+      32x32pixelmeleeweapon_16: 6170209373021298309
+      32x32pixelmeleeweapon_17: -6021233710154207042
+      32x32pixelmeleeweapon_18: 8440514405232019799
+      32x32pixelmeleeweapon_19: -3147924108239638052
+      32x32pixelmeleeweapon_2: -8380637227964418143
+      32x32pixelmeleeweapon_20: 3768960944545095317
+      32x32pixelmeleeweapon_21: -3608718852028809236
+      32x32pixelmeleeweapon_22: -909514559934199158
+      32x32pixelmeleeweapon_23: -7268663585262955753
+      32x32pixelmeleeweapon_24: 7224071642084045176
+      32x32pixelmeleeweapon_25: 4542238785977123456
+      32x32pixelmeleeweapon_26: -2758224297637007902
+      32x32pixelmeleeweapon_27: 8549646214481492070
+      32x32pixelmeleeweapon_28: 4436761911733939724
+      32x32pixelmeleeweapon_29: -2018273370315221604
+      32x32pixelmeleeweapon_3: -1103379913677867603
+      32x32pixelmeleeweapon_30: -4042745560788427675
+      32x32pixelmeleeweapon_31: -906599849803877413
+      32x32pixelmeleeweapon_32: 7561447578109234746
+      32x32pixelmeleeweapon_33: -3160153510012454746
+      32x32pixelmeleeweapon_34: -8663420638263901927
+      32x32pixelmeleeweapon_35: -2860485696844649653
+      32x32pixelmeleeweapon_36: -592773887950607701
+      32x32pixelmeleeweapon_37: 1987445300342105523
+      32x32pixelmeleeweapon_38: -7843040561253694036
+      32x32pixelmeleeweapon_39: -9001109266256456628
+      32x32pixelmeleeweapon_4: 6836741054620484339
+      32x32pixelmeleeweapon_40: -3877853640923016989
+      32x32pixelmeleeweapon_41: 8973035163123689881
+      32x32pixelmeleeweapon_42: -2162006035357480689
+      32x32pixelmeleeweapon_43: -8458740176093855393
+      32x32pixelmeleeweapon_44: 4607034172600000891
+      32x32pixelmeleeweapon_5: -5488646003172344080
+      32x32pixelmeleeweapon_6: -9010227095838756942
+      32x32pixelmeleeweapon_7: 1195334138242918324
+      32x32pixelmeleeweapon_8: -961976178828189577
+      32x32pixelmeleeweapon_9: 9037615799337978644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

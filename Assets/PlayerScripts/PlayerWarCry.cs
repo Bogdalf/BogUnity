@@ -21,7 +21,7 @@ public class PlayerWarCry : MonoBehaviour
     void Update()
     {
         // Check centralized input manager
-        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        if (InputManager.Instance != null && InputManager.Instance.IsCombatInputBlocked())
         {
             return;
         }

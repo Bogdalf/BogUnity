@@ -8,6 +8,10 @@ public class GatherableObject : MonoBehaviour
     [SerializeField] private int maxDropAmount = 3;
     [SerializeField] private int maxHits = 3; // How many hits before it's depleted
 
+    [Header("World Item Settings")]
+    [SerializeField] private GameObject groundLootPrefab; // Prefab for items on ground
+    [SerializeField] private float dropForce = 2f; // How far items scatter when dropped
+
     [Header("Visual Feedback")]
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Color depletedColor = new Color(0.5f, 0.5f, 0.5f, 0.5f);
@@ -66,14 +70,62 @@ public class GatherableObject : MonoBehaviour
         Inventory playerInventory = gatherer.GetComponent<Inventory>();
         if (playerInventory != null)
         {
-            // For now, just add to first available slot
-            // Later we'll handle stacking properly
+            int itemsAdded = 0;
+
+            // Try to add each item
             for (int i = 0; i < amount; i++)
             {
-                playerInventory.AddItemToFirstAvailableSlot(materialToGive);
+                if (playerInventory.AddItemToFirstAvailableSlot(materialToGive))
+                {
+                    itemsAdded++;
+                }
+                else
+                {
+                    // Inventory full! Spawn remaining items on ground
+                    int remaining = amount - itemsAdded;
+                    SpawnItemsOnGround(remaining);
+                    Debug.Log("Inventory full! Dropped " + remaining + "x " + materialToGive.itemName + " on ground");
+                    break;
+                }
             }
 
-            Debug.Log("Gathered " + amount + "x " + materialToGive.itemName);
+            if (itemsAdded > 0)
+            {
+                Debug.Log("Gathered " + itemsAdded + "x " + materialToGive.itemName);
+            }
+        }
+    }
+
+    void SpawnItemsOnGround(int amount)
+    {
+        if (groundLootPrefab == null)
+        {
+            Debug.LogWarning("No ground loot prefab assigned! Can't drop items on ground.");
+            return;
+        }
+
+        for (int i = 0; i < amount; i++)
+        {
+            // Spawn slightly offset from the gatherable object
+            Vector3 spawnPos = transform.position + (Vector3)Random.insideUnitCircle * 0.5f;
+
+            GameObject itemObj = Instantiate(groundLootPrefab, spawnPos, Quaternion.identity);
+
+            // Initialize with the material data
+            GroundLoot groundLoot = itemObj.GetComponent<GroundLoot>();
+            if (groundLoot != null)
+            {
+                groundLoot.Initialize(materialToGive, 1);
+            }
+
+            // Add a little physics bounce
+            Rigidbody2D rb = itemObj.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.WakeUp(); // Make sure it's awake
+                Vector2 randomDirection = Random.insideUnitCircle.normalized;
+                rb.AddForce(randomDirection * dropForce, ForceMode2D.Impulse);
+            }
         }
     }
 

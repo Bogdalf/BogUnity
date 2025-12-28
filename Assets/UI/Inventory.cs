@@ -17,10 +17,12 @@ public class Inventory : MonoBehaviour
     private int[,] stackSizes;
 
     private PlayerEquipment playerEquipment;
+    private InventoryUI inventoryUI;
 
     void Start()
     {
         playerEquipment = GetComponent<PlayerEquipment>();
+        inventoryUI = FindFirstObjectByType<InventoryUI>();
 
         // Initialize the grid
         inventoryGrid = new ItemData[gridWidth, gridHeight];
@@ -56,6 +58,13 @@ public class Inventory : MonoBehaviour
                         {
                             stackSizes[x, y]++;
                             Debug.Log("Added to stack at (" + x + ", " + y + "). New stack size: " + stackSizes[x, y]);
+
+                            // Refresh UI if inventory is open
+                            if (inventoryUI != null)
+                            {
+                                inventoryUI.RefreshDisplay();
+                            }
+
                             return true;
                         }
                     }
@@ -73,6 +82,13 @@ public class Inventory : MonoBehaviour
                     inventoryGrid[x, y] = item;
                     stackSizes[x, y] = 1; // Start with stack of 1
                     Debug.Log("Added " + item.itemName + " at (" + x + ", " + y + ")");
+
+                    // Refresh UI if inventory is open
+                    if (inventoryUI != null)
+                    {
+                        inventoryUI.RefreshDisplay();
+                    }
+
                     return true;
                 }
             }

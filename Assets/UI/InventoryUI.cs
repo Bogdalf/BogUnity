@@ -11,6 +11,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private Transform gridContainer;
     [SerializeField] private GameObject gridSlotPrefab;
+    [SerializeField] private InventoryTrashZone trashZone; // Optional trash zone
 
     [Header("Equipment Display")]
     [SerializeField] private TextMeshProUGUI mainHandText;
@@ -21,6 +22,9 @@ public class InventoryUI : MonoBehaviour
 
     private bool isInventoryOpen = false;
 
+    // Track if mouse is over inventory
+    private bool isMouseOverInventory = false;
+
     // Drag state
     private GameObject draggedItemVisual;
     private int dragFromX;
@@ -29,7 +33,7 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(toggleKey))
+        if (Input.GetKeyDown(toggleKey) || Input.GetKeyDown(KeyCode.Tab))
         {
             ToggleInventory();
         }
@@ -158,12 +162,24 @@ public class InventoryUI : MonoBehaviour
             draggedItemVisual = null;
         }
 
+        // Check if dropped on trash zone first
+        if (trashZone != null && trashZone.IsMouseOver())
+        {
+            // Delete the item
+            inventory.RemoveItemAtPosition(fromX, fromY);
+            RefreshGridDisplay();
+            Debug.Log("Deleted " + draggedItem.itemName);
+            draggedItem = null;
+            return;
+        }
+
         // Find what slot we dropped on
         GameObject dropTarget = eventData.pointerCurrentRaycast.gameObject;
 
         if (dropTarget == null)
         {
             Debug.Log("Dropped outside inventory - cancelled");
+            draggedItem = null;
             return;
         }
 
@@ -232,5 +248,26 @@ public class InventoryUI : MonoBehaviour
     public bool IsInventoryOpen()
     {
         return isInventoryOpen;
+    }
+
+    public bool IsMouseOverInventory()
+    {
+        return isMouseOverInventory;
+    }
+
+    // Called by InventoryPanelHover component
+    public void SetMouseOverInventory(bool isOver)
+    {
+        isMouseOverInventory = isOver;
+    }
+
+    // Public method to refresh the display (called when items are added/removed externally)
+    public void RefreshDisplay()
+    {
+        if (isInventoryOpen)
+        {
+            RefreshGridDisplay();
+            UpdateEquipmentDisplay();
+        }
     }
 }
