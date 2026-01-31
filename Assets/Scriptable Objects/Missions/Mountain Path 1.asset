@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1891a8f3cf3a9c1429153d68f5db7e9f, type: 3}
   m_Name: Mountain Path 1
   m_EditorClassIdentifier: Assembly-CSharp::MissionData
-  missionName: Unnamed Mission
+  missionName: Mountain Path
   description: Mission description goes here.
   recommendedLevel: 1
   missionType: 0
@@ -20,5 +20,5 @@ MonoBehaviour:
   unlockRequirement: 
   rewardDescription: 
   experienceReward: 100
-  goldReward: 50
+  goldReward: 0
   sceneName: 

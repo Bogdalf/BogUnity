@@ -12,9 +12,10 @@ public class HexNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
 
     [Header("Visual Components")]
     [SerializeField] private SpriteRenderer borderRenderer;
+    [SerializeField] private SpriteRenderer highlightRenderer; // NEW: For hover/selected states
     [SerializeField] private Color normalColor = new Color(1f, 1f, 1f, 0.3f);
-    [SerializeField] private Color hoverColor = new Color(1f, 1f, 1f, 0.6f);
-    [SerializeField] private Color selectedColor = new Color(0.2f, 0.8f, 1f, 0.8f);
+    [SerializeField] private Color hoverColor = new Color(1f, 0.5f, 0.2f, 0.6f);
+    [SerializeField] private Color selectedColor = new Color(1f, 0.8f, 1f, 0.8f);
     [SerializeField] private Color currentLocationColor = new Color(0.2f, 1f, 0.2f, 0.8f);
     [SerializeField] private Color completedColor = new Color(0.5f, 0.5f, 0.5f, 0.4f);
 
@@ -72,33 +73,53 @@ public class HexNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
     {
         if (borderRenderer == null) return;
 
-        // Priority: Selected > Current Location > Hovered > State-based
-        if (isSelected)
+        // Determine if we need to show the highlight layer
+        bool useHighlight = isSelected || isHovered;
+
+        // Enable/disable highlight renderer
+        if (highlightRenderer != null)
         {
-            borderRenderer.color = selectedColor;
+            highlightRenderer.enabled = useHighlight;
+
+            if (useHighlight)
+            {
+                // Set highlight color based on priority
+                if (isSelected)
+                {
+                    highlightRenderer.color = selectedColor;
+                }
+                else if (isHovered)
+                {
+                    highlightRenderer.color = hoverColor;
+                }
+            }
         }
-        else if (currentState == HexState.CurrentLocation)
+
+        // Always update the base border renderer
+        // Priority: Current Location > State-based
+        if (currentState == HexState.CurrentLocation)
         {
             borderRenderer.color = currentLocationColor;
         }
-        else if (isHovered)
-        {
-            borderRenderer.color = hoverColor;
-        }
         else
         {
-            switch (currentState)
-            {
-                case HexState.Unexplored:
-                    borderRenderer.color = new Color(1f, 1f, 1f, 0.1f);
-                    break;
-                case HexState.Available:
-                    borderRenderer.color = normalColor;
-                    break;
-                case HexState.Completed:
-                    borderRenderer.color = completedColor;
-                    break;
-            }
+            ApplyBaseStateColor();
+        }
+    }
+
+    private void ApplyBaseStateColor()
+    {
+        switch (currentState)
+        {
+            case HexState.Unexplored:
+                borderRenderer.color = new Color(1f, 1f, 1f, 0.1f);
+                break;
+            case HexState.Available:
+                borderRenderer.color = normalColor;
+                break;
+            case HexState.Completed:
+                borderRenderer.color = completedColor;
+                break;
         }
     }
 
@@ -142,6 +163,12 @@ public class HexNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,
         if (borderRenderer != null)
         {
             borderRenderer.sprite = sprite;
+        }
+
+        // Also apply to highlight renderer if it exists
+        if (highlightRenderer != null)
+        {
+            highlightRenderer.sprite = sprite;
         }
     }
 
