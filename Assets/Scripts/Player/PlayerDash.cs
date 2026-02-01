@@ -103,7 +103,12 @@ public class PlayerDash : MonoBehaviour
             spriteRenderer.color = new Color(1f, 1f, 1f, 0.5f);
         }
 
-        Debug.Log("DASH!");
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Roll");
+        }
+    Debug.Log("DASH!");
     }
 
     void EndDash()

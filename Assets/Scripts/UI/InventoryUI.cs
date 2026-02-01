@@ -31,8 +31,20 @@ public class InventoryUI : MonoBehaviour
     private int dragFromY;
     private ItemData draggedItem;
 
+    void Start()
+    {
+        // Find player references if not set
+        FindPlayerReferences();
+    }
+
     void Update()
     {
+        // If references are null, try to find them again
+        if (inventory == null || playerEquipment == null)
+        {
+            FindPlayerReferences();
+        }
+
         if (Input.GetKeyDown(toggleKey) || Input.GetKeyDown(KeyCode.Tab))
         {
             ToggleInventory();
@@ -41,6 +53,58 @@ public class InventoryUI : MonoBehaviour
         if (isInventoryOpen)
         {
             UpdateEquipmentDisplay();
+        }
+    }
+
+    void FindPlayerReferences()
+    {
+        // Try to find via PersistentPlayer first
+        if (PersistentPlayer.Instance != null)
+        {
+            if (inventory == null)
+            {
+                inventory = PersistentPlayer.Instance.GetComponent<Inventory>();
+                if (inventory != null)
+                {
+                    Debug.Log("InventoryUI: Found Inventory on PersistentPlayer");
+                }
+            }
+
+            if (playerEquipment == null)
+            {
+                playerEquipment = PersistentPlayer.Instance.GetComponent<PlayerEquipment>();
+                if (playerEquipment != null)
+                {
+                    Debug.Log("InventoryUI: Found PlayerEquipment on PersistentPlayer");
+                }
+            }
+        }
+        else
+        {
+            // Fallback - find by tag
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                if (inventory == null)
+                {
+                    inventory = player.GetComponent<Inventory>();
+                }
+
+                if (playerEquipment == null)
+                {
+                    playerEquipment = player.GetComponent<PlayerEquipment>();
+                }
+            }
+        }
+
+        if (inventory == null)
+        {
+            Debug.LogWarning("InventoryUI: Could not find Inventory component!");
+        }
+
+        if (playerEquipment == null)
+        {
+            Debug.LogWarning("InventoryUI: Could not find PlayerEquipment component!");
         }
     }
 
@@ -84,7 +148,7 @@ public class InventoryUI : MonoBehaviour
 
     void CreateGridSlot(int x, int y)
     {
-        if (gridSlotPrefab == null || gridContainer == null) return;
+        if (gridSlotPrefab == null || gridContainer == null || inventory == null) return;
 
         GameObject slotObj = Instantiate(gridSlotPrefab, gridContainer);
         InventorySlot slot = slotObj.GetComponent<InventorySlot>();
@@ -100,7 +164,7 @@ public class InventoryUI : MonoBehaviour
     // Called by InventorySlot when right-clicked (EQUIP)
     public void OnSlotRightClicked(int x, int y, ItemData item)
     {
-        if (item == null) return;
+        if (item == null || inventory == null) return;
 
         Debug.Log("Right-clicked " + item.itemName + " at (" + x + ", " + y + ")");
 
@@ -115,61 +179,54 @@ public class InventoryUI : MonoBehaviour
     // Drag and Drop handlers
     public void OnBeginDrag(int fromX, int fromY, ItemData item, GameObject slotObject)
     {
+        if (inventory == null) return;
+
         dragFromX = fromX;
         dragFromY = fromY;
         draggedItem = item;
 
         // Create a visual representation that follows the mouse
         draggedItemVisual = new GameObject("DraggedItem");
-        draggedItemVisual.transform.SetParent(gridContainer.parent); // Parent to inventory panel
+        draggedItemVisual.transform.SetParent(transform, false);
+
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (canvas != null)
+        {
+            draggedItemVisual.transform.SetParent(canvas.transform, false);
+        }
 
         Image image = draggedItemVisual.AddComponent<Image>();
-        if (item.icon != null)
-        {
-            image.sprite = item.icon;
-        }
-        else
-        {
-            image.color = new Color(0.5f, 0.5f, 0.5f, 0.8f); // Gray placeholder
-        }
+        image.sprite = item.icon;
+        image.raycastTarget = false;
 
         RectTransform rt = draggedItemVisual.GetComponent<RectTransform>();
-        rt.sizeDelta = new Vector2(80, 80); // Match slot size
-
-        // Make it semi-transparent
-        CanvasGroup canvasGroup = draggedItemVisual.AddComponent<CanvasGroup>();
-        canvasGroup.alpha = 0.6f;
-        canvasGroup.blocksRaycasts = false; // Allow raycasts to pass through to slots below
-
-        Debug.Log("Started dragging " + item.itemName);
+        rt.sizeDelta = new Vector2(50, 50);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         if (draggedItemVisual != null)
         {
-            // Follow the mouse
-            draggedItemVisual.transform.position = eventData.position;
+            draggedItemVisual.transform.position = Input.mousePosition;
         }
     }
 
     public void OnEndDrag(int fromX, int fromY, PointerEventData eventData)
     {
-        // Clean up the visual
+        if (inventory == null) return;
+
+        // Destroy the visual
         if (draggedItemVisual != null)
         {
             Destroy(draggedItemVisual);
-            draggedItemVisual = null;
         }
 
-        // Check if dropped on trash zone first
+        // Check if dropped on trash zone
         if (trashZone != null && trashZone.IsMouseOver())
         {
-            // Delete the item
             inventory.RemoveItemAtPosition(fromX, fromY);
+            Debug.Log("Item trashed!");
             RefreshGridDisplay();
-            Debug.Log("Deleted " + draggedItem.itemName);
-            draggedItem = null;
             return;
         }
 
@@ -179,7 +236,6 @@ public class InventoryUI : MonoBehaviour
         if (dropTarget == null)
         {
             Debug.Log("Dropped outside inventory - cancelled");
-            draggedItem = null;
             return;
         }
 
@@ -196,58 +252,42 @@ public class InventoryUI : MonoBehaviour
             int toX = targetSlot.GetGridX();
             int toY = targetSlot.GetGridY();
 
-            Debug.Log("Dropped on slot (" + toX + ", " + toY + ")");
-
             // Move the item
             if (inventory.MoveItem(fromX, fromY, toX, toY))
             {
-                Debug.Log("Moved " + draggedItem.itemName + " from (" + fromX + ", " + fromY + ") to (" + toX + ", " + toY + ")");
-                RefreshGridDisplay();
+                Debug.Log("Moved item from (" + fromX + ", " + fromY + ") to (" + toX + ", " + toY + ")");
             }
-            else
-            {
-                Debug.Log("Could not move item - target slot occupied or invalid");
-            }
-        }
-        else
-        {
-            Debug.Log("Did not drop on a valid slot");
         }
 
-        draggedItem = null;
+        RefreshGridDisplay();
+    }
+
+    public void RefreshDisplay()
+    {
+        RefreshGridDisplay();
     }
 
     void UpdateEquipmentDisplay()
     {
         if (playerEquipment == null) return;
 
-        WeaponData mainHand = playerEquipment.GetMainHandWeapon();
-        WeaponData offHand = playerEquipment.GetOffHandWeapon();
-
         if (mainHandText != null)
         {
-            mainHandText.text = mainHand != null ?
-                mainHand.itemName + "\n" + mainHand.minDamage + "-" + mainHand.maxDamage + " Dmg" :
-                "Empty";
+            WeaponData mainHand = playerEquipment.GetMainHandWeapon();
+            mainHandText.text = mainHand != null ? mainHand.itemName : "Empty";
         }
 
         if (offHandText != null)
         {
-            offHandText.text = offHand != null ?
-                offHand.itemName + "\n" + offHand.minDamage + "-" + offHand.maxDamage + " Dmg" :
-                "Empty";
+            WeaponData offHand = playerEquipment.GetOffHandWeapon();
+            offHandText.text = offHand != null ? offHand.itemName : "Empty";
         }
     }
 
-    void OnEnable()
+    // Track mouse over inventory
+    public void SetMouseOverInventory(bool isOver)
     {
-        RefreshGridDisplay();
-        UpdateEquipmentDisplay();
-    }
-
-    public bool IsInventoryOpen()
-    {
-        return isInventoryOpen;
+        isMouseOverInventory = isOver;
     }
 
     public bool IsMouseOverInventory()
@@ -255,19 +295,12 @@ public class InventoryUI : MonoBehaviour
         return isMouseOverInventory;
     }
 
-    // Called by InventoryPanelHover component
-    public void SetMouseOverInventory(bool isOver)
+    public bool IsInventoryOpen()
     {
-        isMouseOverInventory = isOver;
+        return isInventoryOpen;
     }
 
-    // Public method to refresh the display (called when items are added/removed externally)
-    public void RefreshDisplay()
-    {
-        if (isInventoryOpen)
-        {
-            RefreshGridDisplay();
-            UpdateEquipmentDisplay();
-        }
-    }
+    // Getters
+    public Inventory GetInventory() => inventory;
+    public PlayerEquipment GetPlayerEquipment() => playerEquipment;
 }

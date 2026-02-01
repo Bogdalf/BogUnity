@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
 
+    private Animator animator;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private PlayerCharge playerCharge;
@@ -13,20 +14,29 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCharge = GetComponent<PlayerCharge>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // Check centralized input manager
-        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
-        {
-            moveInput = Vector2.zero;
-            return;
-        }
+        // Get input
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
 
-        // Get input every frame
-        moveInput.x = Input.GetAxisRaw("Horizontal"); // A/D or Arrow keys
-        moveInput.y = Input.GetAxisRaw("Vertical");   // W/S or Arrow keys
+        // Update animator with movement direction
+        if (animator != null)
+        {
+            float speed = moveInput.magnitude;
+            animator.SetFloat("Speed", speed);
+
+            // Normalize for direction (if moving)
+            if (speed > 0.1f)
+            {
+                Vector2 normalized = moveInput.normalized;
+                animator.SetFloat("MovementX", normalized.x);
+                animator.SetFloat("MovementY", normalized.y);
+            }
+        }
     }
 
     void FixedUpdate()
