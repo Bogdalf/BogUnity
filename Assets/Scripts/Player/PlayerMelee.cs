@@ -137,6 +137,11 @@ public class PlayerMelee : MonoBehaviour
                     }
                 }
             }
+            Animator animator = GetComponent<Animator>();
+            if (animator != null)
+            {
+                animator.SetTrigger("Attack");
+            }
         }
 
         // Visual feedback

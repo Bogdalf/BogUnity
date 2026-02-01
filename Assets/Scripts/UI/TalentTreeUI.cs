@@ -31,6 +31,9 @@ public class TalentTreeUI : MonoBehaviour
 
     void Start()
     {
+        // Find player reference if not set
+        FindPlayerReferences();
+
         // Hide tooltip initially
         if (tooltipPanel != null)
         {
@@ -40,6 +43,36 @@ public class TalentTreeUI : MonoBehaviour
         // Initialize all nodes
         InitializeAllNodes();
         RefreshAllNodes();
+    }
+
+    void FindPlayerReferences()
+    {
+        // Try to find via PersistentPlayer first
+        if (PersistentPlayer.Instance != null)
+        {
+            if (playerTalents == null)
+            {
+                playerTalents = PersistentPlayer.Instance.GetComponent<PlayerTalents>();
+                if (playerTalents != null)
+                {
+                    Debug.Log("TalentTreeUI: Found PlayerTalents on PersistentPlayer");
+                }
+            }
+        }
+        else
+        {
+            // Fallback - find by tag
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null && playerTalents == null)
+            {
+                playerTalents = player.GetComponent<PlayerTalents>();
+            }
+        }
+
+        if (playerTalents == null)
+        {
+            Debug.LogWarning("TalentTreeUI: Could not find PlayerTalents component!");
+        }
     }
 
     void InitializeAllNodes()
@@ -58,6 +91,12 @@ public class TalentTreeUI : MonoBehaviour
 
     void Update()
     {
+        // If player talents is null, try to find it again
+        if (playerTalents == null)
+        {
+            FindPlayerReferences();
+        }
+
         // Toggle talent tree with N key
         if (Input.GetKeyDown(toggleKey))
         {
