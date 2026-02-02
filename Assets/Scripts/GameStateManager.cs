@@ -48,7 +48,7 @@ public class GameStateManager : MonoBehaviour
     void InitializeDefaults()
     {
         // Set starting resources
-        gold = 100;
+        gold = 500;
         influence = 0;
 
         Debug.Log("Game state initialized with default values");

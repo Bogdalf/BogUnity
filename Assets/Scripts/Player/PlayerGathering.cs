@@ -69,7 +69,11 @@ public class PlayerGathering : MonoBehaviour
                 }
             }
         }
-
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Attack");
+        }
         // Visual feedback
         StartCoroutine(SwingVisual());
     }

@@ -51,6 +51,12 @@ TagManager:
   - name: Player
     uniqueID: 3224519689
     locked: 0
+  - name: OverPlayer
+    uniqueID: 1949193797
+    locked: 0
+  - name: Building
+    uniqueID: 333970591
+    locked: 0
   - name: Foreground
     uniqueID: 2913370363
     locked: 0
