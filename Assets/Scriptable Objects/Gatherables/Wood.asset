@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CraftingMaterialData
   itemName: Wood
   itemType: 2
-  icon: {fileID: -2138338066021678846, guid: 315d0f86d9829c5489a4ef5678be3e67, type: 3}
+  icon: {fileID: 9113123124376597179, guid: 1e841d6f225377344b8186beb5bbe3dd, type: 3}
   gridWidth: 1
   gridHeight: 1
   isStackable: 1
-  maxStackSize: 5
+  maxStackSize: 20
   description: Wood from a tree
   materialType: 0

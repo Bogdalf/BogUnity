@@ -19,6 +19,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (PersistentInputManager.Instance == null)
+        {
+            Debug.LogWarning("PersistentInputManager.Instance is NULL!");
+        }
+
+        if (PersistentInputManager.Instance != null && PersistentInputManager.Instance.IsPlayerInputBlocked())
+        {
+            Debug.Log("Input is BLOCKED");
+            // Don't accept input, but keep animator updated with zero speed
+            if (animator != null)
+            {
+                animator.SetFloat("Speed", 0);
+            }
+            moveInput = Vector2.zero;
+            return;
+        }
+
         // Get input
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");

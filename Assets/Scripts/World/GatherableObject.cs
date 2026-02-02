@@ -9,22 +9,35 @@ public class GatherableObject : MonoBehaviour
     [SerializeField] private int maxHits = 3; // How many hits before it's depleted
 
     [Header("World Item Settings")]
-    [SerializeField] private GameObject groundLootPrefab; // Prefab for items on ground
-    [SerializeField] private float dropForce = 2f; // How far items scatter when dropped
+    [SerializeField] private GameObject flyingResourcePrefab; // Prefab with FlyingResource script & sprite
+    [SerializeField] private float dropForce = 2f; // Visual spread of flying resources
 
     [Header("Visual Feedback")]
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer[] spriteRenderers; // Array for trunk + canopy
     [SerializeField] private Color depletedColor = new Color(0.5f, 0.5f, 0.5f, 0.5f);
+    [SerializeField] private Sprite depletedSprite; // Optional - replaces sprite when depleted (for main sprite)
+    [SerializeField] private bool hideCanopyWhenDepleted = true; // Hide canopy, show stump
 
     private int currentHits = 0;
     private bool isDepleted = false;
-    private Color originalColor;
+    private Color[] originalColors;
+    private Sprite[] originalSprites;
 
     void Start()
     {
-        if (spriteRenderer != null)
+        if (spriteRenderers != null && spriteRenderers.Length > 0)
         {
-            originalColor = spriteRenderer.color;
+            originalColors = new Color[spriteRenderers.Length];
+            originalSprites = new Sprite[spriteRenderers.Length];
+
+            for (int i = 0; i < spriteRenderers.Length; i++)
+            {
+                if (spriteRenderers[i] != null)
+                {
+                    originalColors[i] = spriteRenderers[i].color;
+                    originalSprites[i] = spriteRenderers[i].sprite;
+                }
+            }
         }
     }
 
@@ -50,8 +63,7 @@ public class GatherableObject : MonoBehaviour
         }
         else
         {
-            // Visual feedback - shake or change color slightly
-            UpdateVisuals();
+            
         }
     }
 
@@ -66,78 +78,54 @@ public class GatherableObject : MonoBehaviour
         // Determine how much to give
         int amount = Random.Range(minDropAmount, maxDropAmount + 1);
 
-        // Try to add to player's inventory
+        // Add resources to player inventory immediately
         Inventory playerInventory = gatherer.GetComponent<Inventory>();
         if (playerInventory != null)
         {
             int itemsAdded = 0;
 
-            // Try to add each item
             for (int i = 0; i < amount; i++)
             {
                 if (playerInventory.AddItemToFirstAvailableSlot(materialToGive))
                 {
                     itemsAdded++;
                 }
-                else
-                {
-                    // Inventory full! Spawn remaining items on ground
-                    int remaining = amount - itemsAdded;
-                    SpawnItemsOnGround(remaining);
-                    Debug.Log("Inventory full! Dropped " + remaining + "x " + materialToGive.itemName + " on ground");
-                    break;
-                }
             }
 
             if (itemsAdded > 0)
             {
                 Debug.Log("Gathered " + itemsAdded + "x " + materialToGive.itemName);
+
+                // Spawn visual feedback for items added
+                SpawnFlyingResources(itemsAdded, gatherer.transform);
             }
+
+            // If inventory was full, remaining items just don't spawn visuals
+            // Could optionally drop them as ground loot here
         }
     }
 
-    void SpawnItemsOnGround(int amount)
+    void SpawnFlyingResources(int amount, Transform player)
     {
-        if (groundLootPrefab == null)
-        {
-            Debug.LogWarning("No ground loot prefab assigned! Can't drop items on ground.");
-            return;
-        }
+        if (flyingResourcePrefab == null || materialToGive == null) return;
 
         for (int i = 0; i < amount; i++)
         {
-            // Spawn slightly offset from the gatherable object
-            Vector3 spawnPos = transform.position + (Vector3)Random.insideUnitCircle * 0.5f;
+            // Spawn at tree position with slight vertical offset
+            Vector3 spawnPos = transform.position + Vector3.up * 1f;
 
-            GameObject itemObj = Instantiate(groundLootPrefab, spawnPos, Quaternion.identity);
+            GameObject resourceObj = Instantiate(flyingResourcePrefab, spawnPos, Quaternion.identity);
 
-            // Initialize with the material data
-            GroundLoot groundLoot = itemObj.GetComponent<GroundLoot>();
-            if (groundLoot != null)
+            // Initialize flying behavior
+            FlyingResource flyingResource = resourceObj.GetComponent<FlyingResource>();
+            if (flyingResource != null)
             {
-                groundLoot.Initialize(materialToGive, 1);
-            }
+                // Random burst direction (spread them out)
+                Vector2 burstDir = Random.insideUnitCircle.normalized;
 
-            // Add a little physics bounce
-            Rigidbody2D rb = itemObj.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.WakeUp(); // Make sure it's awake
-                Vector2 randomDirection = Random.insideUnitCircle.normalized;
-                rb.AddForce(randomDirection * dropForce, ForceMode2D.Impulse);
+                flyingResource.Initialize(materialToGive.icon, player, burstDir);
             }
         }
-    }
-
-    void UpdateVisuals()
-    {
-        if (spriteRenderer == null) return;
-
-        // Fade the sprite a bit with each hit
-        float alphaReduction = 1f - ((float)currentHits / maxHits);
-        Color newColor = originalColor;
-        newColor.a = Mathf.Max(0.3f, alphaReduction);
-        spriteRenderer.color = newColor;
     }
 
     void Deplete()
@@ -145,9 +133,24 @@ public class GatherableObject : MonoBehaviour
         isDepleted = true;
         Debug.Log(materialToGive.itemName + " node depleted!");
 
-        if (spriteRenderer != null)
+        if (spriteRenderers != null && spriteRenderers.Length > 0)
         {
-            spriteRenderer.color = depletedColor;
+            // Trunk is usually index 0, Canopy is index 1
+            // Change trunk to stump
+            if (spriteRenderers.Length > 0 && spriteRenderers[0] != null)
+            {
+                if (depletedSprite != null)
+                {
+                    spriteRenderers[0].sprite = depletedSprite; // Trunk becomes stump
+                }
+                spriteRenderers[0].color = depletedColor;
+            }
+
+            // Hide canopy when depleted
+            if (hideCanopyWhenDepleted && spriteRenderers.Length > 1 && spriteRenderers[1] != null)
+            {
+                spriteRenderers[1].gameObject.SetActive(false); // Hide canopy
+            }
         }
 
         // Could destroy the object, respawn it later, or keep it depleted
@@ -160,9 +163,25 @@ public class GatherableObject : MonoBehaviour
         currentHits = 0;
         isDepleted = false;
 
-        if (spriteRenderer != null)
+        if (spriteRenderers != null && spriteRenderers.Length > 0)
         {
-            spriteRenderer.color = originalColor;
+            // Restore trunk
+            if (spriteRenderers.Length > 0 && spriteRenderers[0] != null && originalSprites.Length > 0)
+            {
+                spriteRenderers[0].sprite = originalSprites[0];
+                spriteRenderers[0].color = originalColors[0];
+            }
+
+            // Restore canopy
+            if (spriteRenderers.Length > 1 && spriteRenderers[1] != null)
+            {
+                spriteRenderers[1].gameObject.SetActive(true); // Show canopy again
+                if (originalSprites.Length > 1 && originalColors.Length > 1)
+                {
+                    spriteRenderers[1].sprite = originalSprites[1];
+                    spriteRenderers[1].color = originalColors[1];
+                }
+            }
         }
 
         Debug.Log("Resource node respawned!");
