@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float sprintMultiplier = 1.5f; // Sprint is 1.5x normal speed
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -19,20 +20,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (PersistentInputManager.Instance == null)
-        {
-            Debug.LogWarning("PersistentInputManager.Instance is NULL!");
-        }
-
+        // Check centralized input manager FIRST
         if (PersistentInputManager.Instance != null && PersistentInputManager.Instance.IsPlayerInputBlocked())
         {
-            Debug.Log("Input is BLOCKED");
-            // Don't accept input, but keep animator updated with zero speed
-            if (animator != null)
+            if (!PersistentInputManager.Instance.IsForcedMovement())
             {
-                animator.SetFloat("Speed", 0);
+                // Truly blocked — zero everything out
+                if (animator != null) animator.SetFloat("Speed", 0);
+                moveInput = Vector2.zero;
             }
-            moveInput = Vector2.zero;
+            // If forced movement, let KingRecruitSequence drive the animator directly
             return;
         }
 
@@ -64,6 +61,13 @@ public class PlayerMovement : MonoBehaviour
         if (playerCharge != null && playerCharge.IsAiming())
         {
             currentSpeed *= playerCharge.GetAimingMovementMultiplier();
+        }
+
+        // Check if sprinting (holding Shift)
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+        if (isSprinting)
+        {
+            currentSpeed *= sprintMultiplier;
         }
 
         // Move the player (physics-based)

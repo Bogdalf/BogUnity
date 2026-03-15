@@ -6,7 +6,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float interactionRange = 2f;
     [SerializeField] private LayerMask npcLayer;
 
-    private NPC currentNPC = null;
+    private IInteractable currentNPC = null;
 
     void Update()
     {
@@ -25,27 +25,24 @@ public class PlayerInteraction : MonoBehaviour
 
     void CheckForNearbyNPC()
     {
-        // Find all colliders in interaction range
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, interactionRange);
-
-        NPC closestNPC = null;
+        IInteractable closest = null;
         float closestDistance = float.MaxValue;
 
         foreach (Collider2D collider in colliders)
         {
-            NPC npc = collider.GetComponent<NPC>();
-            if (npc != null)
+            IInteractable interactable = collider.GetComponent<IInteractable>();
+            if (interactable != null)
             {
                 float distance = Vector2.Distance(transform.position, collider.transform.position);
                 if (distance < closestDistance)
                 {
                     closestDistance = distance;
-                    closestNPC = npc;
+                    closest = interactable;
                 }
             }
         }
-
-        currentNPC = closestNPC;
+        currentNPC = closest;
     }
 
     void OnDrawGizmosSelected()

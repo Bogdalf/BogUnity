@@ -8,6 +8,7 @@ using UnityEngine;
 public class PersistentInputManager : MonoBehaviour
 {
     public static PersistentInputManager Instance { get; private set; }
+    
 
     void Awake()
     {
@@ -29,25 +30,30 @@ public class PersistentInputManager : MonoBehaviour
     /// This happens when dialogue is active or talent tree is open.
     /// Note: Inventory no longer blocks movement/gathering.
     /// </summary>
+    public void SetForcedMovement(bool value)
+    {
+        forcedMovement = value;
+    }
+
+    private bool forcedMovement = false;
+    public bool IsForcedMovement()
+    {
+        return forcedMovement;
+    }
+
     public bool IsPlayerInputBlocked()
     {
-        // Check if dialogue is showing
+        // Add forced movement check
+        if (forcedMovement) return true;
+        
         if (DialogueUI.Instance != null && DialogueUI.Instance.IsDialogueShowing())
-        {
             return true;
-        }
 
-        // Check if talent tree is open
         TalentTreeUI talentTreeUI = FindFirstObjectByType<TalentTreeUI>();
         if (talentTreeUI != null && talentTreeUI.IsTalentTreeOpen())
-        {
             return true;
-        }
 
-        // Inventory no longer blocks all input - only combat clicks
-        // Movement and gathering still work with inventory open
-
-        return false; // Input is not blocked
+        return false;
     }
 
     /// <summary>

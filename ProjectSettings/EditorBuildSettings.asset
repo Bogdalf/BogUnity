@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldMap.unity
     guid: 83b58d4719b5e68448815bbc957530d6
+  - enabled: 1
+    path: Assets/Scenes/Prison.unity
+    guid: e7b94e47ee44b624c9d3fb6b8400a78e
+  - enabled: 1
+    path: Assets/Scenes/Khatun.unity
+    guid: 818b53217c242dc41ac57885c64649c3
+  - enabled: 1
+    path: Assets/Scenes/AISlop.unity
+    guid: 5f76d2bd47963544da189fed1a76be2b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

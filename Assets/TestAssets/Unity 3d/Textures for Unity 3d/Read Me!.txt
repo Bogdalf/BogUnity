@@ -1,0 +1,7 @@
+this character contains three materials.
+
+1) "akira body" - in this material you will have to apply the textures in the "body" folder. it contains albedo,metallic,normal, roughness maps.
+
+2) "hair"       - in this material you will have to apply the hair texture which is situated in hair folder. you will have to set the shader to transparent.
+
+3) "cornea/glass" - in this material you will have to make a glass shader in unity. 

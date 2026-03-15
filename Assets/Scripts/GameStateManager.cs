@@ -191,6 +191,74 @@ public class GameStateManager : MonoBehaviour
 
     #endregion
 
+    #region Town Stash
+    // Separate storage for Town Stash (unlimited crafting material storage)
+    private Dictionary<string, int> stashMaterials = new Dictionary<string, int>();
+
+    public void SetStashMaterial(string materialName, int quantity)
+    {
+        stashMaterials[materialName] = quantity;
+    }
+
+    public int GetStashMaterial(string materialName)
+    {
+        return stashMaterials.ContainsKey(materialName) ? stashMaterials[materialName] : 0;
+    }
+
+    public Dictionary<string, int> GetAllStashMaterials()
+    {
+        // Return a copy to prevent external modification
+        return new Dictionary<string, int>(stashMaterials);
+    }
+
+    public void AddToStash(string materialName, int amount)
+    {
+        if (stashMaterials.ContainsKey(materialName))
+        {
+            stashMaterials[materialName] += amount;
+        }
+        else
+        {
+            stashMaterials[materialName] = amount;
+        }
+
+        Debug.Log($"Added {amount}x {materialName} to stash. Total: {stashMaterials[materialName]}");
+    }
+
+    public bool RemoveFromStash(string materialName, int amount)
+    {
+        if (!stashMaterials.ContainsKey(materialName)) return false;
+
+        if (stashMaterials[materialName] < amount) return false;
+
+        stashMaterials[materialName] -= amount;
+
+        if (stashMaterials[materialName] <= 0)
+        {
+            stashMaterials.Remove(materialName);
+        }
+
+        return true;
+    }
+    #endregion
+
+    #region Quest Flags
+
+    private Dictionary<string, bool> questFlags = new Dictionary<string, bool>();
+
+    public void SetQuestFlag(string flag, bool value)
+    {
+        questFlags[flag] = value;
+        Debug.Log($"Quest flag set: {flag} = {value}");
+    }
+
+    public bool GetQuestFlag(string flag)
+    {
+        return questFlags.ContainsKey(flag) && questFlags[flag];
+    }
+
+    #endregion
+
     #region Save/Load (Placeholder for future implementation)
 
     public void SaveGame()
@@ -206,4 +274,5 @@ public class GameStateManager : MonoBehaviour
     }
 
     #endregion
+   
 }

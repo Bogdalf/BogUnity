@@ -29,6 +29,8 @@ public class InteractiveDoor : MonoBehaviour
         {
             playerInRange = true;
             Debug.Log($"Press E to use {doorName}");
+            // Add this to enable auto-tele, and comment out Update()     
+            /*TeleportPlayer();*/            
             // TODO: Show UI prompt
         }
     }
