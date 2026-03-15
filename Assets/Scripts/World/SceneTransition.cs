@@ -83,7 +83,7 @@ public class SceneTransition : MonoBehaviour
         else
         {
             // Just load the scene - PlayerSpawnPoint in the scene will handle positioning
-            SceneManager.LoadScene(targetSceneName);
+            SceneFader.Instance.FadeToScene(targetSceneName);
         }
     }
 

@@ -180,10 +180,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEnemy
   npcName: Bandit
   dialogueLines:
-  - Ahhh a traveling.... prisoner?
-  - With a large amount of missing... Guards... The bandit lords have decreed rightful
-    observance over their lands.
-  - I rightfully observe that all escaped prisoners be executed on the spot!
+  - "Rumor has it all the guards have disappeared...\t"
+  - "Supposedly our new \"King\" has ordered them all to return to <CAPITAL CIY>\t"
+  - If that's the truth, you my friend are a prisoner, and from what I can tell...
+    You're trying to escape.
   moveSpeed: 2
   health: 3
   damage: 1

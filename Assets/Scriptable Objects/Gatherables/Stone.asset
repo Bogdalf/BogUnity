@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2503d26e829184aa75c610c4d373d4, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingMaterialData
+  itemName: Stone
+  itemType: 2
+  icon: {fileID: 7264084319177742357, guid: 1e841d6f225377344b8186beb5bbe3dd, type: 3}
+  gridWidth: 1
+  gridHeight: 1
+  isStackable: 1
+  maxStackSize: 99
+  description: Stone Mined from a Boulder
+  materialType: 1
