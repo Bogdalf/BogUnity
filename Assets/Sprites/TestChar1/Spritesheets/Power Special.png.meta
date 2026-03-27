@@ -1,0 +1,3795 @@
+fileFormatVersion: 2
+guid: c2a55b8584a5bb3428823c32b91f2201
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -862702583432220015
+    second: Special1 1_0
+  - first:
+      213: 8094125335382057229
+    second: Special1 1_1
+  - first:
+      213: -6831519444207798491
+    second: Special1 1_2
+  - first:
+      213: -8321038161486027477
+    second: Special1 1_3
+  - first:
+      213: -4558862173069547487
+    second: Special1 1_4
+  - first:
+      213: 5288202221663507484
+    second: Special1 1_5
+  - first:
+      213: 6221093719191134406
+    second: Special1 1_6
+  - first:
+      213: -2362827830896466878
+    second: Special1 1_7
+  - first:
+      213: -2237985413181444087
+    second: Special1 1_8
+  - first:
+      213: -1359764859050677737
+    second: Special1 1_9
+  - first:
+      213: -7072729899249162734
+    second: Special1 1_10
+  - first:
+      213: 7202035481718235393
+    second: Special1 1_11
+  - first:
+      213: 553905035099575098
+    second: Special1 1_12
+  - first:
+      213: -4113682941097633451
+    second: Special1 1_13
+  - first:
+      213: -5836896559962114612
+    second: Special1 1_14
+  - first:
+      213: 4364346843792003140
+    second: Special1 1_15
+  - first:
+      213: -2723589677392947032
+    second: Special1 1_16
+  - first:
+      213: 811797618233286028
+    second: Special1 1_17
+  - first:
+      213: 710732053518413788
+    second: Special1 1_18
+  - first:
+      213: 7997831423063450303
+    second: Special1 1_19
+  - first:
+      213: -4577230173175908924
+    second: Special1 1_20
+  - first:
+      213: 8416178651408494914
+    second: Special1 1_21
+  - first:
+      213: -6007453730605741261
+    second: Special1 1_22
+  - first:
+      213: 8081862093030317087
+    second: Special1 1_23
+  - first:
+      213: 1006520178929218538
+    second: Special1 1_24
+  - first:
+      213: 1303877289651268252
+    second: Special1 1_25
+  - first:
+      213: 5059134468178355743
+    second: Special1 1_26
+  - first:
+      213: 8226753837602635542
+    second: Special1 1_27
+  - first:
+      213: -2086276153279315343
+    second: Special1 1_28
+  - first:
+      213: 3040996709771848121
+    second: Special1 1_29
+  - first:
+      213: -8864264824058989099
+    second: Special1 1_30
+  - first:
+      213: 5843422599782621955
+    second: Special1 1_31
+  - first:
+      213: -1886874136751742995
+    second: Special1 1_32
+  - first:
+      213: 1747589089105650123
+    second: Special1 1_33
+  - first:
+      213: -8050048695838669958
+    second: Special1 1_34
+  - first:
+      213: 8427881538883471394
+    second: Special1 1_35
+  - first:
+      213: 3079911128120934082
+    second: Special1 1_36
+  - first:
+      213: 2196937457254127274
+    second: Special1 1_37
+  - first:
+      213: 3913186746378505373
+    second: Special1 1_38
+  - first:
+      213: -5206889461939506575
+    second: Special1 1_39
+  - first:
+      213: 1781784071272675006
+    second: Special1 1_40
+  - first:
+      213: 2169706222831121868
+    second: Special1 1_41
+  - first:
+      213: 557917827949117662
+    second: Special1 1_42
+  - first:
+      213: -5625824726429360447
+    second: Special1 1_43
+  - first:
+      213: 6900347420459972351
+    second: Special1 1_44
+  - first:
+      213: -1387316837666717215
+    second: Special1 1_45
+  - first:
+      213: 6728501352284704994
+    second: Special1 1_46
+  - first:
+      213: -5650184989113889758
+    second: Special1 1_47
+  - first:
+      213: 3812671012405295235
+    second: Special1 1_48
+  - first:
+      213: -5865156360154003971
+    second: Special1 1_49
+  - first:
+      213: -1236202625125118580
+    second: Special1 1_50
+  - first:
+      213: -8623438158499422923
+    second: Special1 1_51
+  - first:
+      213: 2028881984710583639
+    second: Special1 1_52
+  - first:
+      213: 7176360186915200110
+    second: Special1 1_53
+  - first:
+      213: -5759671007604649517
+    second: Special1 1_54
+  - first:
+      213: 248021115542861200
+    second: Special1 1_55
+  - first:
+      213: -1597692562188263681
+    second: Special1 1_56
+  - first:
+      213: 8923207840331267220
+    second: Special1 1_57
+  - first:
+      213: -2549377917938196849
+    second: Special1 1_58
+  - first:
+      213: 7236096933470091048
+    second: Special1 1_59
+  - first:
+      213: -6247965920884615938
+    second: Special1 1_60
+  - first:
+      213: 6355706468459344744
+    second: Special1 1_61
+  - first:
+      213: 5404580766785224947
+    second: Special1 1_62
+  - first:
+      213: 6412530094909845154
+    second: Special1 1_63
+  - first:
+      213: 8291947150388986749
+    second: Special1 1_64
+  - first:
+      213: -5252975277637748499
+    second: Special1 1_65
+  - first:
+      213: -4701039994930063851
+    second: Special1 1_66
+  - first:
+      213: 8840515385392430503
+    second: Special1 1_67
+  - first:
+      213: -619823033811186650
+    second: Special1 1_68
+  - first:
+      213: -1971486407494399059
+    second: Special1 1_69
+  - first:
+      213: -8898754925299097172
+    second: Special1 1_70
+  - first:
+      213: 8213505370787618701
+    second: Special1 1_71
+  - first:
+      213: 5286665492507206846
+    second: Special1 1_72
+  - first:
+      213: 3485509644162586385
+    second: Special1 1_73
+  - first:
+      213: 9116221264150476366
+    second: Special1 1_74
+  - first:
+      213: 2496233398528694286
+    second: Special1 1_75
+  - first:
+      213: -5044327319278717541
+    second: Special1 1_76
+  - first:
+      213: -3847695791018400204
+    second: Special1 1_77
+  - first:
+      213: -4105012745342016000
+    second: Special1 1_78
+  - first:
+      213: -6720655502332287908
+    second: Special1 1_79
+  - first:
+      213: 6503512828934476015
+    second: Special1 1_80
+  - first:
+      213: 8297374067324825928
+    second: Special1 1_81
+  - first:
+      213: -6140345154189720022
+    second: Special1 1_82
+  - first:
+      213: 2561597530510018062
+    second: Special1 1_83
+  - first:
+      213: 1317242884156734157
+    second: Special1 1_84
+  - first:
+      213: -5150921416227520478
+    second: Special1 1_85
+  - first:
+      213: -6935276463058924927
+    second: Special1 1_86
+  - first:
+      213: 1023421243598659798
+    second: Special1 1_87
+  - first:
+      213: -3890336942149013678
+    second: Special1 1_88
+  - first:
+      213: -1126226987046062607
+    second: Special1 1_89
+  - first:
+      213: -5846058898018372642
+    second: Special1 1_90
+  - first:
+      213: -4586136296372848688
+    second: Special1 1_91
+  - first:
+      213: -3060486484114219862
+    second: Special1 1_92
+  - first:
+      213: -6151124473477078317
+    second: Special1 1_93
+  - first:
+      213: 6563616039013801036
+    second: Special1 1_94
+  - first:
+      213: -7508547428787120226
+    second: Special1 1_95
+  - first:
+      213: -7975875442334337171
+    second: Special1 1_96
+  - first:
+      213: -5807514756377717925
+    second: Special1 1_97
+  - first:
+      213: 4670913853884196162
+    second: Special1 1_98
+  - first:
+      213: -7895782326119864264
+    second: Special1 1_99
+  - first:
+      213: 2103315191601218815
+    second: Special1 1_100
+  - first:
+      213: -7397673506146144555
+    second: Special1 1_101
+  - first:
+      213: 3414112078953191409
+    second: Special1 1_102
+  - first:
+      213: -6096481436067331386
+    second: Special1 1_103
+  - first:
+      213: 8379317313801070177
+    second: Special1 1_104
+  - first:
+      213: -8810026714869229334
+    second: Special1 1_105
+  - first:
+      213: -1353968964543563140
+    second: Special1 1_106
+  - first:
+      213: 2882099294411750354
+    second: Special1 1_107
+  - first:
+      213: 6812320163363074596
+    second: Special1 1_108
+  - first:
+      213: -1183489871401795859
+    second: Special1 1_109
+  - first:
+      213: -7057129667649389167
+    second: Special1 1_110
+  - first:
+      213: -666277044067686681
+    second: Special1 1_111
+  - first:
+      213: 6184429570800031563
+    second: Special1 1_112
+  - first:
+      213: -7810704465811588367
+    second: Special1 1_113
+  - first:
+      213: 4092316713486182230
+    second: Special1 1_114
+  - first:
+      213: -2339381172194681181
+    second: Special1 1_115
+  - first:
+      213: 7249389965960102926
+    second: Special1 1_116
+  - first:
+      213: 1236607410895867209
+    second: Special1 1_117
+  - first:
+      213: -2781798516520980400
+    second: Special1 1_118
+  - first:
+      213: -6759629633771543240
+    second: Special1 1_119
+  - first:
+      213: -8350094955553399701
+    second: Special1 1_120
+  - first:
+      213: -1372917211113683431
+    second: Special1 1_121
+  - first:
+      213: 4191210953581329798
+    second: Special1 1_122
+  - first:
+      213: 3334676284270895460
+    second: Special1 1_123
+  - first:
+      213: -802926332245015643
+    second: Special1 1_124
+  - first:
+      213: 69958827444914061
+    second: Special1 1_125
+  - first:
+      213: 7018052437618694465
+    second: Special1 1_126
+  - first:
+      213: 8208756978406294328
+    second: Special1 1_127
+  - first:
+      213: 6549870659290290393
+    second: Special1 1_128
+  - first:
+      213: 6037311851862390494
+    second: Special1 1_129
+  - first:
+      213: 7124418206440655271
+    second: Special1 1_130
+  - first:
+      213: -5333760153047009723
+    second: Special1 1_131
+  - first:
+      213: -7423173469968638304
+    second: Special1 1_132
+  - first:
+      213: -6084108385287044018
+    second: Special1 1_133
+  - first:
+      213: -1687093451365527897
+    second: Special1 1_134
+  - first:
+      213: 2575789411088718635
+    second: Special1 1_135
+  - first:
+      213: 3378028530287332684
+    second: Special1 1_136
+  - first:
+      213: 8414419098499326061
+    second: Special1 1_137
+  - first:
+      213: 7221390990842788367
+    second: Special1 1_138
+  - first:
+      213: -2202966171864211026
+    second: Special1 1_139
+  - first:
+      213: 1547102447132497404
+    second: Special1 1_140
+  - first:
+      213: -2027563442887019102
+    second: Special1 1_141
+  - first:
+      213: -7421667681869636887
+    second: Special1 1_142
+  - first:
+      213: -8035612183334943570
+    second: Special1 1_143
+  - first:
+      213: -1281264432304583375
+    second: Special1 1_144
+  - first:
+      213: 3243316219990193136
+    second: Special1 1_145
+  - first:
+      213: -2077844119517982908
+    second: Special1 1_146
+  - first:
+      213: -5363053219024296559
+    second: Special1 1_147
+  - first:
+      213: 2377417670264836123
+    second: Special1 1_148
+  - first:
+      213: 5614102510280534663
+    second: Special1 1_149
+  - first:
+      213: -1125103692092210375
+    second: Special1 1_150
+  - first:
+      213: -3694377188725709095
+    second: Special1 1_151
+  - first:
+      213: -5979852490591546841
+    second: Special1 1_152
+  - first:
+      213: -3777959403887585708
+    second: Special1 1_153
+  - first:
+      213: -3227515672988548014
+    second: Special1 1_154
+  - first:
+      213: 6361917282893869762
+    second: Special1 1_155
+  - first:
+      213: 6676188595642472989
+    second: Special1 1_156
+  - first:
+      213: -7385324499687232156
+    second: Special1 1_157
+  - first:
+      213: 7637941352174181701
+    second: Special1 1_158
+  - first:
+      213: -8881745530826322231
+    second: Special1 1_159
+  - first:
+      213: -7365139363786532220
+    second: Special1 1_160
+  - first:
+      213: -419454153804960718
+    second: Special1 1_161
+  - first:
+      213: -4087683363655616388
+    second: Special1 1_162
+  - first:
+      213: -4908471836105307598
+    second: Special1 1_163
+  - first:
+      213: -5103086209414534291
+    second: Special1 1_164
+  - first:
+      213: -4523415398154800645
+    second: Special1 1_165
+  - first:
+      213: 4316098830234787465
+    second: Special1 1_166
+  - first:
+      213: -3310568459615444163
+    second: Special1 1_167
+  - first:
+      213: 1254474667015518757
+    second: Special1 1_168
+  - first:
+      213: -3618091019651682088
+    second: Special1 1_169
+  - first:
+      213: -3993364030638050774
+    second: Special1 1_170
+  - first:
+      213: 3446254316012899677
+    second: Special1 1_171
+  - first:
+      213: -2059985408759990270
+    second: Special1 1_172
+  - first:
+      213: -3302187385368882716
+    second: Special1 1_173
+  - first:
+      213: 6971824496893273335
+    second: Special1 1_174
+  - first:
+      213: 3789754786895393506
+    second: Special1 1_175
+  - first:
+      213: -2420149795615430214
+    second: Special1 1_176
+  - first:
+      213: 1657682868631939447
+    second: Special1 1_177
+  - first:
+      213: -2848358401699427074
+    second: Special1 1_178
+  - first:
+      213: -7795234053642961777
+    second: Special1 1_179
+  - first:
+      213: 4753450570342882218
+    second: Special1 1_180
+  - first:
+      213: 2655588025123484620
+    second: Special1 1_181
+  - first:
+      213: -1105009804809362108
+    second: Special1 1_182
+  - first:
+      213: -8187557291279424085
+    second: Special1 1_183
+  - first:
+      213: 9102413636882395012
+    second: Special1 1_184
+  - first:
+      213: 6804273642890664411
+    second: Special1 1_185
+  - first:
+      213: 537132934841572687
+    second: Special1 1_186
+  - first:
+      213: 2451118778894202627
+    second: Special1 1_187
+  - first:
+      213: -5271739254778334045
+    second: Special1 1_188
+  - first:
+      213: -4772631757440275091
+    second: Special1 1_189
+  - first:
+      213: 6008355745350711117
+    second: Special1 1_190
+  - first:
+      213: 5226700621675564758
+    second: Special1 1_191
+  - first:
+      213: 1045174781088069170
+    second: Special1 1_192
+  - first:
+      213: 545591376539242856
+    second: Special1 1_193
+  - first:
+      213: 4185732177482793663
+    second: Special1 1_194
+  - first:
+      213: 5238934963905581752
+    second: Special1 1_195
+  - first:
+      213: -5057076553308469620
+    second: Special1 1_196
+  - first:
+      213: 1473749820063797360
+    second: Special1 1_197
+  - first:
+      213: -8089583380886266770
+    second: Special1 1_198
+  - first:
+      213: -8518764676177987311
+    second: Special1 1_199
+  - first:
+      213: 1243103325127623093
+    second: Special1 1_200
+  - first:
+      213: 6906165250639706741
+    second: Special1 1_201
+  - first:
+      213: 6022674237389243935
+    second: Special1 1_202
+  - first:
+      213: 8652199064678746444
+    second: Special1 1_203
+  - first:
+      213: -3621079043146826221
+    second: Special1 1_204
+  - first:
+      213: -7952786374674391196
+    second: Special1 1_205
+  - first:
+      213: 3718439916580392599
+    second: Special1 1_206
+  - first:
+      213: -5700981295592770001
+    second: Special1 1_207
+  - first:
+      213: -4485518624441319369
+    second: Special1 1_208
+  - first:
+      213: -7724095829772047029
+    second: Special1 1_209
+  - first:
+      213: 7338092250513835936
+    second: Special1 1_210
+  - first:
+      213: 2274406559214404095
+    second: Special1 1_211
+  - first:
+      213: -6237006961956026222
+    second: Special1 1_212
+  - first:
+      213: 7973898717790691283
+    second: Special1 1_213
+  - first:
+      213: -1355199863928046315
+    second: Special1 1_214
+  - first:
+      213: -6788151968417622614
+    second: Special1 1_215
+  - first:
+      213: 5585152671549346084
+    second: Special1 1_216
+  - first:
+      213: -355713350039399687
+    second: Special1 1_217
+  - first:
+      213: 1175225781337135707
+    second: Special1 1_218
+  - first:
+      213: -8961462923697530048
+    second: Special1 1_219
+  - first:
+      213: -4119086467969953628
+    second: Special1 1_220
+  - first:
+      213: 7997780132828216180
+    second: Special1 1_221
+  - first:
+      213: -2018093458886674065
+    second: Special1 1_222
+  - first:
+      213: -2273842376143886765
+    second: Special1 1_223
+  - first:
+      213: -7340436716487797911
+    second: Special1 1_224
+  - first:
+      213: -1763021009081249829
+    second: Special1 1_225
+  - first:
+      213: 2081564346040369279
+    second: Special1 1_226
+  - first:
+      213: 8878149422987872501
+    second: Special1 1_227
+  - first:
+      213: 2531004970554585203
+    second: Special1 1_228
+  - first:
+      213: 755869713037337991
+    second: Special1 1_229
+  - first:
+      213: 6745088623354318508
+    second: Special1 1_230
+  - first:
+      213: -530614274893642096
+    second: Special1 1_231
+  - first:
+      213: -1171721196177001033
+    second: Special1 1_232
+  - first:
+      213: -3796070275368751755
+    second: Special1 1_233
+  - first:
+      213: 3415478640174308584
+    second: Special1 1_234
+  - first:
+      213: -1110240676756679645
+    second: Special1 1_235
+  - first:
+      213: 4726310841052438285
+    second: Special1 1_236
+  - first:
+      213: 8955098450669530070
+    second: Special1 1_237
+  - first:
+      213: 2042906307205671602
+    second: Special1 1_238
+  - first:
+      213: 7172117478581414016
+    second: Special1 1_239
+  - first:
+      213: 283586499225826079
+    second: Special1 1_240
+  - first:
+      213: 9178737871115883531
+    second: Special1 1_241
+  - first:
+      213: -739924097089559336
+    second: Special1 1_242
+  - first:
+      213: -453219916532844610
+    second: Special1 1_243
+  - first:
+      213: 4980872888305926335
+    second: Special1 1_244
+  - first:
+      213: 3103015256982479504
+    second: Special1 1_245
+  - first:
+      213: 5862540039455064918
+    second: Special1 1_246
+  - first:
+      213: 4315377403897503681
+    second: Special1 1_247
+  - first:
+      213: 2507215909627533163
+    second: Special1 1_248
+  - first:
+      213: 37396506618826631
+    second: Special1 1_249
+  - first:
+      213: -5886674227809566356
+    second: Special1 1_250
+  - first:
+      213: -1599542713201195843
+    second: Special1 1_251
+  - first:
+      213: 6563340727404748909
+    second: Special1 1_252
+  - first:
+      213: 4346930495557590768
+    second: Special1 1_253
+  - first:
+      213: -7537519686683878338
+    second: Special1 1_254
+  - first:
+      213: -7894656964704887102
+    second: Special1 1_255
+  - first:
+      213: -4802980807952517857
+    second: Special1 1_256
+  - first:
+      213: 2352510512231482791
+    second: Special1 1_257
+  - first:
+      213: -8236791180535683410
+    second: Special1 1_258
+  - first:
+      213: 2201541278951505817
+    second: Special1 1_259
+  - first:
+      213: 8397376532698339916
+    second: Special1 1_260
+  - first:
+      213: 3082010355639779905
+    second: Special1 1_261
+  - first:
+      213: 3767756233237421477
+    second: Special1 1_262
+  - first:
+      213: 6477577544101306694
+    second: Special1 1_263
+  - first:
+      213: 4221145735735665442
+    second: Special1 1_264
+  - first:
+      213: 1485952569251873140
+    second: Special1 1_265
+  - first:
+      213: 1524694906234690008
+    second: Special1 1_266
+  - first:
+      213: 2420857329837497493
+    second: Special1 1_267
+  - first:
+      213: -8126422637441663687
+    second: Special1 1_268
+  - first:
+      213: 1490491877830485580
+    second: Special1 1_269
+  - first:
+      213: -4070933918123617958
+    second: Special1 1_270
+  - first:
+      213: 1667242773502995271
+    second: Special1 1_271
+  - first:
+      213: 4489059833047140452
+    second: Special1 1_272
+  - first:
+      213: -799798961718330481
+    second: Special1 1_273
+  - first:
+      213: 5570504259635833439
+    second: Special1 1_274
+  - first:
+      213: -3000659069983220034
+    second: Special1 1_275
+  - first:
+      213: -5352471833662970211
+    second: Special1 1_276
+  - first:
+      213: -312864992740961974
+    second: Special1 1_277
+  - first:
+      213: -6451267965372591236
+    second: Special1 1_278
+  - first:
+      213: -6149115546468213191
+    second: Special1 1_279
+  - first:
+      213: 2332474327151488239
+    second: Special1 1_280
+  - first:
+      213: 6074015593606607215
+    second: Special1 1_281
+  - first:
+      213: -1164903650643851345
+    second: Special1 1_282
+  - first:
+      213: 877914581239748251
+    second: Special1 1_283
+  - first:
+      213: -1770420617708619399
+    second: Special1 1_284
+  - first:
+      213: -140712325017132694
+    second: Special1 1_285
+  - first:
+      213: 1555036320081385328
+    second: Special1 1_286
+  - first:
+      213: -1208138027768429609
+    second: Special1 1_287
+  - first:
+      213: -8787036671713619666
+    second: Special1 1_288
+  - first:
+      213: 1793119942068281627
+    second: Special1 1_289
+  - first:
+      213: 6765801546797420475
+    second: Special1 1_290
+  - first:
+      213: 7885408847234598361
+    second: Special1 1_291
+  - first:
+      213: -3914124694480188017
+    second: Special1 1_292
+  - first:
+      213: 2427479745151131046
+    second: Special1 1_293
+  - first:
+      213: 7487350843550993539
+    second: Special1 1_294
+  - first:
+      213: 5110497754015595406
+    second: Special1 1_295
+  - first:
+      213: 6904964304218679858
+    second: Special1 1_296
+  - first:
+      213: -3954185188389560501
+    second: Special1 1_297
+  - first:
+      213: -267133967554803933
+    second: Special1 1_298
+  - first:
+      213: -7098490950183662415
+    second: Special1 1_299
+  - first:
+      213: -7063850031542149945
+    second: Special1 1_300
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Power Special_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c88543cbf6f1840a4dbda97d5ef7d4
+      internalID: -1040691454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d736a072d5b84881ee0478f8986cc
+      internalID: -831067550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ae86357bd72a84c80633bf351884e1
+      internalID: 34640913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f71337f957226449029c8f86efa9c0
+      internalID: -991348266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d781d9573b6b346ad9262e48d27854
+      internalID: -1058090106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319c33128e81e342b34dee8990a0202
+      internalID: -1535057353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ccff97886c4b4380b302f64157bcb
+      internalID: 742531907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8774c8cdf3e26b4183af2f73f870601
+      internalID: 915052805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599bf9e643a5b9e42bb2ed19d87918ca
+      internalID: 281969850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a83e89fcbfcbe46b7f9e79ce8b6840
+      internalID: -718798435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3539dfa67cd614d8dafed4b25d49d0
+      internalID: -166098931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26c851ce2469e04bb5ebfeacef4768c
+      internalID: -86087381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae00a379e9de65543901586de06a92af
+      internalID: 1224330973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f1bae2b468a904291827d8cb6e8a53
+      internalID: -1468725480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ba12b8579f3d0498b8026431aac363
+      internalID: 1362651260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c0af6d95a93bb43b31d93c4478d430
+      internalID: 1526136250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a459c152b5e92b948aae2fdb1b03f2a9
+      internalID: -101500104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60423ad290500640afb8545bef7cbdf
+      internalID: 476680856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b429cfd6e199caa4e99685262a736afa
+      internalID: 1621358085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dffcfd99039ea42915b0349b8ed085
+      internalID: 1505107083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80f678180980714ea4fa3f5be2c8005
+      internalID: 1645619846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28418ff9e1b8ef4fb697b8f92feed59
+      internalID: 85512112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9953c16f0ed064cba5431f36c91fad
+      internalID: -1279589698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af8710d9976d664eb002442392fbf0c
+      internalID: -416636780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd499ebdcbcf714b9503597bac45333
+      internalID: -923320143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf78f316ef9b0a4ea1adb85563f39ad
+      internalID: -764516551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25186a5b6b5086442af426bbcf6a21dc
+      internalID: -1116230902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7857ae4c03d9d4eb4fd59dda24983b
+      internalID: -338243556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb17c850b08ff74bb615d418f01cf74
+      internalID: 1597129930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a99783817c974994e51986d56f157
+      internalID: 230948755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff1cc95b7bf91041974a1c551a4dd7b
+      internalID: -1987891664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296d73dcdd1183d43a8cc472a0336667
+      internalID: -898702782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45fc5cca8f572448a11ce4c15e53879
+      internalID: 1240455877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f5937749d9fde42afb033ba88831f0
+      internalID: 1049223033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a30de54b6057f479e15566c222aeae
+      internalID: -270851974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fab8b32266fcd4e854c8d302260330
+      internalID: 311129038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e69e47199da9434ba5174d83802027c
+      internalID: -730725571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f223de82110fcb4290f2a3c90ce3c6f
+      internalID: -1944934632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f748de3ffcab24da6d692bd09a8a52
+      internalID: 1419895780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840a67b7fd91be04c8aa0097e311ec41
+      internalID: -556873755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b3f04f166431498cf2531dbaa28bb
+      internalID: -476191591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43390233ec93694499592424db4feae7
+      internalID: 928705666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191e29f6193c0d94d8164d7de6b75f38
+      internalID: -571390733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299c2839002afe8459df1747ef290f00
+      internalID: -354347531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02775fc4ca3cddf42929ac6e76210e66
+      internalID: 428954321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6ab632173cd7e4eb14220785d5fc58
+      internalID: -944957607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb9a7480cc801148875e2a0b7bcf3bc
+      internalID: 1249152532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fc0421fa80a1f4cad36ae193df1b01
+      internalID: 1590482639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99425e45337c0ae4f830e6fbbd956866
+      internalID: -899755034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bf36458a01a7944b65b88246217daf
+      internalID: 634543971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88362bbdd8eed424ea31d986026eb5c6
+      internalID: -1644946077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abf7e7fbad199a4d94e1843083ea9d4
+      internalID: -665422400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79fd172d2b00064ab30467ce2a0b985
+      internalID: -462070338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9839090cdb090b44bb19b9437e36e0f0
+      internalID: 767276048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8b236a8c312ec429ccf1f2b4de26b7
+      internalID: 1052657902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185ccb124b521ac4597ed0086239440c
+      internalID: -263973482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1f18b12238b643bd142ed5f64d114
+      internalID: 880246058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6762fcf7fd9b13149b7d49ab34270dc9
+      internalID: 1909085895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433c547c2956ba1439fd46815416e80c
+      internalID: 438541964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3beb5e88fbcf34f829fc6be1e02574
+      internalID: -1194617437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4640f539cb4ee749b67a59a911d9bd1
+      internalID: 975063707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7167095ee3b72a64193578cecd58ec26
+      internalID: 351104348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc8c9966d378874cb7c8e0c1a29ee04
+      internalID: 2000427828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82365b86f5a67542ac77ebee18cf08c
+      internalID: -99964509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217e39b24c2e3f041b8db722d44b678e
+      internalID: -238925450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b74b41b2e5204ca166ca77157f777
+      internalID: 1453619701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ff0fc35b10b1c4e920b8d9e370334b
+      internalID: 767088623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6eb0ee9f58014b82518aa8d45cd4d
+      internalID: 800070151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2915de672f884e542a918de5819c1131
+      internalID: -1708588470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95d5521a1448b341922b44d41e65445
+      internalID: 1837431620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a442d13b50ef5e4485047a5bafa23a4
+      internalID: 755997793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4540597765757049886c4a7b2c5e360
+      internalID: 1852695448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4abb4237e430b4294a9ef2d5e74891
+      internalID: -500605165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9ac868ed26dcf4d958e760f4d5ab4a
+      internalID: 1232462905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6bed95e02ea754881839f44dd0b497
+      internalID: -850335062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3f11c54e08a241bbea15cbe0618bf
+      internalID: -1873752455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d4aa1565f04143af29afc8b2b5469
+      internalID: 417696102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb48149f5817304ca0408b8146e2ac3
+      internalID: 801311456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174e41f26f76c3a4cb6a358023878130
+      internalID: 396706405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b9530d089856d488ced9b8ab08ab04
+      internalID: 931901163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b928f3a676d3a9b4faec9cdd65ac9827
+      internalID: 1945145821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04d115c6db2d25439df2939b4182feb
+      internalID: 164982571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03696627f8dc3c74b839188c475abe4c
+      internalID: -1666984212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737d9823d743214485aefa7dfa206a1
+      internalID: 83479080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7fb22a95d2f9045afeb31796c0e130
+      internalID: -597535154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e69231730fcc6d43bef1015f1ca1328
+      internalID: -625869334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e083fc63af0114e9b2d223968c93f7
+      internalID: 2123667960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea7112b1445bf4499c6856ffcd2c22
+      internalID: 1990137428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9469a06402c414c44acc0a537820694f
+      internalID: 2093687734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10804fc554263fc4fad09fb158b6afd5
+      internalID: -1245048098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ce500ddb113db4b8ed150186afaac3
+      internalID: -230069259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657b7faf210bf654fb2fbdfba4a539c6
+      internalID: 1520848589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9345e8f6e712f44089f0611f8aca517
+      internalID: -1427579602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9127b94951090c149836f8bd2fd6baa3
+      internalID: 1915330103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea41e7e22ffa6e4db0ac94adc384473
+      internalID: -1922750986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944018d34fb2aaf4d9b81c092068e43f
+      internalID: -732061038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e549e3324607ec4bba37b11e70eb756
+      internalID: 1213062623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e454ff48d63b6c45aeadcc8951ee8c9
+      internalID: 1757845062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_98
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267592d03663df940a7d8b93f0f33f4e
+      internalID: 633228846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65a0bc0cc1ebac448377f4f66c4a76a
+      internalID: 25527297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda105051fe19c14392d83849d6a025e
+      internalID: 671135649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e665671b7aa0ad43ade209f5b6dc071
+      internalID: 1577078856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124341c47d1037346ab26de11adaf183
+      internalID: -2048439131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9319c7d964d64996e94d048d49bca
+      internalID: -1539411698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42568c795ad3a7468743a12c2812958
+      internalID: 728477097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d162ec7e07cc24dbc8891665bdf7ef
+      internalID: 1510497377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88c536e86f2874fa24e9c4cce172cb
+      internalID: 560880643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a47d961ea41f642b13f3f11ea0fed6
+      internalID: -1166668110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a81295df0030428b1aeca6878256d
+      internalID: 1190239986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49608d3ccac8fbf45841a436897d1670
+      internalID: 516795441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da57cfd95386d0b42926325c52a95ff2
+      internalID: -1507920541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e749c2366b4404b83a9ac84b0e0e47
+      internalID: -919256449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8911e7588209c429792b0dc2bb842d
+      internalID: 238333592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afe4fe85c6ff964da5191fb5dfb4d72
+      internalID: 430394970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a004269f063dc4a882a3bb49f30ded
+      internalID: 94082942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364d3cfc6a76de249ba32b7755d6798f
+      internalID: -2033543727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a60d27c608c45438bd0064bf3d98fc
+      internalID: -1955238036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811f722bfe3a1e9409a8102ee9a8079c
+      internalID: 2127191969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98072cf7e2997274aa79e20464843366
+      internalID: 1324498423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Special_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cf4c5d5f0705d4d896d29fe85650a0
+      internalID: -1458788997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 31db4ccb77522de44afe5c59d3da9af2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Power Special_0: -1040691454
+      Power Special_1: -831067550
+      Power Special_10: -166098931
+      Power Special_100: 671135649
+      Power Special_101: 1577078856
+      Power Special_102: -2048439131
+      Power Special_103: -1539411698
+      Power Special_104: 728477097
+      Power Special_105: 1510497377
+      Power Special_106: 560880643
+      Power Special_107: -1166668110
+      Power Special_108: 1190239986
+      Power Special_109: 516795441
+      Power Special_11: -86087381
+      Power Special_110: -1507920541
+      Power Special_111: -919256449
+      Power Special_112: 238333592
+      Power Special_113: 430394970
+      Power Special_114: 94082942
+      Power Special_115: -2033543727
+      Power Special_116: -1955238036
+      Power Special_117: 2127191969
+      Power Special_118: 1324498423
+      Power Special_119: -1458788997
+      Power Special_12: 1224330973
+      Power Special_13: -1468725480
+      Power Special_14: 1362651260
+      Power Special_15: 1526136250
+      Power Special_16: -101500104
+      Power Special_17: 476680856
+      Power Special_18: 1621358085
+      Power Special_19: 1505107083
+      Power Special_2: 34640913
+      Power Special_20: 1645619846
+      Power Special_21: 85512112
+      Power Special_22: -1279589698
+      Power Special_23: -416636780
+      Power Special_24: -923320143
+      Power Special_25: -764516551
+      Power Special_26: -1116230902
+      Power Special_27: -338243556
+      Power Special_28: 1597129930
+      Power Special_29: 230948755
+      Power Special_3: -991348266
+      Power Special_30: -1987891664
+      Power Special_31: -898702782
+      Power Special_32: 1240455877
+      Power Special_33: 1049223033
+      Power Special_34: -270851974
+      Power Special_35: 311129038
+      Power Special_36: -730725571
+      Power Special_37: -1944934632
+      Power Special_38: 1419895780
+      Power Special_39: -556873755
+      Power Special_4: -1058090106
+      Power Special_40: -476191591
+      Power Special_41: 928705666
+      Power Special_42: -571390733
+      Power Special_43: -354347531
+      Power Special_44: 428954321
+      Power Special_45: -944957607
+      Power Special_46: 1249152532
+      Power Special_47: 1590482639
+      Power Special_48: -899755034
+      Power Special_49: 634543971
+      Power Special_5: -1535057353
+      Power Special_50: -1644946077
+      Power Special_51: -665422400
+      Power Special_52: -462070338
+      Power Special_53: 767276048
+      Power Special_54: 1052657902
+      Power Special_55: -263973482
+      Power Special_56: 880246058
+      Power Special_57: 1909085895
+      Power Special_58: 438541964
+      Power Special_59: -1194617437
+      Power Special_6: 742531907
+      Power Special_60: 975063707
+      Power Special_61: 351104348
+      Power Special_62: 2000427828
+      Power Special_63: -99964509
+      Power Special_64: -238925450
+      Power Special_65: 1453619701
+      Power Special_66: 767088623
+      Power Special_67: 800070151
+      Power Special_68: -1708588470
+      Power Special_69: 1837431620
+      Power Special_7: 915052805
+      Power Special_70: 755997793
+      Power Special_71: 1852695448
+      Power Special_72: -500605165
+      Power Special_73: 1232462905
+      Power Special_74: -850335062
+      Power Special_75: -1873752455
+      Power Special_76: 417696102
+      Power Special_77: 801311456
+      Power Special_78: 396706405
+      Power Special_79: 931901163
+      Power Special_8: 281969850
+      Power Special_80: 1945145821
+      Power Special_81: 164982571
+      Power Special_82: -1666984212
+      Power Special_83: 83479080
+      Power Special_84: -597535154
+      Power Special_85: -625869334
+      Power Special_86: 2123667960
+      Power Special_87: 1990137428
+      Power Special_88: 2093687734
+      Power Special_89: -1245048098
+      Power Special_9: -718798435
+      Power Special_90: -230069259
+      Power Special_91: 1520848589
+      Power Special_92: -1427579602
+      Power Special_93: 1915330103
+      Power Special_94: -1922750986
+      Power Special_95: -732061038
+      Power Special_96: 1213062623
+      Power Special_97: 1757845062
+      Power Special_98: 633228846
+      Power Special_99: 25527297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

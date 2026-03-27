@@ -9,7 +9,7 @@ public class InteractiveTable : MonoBehaviour
 {
     [Header("Door Settings")]
     [SerializeField] private string doorName = "Inn Entrance";
-    [SerializeField] private string targetSceneName = "WorldMap";
+    [SerializeField] private string targetScene = "WorldMap";
     [SerializeField] private string promptMessage = "Open World Map?";
 
     [Header("Choice Settings")]
@@ -130,8 +130,8 @@ public class InteractiveTable : MonoBehaviour
             PersistentUICanvas.Instance.CloseAllPanels();
         }
 
-        Debug.Log($"Loading scene: {targetSceneName}");
-        SceneManager.LoadScene(targetSceneName);
+        Debug.Log($"Loading scene: {targetScene}");
+        SceneFader.Instance.FadeToScene(targetScene);
     }
 
     void CancelDialogue()
