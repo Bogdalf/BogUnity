@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Collider
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Player
   - Background
   - Gatherable
-  - 
+  - Collider
   - 
   - 
   - 
@@ -62,6 +63,9 @@ TagManager:
     locked: 0
   - name: UI Tooltip
     uniqueID: 3339932707
+    locked: 0
+  - name: Collider
+    uniqueID: 2276109245
     locked: 0
   m_RenderingLayers:
   - Default

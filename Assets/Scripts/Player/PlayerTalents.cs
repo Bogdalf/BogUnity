@@ -4,16 +4,14 @@ using System.Collections.Generic;
 public class PlayerTalents : MonoBehaviour
 {
     [Header("Talent Points")]
-    [SerializeField] private int availableTalentPoints = 10; // Start with some for testing
+    [SerializeField] private int availableTalentPoints = 10;
 
-    [Header("Learned Talents")]
     private Dictionary<TalentData, int> learnedTalents = new Dictionary<TalentData, int>();
 
     private PlayerStats playerStats;
     private PlayerEquipment playerEquipment;
     private PlayerMelee playerMelee;
     private PlayerDash playerDash;
-    private PlayerCharge playerCharge;
 
     void Start()
     {
@@ -21,7 +19,6 @@ public class PlayerTalents : MonoBehaviour
         playerEquipment = GetComponent<PlayerEquipment>();
         playerMelee = GetComponent<PlayerMelee>();
         playerDash = GetComponent<PlayerDash>();
-        playerCharge = GetComponent<PlayerCharge>();
     }
 
     public bool CanLearnTalent(TalentData talent)
@@ -29,18 +26,13 @@ public class PlayerTalents : MonoBehaviour
         if (talent == null) return false;
         if (availableTalentPoints <= 0) return false;
 
-        // Check if already at max rank
         int currentRank = GetTalentRank(talent);
         if (currentRank >= talent.maxRank) return false;
 
-        // Check prerequisite
-        if (talent.prerequisiteTalent != null)
+        if (talent.prerequisiteTalent != null && GetTalentRank(talent.prerequisiteTalent) <= 0)
         {
-            if (GetTalentRank(talent.prerequisiteTalent) <= 0)
-            {
-                Debug.Log("Missing prerequisite: " + talent.prerequisiteTalent.talentName);
-                return false;
-            }
+            Debug.Log("Missing prerequisite: " + talent.prerequisiteTalent.talentName);
+            return false;
         }
 
         return true;
@@ -50,18 +42,12 @@ public class PlayerTalents : MonoBehaviour
     {
         if (!CanLearnTalent(talent)) return;
 
-        // Add or increment rank
         if (learnedTalents.ContainsKey(talent))
-        {
             learnedTalents[talent]++;
-        }
         else
-        {
             learnedTalents[talent] = 1;
-        }
 
         availableTalentPoints--;
-
         ApplyTalentEffect(talent);
 
         Debug.Log("Learned: " + talent.talentName + " (Rank " + learnedTalents[talent] + ")");
@@ -72,83 +58,67 @@ public class PlayerTalents : MonoBehaviour
         switch (talent.effectType)
         {
             case TalentEffectType.IncreaseStrength:
-                if (playerStats != null)
-                {
-                    // We'll need to add a method to add permanent stat bonuses
-                    Debug.Log("Added " + talent.effectValue + " Strength");
-                }
+                if (playerStats != null) playerStats.AddStrength(talent.effectValue);
                 break;
 
             case TalentEffectType.IncreaseVitality:
-                if (playerStats != null)
-                {
-                    Debug.Log("Added " + talent.effectValue + " Vitality");
-                }
+                if (playerStats != null) playerStats.AddVitality(talent.effectValue);
                 break;
 
             case TalentEffectType.WeaponDamageBonus:
-                // Weapon mastery - will be calculated when dealing damage
-                Debug.Log("Weapon damage bonus applied for " + talent.affectedWeaponClass);
-                break;
-
             case TalentEffectType.WeaponSpeedBonus:
-                // Weapon speed - will be calculated when equipping
-                Debug.Log("Weapon speed bonus applied for " + talent.affectedWeaponClass);
+                // Applied dynamically during damage/speed calculation
+                if (playerEquipment != null) playerEquipment.RecalculateStats();
                 break;
 
-                // Add other cases as needed
+            case TalentEffectType.IncreaseDashDistance:
+            case TalentEffectType.DecreaseDashCooldown:
+                // PlayerDash reads talent values directly when needed
+                break;
+
+            case TalentEffectType.AxeFrenzy:
+                // Passive — triggered by PlayerBuffs on axe hit
+                break;
+
+            default:
+                Debug.Log("Talent effect not yet implemented: " + talent.effectType);
+                break;
         }
     }
 
     public int GetTalentRank(TalentData talent)
     {
-        if (learnedTalents.ContainsKey(talent))
-        {
-            return learnedTalents[talent];
-        }
-        return 0;
+        if (talent == null) return 0;
+        return learnedTalents.ContainsKey(talent) ? learnedTalents[talent] : 0;
     }
 
-    public int GetAvailableTalentPoints()
-    {
-        return availableTalentPoints;
-    }
+    public int GetAvailableTalentPoints() => availableTalentPoints;
 
     public float GetWeaponMasteryDamageBonus(WeaponClass weaponClass)
     {
-        float totalBonus = 0f;
-
+        float total = 0f;
         foreach (var kvp in learnedTalents)
         {
-            TalentData talent = kvp.Key;
-            int rank = kvp.Value;
-
-            if (talent.effectType == TalentEffectType.WeaponDamageBonus &&
-                talent.affectedWeaponClass == weaponClass)
+            if (kvp.Key.effectType == TalentEffectType.WeaponDamageBonus &&
+                kvp.Key.affectedWeaponClass == weaponClass)
             {
-                totalBonus += talent.effectValue * rank;
+                total += kvp.Key.effectValue * kvp.Value;
             }
         }
-
-        return totalBonus;
+        return total;
     }
 
     public float GetWeaponMasterySpeedBonus(WeaponClass weaponClass)
     {
-        float totalBonus = 0f;
-
+        float total = 0f;
         foreach (var kvp in learnedTalents)
         {
-            TalentData talent = kvp.Key;
-            int rank = kvp.Value;
-
-            if (talent.effectType == TalentEffectType.WeaponSpeedBonus &&
-                talent.affectedWeaponClass == weaponClass)
+            if (kvp.Key.effectType == TalentEffectType.WeaponSpeedBonus &&
+                kvp.Key.affectedWeaponClass == weaponClass)
             {
-                totalBonus += talent.effectValue * rank;
+                total += kvp.Key.effectValue * kvp.Value;
             }
         }
-
-        return totalBonus;
+        return total;
     }
 }

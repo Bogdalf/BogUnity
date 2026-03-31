@@ -15,74 +15,55 @@ public class PlayerStats : MonoBehaviour
     private float maxHealth;
 
     [Header("Stat Scaling")]
-    [SerializeField] private float strengthToAttackRatio = 1f; // 1 strength = 1 attack damage
-    [SerializeField] private float vitalityToHealthRatio = 10f; // 1 vitality = 10 max health
+    [SerializeField] private float strengthToAttackRatio = 1f;
+    [SerializeField] private float vitalityToHealthRatio = 10f;
+
+    private bool initialized = false;
 
     void Start()
     {
         CalculateStats();
         InitializeHealth();
+        initialized = true;
     }
 
     void CalculateStats()
     {
-        // Calculate total stats
         float totalStrength = baseStrength + bonusStrength;
         float totalVitality = baseVitality + bonusVitality;
 
-        // Convert to derived stats
         attackDamage = totalStrength * strengthToAttackRatio;
         maxHealth = totalVitality * vitalityToHealthRatio;
-
-        Debug.Log("Stats Calculated - Strength: " + totalStrength + " | Attack Damage: " + attackDamage);
-        Debug.Log("Vitality: " + totalVitality + " | Max Health: " + maxHealth);
     }
 
     void InitializeHealth()
     {
-        // Set player's max health based on vitality
         PlayerHealth health = GetComponent<PlayerHealth>();
         if (health != null)
         {
-            health.SetMaxHealth(maxHealth);
+            // fullyHeal=true only on first init, so equipment changes don't restore health
+            health.SetMaxHealth(maxHealth, fullyHeal: !initialized);
         }
     }
 
     // Getters
-    public float GetAttackDamage()
-    {
-        return attackDamage;
-    }
-
-    public float GetMaxHealth()
-    {
-        return maxHealth;
-    }
-
-    public float GetStrength()
-    {
-        return baseStrength + bonusStrength;
-    }
-
-    public float GetVitality()
-    {
-        return baseVitality + bonusVitality;
-    }
+    public float GetAttackDamage() => attackDamage;
+    public float GetMaxHealth() => maxHealth;
+    public float GetStrength() => baseStrength + bonusStrength;
+    public float GetVitality() => baseVitality + bonusVitality;
 
     public void SetEquipmentBonuses(float equipStrength, float equipVitality)
     {
         bonusStrength = equipStrength;
         bonusVitality = equipVitality;
         CalculateStats();
-        InitializeHealth();
+        InitializeHealth(); // Will NOT fully heal since initialized = true
     }
 
-    // Modifiers (for talents/gear later)
     public void AddStrength(float amount)
     {
         bonusStrength += amount;
         CalculateStats();
-        Debug.Log("Added " + amount + " Strength. New total: " + GetStrength());
     }
 
     public void AddVitality(float amount)
@@ -90,6 +71,5 @@ public class PlayerStats : MonoBehaviour
         bonusVitality += amount;
         CalculateStats();
         InitializeHealth();
-        Debug.Log("Added " + amount + " Vitality. New total: " + GetVitality());
     }
 }

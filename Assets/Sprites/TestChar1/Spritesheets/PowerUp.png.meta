@@ -1,0 +1,5073 @@
+fileFormatVersion: 2
+guid: 509aa3d1239a7f54ebd5eb1c4946291a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4843461713954719033
+    second: Attack4 1_0
+  - first:
+      213: 9212669794575328886
+    second: Attack4 1_1
+  - first:
+      213: 4355053942846016432
+    second: Attack4 1_2
+  - first:
+      213: 9211381808278753876
+    second: Attack4 1_3
+  - first:
+      213: -710302912567937492
+    second: Attack4 1_4
+  - first:
+      213: -1512523845949464761
+    second: Attack4 1_5
+  - first:
+      213: -6108695225755912339
+    second: Attack4 1_6
+  - first:
+      213: -1962140479975080037
+    second: Attack4 1_7
+  - first:
+      213: 5826662422766843390
+    second: Attack4 1_8
+  - first:
+      213: 6563885373126989714
+    second: Attack4 1_9
+  - first:
+      213: -8594099816085724679
+    second: Attack4 1_10
+  - first:
+      213: -7026176657163497610
+    second: Attack4 1_11
+  - first:
+      213: 4696932381161298321
+    second: Attack4 1_12
+  - first:
+      213: -4978043969123171662
+    second: Attack4 1_13
+  - first:
+      213: 2698874535082169768
+    second: Attack4 1_14
+  - first:
+      213: -8110013640238489785
+    second: Attack4 1_15
+  - first:
+      213: -1996953898363034480
+    second: Attack4 1_16
+  - first:
+      213: 4392005247407706996
+    second: Attack4 1_17
+  - first:
+      213: 1605216546666371334
+    second: Attack4 1_18
+  - first:
+      213: 8833324996247941872
+    second: Attack4 1_19
+  - first:
+      213: 3430106859673980249
+    second: Attack4 1_20
+  - first:
+      213: 6483254510674737926
+    second: Attack4 1_21
+  - first:
+      213: 6736503250817343507
+    second: Attack4 1_22
+  - first:
+      213: 6582880492690749257
+    second: Attack4 1_23
+  - first:
+      213: -8083483715276619493
+    second: Attack4 1_24
+  - first:
+      213: 5534023609176666905
+    second: Attack4 1_25
+  - first:
+      213: 4010915360625239576
+    second: Attack4 1_26
+  - first:
+      213: 3446931504230502570
+    second: Attack4 1_27
+  - first:
+      213: 4519508385452413335
+    second: Attack4 1_28
+  - first:
+      213: -5876113382243258408
+    second: Attack4 1_29
+  - first:
+      213: -5917229986345357117
+    second: Attack4 1_30
+  - first:
+      213: -1497417503879533552
+    second: Attack4 1_31
+  - first:
+      213: -8999804384798329022
+    second: Attack4 1_32
+  - first:
+      213: -6241986835081911925
+    second: Attack4 1_33
+  - first:
+      213: 222469206175626298
+    second: Attack4 1_34
+  - first:
+      213: -2319398559424913557
+    second: Attack4 1_35
+  - first:
+      213: 7241898784779483772
+    second: Attack4 1_36
+  - first:
+      213: -6057643999318893893
+    second: Attack4 1_37
+  - first:
+      213: -1024566747922262222
+    second: Attack4 1_38
+  - first:
+      213: -4131965362381425502
+    second: Attack4 1_39
+  - first:
+      213: -1423873215696315287
+    second: Attack4 1_40
+  - first:
+      213: -4510805229982608341
+    second: Attack4 1_41
+  - first:
+      213: 4051826960891121422
+    second: Attack4 1_42
+  - first:
+      213: 8170897133866238036
+    second: Attack4 1_43
+  - first:
+      213: 8445153628184613686
+    second: Attack4 1_44
+  - first:
+      213: -6633637576864076854
+    second: Attack4 1_45
+  - first:
+      213: -8041849773878944676
+    second: Attack4 1_46
+  - first:
+      213: 111646715584246609
+    second: Attack4 1_47
+  - first:
+      213: -104360475602139761
+    second: Attack4 1_48
+  - first:
+      213: -7607477339782497820
+    second: Attack4 1_49
+  - first:
+      213: 6280823306519564640
+    second: Attack4 1_50
+  - first:
+      213: 780589154563159734
+    second: Attack4 1_51
+  - first:
+      213: 5301207137354305575
+    second: Attack4 1_52
+  - first:
+      213: 5145031740238868644
+    second: Attack4 1_53
+  - first:
+      213: -2793669428483336159
+    second: Attack4 1_54
+  - first:
+      213: 7547933197942875681
+    second: Attack4 1_55
+  - first:
+      213: -2923747647172984777
+    second: Attack4 1_56
+  - first:
+      213: -4714201659151016622
+    second: Attack4 1_57
+  - first:
+      213: 3564563472634712906
+    second: Attack4 1_58
+  - first:
+      213: -1162853542914093927
+    second: Attack4 1_59
+  - first:
+      213: -5810182774912210474
+    second: Attack4 1_60
+  - first:
+      213: -1016053420720685254
+    second: Attack4 1_61
+  - first:
+      213: -7147847746486082576
+    second: Attack4 1_62
+  - first:
+      213: -185762879836706537
+    second: Attack4 1_63
+  - first:
+      213: 733159099134380725
+    second: Attack4 1_64
+  - first:
+      213: 3854161484201015396
+    second: Attack4 1_65
+  - first:
+      213: -8479240492825027283
+    second: Attack4 1_66
+  - first:
+      213: -2979867938326756246
+    second: Attack4 1_67
+  - first:
+      213: 6831723708786647507
+    second: Attack4 1_68
+  - first:
+      213: -5709232261710064146
+    second: Attack4 1_69
+  - first:
+      213: 9128829007551527214
+    second: Attack4 1_70
+  - first:
+      213: -6707705773497463090
+    second: Attack4 1_71
+  - first:
+      213: 150619272468431396
+    second: Attack4 1_72
+  - first:
+      213: 4724116341418938912
+    second: Attack4 1_73
+  - first:
+      213: 5815074487345568326
+    second: Attack4 1_74
+  - first:
+      213: -354936319008569370
+    second: Attack4 1_75
+  - first:
+      213: 2431646036754256200
+    second: Attack4 1_76
+  - first:
+      213: -481358307962479161
+    second: Attack4 1_77
+  - first:
+      213: -6604445821610149851
+    second: Attack4 1_78
+  - first:
+      213: 4743770947016913635
+    second: Attack4 1_79
+  - first:
+      213: -290316888298010274
+    second: Attack4 1_80
+  - first:
+      213: 1053178917272139563
+    second: Attack4 1_81
+  - first:
+      213: -8924725861655325020
+    second: Attack4 1_82
+  - first:
+      213: 3633097537818869601
+    second: Attack4 1_83
+  - first:
+      213: 8972521277179747352
+    second: Attack4 1_84
+  - first:
+      213: -510483442572996085
+    second: Attack4 1_85
+  - first:
+      213: -3265514056510970517
+    second: Attack4 1_86
+  - first:
+      213: 5866473863309979890
+    second: Attack4 1_87
+  - first:
+      213: -3529365059950237873
+    second: Attack4 1_88
+  - first:
+      213: -1742436708220810654
+    second: Attack4 1_89
+  - first:
+      213: 2910397484057222489
+    second: Attack4 1_90
+  - first:
+      213: 6379365250140496223
+    second: Attack4 1_91
+  - first:
+      213: 6695742153824149421
+    second: Attack4 1_92
+  - first:
+      213: 7621417944652114720
+    second: Attack4 1_93
+  - first:
+      213: -6630886436040064109
+    second: Attack4 1_94
+  - first:
+      213: -2677001289137428301
+    second: Attack4 1_95
+  - first:
+      213: -2674715848555242002
+    second: Attack4 1_96
+  - first:
+      213: -794958336779210939
+    second: Attack4 1_97
+  - first:
+      213: -2355873100854891298
+    second: Attack4 1_98
+  - first:
+      213: 8093064893813686025
+    second: Attack4 1_99
+  - first:
+      213: 3151673431969115017
+    second: Attack4 1_100
+  - first:
+      213: -2637014366713478140
+    second: Attack4 1_101
+  - first:
+      213: -256752947192209065
+    second: Attack4 1_102
+  - first:
+      213: -7437335207922638156
+    second: Attack4 1_103
+  - first:
+      213: 4530165471297536994
+    second: Attack4 1_104
+  - first:
+      213: 1541480205129921860
+    second: Attack4 1_105
+  - first:
+      213: -3064415846277062503
+    second: Attack4 1_106
+  - first:
+      213: 8421621973726194561
+    second: Attack4 1_107
+  - first:
+      213: -1020429651350804724
+    second: Attack4 1_108
+  - first:
+      213: -2817156759345483249
+    second: Attack4 1_109
+  - first:
+      213: -4691473953860051897
+    second: Attack4 1_110
+  - first:
+      213: -1073463663797434699
+    second: Attack4 1_111
+  - first:
+      213: 1833564979581092793
+    second: Attack4 1_112
+  - first:
+      213: -9216264414620144635
+    second: Attack4 1_113
+  - first:
+      213: 794898552278018261
+    second: Attack4 1_114
+  - first:
+      213: -6414892931623334840
+    second: Attack4 1_115
+  - first:
+      213: 1127171107452291915
+    second: Attack4 1_116
+  - first:
+      213: -7297488366749635083
+    second: Attack4 1_117
+  - first:
+      213: 3431234172664430178
+    second: Attack4 1_118
+  - first:
+      213: 5638784152788161914
+    second: Attack4 1_119
+  - first:
+      213: -3856907888712215110
+    second: Attack4 1_120
+  - first:
+      213: -391586716666664625
+    second: Attack4 1_121
+  - first:
+      213: -6118252864966823375
+    second: Attack4 1_122
+  - first:
+      213: -3122252305437724530
+    second: Attack4 1_123
+  - first:
+      213: 4405148720976436853
+    second: Attack4 1_124
+  - first:
+      213: -5232636777893208576
+    second: Attack4 1_125
+  - first:
+      213: 7663755901013479438
+    second: Attack4 1_126
+  - first:
+      213: -2012819561275384990
+    second: Attack4 1_127
+  - first:
+      213: 5703723895691869189
+    second: Attack4 1_128
+  - first:
+      213: -2390431165347718702
+    second: Attack4 1_129
+  - first:
+      213: 8786066973787643084
+    second: Attack4 1_130
+  - first:
+      213: -2057043041531301092
+    second: Attack4 1_131
+  - first:
+      213: -1958619707746777565
+    second: Attack4 1_132
+  - first:
+      213: 552701801558546488
+    second: Attack4 1_133
+  - first:
+      213: 119887116190591278
+    second: Attack4 1_134
+  - first:
+      213: -9111188534531069814
+    second: Attack4 1_135
+  - first:
+      213: 1165474426523069051
+    second: Attack4 1_136
+  - first:
+      213: 7148240309802355597
+    second: Attack4 1_137
+  - first:
+      213: -2361101468148337121
+    second: Attack4 1_138
+  - first:
+      213: 5942060308663574087
+    second: Attack4 1_139
+  - first:
+      213: 8689896256696124914
+    second: Attack4 1_140
+  - first:
+      213: -406504187350537283
+    second: Attack4 1_141
+  - first:
+      213: 8377635823782744206
+    second: Attack4 1_142
+  - first:
+      213: -7640795496377957186
+    second: Attack4 1_143
+  - first:
+      213: -5050009520194879157
+    second: Attack4 1_144
+  - first:
+      213: -2519279176313194215
+    second: Attack4 1_145
+  - first:
+      213: -8269019134246140032
+    second: Attack4 1_146
+  - first:
+      213: -4697478015506473665
+    second: Attack4 1_147
+  - first:
+      213: -893219157329830716
+    second: Attack4 1_148
+  - first:
+      213: -1274330440875504121
+    second: Attack4 1_149
+  - first:
+      213: -2746285520693523501
+    second: Attack4 1_150
+  - first:
+      213: -1033464084725939958
+    second: Attack4 1_151
+  - first:
+      213: 4803270985625062188
+    second: Attack4 1_152
+  - first:
+      213: 3657707775018098902
+    second: Attack4 1_153
+  - first:
+      213: -4714669214740480072
+    second: Attack4 1_154
+  - first:
+      213: -7434091811935072182
+    second: Attack4 1_155
+  - first:
+      213: -7064944614512989991
+    second: Attack4 1_156
+  - first:
+      213: 2142076690499721039
+    second: Attack4 1_157
+  - first:
+      213: 5818891668589852012
+    second: Attack4 1_158
+  - first:
+      213: 7945469810055035242
+    second: Attack4 1_159
+  - first:
+      213: 8169640522396410512
+    second: Attack4 1_160
+  - first:
+      213: 1256278334958369984
+    second: Attack4 1_161
+  - first:
+      213: 9030011322458561113
+    second: Attack4 1_162
+  - first:
+      213: 7352263230374329835
+    second: Attack4 1_163
+  - first:
+      213: 3233563174237067913
+    second: Attack4 1_164
+  - first:
+      213: 6000326117253843140
+    second: Attack4 1_165
+  - first:
+      213: -7061145737042325421
+    second: Attack4 1_166
+  - first:
+      213: 8972842865706083953
+    second: Attack4 1_167
+  - first:
+      213: -569825137728042066
+    second: Attack4 1_168
+  - first:
+      213: -8120945885463210046
+    second: Attack4 1_169
+  - first:
+      213: 8661587441343600963
+    second: Attack4 1_170
+  - first:
+      213: 4405884579356732644
+    second: Attack4 1_171
+  - first:
+      213: -3730993557078337207
+    second: Attack4 1_172
+  - first:
+      213: 3662374258401298083
+    second: Attack4 1_173
+  - first:
+      213: -7606678374865302454
+    second: Attack4 1_174
+  - first:
+      213: -9164852490080896619
+    second: Attack4 1_175
+  - first:
+      213: -1775804142190956630
+    second: Attack4 1_176
+  - first:
+      213: -67492932807900433
+    second: Attack4 1_177
+  - first:
+      213: 7825372795141312352
+    second: Attack4 1_178
+  - first:
+      213: -6482108625994924351
+    second: Attack4 1_179
+  - first:
+      213: -4707635647929826799
+    second: Attack4 1_180
+  - first:
+      213: 505876738335858327
+    second: Attack4 1_181
+  - first:
+      213: 2456422154653318250
+    second: Attack4 1_182
+  - first:
+      213: 7467367991262689957
+    second: Attack4 1_183
+  - first:
+      213: 5979707343553869396
+    second: Attack4 1_184
+  - first:
+      213: 5226143978017771245
+    second: Attack4 1_185
+  - first:
+      213: -3564994078000296632
+    second: Attack4 1_186
+  - first:
+      213: -6861971681247081488
+    second: Attack4 1_187
+  - first:
+      213: 7703457680842083546
+    second: Attack4 1_188
+  - first:
+      213: 6913892042771128184
+    second: Attack4 1_189
+  - first:
+      213: -5728045494593860705
+    second: Attack4 1_190
+  - first:
+      213: 6525811509655683135
+    second: Attack4 1_191
+  - first:
+      213: -8398438642746695271
+    second: Attack4 1_192
+  - first:
+      213: 3412736522281816281
+    second: Attack4 1_193
+  - first:
+      213: -4310976035849325224
+    second: Attack4 1_194
+  - first:
+      213: -1448346270834315651
+    second: Attack4 1_195
+  - first:
+      213: 1501058570573199937
+    second: Attack4 1_196
+  - first:
+      213: -2613531142802416282
+    second: Attack4 1_197
+  - first:
+      213: 5716233869676574300
+    second: Attack4 1_198
+  - first:
+      213: 6746132390788794431
+    second: Attack4 1_199
+  - first:
+      213: 1638111961335555816
+    second: Attack4 1_200
+  - first:
+      213: 6806194074130468533
+    second: Attack4 1_201
+  - first:
+      213: 6413621103643517654
+    second: Attack4 1_202
+  - first:
+      213: -7817087127198252375
+    second: Attack4 1_203
+  - first:
+      213: 6902227333358358642
+    second: Attack4 1_204
+  - first:
+      213: -3090267278675294552
+    second: Attack4 1_205
+  - first:
+      213: 9204413258466510369
+    second: Attack4 1_206
+  - first:
+      213: -4624007486772255919
+    second: Attack4 1_207
+  - first:
+      213: -4100802768049351577
+    second: Attack4 1_208
+  - first:
+      213: -6911907526649963886
+    second: Attack4 1_209
+  - first:
+      213: -2005687617147436147
+    second: Attack4 1_210
+  - first:
+      213: -4925032016049165413
+    second: Attack4 1_211
+  - first:
+      213: 8878123484409200697
+    second: Attack4 1_212
+  - first:
+      213: 8121530192059879535
+    second: Attack4 1_213
+  - first:
+      213: -7615174498852634417
+    second: Attack4 1_214
+  - first:
+      213: 7170108585026711646
+    second: Attack4 1_215
+  - first:
+      213: 7153615513435324123
+    second: Attack4 1_216
+  - first:
+      213: -7887371076317642713
+    second: Attack4 1_217
+  - first:
+      213: -8369937559110699388
+    second: Attack4 1_218
+  - first:
+      213: 9218558939944757865
+    second: Attack4 1_219
+  - first:
+      213: 5968914677818231354
+    second: Attack4 1_220
+  - first:
+      213: 3199351749295236980
+    second: Attack4 1_221
+  - first:
+      213: -5065814480775179749
+    second: Attack4 1_222
+  - first:
+      213: -7279239516519881139
+    second: Attack4 1_223
+  - first:
+      213: -5377499879008770538
+    second: Attack4 1_224
+  - first:
+      213: -393340046241509096
+    second: Attack4 1_225
+  - first:
+      213: 6386310044615198174
+    second: Attack4 1_226
+  - first:
+      213: 7911933847746737219
+    second: Attack4 1_227
+  - first:
+      213: -7876448721664105806
+    second: Attack4 1_228
+  - first:
+      213: 5067431019855290692
+    second: Attack4 1_229
+  - first:
+      213: 752399494674613689
+    second: Attack4 1_230
+  - first:
+      213: -5817132717881313518
+    second: Attack4 1_231
+  - first:
+      213: -6831564980938602106
+    second: Attack4 1_232
+  - first:
+      213: 7018118255231957537
+    second: Attack4 1_233
+  - first:
+      213: 4911853423979930063
+    second: Attack4 1_234
+  - first:
+      213: -1922483856837361363
+    second: Attack4 1_235
+  - first:
+      213: -3107586541721215724
+    second: Attack4 1_236
+  - first:
+      213: 897387817623176583
+    second: Attack4 1_237
+  - first:
+      213: -3081774565588345718
+    second: Attack4 1_238
+  - first:
+      213: -2816629349167193704
+    second: Attack4 1_239
+  - first:
+      213: 9171387757490387475
+    second: Attack4 1_240
+  - first:
+      213: -3039756391998114333
+    second: Attack4 1_241
+  - first:
+      213: 2275020677727876154
+    second: Attack4 1_242
+  - first:
+      213: 8254092562864346025
+    second: Attack4 1_243
+  - first:
+      213: 8215109556131033644
+    second: Attack4 1_244
+  - first:
+      213: 4782703870869840193
+    second: Attack4 1_245
+  - first:
+      213: 2093946913331954933
+    second: Attack4 1_246
+  - first:
+      213: -6111017021943587619
+    second: Attack4 1_247
+  - first:
+      213: -3177256623622394459
+    second: Attack4 1_248
+  - first:
+      213: 6200561177715708318
+    second: Attack4 1_249
+  - first:
+      213: -2796392791897783423
+    second: Attack4 1_250
+  - first:
+      213: 8246944074603202570
+    second: Attack4 1_251
+  - first:
+      213: 5018419882223063607
+    second: Attack4 1_252
+  - first:
+      213: 5930246257176348221
+    second: Attack4 1_253
+  - first:
+      213: 8864996832209112893
+    second: Attack4 1_254
+  - first:
+      213: -8744318676256300076
+    second: Attack4 1_255
+  - first:
+      213: -6793033364218922439
+    second: Attack4 1_256
+  - first:
+      213: -7037789809454736833
+    second: Attack4 1_257
+  - first:
+      213: 1716656814978122088
+    second: Attack4 1_258
+  - first:
+      213: 7323832231005842422
+    second: Attack4 1_259
+  - first:
+      213: -6079389586355060100
+    second: Attack4 1_260
+  - first:
+      213: 6558328778446479987
+    second: Attack4 1_261
+  - first:
+      213: -4787135100266132780
+    second: Attack4 1_262
+  - first:
+      213: 9147051218409631195
+    second: Attack4 1_263
+  - first:
+      213: -8560162608024030221
+    second: Attack4 1_264
+  - first:
+      213: -3018550708076815179
+    second: Attack4 1_265
+  - first:
+      213: -4883945561347229415
+    second: Attack4 1_266
+  - first:
+      213: 364920545785768937
+    second: Attack4 1_267
+  - first:
+      213: -6354725504884222568
+    second: Attack4 1_268
+  - first:
+      213: -7033306627699822304
+    second: Attack4 1_269
+  - first:
+      213: 902593547365039194
+    second: Attack4 1_270
+  - first:
+      213: -3892925485064424248
+    second: Attack4 1_271
+  - first:
+      213: -5700913704752009234
+    second: Attack4 1_272
+  - first:
+      213: -793012724989081689
+    second: Attack4 1_273
+  - first:
+      213: -7867750974239913604
+    second: Attack4 1_274
+  - first:
+      213: 5126139980345128332
+    second: Attack4 1_275
+  - first:
+      213: 595983626325727363
+    second: Attack4 1_276
+  - first:
+      213: 6862297189421980476
+    second: Attack4 1_277
+  - first:
+      213: -4950925515354408659
+    second: Attack4 1_278
+  - first:
+      213: -3582081731004163862
+    second: Attack4 1_279
+  - first:
+      213: -3474780604828405538
+    second: Attack4 1_280
+  - first:
+      213: -1542017114636356248
+    second: Attack4 1_281
+  - first:
+      213: 3248940790780052234
+    second: Attack4 1_282
+  - first:
+      213: -2876923887606375087
+    second: Attack4 1_283
+  - first:
+      213: 6440911803655466986
+    second: Attack4 1_284
+  - first:
+      213: 3570945341128545975
+    second: Attack4 1_285
+  - first:
+      213: 7317237929949568486
+    second: Attack4 1_286
+  - first:
+      213: 3216222886215727125
+    second: Attack4 1_287
+  - first:
+      213: 7229401915818271919
+    second: Attack4 1_288
+  - first:
+      213: -6201666986581180516
+    second: Attack4 1_289
+  - first:
+      213: -3869303655210290530
+    second: Attack4 1_290
+  - first:
+      213: 2542697582650383945
+    second: Attack4 1_291
+  - first:
+      213: 7820861744238627143
+    second: Attack4 1_292
+  - first:
+      213: 1273060373497396402
+    second: Attack4 1_293
+  - first:
+      213: 5978913719914220762
+    second: Attack4 1_294
+  - first:
+      213: -8571545501076191298
+    second: Attack4 1_295
+  - first:
+      213: -3069485483291032605
+    second: Attack4 1_296
+  - first:
+      213: -1936766071864623584
+    second: Attack4 1_297
+  - first:
+      213: -1307783959102248016
+    second: Attack4 1_298
+  - first:
+      213: -7751087717943089263
+    second: Attack4 1_299
+  - first:
+      213: 5608754329095674153
+    second: Attack4 1_300
+  - first:
+      213: 5787517522179842973
+    second: Attack4 1_301
+  - first:
+      213: -3192288031431047028
+    second: Attack4 1_302
+  - first:
+      213: -3984877399985867820
+    second: Attack4 1_303
+  - first:
+      213: 4191872828518884814
+    second: Attack4 1_304
+  - first:
+      213: -497224679258330782
+    second: Attack4 1_305
+  - first:
+      213: 6827756730038299377
+    second: Attack4 1_306
+  - first:
+      213: 8729655104904554970
+    second: Attack4 1_307
+  - first:
+      213: -5422437007677899503
+    second: Attack4 1_308
+  - first:
+      213: -1250487262266927331
+    second: Attack4 1_309
+  - first:
+      213: -8268121039059729901
+    second: Attack4 1_310
+  - first:
+      213: 5945751481623088029
+    second: Attack4 1_311
+  - first:
+      213: 8630978945562243517
+    second: Attack4 1_312
+  - first:
+      213: 8504868153645814452
+    second: Attack4 1_313
+  - first:
+      213: -3599839193343139498
+    second: Attack4 1_314
+  - first:
+      213: 1753643029335492808
+    second: Attack4 1_315
+  - first:
+      213: 4002686712195638314
+    second: Attack4 1_316
+  - first:
+      213: 8696819029268961115
+    second: Attack4 1_317
+  - first:
+      213: 3939039360255833854
+    second: Attack4 1_318
+  - first:
+      213: 113833883227135425
+    second: Attack4 1_319
+  - first:
+      213: -5673163802314203382
+    second: Attack4 1_320
+  - first:
+      213: 683057878649310055
+    second: Attack4 1_321
+  - first:
+      213: -5980048343572201752
+    second: Attack4 1_322
+  - first:
+      213: -6332051407772327786
+    second: Attack4 1_323
+  - first:
+      213: 8311459906963469711
+    second: Attack4 1_324
+  - first:
+      213: 1566803377997108860
+    second: Attack4 1_325
+  - first:
+      213: -4305278544898875974
+    second: Attack4 1_326
+  - first:
+      213: 8009222252653669349
+    second: Attack4 1_327
+  - first:
+      213: -2909995652238368094
+    second: Attack4 1_328
+  - first:
+      213: -8097165657594980383
+    second: Attack4 1_329
+  - first:
+      213: -1786650296936068164
+    second: Attack4 1_330
+  - first:
+      213: -4975627428434534105
+    second: Attack4 1_331
+  - first:
+      213: -4679569208315465108
+    second: Attack4 1_332
+  - first:
+      213: -429607750557884719
+    second: Attack4 1_333
+  - first:
+      213: 5293319508280941949
+    second: Attack4 1_334
+  - first:
+      213: 5245751959354749748
+    second: Attack4 1_335
+  - first:
+      213: 2564025951006922341
+    second: Attack4 1_336
+  - first:
+      213: 6685340600311666068
+    second: Attack4 1_337
+  - first:
+      213: -7233690335991680831
+    second: Attack4 1_338
+  - first:
+      213: -5100569280738824030
+    second: Attack4 1_339
+  - first:
+      213: 1989602428497842983
+    second: Attack4 1_340
+  - first:
+      213: 5120450560064661302
+    second: Attack4 1_341
+  - first:
+      213: 222369166483293083
+    second: Attack4 1_342
+  - first:
+      213: 2528290168776045426
+    second: Attack4 1_343
+  - first:
+      213: -2048378421881772884
+    second: Attack4 1_344
+  - first:
+      213: 4352996457745397614
+    second: Attack4 1_345
+  - first:
+      213: -2904878981553685981
+    second: Attack4 1_346
+  - first:
+      213: 2110194622435841037
+    second: Attack4 1_347
+  - first:
+      213: 601856587673139574
+    second: Attack4 1_348
+  - first:
+      213: 3806635188344684836
+    second: Attack4 1_349
+  - first:
+      213: -7588034412760867660
+    second: Attack4 1_350
+  - first:
+      213: 1196688514049288597
+    second: Attack4 1_351
+  - first:
+      213: 8501533862426582777
+    second: Attack4 1_352
+  - first:
+      213: -8242085258059969733
+    second: Attack4 1_353
+  - first:
+      213: -1344742512146152273
+    second: Attack4 1_354
+  - first:
+      213: -3997073094134653765
+    second: Attack4 1_355
+  - first:
+      213: 4144336183831847204
+    second: Attack4 1_356
+  - first:
+      213: 5038166229695053787
+    second: Attack4 1_357
+  - first:
+      213: 7779662171212347346
+    second: Attack4 1_358
+  - first:
+      213: -3534042494732540469
+    second: Attack4 1_359
+  - first:
+      213: 8971871464251282860
+    second: Attack4 1_360
+  - first:
+      213: 4086096827618089599
+    second: Attack4 1_361
+  - first:
+      213: -2145912546114815545
+    second: Attack4 1_362
+  - first:
+      213: 3485685453341735264
+    second: Attack4 1_363
+  - first:
+      213: -3190833949782730902
+    second: Attack4 1_364
+  - first:
+      213: -4565912115126410232
+    second: Attack4 1_365
+  - first:
+      213: 4215645876304395422
+    second: Attack4 1_366
+  - first:
+      213: 5875551680535834418
+    second: Attack4 1_367
+  - first:
+      213: -8012838497636076152
+    second: Attack4 1_368
+  - first:
+      213: -6169262322348704004
+    second: Attack4 1_369
+  - first:
+      213: 8826676109753458628
+    second: Attack4 1_370
+  - first:
+      213: -7096304314274809114
+    second: Attack4 1_371
+  - first:
+      213: -9085905307466998791
+    second: Attack4 1_372
+  - first:
+      213: 1469583966458463320
+    second: Attack4 1_373
+  - first:
+      213: 2735160065933130261
+    second: Attack4 1_374
+  - first:
+      213: 3702243839718794997
+    second: Attack4 1_375
+  - first:
+      213: 6873660188957156844
+    second: Attack4 1_376
+  - first:
+      213: -1591534515709191718
+    second: Attack4 1_377
+  - first:
+      213: 7201980956408866760
+    second: Attack4 1_378
+  - first:
+      213: 6369028623278815198
+    second: Attack4 1_379
+  - first:
+      213: 7693754775528935591
+    second: Attack4 1_380
+  - first:
+      213: 8531763458128503950
+    second: Attack4 1_381
+  - first:
+      213: -7432949965061233642
+    second: Attack4 1_382
+  - first:
+      213: 4298797763528973309
+    second: Attack4 1_383
+  - first:
+      213: -9213209894233245036
+    second: Attack4 1_384
+  - first:
+      213: 5018175963382086424
+    second: Attack4 1_385
+  - first:
+      213: 3394899986805981264
+    second: Attack4 1_386
+  - first:
+      213: -5171147315674516194
+    second: Attack4 1_387
+  - first:
+      213: -24508496535989417
+    second: Attack4 1_388
+  - first:
+      213: -1753480559854095319
+    second: Attack4 1_389
+  - first:
+      213: 2978808356130174741
+    second: Attack4 1_390
+  - first:
+      213: 5649606787891686417
+    second: Attack4 1_391
+  - first:
+      213: 3870818350225550182
+    second: Attack4 1_392
+  - first:
+      213: -1218945312950666142
+    second: Attack4 1_393
+  - first:
+      213: 7925095857393560431
+    second: Attack4 1_394
+  - first:
+      213: 1556451045357648240
+    second: Attack4 1_395
+  - first:
+      213: 1977987397415355562
+    second: Attack4 1_396
+  - first:
+      213: 2420141467285687323
+    second: Attack4 1_397
+  - first:
+      213: 2912130518261314139
+    second: Attack4 1_398
+  - first:
+      213: -5539128599627440218
+    second: Attack4 1_399
+  - first:
+      213: 6372236799590730513
+    second: Attack4 1_400
+  - first:
+      213: 2798781860981086556
+    second: Attack4 1_401
+  - first:
+      213: -6158687597888579603
+    second: Attack4 1_402
+  - first:
+      213: 2493744742138386838
+    second: Attack4 1_403
+  - first:
+      213: 1665239138964523624
+    second: Attack4 1_404
+  - first:
+      213: -7716594942669468297
+    second: Attack4 1_405
+  - first:
+      213: -8656805002358903650
+    second: Attack4 1_406
+  - first:
+      213: -2443405613444792181
+    second: Attack4 1_407
+  - first:
+      213: -6311757492397334457
+    second: Attack4 1_408
+  - first:
+      213: -2095642030539536240
+    second: Attack4 1_409
+  - first:
+      213: 3702738127737262823
+    second: Attack4 1_410
+  - first:
+      213: 8697398422313609707
+    second: Attack4 1_411
+  - first:
+      213: 4154574211732657609
+    second: Attack4 1_412
+  - first:
+      213: 7528497165657468216
+    second: Attack4 1_413
+  - first:
+      213: 8339774787051069977
+    second: Attack4 1_414
+  - first:
+      213: -1096065431151407359
+    second: Attack4 1_415
+  - first:
+      213: 6318765604693332524
+    second: Attack4 1_416
+  - first:
+      213: -2573852508573967753
+    second: Attack4 1_417
+  - first:
+      213: 5252909529191272358
+    second: Attack4 1_418
+  - first:
+      213: 9099858381052690238
+    second: Attack4 1_419
+  - first:
+      213: 3296485649258636359
+    second: Attack4 1_420
+  - first:
+      213: -3473231175193857672
+    second: Attack4 1_421
+  - first:
+      213: 2000067238368553562
+    second: Attack4 1_422
+  - first:
+      213: 4733490592549428437
+    second: Attack4 1_423
+  - first:
+      213: -7604901907544882749
+    second: Attack4 1_424
+  - first:
+      213: -3662612901752361933
+    second: Attack4 1_425
+  - first:
+      213: 6684265040023333849
+    second: Attack4 1_426
+  - first:
+      213: -2024830148453496022
+    second: Attack4 1_427
+  - first:
+      213: -7350202176310840215
+    second: Attack4 1_428
+  - first:
+      213: -8544451177948198433
+    second: Attack4 1_429
+  - first:
+      213: -1552558381406848454
+    second: Attack4 1_430
+  - first:
+      213: -4118462114335646650
+    second: Attack4 1_431
+  - first:
+      213: 2621331620467229654
+    second: Attack4 1_432
+  - first:
+      213: 1386066905622971313
+    second: Attack4 1_433
+  - first:
+      213: 7482440521551671877
+    second: Attack4 1_434
+  - first:
+      213: 4265255637937960023
+    second: Attack4 1_435
+  - first:
+      213: -8285902092184194380
+    second: Attack4 1_436
+  - first:
+      213: -2259446090835857664
+    second: Attack4 1_437
+  - first:
+      213: 6743880838990127044
+    second: Attack4 1_438
+  - first:
+      213: -8604214160029968353
+    second: Attack4 1_439
+  - first:
+      213: -6948905169691355668
+    second: Attack4 1_440
+  - first:
+      213: -7998773708551721704
+    second: Attack4 1_441
+  - first:
+      213: 2282044051779011603
+    second: Attack4 1_442
+  - first:
+      213: 1093096712475197544
+    second: Attack4 1_443
+  - first:
+      213: 5374371211038207293
+    second: Attack4 1_444
+  - first:
+      213: -8607702639657733554
+    second: Attack4 1_445
+  - first:
+      213: -5845998637572461250
+    second: Attack4 1_446
+  - first:
+      213: 2385873039111149558
+    second: Attack4 1_447
+  - first:
+      213: -689612026888629213
+    second: Attack4 1_448
+  - first:
+      213: -3158722124326037941
+    second: Attack4 1_449
+  - first:
+      213: -499493282835974504
+    second: Attack4 1_450
+  - first:
+      213: 6411456745071141356
+    second: Attack4 1_451
+  - first:
+      213: 3627170865560427749
+    second: Attack4 1_452
+  - first:
+      213: -6710747291670216548
+    second: Attack4 1_453
+  - first:
+      213: -8691100980657211238
+    second: Attack4 1_454
+  - first:
+      213: -979322184139833431
+    second: Attack4 1_455
+  - first:
+      213: -1377445630146254810
+    second: Attack4 1_456
+  - first:
+      213: 407888757315507167
+    second: Attack4 1_457
+  - first:
+      213: -1577186654133611447
+    second: Attack4 1_458
+  - first:
+      213: 3805044033734458796
+    second: Attack4 1_459
+  - first:
+      213: 1328512221422038712
+    second: Attack4 1_460
+  - first:
+      213: 4591635210295397090
+    second: Attack4 1_461
+  - first:
+      213: -8197670313665472295
+    second: Attack4 1_462
+  - first:
+      213: -7676265413664613039
+    second: Attack4 1_463
+  - first:
+      213: -1943602971009740180
+    second: Attack4 1_464
+  - first:
+      213: 5890142188809275412
+    second: Attack4 1_465
+  - first:
+      213: 1558479587379506779
+    second: Attack4 1_466
+  - first:
+      213: 6927071736752274593
+    second: Attack4 1_467
+  - first:
+      213: 6250886686099211855
+    second: Attack4 1_468
+  - first:
+      213: 7443629239219361750
+    second: Attack4 1_469
+  - first:
+      213: -260057018208717050
+    second: Attack4 1_470
+  - first:
+      213: -3915673659523127255
+    second: Attack4 1_471
+  - first:
+      213: -5060740098258404522
+    second: Attack4 1_472
+  - first:
+      213: -2332478209810413823
+    second: Attack4 1_473
+  - first:
+      213: -8462810125966139492
+    second: Attack4 1_474
+  - first:
+      213: 2796947836728566919
+    second: Attack4 1_475
+  - first:
+      213: -4112209676943464361
+    second: Attack4 1_476
+  - first:
+      213: 8484801387843053455
+    second: Attack4 1_477
+  - first:
+      213: 3253977027520750136
+    second: Attack4 1_478
+  - first:
+      213: 8497837515114740549
+    second: Attack4 1_479
+  - first:
+      213: -7738823299013385691
+    second: Attack4 1_480
+  - first:
+      213: -8848138020698514743
+    second: Attack4 1_481
+  - first:
+      213: -2330244069430417596
+    second: Attack4 1_482
+  - first:
+      213: -1554041679758161822
+    second: Attack4 1_483
+  - first:
+      213: -8543332295431315808
+    second: Attack4 1_484
+  - first:
+      213: -425635155879609584
+    second: Attack4 1_485
+  - first:
+      213: -7358425684243991525
+    second: Attack4 1_486
+  - first:
+      213: -4365541785871828576
+    second: Attack4 1_487
+  - first:
+      213: 9160028202103058315
+    second: Attack4 1_488
+  - first:
+      213: -6785764122246003989
+    second: Attack4 1_489
+  - first:
+      213: -8551256105719291877
+    second: Attack4 1_490
+  - first:
+      213: -8521546205218819035
+    second: Attack4 1_491
+  - first:
+      213: 7195590601846321841
+    second: Attack4 1_492
+  - first:
+      213: -1044573247767884893
+    second: Attack4 1_493
+  - first:
+      213: 555669033540641337
+    second: Attack4 1_494
+  - first:
+      213: 2832422577019772573
+    second: Attack4 1_495
+  - first:
+      213: -4188694986215469433
+    second: Attack4 1_496
+  - first:
+      213: -3365075012579630917
+    second: Attack4 1_497
+  - first:
+      213: 6873049035064578553
+    second: Attack4 1_498
+  - first:
+      213: 1345434583612634013
+    second: Attack4 1_499
+  - first:
+      213: 8952233915980682318
+    second: Attack4 1_500
+  - first:
+      213: -6021866661550108318
+    second: Attack4 1_501
+  - first:
+      213: 4870873260447282849
+    second: Attack4 1_502
+  - first:
+      213: 1462076656084113724
+    second: Attack4 1_503
+  - first:
+      213: 6251919645445847269
+    second: Attack4 1_504
+  - first:
+      213: 6289179171325424809
+    second: Attack4 1_505
+  - first:
+      213: 2167958582921224893
+    second: Attack4 1_506
+  - first:
+      213: 4898629147768420296
+    second: Attack4 1_507
+  - first:
+      213: -8770841656281411622
+    second: Attack4 1_508
+  - first:
+      213: 8933177455766310129
+    second: Attack4 1_509
+  - first:
+      213: -7909482653246213140
+    second: Attack4 1_510
+  - first:
+      213: -6400947774461460716
+    second: Attack4 1_511
+  - first:
+      213: -2260904904756207065
+    second: Attack4 1_512
+  - first:
+      213: 708422688620434805
+    second: Attack4 1_513
+  - first:
+      213: -700492182491238742
+    second: Attack4 1_514
+  - first:
+      213: 7931149449813880486
+    second: Attack4 1_515
+  - first:
+      213: 7463898174555382681
+    second: Attack4 1_516
+  - first:
+      213: 8384076458903598976
+    second: Attack4 1_517
+  - first:
+      213: 3231881443909229077
+    second: Attack4 1_518
+  - first:
+      213: 2357824520702269981
+    second: Attack4 1_519
+  - first:
+      213: 396410712087487519
+    second: Attack4 1_520
+  - first:
+      213: -9120449667248272005
+    second: Attack4 1_521
+  - first:
+      213: -7133001650518437052
+    second: Attack4 1_522
+  - first:
+      213: 1337372974186736310
+    second: Attack4 1_523
+  - first:
+      213: -1140949025961568538
+    second: Attack4 1_524
+  - first:
+      213: 7753176620936862480
+    second: Attack4 1_525
+  - first:
+      213: 3719180368135617080
+    second: Attack4 1_526
+  - first:
+      213: 1759110440765337666
+    second: Attack4 1_527
+  - first:
+      213: 2885023091439544464
+    second: Attack4 1_528
+  - first:
+      213: 2168018012368245180
+    second: Attack4 1_529
+  - first:
+      213: 7029315391678249170
+    second: Attack4 1_530
+  - first:
+      213: -7549657332371602853
+    second: Attack4 1_531
+  - first:
+      213: -5906837213854932632
+    second: Attack4 1_532
+  - first:
+      213: 679120607614953291
+    second: Attack4 1_533
+  - first:
+      213: 3778117927639841268
+    second: Attack4 1_534
+  - first:
+      213: -3268727373907113195
+    second: Attack4 1_535
+  - first:
+      213: 4835931929353734486
+    second: Attack4 1_536
+  - first:
+      213: -2276487468596832285
+    second: Attack4 1_537
+  - first:
+      213: -3180870132311120813
+    second: Attack4 1_538
+  - first:
+      213: 1055459100889301045
+    second: Attack4 1_539
+  - first:
+      213: -5855167993068297090
+    second: Attack4 1_540
+  - first:
+      213: -1313375485414682196
+    second: Attack4 1_541
+  - first:
+      213: -6222630128971390501
+    second: Attack4 1_542
+  - first:
+      213: -3780112159820607097
+    second: Attack4 1_543
+  - first:
+      213: -1132899401434025398
+    second: Attack4 1_544
+  - first:
+      213: -7069756801584434688
+    second: Attack4 1_545
+  - first:
+      213: 1081545933778445
+    second: Attack4 1_546
+  - first:
+      213: -3642593920486830334
+    second: Attack4 1_547
+  - first:
+      213: -4147542569810998818
+    second: Attack4 1_548
+  - first:
+      213: 4558341658763599571
+    second: Attack4 1_549
+  - first:
+      213: -2040735142644962197
+    second: Attack4 1_550
+  - first:
+      213: -2412980844985250199
+    second: Attack4 1_551
+  - first:
+      213: 1270423502707350341
+    second: Attack4 1_552
+  - first:
+      213: -609555694616109308
+    second: Attack4 1_553
+  - first:
+      213: 4097252295286362127
+    second: Attack4 1_554
+  - first:
+      213: -5190489933752252413
+    second: Attack4 1_555
+  - first:
+      213: -1123098784686414263
+    second: Attack4 1_556
+  - first:
+      213: 4690199808393933320
+    second: Attack4 1_557
+  - first:
+      213: 7954329522048238649
+    second: Attack4 1_558
+  - first:
+      213: 729929687138587286
+    second: Attack4 1_559
+  - first:
+      213: -4654139597905610040
+    second: Attack4 1_560
+  - first:
+      213: 8356625158011010255
+    second: Attack4 1_561
+  - first:
+      213: 6687315558272549522
+    second: Attack4 1_562
+  - first:
+      213: -3952538045005114807
+    second: Attack4 1_563
+  - first:
+      213: -7453782348140603781
+    second: Attack4 1_564
+  - first:
+      213: -54764250404599958
+    second: Attack4 1_565
+  - first:
+      213: 6859072707990211533
+    second: Attack4 1_566
+  - first:
+      213: -7253191374517358329
+    second: Attack4 1_567
+  - first:
+      213: 6529179258742420850
+    second: Attack4 1_568
+  - first:
+      213: -5778830693942879586
+    second: Attack4 1_569
+  - first:
+      213: 8160932094823500928
+    second: Attack4 1_570
+  - first:
+      213: -545614204291478771
+    second: Attack4 1_571
+  - first:
+      213: -3010634769637193311
+    second: Attack4 1_572
+  - first:
+      213: -2863144863061757001
+    second: Attack4 1_573
+  - first:
+      213: 1014013937934807209
+    second: Attack4 1_574
+  - first:
+      213: 8673402260238817929
+    second: Attack4 1_575
+  - first:
+      213: 6364068468621934164
+    second: Attack4 1_576
+  - first:
+      213: 3317594563609264745
+    second: Attack4 1_577
+  - first:
+      213: 2681196750654071573
+    second: Attack4 1_578
+  - first:
+      213: -2403932687430314561
+    second: Attack4 1_579
+  - first:
+      213: -7486012017465561062
+    second: Attack4 1_580
+  - first:
+      213: 8041598551541767005
+    second: Attack4 1_581
+  - first:
+      213: 2593697551175393595
+    second: Attack4 1_582
+  - first:
+      213: -3188874974667616026
+    second: Attack4 1_583
+  - first:
+      213: -2406467174206490857
+    second: Attack4 1_584
+  - first:
+      213: 362363435651898275
+    second: Attack4 1_585
+  - first:
+      213: -3318033454965118485
+    second: Attack4 1_586
+  - first:
+      213: -1149632688655242234
+    second: Attack4 1_587
+  - first:
+      213: -4989691914906649055
+    second: Attack4 1_588
+  - first:
+      213: -2813710238908939816
+    second: Attack4 1_589
+  - first:
+      213: -5779768568994819421
+    second: Attack4 1_590
+  - first:
+      213: -6068942450504760399
+    second: Attack4 1_591
+  - first:
+      213: -396520023601336476
+    second: Attack4 1_592
+  - first:
+      213: 5930604845560042369
+    second: Attack4 1_593
+  - first:
+      213: -846030239079561877
+    second: Attack4 1_594
+  - first:
+      213: -6754724914264410592
+    second: Attack4 1_595
+  - first:
+      213: -2811080592227839603
+    second: Attack4 1_596
+  - first:
+      213: -1152894242318134348
+    second: Attack4 1_597
+  - first:
+      213: -4159492397262196259
+    second: Attack4 1_598
+  - first:
+      213: -290345137474035817
+    second: Attack4 1_599
+  - first:
+      213: 8132658202642749064
+    second: Attack4 1_600
+  - first:
+      213: -992020518746553704
+    second: Attack4 1_601
+  - first:
+      213: 7628693200772245743
+    second: Attack4 1_602
+  - first:
+      213: 4687331971506789590
+    second: Attack4 1_603
+  - first:
+      213: -6381443723352518120
+    second: Attack4 1_604
+  - first:
+      213: 1689484115737836633
+    second: Attack4 1_605
+  - first:
+      213: 4612766068349669694
+    second: Attack4 1_606
+  - first:
+      213: -7004623644906065773
+    second: Attack4 1_607
+  - first:
+      213: 2535852426943314397
+    second: Attack4 1_608
+  - first:
+      213: -7309168221755858702
+    second: Attack4 1_609
+  - first:
+      213: 5203118777140665708
+    second: Attack4 1_610
+  - first:
+      213: -7041661962049630503
+    second: Attack4 1_611
+  - first:
+      213: 5325818338397845499
+    second: Attack4 1_612
+  - first:
+      213: -1059133866416673477
+    second: Attack4 1_613
+  - first:
+      213: -8631660781998528379
+    second: Attack4 1_614
+  - first:
+      213: -8550254701688425148
+    second: Attack4 1_615
+  - first:
+      213: 5590412719214537691
+    second: Attack4 1_616
+  - first:
+      213: -1910539580565944919
+    second: Attack4 1_617
+  - first:
+      213: -7868054073004675024
+    second: Attack4 1_618
+  - first:
+      213: 7972634698012433749
+    second: Attack4 1_619
+  - first:
+      213: 290564325341639554
+    second: Attack4 1_620
+  - first:
+      213: 7552916799014605373
+    second: Attack4 1_621
+  - first:
+      213: -978036067204884713
+    second: Attack4 1_622
+  - first:
+      213: 8160267618823981778
+    second: Attack4 1_623
+  - first:
+      213: 1401768167475963485
+    second: Attack4 1_624
+  - first:
+      213: 1690800715521178657
+    second: Attack4 1_625
+  - first:
+      213: 5665313134810418703
+    second: Attack4 1_626
+  - first:
+      213: 5376879888369820048
+    second: Attack4 1_627
+  - first:
+      213: 7009302936919124513
+    second: Attack4 1_628
+  - first:
+      213: -9158964175839718998
+    second: Attack4 1_629
+  - first:
+      213: -1238458705145931824
+    second: Attack4 1_630
+  - first:
+      213: -3863356225278991691
+    second: Attack4 1_631
+  - first:
+      213: -8674964727679310749
+    second: Attack4 1_632
+  - first:
+      213: 6689349645171083034
+    second: Attack4 1_633
+  - first:
+      213: 5432958970082448490
+    second: Attack4 1_634
+  - first:
+      213: 3521895075397185079
+    second: Attack4 1_635
+  - first:
+      213: -8186117395032500194
+    second: Attack4 1_636
+  - first:
+      213: -8443217301540333589
+    second: Attack4 1_637
+  - first:
+      213: 844183199649076536
+    second: Attack4 1_638
+  - first:
+      213: 592412599897358042
+    second: Attack4 1_639
+  - first:
+      213: 2719563416913890710
+    second: Attack4 1_640
+  - first:
+      213: -626043199993909680
+    second: Attack4 1_641
+  - first:
+      213: 5266474895138302966
+    second: Attack4 1_642
+  - first:
+      213: 7193713909723732181
+    second: Attack4 1_643
+  - first:
+      213: -2304208844159035447
+    second: Attack4 1_644
+  - first:
+      213: -2249793381868819551
+    second: Attack4 1_645
+  - first:
+      213: 1915584218126370506
+    second: Attack4 1_646
+  - first:
+      213: 197388863312757837
+    second: Attack4 1_647
+  - first:
+      213: -6081548262997423875
+    second: Attack4 1_648
+  - first:
+      213: 3858723576296198717
+    second: Attack4 1_649
+  - first:
+      213: -9133359934536696304
+    second: Attack4 1_650
+  - first:
+      213: 2326107771814866262
+    second: Attack4 1_651
+  - first:
+      213: -8747296692091016492
+    second: Attack4 1_652
+  - first:
+      213: -6081963542821033917
+    second: Attack4 1_653
+  - first:
+      213: 2421589726679398399
+    second: Attack4 1_654
+  - first:
+      213: -8791777927166151960
+    second: Attack4 1_655
+  - first:
+      213: -2371642822793805094
+    second: Attack4 1_656
+  - first:
+      213: 317609753002341033
+    second: Attack4 1_657
+  - first:
+      213: -7109955772345427606
+    second: Attack4 1_658
+  - first:
+      213: 7628151997428480270
+    second: Attack4 1_659
+  - first:
+      213: 5816849050401795080
+    second: Attack4 1_660
+  - first:
+      213: 5074957123358634790
+    second: Attack4 1_661
+  - first:
+      213: -7563595218346752451
+    second: Attack4 1_662
+  - first:
+      213: -8299268359799784125
+    second: Attack4 1_663
+  - first:
+      213: 6561353592284784415
+    second: Attack4 1_664
+  - first:
+      213: -3885747551500542427
+    second: Attack4 1_665
+  - first:
+      213: -3811802534082964990
+    second: Attack4 1_666
+  - first:
+      213: -4032803330263610360
+    second: Attack4 1_667
+  - first:
+      213: 3372176112628908981
+    second: Attack4 1_668
+  - first:
+      213: 5882616814653150277
+    second: Attack4 1_669
+  - first:
+      213: -1549178014590391436
+    second: Attack4 1_670
+  - first:
+      213: 6254585448950968932
+    second: Attack4 1_671
+  - first:
+      213: 8950927687935366093
+    second: Attack4 1_672
+  - first:
+      213: -5606852064814382271
+    second: Attack4 1_673
+  - first:
+      213: -8579154923564017822
+    second: Attack4 1_674
+  - first:
+      213: 3472256727600886233
+    second: Attack4 1_675
+  - first:
+      213: -7342691924557932648
+    second: Attack4 1_676
+  - first:
+      213: 4183225979074807547
+    second: Attack4 1_677
+  - first:
+      213: -7982287144752387630
+    second: Attack4 1_678
+  - first:
+      213: 5253450427512267145
+    second: Attack4 1_679
+  - first:
+      213: 6492863925453309730
+    second: Attack4 1_680
+  - first:
+      213: -8479631899776993266
+    second: Attack4 1_681
+  - first:
+      213: -1135369041583182117
+    second: Attack4 1_682
+  - first:
+      213: 6235390279554920086
+    second: Attack4 1_683
+  - first:
+      213: 8406018208681290828
+    second: Attack4 1_684
+  - first:
+      213: 6718387677921018775
+    second: Attack4 1_685
+  - first:
+      213: -3047011907033591095
+    second: Attack4 1_686
+  - first:
+      213: 2806519584614142359
+    second: Attack4 1_687
+  - first:
+      213: -2491590230877085738
+    second: Attack4 1_688
+  - first:
+      213: 2474988656376556384
+    second: Attack4 1_689
+  - first:
+      213: -4497633798620993196
+    second: Attack4 1_690
+  - first:
+      213: -7869961909876746843
+    second: Attack4 1_691
+  - first:
+      213: 922645123281461412
+    second: Attack4 1_692
+  - first:
+      213: -1817151823267054025
+    second: Attack4 1_693
+  - first:
+      213: -8961129155251651637
+    second: Attack4 1_694
+  - first:
+      213: -5551481197995286504
+    second: Attack4 1_695
+  - first:
+      213: -4774654425321178746
+    second: Attack4 1_696
+  - first:
+      213: -1697006514786368732
+    second: Attack4 1_697
+  - first:
+      213: 7631262892824618822
+    second: Attack4 1_698
+  - first:
+      213: -6053970781066532852
+    second: Attack4 1_699
+  - first:
+      213: 7601417303692610381
+    second: Attack4 1_700
+  - first:
+      213: 6210137797646910885
+    second: Attack4 1_701
+  - first:
+      213: -4123772318298626341
+    second: Attack4 1_702
+  - first:
+      213: 7252155670253534573
+    second: Attack4 1_703
+  - first:
+      213: -9187512948895407998
+    second: Attack4 1_704
+  - first:
+      213: 2400378287004246453
+    second: Attack4 1_705
+  - first:
+      213: -1192650854114625875
+    second: Attack4 1_706
+  - first:
+      213: 412957481045436939
+    second: Attack4 1_707
+  - first:
+      213: -1774386540244701571
+    second: Attack4 1_708
+  - first:
+      213: 3441877813139201460
+    second: Attack4 1_709
+  - first:
+      213: -8013680613455035970
+    second: Attack4 1_710
+  - first:
+      213: 4710864008459178783
+    second: Attack4 1_711
+  - first:
+      213: -8404131977605536326
+    second: Attack4 1_712
+  - first:
+      213: 315870345943054107
+    second: Attack4 1_713
+  - first:
+      213: -5944289050415076296
+    second: Attack4 1_714
+  - first:
+      213: 42887542152977911
+    second: Attack4 1_715
+  - first:
+      213: -4971118632629261485
+    second: Attack4 1_716
+  - first:
+      213: 3662054046747462494
+    second: Attack4 1_717
+  - first:
+      213: 6854879068878210088
+    second: Attack4 1_718
+  - first:
+      213: 8334966618440960790
+    second: Attack4 1_719
+  - first:
+      213: -4831250691668387667
+    second: Attack4 1_720
+  - first:
+      213: 5492237285758608375
+    second: Attack4 1_721
+  - first:
+      213: -3937601468246381567
+    second: Attack4 1_722
+  - first:
+      213: -3962927758506113907
+    second: Attack4 1_723
+  - first:
+      213: 8818662496271086565
+    second: Attack4 1_724
+  - first:
+      213: 1861582183027922564
+    second: Attack4 1_725
+  - first:
+      213: 6017203553400403330
+    second: Attack4 1_726
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PowerUp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aa7813e265fb841b19d34e2f4652b9
+      internalID: -673067676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62c146e37443ec4d965681fe65ae95b
+      internalID: -215338526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccead4309d3d1d47b44eb34ab5fb0ff
+      internalID: 1764000967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806d5a971b5e2bd458b0d4699e63ee0f
+      internalID: 994873065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fef224877ab0e4391a8c07d928205a
+      internalID: -2085958657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fa31de9dc44814b9f3f8f6c9ee679c
+      internalID: 1919638592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa97a49395f607f409338e0c86590aa7
+      internalID: 1478719243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fec0a3e414a4d449e703ced91dcc46
+      internalID: -777511598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a85e64a5fd16c44daf0ec735083919e
+      internalID: -1355858477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39856489fddf2f429a3e4ce85a89265
+      internalID: -394925422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c278073c983d9d14f8b4b45e0b9f631f
+      internalID: 1732209302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b2573014980342b834f97696e7075
+      internalID: -1860153461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c30037c9115fbe4e8728a653ed8128d
+      internalID: 494900967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5aa2dd9571a8d4fb04eab0a73acc75
+      internalID: -1914151807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e414f3fd0d78924b9e9fca3299a33ea
+      internalID: -2050635883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124133a5d1fbe046aacee2e6488f878
+      internalID: 1578417149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae733da7d59f344ab3f2eab7bc8ec48
+      internalID: 690111063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96deef6335b10c459e8252bb3a39a78
+      internalID: -2046259601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9d79e24d857647bbd538094e8ef32
+      internalID: 44376190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0005efde3abf4f46a1fdbda6a7a6b5c
+      internalID: 1260698553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b0c560790d8c144bb5d1c166f29072
+      internalID: -997138273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4773e949cac248bbf2d61a9bfda87
+      internalID: -272745388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7fc36b1c4aae4fbb4de4f028e88a8
+      internalID: 851405415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3983d5ffde0861a498dfe1e624b93db8
+      internalID: -821788963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6188b2792c071704aba145b95ae91a6a
+      internalID: -689897669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d3393b4ab5d54696b0ef966465ef3
+      internalID: -758071269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db910408b7a558479dfdc5ade261c13
+      internalID: -258437518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b8f6923d3e9244d99fb215d575c083
+      internalID: 37283272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5046c8e383c0e64faf175b923e01ed8
+      internalID: -1401160072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa573eb419b8043bb3a3cb45a21aad
+      internalID: 876188888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb1e2dc2486dd46b9048f734c1f9aa
+      internalID: -1944587642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd664f75a06f904ea684c938696c074
+      internalID: -387216086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0672e8fcb1421743b0cfb79c0672503
+      internalID: 1911779544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6478d92b55d3f034b99555c8409af403
+      internalID: 210377520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13426d8cf70f1c4bb07a2f5e5aca8f4
+      internalID: -1561419689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258456757697a594299191f1608e4d44
+      internalID: -2113556167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde863a6b25920d429b993e5ca291b76
+      internalID: 921556526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8be0085179b840408c27dc8d06d3c75
+      internalID: -2047412189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2007415f2257284fbee940964c5de19
+      internalID: -185869458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178520be65c4cd41a1056411c248f17
+      internalID: 1720871671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690fa89ebcd468240a38798547491390
+      internalID: -1742893495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38618c50a9999844c872fc9c0a265a78
+      internalID: 288314289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1d006601c92ce4f8b26f5586711d7c
+      internalID: 1016955256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1164e735c132545a09b315b8c4c5fa
+      internalID: 1744927380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3519c9ddc5f2e6a42b47bd2f96262b95
+      internalID: 1779684048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f2a236e33fafc40bbe90adee99675b
+      internalID: 1885479028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636535b2f1fbf4249999be2686ab3aeb
+      internalID: -394152756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef7822d7c7bf1041b0af06ad9783b67
+      internalID: -800435575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115b84d8e9b9279459e32848a1795814
+      internalID: 1715986512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a829257f761e42b1ec76b64082a07
+      internalID: -1511139135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd30701bab81e45a3bb2fb1903f7d1
+      internalID: -2074559748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c6362ccaea3d48bb05a7399fae616
+      internalID: 1670004856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613517f9559e2fd4ca53dc07ee7f4096
+      internalID: -2092856599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182023903fac84458200033fce68b28
+      internalID: -1261198788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1917a789129477f44b4c6bfeb2bda03d
+      internalID: 567978803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957a97b5201be146822b94400e66796
+      internalID: -918716223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b86663c049b23428da69bd243934fe
+      internalID: -1297382475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5845373b2f68c9b41bffe1eca93d1233
+      internalID: -383665292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a67ea3f801998429efc29dd0daab5d
+      internalID: -432795879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3fef2d76c17584f877dab2b01ad6f1
+      internalID: -346822874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a615a0d7ac1844841ac9574b2e80100e
+      internalID: -738803849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a3adf89c13462438715f7a5880bd82
+      internalID: -56412585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8a12da681a5f1438b0114171b6d7f7
+      internalID: 680116698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3033ac9147c58be46b1e29f8f9dbe6ff
+      internalID: -486059374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7c833731537954197047d298f28c53
+      internalID: -723628455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eccf629a2cfba64fb0abc6373d8e0db
+      internalID: 811078371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ccbdcfc609ed4192036a788f13c5d
+      internalID: 1866179976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6dd5cca13007c45b90b9c322a20199
+      internalID: -648918445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13ab82721be3a4e88d9d309aa2e86e
+      internalID: 2053491368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6dcd4ae8790c74288c39ec4ead0f38
+      internalID: 1746763892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92107c179905ecb48a0b6015ba43c5e3
+      internalID: 1244557839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b9271e705ce7548921ea87fcc8c61f
+      internalID: 1309805807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5067a1f65cf44404da5b83d074bd18e9
+      internalID: 2017991938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c732f8157b59e43b14ea3297f2f31f
+      internalID: 1539820910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae0823bdd24f0b478e8e17fd4c92b16
+      internalID: 1542307493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a6759bb5fbc3479eb333b08f41574
+      internalID: -467011690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc098be578fb5443b8df9bd2864d60d
+      internalID: 1359103951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee05eb9024e8fd540bd5b25f8e34782a
+      internalID: 1066561932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179b2dc388797a14f8a0cf65a7817e94
+      internalID: 1647511900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36309b06effd5fc498d26d8225f73f93
+      internalID: -180964242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274ffdd08f088004097937c16267174c
+      internalID: 488489076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eccf1333a8f3f46ab039c363abcdf1
+      internalID: -1408879350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba44110f2a4c5cb44ae78445cedc1ce4
+      internalID: 2141826245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ba38251cdc77842aac2dfcbadd1c7e
+      internalID: 1845493207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b90f558d86ff2249b43950345097f38
+      internalID: -1894120159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320da6b7e70503940b55586318a2e7aa
+      internalID: 86850512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8608e6e41beeae940994ea89aa5f2813
+      internalID: -427392741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e945c7dd92c3e9d4a82d37109fa48494
+      internalID: -1535505620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2cf7d0ead533943850eac59f5e5a4f
+      internalID: -160419860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7661450270112924ca7e28958cf8615e
+      internalID: 1828095592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109314d69c30bd49a5fd04560630b73
+      internalID: 1013349098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9328dc338185bf546931a063b4e02222
+      internalID: 467346632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3c46b9042c5024981673aacc0f4e25
+      internalID: 1807886502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa20b7d3fa1897489b177d5c2cd55a9
+      internalID: -1381547011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beba85764d2de342a31188401c061e9
+      internalID: -1783439256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015c17adae5629847898b517364bb909
+      internalID: -588724974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f2ada20bdd76746b05d4fe95a894a3
+      internalID: -426790435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8dfdca3705eb247aae75a16489941d
+      internalID: -1977838131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_98
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c74b9c2c58bdf409f0c4a4b72255a0
+      internalID: 1055136293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9071cf5dc4c7654193cc0631aeee9aa
+      internalID: 1296441389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4ca2a945def1144bc16d4a5ae958cd
+      internalID: 332786743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328ac990cc248dc46b4f1b81e9bd1221
+      internalID: 1284282619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ded2df078914c42966db1e1e80dce4
+      internalID: -1186003343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b2206e25216f64fa4a81b9162523ad
+      internalID: -221401162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09d2789d6a47424f9d80ab790a77edd
+      internalID: 454984115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b227a630860007b40b8cfbeab0c56210
+      internalID: 1252009636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aec7c1d158de749a8d6862569f54b2
+      internalID: 2117634938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d17e37f58c2a948896c3fb0e4df468
+      internalID: 1438273291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5522563e0b23ae4a8eea26662b852eb
+      internalID: 726536968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff5b95fe56f8d42aea9b4b9ce59dc6
+      internalID: -508919030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2eabc27fdda845af8a58531e14ea0
+      internalID: 1364575532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ccaf416ddd72e4a94a51dd67b08d60
+      internalID: -161793793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25593eca32c3c9941b98248a2d3486ef
+      internalID: -177608026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051e3c9d7757874799c92ea48f8153c
+      internalID: -733001358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91400a430ebfee94f859ea27554403d4
+      internalID: -582579133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4d28d10bb7d274abe06434c51f8055
+      internalID: 1152220985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70bcb17b89faf14997712861d6eda78
+      internalID: -1547638052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fcf76ccfeebb449a5066dcceac7ce
+      internalID: -794158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff6d0b42d391c4e83f137801821d04
+      internalID: -1550282265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e416bab1fe1486e42bd0b6ceb3855719
+      internalID: -25158736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 72cef3ba48d2a434fbb8adbf014626b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PowerUp_0: -673067676
+      PowerUp_1: -215338526
+      PowerUp_10: 1732209302
+      PowerUp_100: 332786743
+      PowerUp_101: 1284282619
+      PowerUp_102: -1186003343
+      PowerUp_103: -221401162
+      PowerUp_104: 454984115
+      PowerUp_105: 1252009636
+      PowerUp_106: 2117634938
+      PowerUp_107: 1438273291
+      PowerUp_108: 726536968
+      PowerUp_109: -508919030
+      PowerUp_11: -1860153461
+      PowerUp_110: 1364575532
+      PowerUp_111: -161793793
+      PowerUp_112: -177608026
+      PowerUp_113: -733001358
+      PowerUp_114: -582579133
+      PowerUp_115: 1152220985
+      PowerUp_116: -1547638052
+      PowerUp_117: -794158180
+      PowerUp_118: -1550282265
+      PowerUp_119: -25158736
+      PowerUp_12: 494900967
+      PowerUp_13: -1914151807
+      PowerUp_14: -2050635883
+      PowerUp_15: 1578417149
+      PowerUp_16: 690111063
+      PowerUp_17: -2046259601
+      PowerUp_18: 44376190
+      PowerUp_19: 1260698553
+      PowerUp_2: 1764000967
+      PowerUp_20: -997138273
+      PowerUp_21: -272745388
+      PowerUp_22: 851405415
+      PowerUp_23: -821788963
+      PowerUp_24: -689897669
+      PowerUp_25: -758071269
+      PowerUp_26: -258437518
+      PowerUp_27: 37283272
+      PowerUp_28: -1401160072
+      PowerUp_29: 876188888
+      PowerUp_3: 994873065
+      PowerUp_30: -1944587642
+      PowerUp_31: -387216086
+      PowerUp_32: 1911779544
+      PowerUp_33: 210377520
+      PowerUp_34: -1561419689
+      PowerUp_35: -2113556167
+      PowerUp_36: 921556526
+      PowerUp_37: -2047412189
+      PowerUp_38: -185869458
+      PowerUp_39: 1720871671
+      PowerUp_4: -2085958657
+      PowerUp_40: -1742893495
+      PowerUp_41: 288314289
+      PowerUp_42: 1016955256
+      PowerUp_43: 1744927380
+      PowerUp_44: 1779684048
+      PowerUp_45: 1885479028
+      PowerUp_46: -394152756
+      PowerUp_47: -800435575
+      PowerUp_48: 1715986512
+      PowerUp_49: -1511139135
+      PowerUp_5: 1919638592
+      PowerUp_50: -2074559748
+      PowerUp_51: 1670004856
+      PowerUp_52: -2092856599
+      PowerUp_53: -1261198788
+      PowerUp_54: 567978803
+      PowerUp_55: -918716223
+      PowerUp_56: -1297382475
+      PowerUp_57: -383665292
+      PowerUp_58: -432795879
+      PowerUp_59: -346822874
+      PowerUp_6: 1478719243
+      PowerUp_60: -738803849
+      PowerUp_61: -56412585
+      PowerUp_62: 680116698
+      PowerUp_63: -486059374
+      PowerUp_64: -723628455
+      PowerUp_65: 811078371
+      PowerUp_66: 1866179976
+      PowerUp_67: -648918445
+      PowerUp_68: 2053491368
+      PowerUp_69: 1746763892
+      PowerUp_7: -777511598
+      PowerUp_70: 1244557839
+      PowerUp_71: 1309805807
+      PowerUp_72: 2017991938
+      PowerUp_73: 1539820910
+      PowerUp_74: 1542307493
+      PowerUp_75: -467011690
+      PowerUp_76: 1359103951
+      PowerUp_77: 1066561932
+      PowerUp_78: 1647511900
+      PowerUp_79: -180964242
+      PowerUp_8: -1355858477
+      PowerUp_80: 488489076
+      PowerUp_81: -1408879350
+      PowerUp_82: 2141826245
+      PowerUp_83: 1845493207
+      PowerUp_84: -1894120159
+      PowerUp_85: 86850512
+      PowerUp_86: -427392741
+      PowerUp_87: -1535505620
+      PowerUp_88: -160419860
+      PowerUp_89: 1828095592
+      PowerUp_9: -394925422
+      PowerUp_90: 1013349098
+      PowerUp_91: 467346632
+      PowerUp_92: 1807886502
+      PowerUp_93: -1381547011
+      PowerUp_94: -1783439256
+      PowerUp_95: -588724974
+      PowerUp_96: -426790435
+      PowerUp_97: -1977838131
+      PowerUp_98: 1055136293
+      PowerUp_99: 1296441389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

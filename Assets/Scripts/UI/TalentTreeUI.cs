@@ -230,13 +230,7 @@ public class TalentTreeUI : MonoBehaviour
 
             case TalentEffectType.DecreaseDashCooldown:
                 return "-" + totalEffect + "% Dash Cooldown";
-
-            case TalentEffectType.IncreaseChargeDistance:
-                return "+" + totalEffect + "% Charge Distance";
-
-            case TalentEffectType.DecreaseChargeCooldown:
-                return "-" + totalEffect + "% Charge Cooldown";
-
+            
             default:
                 return talent.effectType.ToString();
         }

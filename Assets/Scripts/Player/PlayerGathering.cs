@@ -18,7 +18,7 @@ public class PlayerGathering : MonoBehaviour
     void Update()
     {
         // Check centralized input manager FIRST
-        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        if (PersistentInputManager.Instance != null && PersistentInputManager.Instance.IsPlayerInputBlocked())
         {
             return;
         }

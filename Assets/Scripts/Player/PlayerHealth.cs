@@ -3,26 +3,28 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health Settings")]
-    private float maxHealth = 100f; // Remove [SerializeField], we'll set this from stats
+    private float maxHealth = 100f;
     private float currentHealth;
 
     [Header("Damage Settings")]
-    [SerializeField] private float invulnerabilityTime = 1f; // Invincible after taking damage
+    [SerializeField] private float invulnerabilityTime = 1f;
     private float lastDamageTime = -999f;
 
     private PlayerDash playerDash;
+    private PlayerBlink playerBlink;
     private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        currentHealth = maxHealth;
+        // Don't set currentHealth here — SetMaxHealth is called by PlayerStats
+        // and will initialize it correctly on Start
         spriteRenderer = GetComponent<SpriteRenderer>();
-        playerDash = GetComponent<PlayerDash>(); // Add this line
+        playerDash = GetComponent<PlayerDash>();
+        playerBlink = GetComponent<PlayerBlink>();
     }
 
     void Update()
     {
-        // Flash red when invulnerable
         if (Time.time < lastDamageTime + invulnerabilityTime)
         {
             float alpha = Mathf.PingPong(Time.time * 10f, 1f);
@@ -36,58 +38,68 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        // Check if dashing and invulnerable
-        if (playerDash != null && playerDash.IsDashing())
-        {
-            return;
-        }
+        // Check ability i-frames
+        if (playerDash != null && playerDash.IsDashing()) return;
+        if (playerBlink != null && playerBlink.IsBlinking()) return;
 
-        // Check invulnerability timer
-        if (Time.time < lastDamageTime + invulnerabilityTime)
-        {
-            return;
-        }
+        // Check invulnerability window
+        if (Time.time < lastDamageTime + invulnerabilityTime) return;
 
         currentHealth -= damage;
         lastDamageTime = Time.time;
 
-        // Spawn damage number
         if (DamageNumberManager.Instance != null)
-        {
             DamageNumberManager.Instance.SpawnDamageNumber(transform.position, damage, true);
-        }
 
-        Debug.Log("Player Health: " + currentHealth);
+        Debug.Log("Player Health: " + currentHealth + " / " + maxHealth);
 
         if (currentHealth <= 0)
-        {
             Die();
-        }
     }
 
     void Die()
     {
         Debug.Log("PLAYER DIED!");
-        // Reload the scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(
             UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex
         );
     }
 
-    public float GetCurrentHealth()
-    {
-        return currentHealth;
-    }
+    public float GetCurrentHealth() => currentHealth;
+    public float GetMaxHealth() => maxHealth;
 
-    public float GetMaxHealth()
+    /// <summary>
+    /// Called by PlayerStats when stats are recalculated.
+    /// Only sets currentHealth if this is the first initialization.
+    /// Subsequent calls (from equipping gear) will NOT heal the player.
+    /// </summary>
+    public void SetMaxHealth(float newMaxHealth, bool fullyHeal = false)
     {
-        return maxHealth;
-    }
-
-    public void SetMaxHealth(float newMaxHealth)
-    {
+        float previousMax = maxHealth;
         maxHealth = newMaxHealth;
-        currentHealth = maxHealth; // Heal to full when max health changes
-        Debug.Log("Max health set to: " + maxHealth);
+
+        if (fullyHeal || currentHealth <= 0)
+        {
+            // Full heal only on first init or explicit request
+            currentHealth = maxHealth;
+        }
+        else
+        {
+            // Proportionally scale current health when max changes
+            // (e.g. going from 100/100 to 150 gives 150, but 80/100 → 120/150)
+            float healthPercent = currentHealth / previousMax;
+            currentHealth = Mathf.Round(healthPercent * maxHealth);
+        }
+
+        Debug.Log($"Max health set to: {maxHealth}, current: {currentHealth}");
+    }
+
+    /// <summary>
+    /// Restore health by a fixed amount, capped at max.
+    /// </summary>
+    public void Heal(float amount)
+    {
+        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        Debug.Log($"Healed {amount}. Current health: {currentHealth}");
     }
 }

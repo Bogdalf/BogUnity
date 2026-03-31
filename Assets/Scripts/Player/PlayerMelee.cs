@@ -4,22 +4,20 @@ public class PlayerMelee : MonoBehaviour
 {
     [Header("Melee Settings")]
     [SerializeField] private float attackRange = 1.5f;
-    [SerializeField] private float attackArc = 90f; // Degrees of arc
+    [SerializeField] private float attackArc = 90f;
     [SerializeField] private float attackCooldown = 0.5f;
 
-    [Header("Visual")]
-    [SerializeField] private GameObject slashVisualObject;
-    [SerializeField] private float slashDuration = 0.2f;
-
-    private TalentTreeUI talentTreeUI;
-    private InventoryUI inventoryUI;
-
     private PlayerStats playerStats;
-    private float lastAttackTime = -999f;
-    private bool isAttacking = false;
     private PlayerEquipment playerEquipment;
     private PlayerBuffs playerBuffs;
     private PlayerWarCry playerWarCry;
+    private Animator animator;
+
+    private float lastAttackTime = -999f;
+    private bool isAttacking = false;
+
+    private Vector3 cachedAttackDirection;
+    private bool hitRegistered = false;
 
     void Start()
     {
@@ -27,179 +25,88 @@ public class PlayerMelee : MonoBehaviour
         playerEquipment = GetComponent<PlayerEquipment>();
         playerBuffs = GetComponent<PlayerBuffs>();
         playerWarCry = GetComponent<PlayerWarCry>();
+        animator = GetComponent<Animator>();
     }
 
-    void Update()
-    {
-        // Check centralized input manager FIRST before any input processing
-        if (InputManager.Instance != null && InputManager.Instance.IsCombatInputBlocked())
-        {
-            return;
-        }
+    // Update no longer handles input — ActionBar drives this via MeleeSkill
+    // CanAttack and TriggerAttack are public for MeleeSkill to call
 
-        // Now safe to process combat input
-        if (Input.GetMouseButton(0) && CanAttack())
-        {
-            Attack();
-        }
-    }
-
-    public void SetAttackSpeed(float newCooldown)
-    {
-        attackCooldown = newCooldown;
-        Debug.Log("Attack speed set to: " + attackCooldown);
-    }
-
-    bool CanAttack()
+    public bool CanAttack()
     {
         return !isAttacking && Time.time >= lastAttackTime + attackCooldown;
     }
 
-    void Attack()
+    public void TriggerAttack()
     {
+        if (!CanAttack()) return;
+
         isAttacking = true;
+        hitRegistered = false;
         lastAttackTime = Time.time;
 
-        // Get direction player is facing (toward mouse)
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 attackDirection = (mousePos - transform.position).normalized;
+        cachedAttackDirection = (mousePos - transform.position).normalized;
 
-        // Find all enemies in range
+        if (animator != null)
+            animator.SetTrigger("Attack");
+    }
+
+    /// <summary>
+    /// Called by Animation Event at the frame where the arc visually lands.
+    /// </summary>
+    public void OnAttackHit()
+    {
+        if (hitRegistered) return;
+        hitRegistered = true;
+
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, attackRange);
-
-        Debug.Log("Found " + hits.Length + " colliders in range");
 
         foreach (Collider2D hit in hits)
         {
-            Debug.Log("Hit object: " + hit.gameObject.name + " with tag: " + hit.tag);
+            if (!hit.CompareTag("Enemy")) continue;
 
-            if (hit.CompareTag("Enemy"))
+            Vector3 directionToEnemy = (hit.transform.position - transform.position).normalized;
+            float angleToEnemy = Vector3.Angle(cachedAttackDirection, directionToEnemy);
+
+            if (angleToEnemy > attackArc / 2f) continue;
+
+            IDamageable damageable = hit.GetComponent<IDamageable>();
+            if (damageable == null) continue;
+
+            if (playerEquipment != null && playerEquipment.IsDualWielding())
             {
-                // Check if enemy is within attack arc
-                Vector3 directionToEnemy = (hit.transform.position - transform.position).normalized;
-                float angleToEnemy = Vector3.Angle(attackDirection, directionToEnemy);
-
-                Debug.Log("Enemy angle: " + angleToEnemy + " degrees (arc is " + (attackArc / 2f) + ")");
-
-                if (angleToEnemy <= attackArc / 2f)
-                {
-                    Debug.Log("ENEMY IN ARC - DEALING DAMAGE!");
-
-                    // Use IDamageable interface instead of specific enemy type
-                    IDamageable damageable = hit.GetComponent<IDamageable>();
-                    if (damageable != null)
-                    {
-                        // Check if dual wielding
-                        if (playerEquipment != null && playerEquipment.IsDualWielding())
-                        {
-                            // Dual wield: Two separate damage instances
-                            float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
-
-                            // First hit - main hand (with mastery bonus)
-                            float mainHandDamage = CalculateDamageWithMastery(baseAttack, playerEquipment.GetMainHandDamage(), playerEquipment.GetMainHandWeaponClass());
-                            damageable.TakeDamage(mainHandDamage);
-                            Debug.Log("Main Hand Hit: " + mainHandDamage + " damage");
-
-                            // Slight delay for second hit
-                            StartCoroutine(DualWieldSecondHit(damageable, baseAttack));
-                        }
-                        else
-                        {
-                            // Single weapon: One damage instance
-                            float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
-                            float weaponDamage = playerEquipment != null ? playerEquipment.GetWeaponDamage() : 0f;
-                            WeaponClass weaponClass = playerEquipment != null ? playerEquipment.GetMainHandWeaponClass() : WeaponClass.None;
-
-                            float totalDamage = CalculateDamageWithMastery(baseAttack, weaponDamage, weaponClass);
-
-                            damageable.TakeDamage(totalDamage);
-                            Debug.Log("Dealt " + totalDamage + " damage");
-                        }
-
-                        if (playerEquipment != null && playerBuffs != null)
-                        {
-                            WeaponClass weaponClass = playerEquipment.GetMainHandWeaponClass();
-                            if (weaponClass == WeaponClass.Axe)
-                            {
-                                playerBuffs.OnAxeHit();
-                            }
-
-                            // If dual wielding, check offhand too
-                            if (playerEquipment.IsDualWielding())
-                            {
-                                WeaponClass offHandClass = playerEquipment.GetOffHandWeaponClass();
-                                if (offHandClass == WeaponClass.Axe)
-                                {
-                                    playerBuffs.OnAxeHit();
-                                }
-                            }
-                        }
-                    }
-                }
+                float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
+                float mainHandDamage = CalculateDamageWithMastery(
+                    baseAttack,
+                    playerEquipment.GetMainHandDamage(),
+                    playerEquipment.GetMainHandWeaponClass()
+                );
+                damageable.TakeDamage(mainHandDamage);
+                StartCoroutine(DualWieldSecondHit(damageable, baseAttack));
             }
-            Animator animator = GetComponent<Animator>();
-            if (animator != null)
+            else
             {
-                animator.SetTrigger("Attack");
+                float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
+                float weaponDamage = playerEquipment != null ? playerEquipment.GetWeaponDamage() : 0f;
+                WeaponClass weaponClass = playerEquipment != null
+                    ? playerEquipment.GetMainHandWeaponClass()
+                    : WeaponClass.None;
+
+                float totalDamage = CalculateDamageWithMastery(baseAttack, weaponDamage, weaponClass);
+                damageable.TakeDamage(totalDamage);
             }
-        }
 
-        // Visual feedback
-        StartCoroutine(SlashVisual());
+            if (playerEquipment != null && playerBuffs != null)
+            {
+                if (playerEquipment.GetMainHandWeaponClass() == WeaponClass.Axe)
+                    playerBuffs.OnAxeHit();
 
-        Debug.Log("SLASH!");
-    }
-
-    System.Collections.IEnumerator SlashVisual()
-    {
-        if (slashVisualObject != null)
-        {
-            // Orient slash toward mouse
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 direction = (mousePos - transform.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            slashVisualObject.transform.rotation = Quaternion.Euler(0, 0, angle - 90);
-
-            // Show it
-            slashVisualObject.SetActive(true);
-
-            // Wait
-            yield return new WaitForSeconds(slashDuration);
-
-            // Hide it
-            slashVisualObject.SetActive(false);
+                if (playerEquipment.IsDualWielding() && playerEquipment.GetOffHandWeaponClass() == WeaponClass.Axe)
+                    playerBuffs.OnAxeHit();
+            }
         }
 
         isAttacking = false;
-    }
-
-    // Debug visualization
-    void OnDrawGizmosSelected()
-    {
-        if (!Application.isPlaying)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, attackRange);
-        }
-    }
-
-    public float GetCooldownPercent()
-    {
-        if (isAttacking)
-        {
-            return 1f;
-        }
-
-        float timeSinceLastAttack = Time.time - lastAttackTime;
-
-        if (timeSinceLastAttack >= attackCooldown)
-        {
-            return 0f;
-        }
-        else
-        {
-            return 1f - (timeSinceLastAttack / attackCooldown);
-        }
     }
 
     System.Collections.IEnumerator DualWieldSecondHit(IDamageable damageable, float baseAttack)
@@ -208,9 +115,12 @@ public class PlayerMelee : MonoBehaviour
 
         if (damageable != null && playerEquipment != null)
         {
-            float offHandDamage = CalculateDamageWithMastery(baseAttack, playerEquipment.GetOffHandDamage(), playerEquipment.GetOffHandWeaponClass());
+            float offHandDamage = CalculateDamageWithMastery(
+                baseAttack,
+                playerEquipment.GetOffHandDamage(),
+                playerEquipment.GetOffHandWeaponClass()
+            );
             damageable.TakeDamage(offHandDamage);
-            Debug.Log("Off Hand Hit: " + offHandDamage + " damage");
         }
     }
 
@@ -218,31 +128,43 @@ public class PlayerMelee : MonoBehaviour
     {
         float totalDamage = baseAttack + weaponDamage;
 
-        // Apply weapon mastery bonus
         PlayerTalents talents = GetComponent<PlayerTalents>();
         if (talents != null && weaponClass != WeaponClass.None)
         {
             float masteryBonus = talents.GetWeaponMasteryDamageBonus(weaponClass);
             if (masteryBonus > 0)
-            {
-                float bonusDamage = totalDamage * (masteryBonus / 100f);
-                totalDamage += bonusDamage;
-                Debug.Log("Weapon Mastery Bonus: +" + masteryBonus + "% (+" + bonusDamage + " damage)");
-            }
+                totalDamage += totalDamage * (masteryBonus / 100f);
         }
 
-        // Apply War Cry damage multiplier
         if (playerWarCry != null)
         {
             float warCryMultiplier = playerWarCry.GetDamageMultiplier();
             if (warCryMultiplier > 1f)
-            {
-                float originalDamage = totalDamage;
                 totalDamage *= warCryMultiplier;
-                Debug.Log("War Cry Bonus: " + (warCryMultiplier - 1f) * 100f + "% (+" + (totalDamage - originalDamage) + " damage)");
-            }
         }
 
         return totalDamage;
+    }
+
+    public void SetAttackSpeed(float newCooldown)
+    {
+        attackCooldown = newCooldown;
+    }
+
+    public float GetCooldownPercent()
+    {
+        if (isAttacking) return 1f;
+        float timeSince = Time.time - lastAttackTime;
+        if (timeSince >= attackCooldown) return 0f;
+        return 1f - (timeSince / attackCooldown);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (!Application.isPlaying)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, attackRange);
+        }
     }
 }

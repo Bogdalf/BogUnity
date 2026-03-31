@@ -6,16 +6,16 @@ public class TalentData : ScriptableObject
     [Header("Talent Info")]
     public string talentName;
     public string talentDescription;
-    public int maxRank = 1; // How many times can this be taken
+    public int maxRank = 1;
 
     [Header("Requirements")]
     public int requiredLevel = 0;
-    public TalentData prerequisiteTalent; // Must have this talent first
+    public TalentData prerequisiteTalent;
 
     [Header("Effects")]
     public TalentEffectType effectType;
     public float effectValue;
-    public WeaponClass affectedWeaponClass = WeaponClass.None; // For weapon mastery talents
+    public WeaponClass affectedWeaponClass = WeaponClass.None;
 }
 
 public enum TalentEffectType
@@ -25,14 +25,12 @@ public enum TalentEffectType
     IncreaseVitality,
 
     // Weapon masteries
-    WeaponDamageBonus,      // +X% damage with specific weapon class
-    WeaponSpeedBonus,       // -X% cooldown with specific weapon class
+    WeaponDamageBonus,
+    WeaponSpeedBonus,
 
     // Ability modifications
     IncreaseDashDistance,
     DecreaseDashCooldown,
-    IncreaseChargeDistance,
-    DecreaseChargeCooldown,
     IncreaseMeleeRange,
     IncreaseMeleeArc,
 
@@ -40,5 +38,5 @@ public enum TalentEffectType
     DualWieldExtraHit,
     TwoHandedCritChance,
     ShieldBlock,
-    AxeFrenzy,              // NEW: Stacking attack speed buff on axe hits
+    AxeFrenzy,
 }

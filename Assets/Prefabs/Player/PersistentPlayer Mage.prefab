@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8135236195545572828}
   - component: {fileID: 5798555551976659493}
   - component: {fileID: 3172278232162793575}
-  - component: {fileID: 3491481037928152728}
   - component: {fileID: 4625866229967630322}
   - component: {fileID: 6200239210945512465}
   - component: {fileID: 1818540975390695435}
@@ -127,25 +126,6 @@ MonoBehaviour:
   attackCooldown: 0.1
   slashVisualObject: {fileID: 3091609651861090886}
   slashDuration: 0.2
---- !u!114 &3491481037928152728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102530468709913604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96b7fb92331cdfc43b7ec04bbf332915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  chargeSpeed: 55
-  chargeDuration: 0.4
-  chargeCooldown: 3
-  telegraphObject: {fileID: 1533985800698896742}
-  telegraphDistance: 5
-  aimingMovementMultiplier: 0.7
-  damageMultiplier: 2
 --- !u!114 &4625866229967630322
 MonoBehaviour:
   m_ObjectHideFlags: 0

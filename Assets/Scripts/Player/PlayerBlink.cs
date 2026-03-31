@@ -8,15 +8,19 @@ public class PlayerBlink : MonoBehaviour
     [SerializeField] private float blinkCooldown = 1f;
 
     [Header("Timing")]
-    [SerializeField] private float windupDuration = 0.4f;    // Time before teleport (match to your animation)
-    [SerializeField] private float recoveryDuration = 0.2f;  // Time after teleport before control returns
+    [SerializeField] private float windupDuration = 0.4f;
+    [SerializeField] private float recoveryDuration = 0.2f;
+
+    [Header("Collision")]
+    [SerializeField] private LayerMask collisionMask; // Set to your walls/buildings layers in the Inspector
+    [SerializeField] private float castRadius = 0.25f; // Should match ~half your collider's effective world size
+    [SerializeField] private float skinBuffer = 0.1f;  // How far to stay from the wall surface on landing
 
     [Header("Invulnerability")]
     [SerializeField] private bool invulnerableDuringBlink = true;
 
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
-    private PlayerHealth playerHealth;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
@@ -28,33 +32,25 @@ public class PlayerBlink : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
-        playerHealth = GetComponent<PlayerHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (InputManager.Instance != null && InputManager.Instance.IsPlayerInputBlocked())
+        if (PersistentInputManager.Instance != null && PersistentInputManager.Instance.IsPlayerInputBlocked())
             return;
 
         if (Input.GetKeyDown(KeyCode.Space) && CanBlink())
         {
-            // Determine direction from movement input, fall back to mouse direction
             Vector2 moveInput = new Vector2(
                 Input.GetAxisRaw("Horizontal"),
                 Input.GetAxisRaw("Vertical")
             );
 
-            if (moveInput.magnitude > 0.1f)
-            {
-                blinkDirection = moveInput.normalized;
-            }
-            else
-            {
-                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                blinkDirection = (mousePos - transform.position).normalized;
-            }
+            blinkDirection = moveInput.magnitude > 0.1f
+                ? moveInput.normalized
+                : (Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
 
             StartCoroutine(BlinkCoroutine());
         }
@@ -65,48 +61,78 @@ public class PlayerBlink : MonoBehaviour
         return !isBlinking && Time.time >= lastBlinkTime + blinkCooldown;
     }
 
+    /// <summary>
+    /// Casts a circle along the blink path and returns the furthest
+    /// reachable position, stopping just before any collider hit.
+    /// </summary>
+    Vector2 GetBlinkDestination()
+    {
+        Vector2 origin = transform.position;
+
+        RaycastHit2D hit = Physics2D.CircleCast(
+            origin,
+            castRadius,
+            blinkDirection,
+            blinkDistance,
+            collisionMask
+        );
+
+        if (hit.collider != null)
+        {
+            // Land just before the surface, pulled back by skinBuffer
+            float safeDistance = Mathf.Max(0f, hit.distance - skinBuffer);
+            return origin + blinkDirection * safeDistance;
+        }
+
+        // Nothing in the way — travel the full distance
+        return origin + blinkDirection * blinkDistance;
+    }
+
     IEnumerator BlinkCoroutine()
     {
         isBlinking = true;
         lastBlinkTime = Time.time;
 
-        // Freeze movement
+        // Calculate destination before windup so it's based on
+        // where the player aimed, not where they end up after animation
+        Vector2 destination = GetBlinkDestination();
+
         if (playerMovement != null)
             playerMovement.enabled = false;
 
         rb.linearVelocity = Vector2.zero;
 
-        // Play blink animation
         if (animator != null)
             animator.SetTrigger("Blink");
 
-        // Visual: fade out slightly during windup
         if (spriteRenderer != null)
             spriteRenderer.color = new Color(1f, 1f, 1f, 0.4f);
 
-        // Wait for windup — character stands still while animation plays
         yield return new WaitForSeconds(windupDuration);
 
-        // TELEPORT
-        transform.position += (Vector3)(blinkDirection * blinkDistance);
+        transform.position = destination;
 
-        // Visual: pop back to full opacity on arrival
         if (spriteRenderer != null)
             spriteRenderer.color = Color.white;
 
-        // Brief recovery before control returns
         yield return new WaitForSeconds(recoveryDuration);
 
-        // Restore movement
         if (playerMovement != null)
             playerMovement.enabled = true;
 
         isBlinking = false;
     }
 
-    // Called by PlayerHealth to check i-frames
     public bool IsBlinking()
     {
         return isBlinking && invulnerableDuringBlink;
+    }
+
+    public float GetCooldownPercent()
+    {
+        if (isBlinking) return 1f;
+        float timeSince = Time.time - lastBlinkTime;
+        if (timeSince >= blinkCooldown) return 0f;
+        return 1f - (timeSince / blinkCooldown);
     }
 }
