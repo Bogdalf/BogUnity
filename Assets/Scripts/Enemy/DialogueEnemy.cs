@@ -26,6 +26,8 @@ public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
     private enum State { Passive, ShowingDialogue, Aggressive }
     private State currentState = State.Passive;
 
+    private Animator animator;
+
     // Dialogue tracking
     private int currentDialogueIndex = 0;
     private bool playerInRange = false;
@@ -44,6 +46,7 @@ public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -80,11 +83,24 @@ public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
                 currentDialogueIndex = 0;
             }
         }
-
+        
         // Handle E key for advancing dialogue
         if (currentState == State.ShowingDialogue && Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
             ShowNextDialogue();
+        }
+
+        if (currentState == State.Aggressive && player != null)
+        {
+            float speed = rb.linearVelocity.magnitude;
+            animator.SetFloat("Speed", speed);
+
+            if (speed >0.1f)
+            {
+                Vector2 direction = (player.position - transform.position).normalized;
+                animator.SetFloat("MovementX", direction.x);
+                animator.SetFloat("MovementY", direction.y);
+            }
         }
     }
 
@@ -102,6 +118,7 @@ public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
         {
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = direction * moveSpeed;
+            
         }
         else
         {
@@ -152,8 +169,11 @@ public class DialogueEnemy : MonoBehaviour, IDamageable, IStunnable
         {
             HideDialogue();
             BecomeAggressive();
-        }
-
+        }      
+        Stun(0.4f);        
+        //Play injured animation
+        if (animator != null)
+            animator.SetTrigger("Hurt");
         // Spawn damage number
         if (DamageNumberManager.Instance != null)
         {

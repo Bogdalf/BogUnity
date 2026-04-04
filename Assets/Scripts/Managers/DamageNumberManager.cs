@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DamageNumberManager : MonoBehaviour
 {
-    public static DamageNumberManager Instance;
+    public static DamageNumberManager Instance { get; private set; }
 
     [Header("Prefab")]
     [SerializeField] private GameObject damageNumberPrefab;
@@ -12,6 +12,7 @@ public class DamageNumberManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -23,14 +24,11 @@ public class DamageNumberManager : MonoBehaviour
     {
         if (damageNumberPrefab == null) return;
 
-        // Spawn slightly above the hit position
         Vector3 spawnPos = position + Vector3.up * 0.5f;
         GameObject damageObj = Instantiate(damageNumberPrefab, spawnPos, Quaternion.identity);
 
         DamageNumber damageNumber = damageObj.GetComponent<DamageNumber>();
         if (damageNumber != null)
-        {
             damageNumber.SetDamage(damage, isPlayerDamage);
-        }
     }
 }
