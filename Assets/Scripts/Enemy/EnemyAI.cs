@@ -5,10 +5,12 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
     [Header("Enemy Settings")]
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float health = 3f;
-
+    [SerializeField] private float stunDuration = .5f;
     [Header("Detection")]
     [SerializeField] private float detectionRange = 5f;
     [SerializeField] private bool startAggressive = false;
+
+    
 
     [Header("Attack")]
     [SerializeField] private float attackRange = 1.2f;
@@ -173,7 +175,7 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
         if (!isAggressive)
             BecomeAggressive();
 
-        Stun(0.4f);
+        Stun(stunDuration);
 
         if (animator != null)
             animator.SetTrigger("Hurt");

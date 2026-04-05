@@ -23,6 +23,6 @@ MonoBehaviour:
   weaponClass: 1
   minDamage: 4
   maxDamage: 11
-  attackCooldown: 1.5
+  attackCooldown: 1
   bonusStrength: 0
   bonusVitality: 0
