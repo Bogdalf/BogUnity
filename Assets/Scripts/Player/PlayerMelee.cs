@@ -6,7 +6,8 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private float attackArc = 90f;
     [SerializeField] private float attackCooldown = 0.5f;
-
+    [Header("VFX")]
+    [SerializeField] private Animator AttackTelegraphs;
     private PlayerStats playerStats;
     private PlayerEquipment playerEquipment;
     private PlayerBuffs playerBuffs;
@@ -38,17 +39,28 @@ public class PlayerMelee : MonoBehaviour
 
     public void TriggerAttack()
     {
-        if (!CanAttack()) return;
+    if (!CanAttack()) return;
 
-        isAttacking = true;
-        hitRegistered = false;
-        lastAttackTime = Time.time;
+    isAttacking = true;
+    hitRegistered = false;
+    lastAttackTime = Time.time;
 
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        cachedAttackDirection = (mousePos - transform.position).normalized;
+    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    cachedAttackDirection = (mousePos - transform.position).normalized;
 
-        if (animator != null)
-            animator.SetTrigger("Attack");
+    if (animator != null)
+        {
+        animator.SetTrigger("Attack");
+        animator.SetFloat("DirectionX", cachedAttackDirection.x);
+        animator.SetFloat("DirectionY", cachedAttackDirection.y);
+     }
+
+    if (AttackTelegraphs != null)
+        {
+        AttackTelegraphs.SetTrigger("Slash");
+        AttackTelegraphs.SetFloat("DirectionX", cachedAttackDirection.x);
+        AttackTelegraphs.SetFloat("DirectionY", cachedAttackDirection.y);
+        }
     }
 
     /// <summary>

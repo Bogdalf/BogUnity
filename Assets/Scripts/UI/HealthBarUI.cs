@@ -9,6 +9,17 @@ public class HealthBarUI : MonoBehaviour
     [SerializeField] private Image healthBarFill;
     [SerializeField] private TextMeshProUGUI healthText;
 
+    void Awake()
+    {
+        if (playerHealth != null)
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Update()
     {
         if (playerHealth != null)

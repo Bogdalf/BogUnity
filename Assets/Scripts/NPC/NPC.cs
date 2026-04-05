@@ -30,14 +30,32 @@ public class NPC : MonoBehaviour, IInteractable
     private bool isPlayerNearby = false;
     private bool dialogueCompleted = false;
     private bool isMoving = false;
-    private GameObject player;
+    private Transform player;
 
+    private Animator animator; 
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Update()
     {
+        if (!isMoving && isPlayerNearby)
+        {
+                
+                Vector2 direction = (player.position - transform.position).normalized;
+                animator.SetFloat("DirectionX", direction.x);
+                animator.SetFloat("DirectionY", direction.y);            
+        }
         if (isMoving && moveTargets != null && moveTargets.Length > 0)
         {
             Transform currentTarget = moveTargets[currentTargetIndex];
 
+            Vector2 direction = (currentTarget.position - transform.position).normalized;
+            animator.SetFloat("MovementX", direction.x);
+            animator.SetFloat("MovementY", direction.y);
+            float speed = 1;
+            animator.SetFloat("Speed", speed);
             transform.position = Vector2.MoveTowards(
                 transform.position,
                 currentTarget.position,
@@ -67,16 +85,16 @@ public class NPC : MonoBehaviour, IInteractable
             }
         }
     }
-
+   
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && !dialogueCompleted)
         {
             isPlayerNearby = true;
-            player = collision.gameObject;
+            player = collision.transform;
 
             if (proximityTrigger)
-                TriggerDialogue();
+                TriggerDialogue();                
             else
                 Debug.Log("Press E to talk to " + npcName);
         }

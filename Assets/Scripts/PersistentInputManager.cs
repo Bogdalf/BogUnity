@@ -10,6 +10,7 @@ public class PersistentInputManager : MonoBehaviour
 
     private bool forcedMovement = false;
     private bool spellbookOpen = false;
+    private bool sequenceBlocked = false; // For cutscenes/boss intros
 
     void Awake()
     {
@@ -25,21 +26,21 @@ public class PersistentInputManager : MonoBehaviour
     }
 
     // --- Setters ---
-
     public void SetForcedMovement(bool value) => forcedMovement = value;
     public void SetSpellbookOpen(bool value) => spellbookOpen = value;
+    public void SetSequenceBlocked(bool value) => sequenceBlocked = value;
 
     // --- Queries ---
-
     public bool IsForcedMovement() => forcedMovement;
 
     /// <summary>
-    /// True when gameplay input (movement, abilities) should be blocked.
+    /// True when all gameplay input should be blocked.
     /// </summary>
     public bool IsPlayerInputBlocked()
     {
         if (forcedMovement) return true;
         if (spellbookOpen) return true;
+        if (sequenceBlocked) return true;
 
         if (DialogueUI.Instance != null && DialogueUI.Instance.IsDialogueShowing())
             return true;
@@ -52,8 +53,8 @@ public class PersistentInputManager : MonoBehaviour
     }
 
     /// <summary>
-    /// True when combat input (attacks, abilities) should be blocked.
-    /// Superset of IsPlayerInputBlocked — also blocks when hovering inventory.
+    /// True when combat input should be blocked.
+    /// Superset of IsPlayerInputBlocked.
     /// </summary>
     public bool IsCombatInputBlocked()
     {
@@ -66,8 +67,5 @@ public class PersistentInputManager : MonoBehaviour
         return false;
     }
 
-    /// <summary>
-    /// UI navigation input (closing menus, advancing dialogue) is always allowed.
-    /// </summary>
     public bool IsUIInputAllowed() => true;
 }

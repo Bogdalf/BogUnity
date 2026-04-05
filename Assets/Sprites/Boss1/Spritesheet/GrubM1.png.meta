@@ -1,0 +1,3687 @@
+fileFormatVersion: 2
+guid: 59b49184a412cba45abb9a347e46c05b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6430363562531017203
+    second: GrubM1_0
+  - first:
+      213: 8997656444439987371
+    second: GrubM1_1
+  - first:
+      213: -6896318666676000919
+    second: GrubM1_2
+  - first:
+      213: -5464767286846551751
+    second: GrubM1_3
+  - first:
+      213: 4582134818037553781
+    second: GrubM1_4
+  - first:
+      213: -3394969053172284829
+    second: GrubM1_5
+  - first:
+      213: 6711464095437386112
+    second: GrubM1_6
+  - first:
+      213: -633326182219836883
+    second: GrubM1_7
+  - first:
+      213: 175548042287205182
+    second: GrubM1_8
+  - first:
+      213: 4502145839869101031
+    second: GrubM1_9
+  - first:
+      213: 5530389967812859719
+    second: GrubM1_10
+  - first:
+      213: -9091605144444965297
+    second: GrubM1_11
+  - first:
+      213: 6949384404399457956
+    second: GrubM1_12
+  - first:
+      213: -2575787654149454352
+    second: GrubM1_13
+  - first:
+      213: -3616229197985806366
+    second: GrubM1_14
+  - first:
+      213: 8917465793757545682
+    second: GrubM1_15
+  - first:
+      213: -3963273577872034521
+    second: GrubM1_16
+  - first:
+      213: -2039729759496811227
+    second: GrubM1_17
+  - first:
+      213: 686649200445579260
+    second: GrubM1_18
+  - first:
+      213: 9050900279107465468
+    second: GrubM1_19
+  - first:
+      213: -5917979158251753286
+    second: GrubM1_20
+  - first:
+      213: -6269972751278111259
+    second: GrubM1_21
+  - first:
+      213: -1781145758318284645
+    second: GrubM1_22
+  - first:
+      213: -4087512985596699153
+    second: GrubM1_23
+  - first:
+      213: -9109352960037378886
+    second: GrubM1_24
+  - first:
+      213: 2562668602263045224
+    second: GrubM1_25
+  - first:
+      213: -6612514790389474117
+    second: GrubM1_26
+  - first:
+      213: -7064970400671279905
+    second: GrubM1_27
+  - first:
+      213: 3666245426086677482
+    second: GrubM1_28
+  - first:
+      213: -5724459949825565794
+    second: GrubM1_29
+  - first:
+      213: -3711401285397318011
+    second: GrubM1_30
+  - first:
+      213: -8209256702369555714
+    second: GrubM1_31
+  - first:
+      213: -8841392396635425905
+    second: GrubM1_32
+  - first:
+      213: 3041866495845163133
+    second: GrubM1_33
+  - first:
+      213: -2985000927346130670
+    second: GrubM1_34
+  - first:
+      213: -6381764383101173078
+    second: GrubM1_35
+  - first:
+      213: -490451811310747336
+    second: GrubM1_36
+  - first:
+      213: 9194523672437927846
+    second: GrubM1_37
+  - first:
+      213: 3555781411935863041
+    second: GrubM1_38
+  - first:
+      213: -6987858359451171445
+    second: GrubM1_39
+  - first:
+      213: 2334576632733483503
+    second: GrubM1_40
+  - first:
+      213: -5917104263346713647
+    second: GrubM1_41
+  - first:
+      213: -5215410007054323543
+    second: GrubM1_42
+  - first:
+      213: -7447834046551089159
+    second: GrubM1_43
+  - first:
+      213: -2801088948997959132
+    second: GrubM1_44
+  - first:
+      213: 6703465732043395770
+    second: GrubM1_45
+  - first:
+      213: -169631917652072015
+    second: GrubM1_46
+  - first:
+      213: 5694655511915230162
+    second: GrubM1_47
+  - first:
+      213: 4741681003836168011
+    second: GrubM1_48
+  - first:
+      213: 3804469237400861871
+    second: GrubM1_49
+  - first:
+      213: -4076953411980522417
+    second: GrubM1_50
+  - first:
+      213: -1858628310681828100
+    second: GrubM1_51
+  - first:
+      213: -2677171176049150116
+    second: GrubM1_52
+  - first:
+      213: -66476122247033459
+    second: GrubM1_53
+  - first:
+      213: -3695247207113430034
+    second: GrubM1_54
+  - first:
+      213: 6795690477675194515
+    second: GrubM1_55
+  - first:
+      213: -5206870642333651200
+    second: GrubM1_56
+  - first:
+      213: 265524906034338049
+    second: GrubM1_57
+  - first:
+      213: 349646407939269291
+    second: GrubM1_58
+  - first:
+      213: -2627458297965572754
+    second: GrubM1_59
+  - first:
+      213: -8570547031793131862
+    second: GrubM1_60
+  - first:
+      213: -3582169137059743750
+    second: GrubM1_61
+  - first:
+      213: 6561472541426586332
+    second: GrubM1_62
+  - first:
+      213: 2572196662873941983
+    second: GrubM1_63
+  - first:
+      213: -7683790451775706040
+    second: GrubM1_64
+  - first:
+      213: -2486751783115034457
+    second: GrubM1_65
+  - first:
+      213: -595207295451667728
+    second: GrubM1_66
+  - first:
+      213: 6522969676022872473
+    second: GrubM1_67
+  - first:
+      213: 1921221802438253243
+    second: GrubM1_68
+  - first:
+      213: -4214195829725143710
+    second: GrubM1_69
+  - first:
+      213: 3621073611980112191
+    second: GrubM1_70
+  - first:
+      213: 4455962156138767720
+    second: GrubM1_71
+  - first:
+      213: 6203627519452996177
+    second: GrubM1_72
+  - first:
+      213: 3112246704931618062
+    second: GrubM1_73
+  - first:
+      213: -6776887524836579572
+    second: GrubM1_74
+  - first:
+      213: 620338942103185631
+    second: GrubM1_75
+  - first:
+      213: 4498755149052715116
+    second: GrubM1_76
+  - first:
+      213: -5042655467967093448
+    second: GrubM1_77
+  - first:
+      213: 9167924946217849802
+    second: GrubM1_78
+  - first:
+      213: 4499845289267654785
+    second: GrubM1_79
+  - first:
+      213: -8287273959390502068
+    second: GrubM1_80
+  - first:
+      213: 3291756936180266755
+    second: GrubM1_81
+  - first:
+      213: 4623556969642788642
+    second: GrubM1_82
+  - first:
+      213: 1025658254818620553
+    second: GrubM1_83
+  - first:
+      213: 1153648935237366903
+    second: GrubM1_84
+  - first:
+      213: -327453766691118828
+    second: GrubM1_85
+  - first:
+      213: 6323220771839104118
+    second: GrubM1_86
+  - first:
+      213: 8592539781006694590
+    second: GrubM1_87
+  - first:
+      213: 1630884057365217639
+    second: GrubM1_88
+  - first:
+      213: -6240462636665324063
+    second: GrubM1_89
+  - first:
+      213: 3595732361066949239
+    second: GrubM1_90
+  - first:
+      213: 1601462552385398378
+    second: GrubM1_91
+  - first:
+      213: 3971562612580294097
+    second: GrubM1_92
+  - first:
+      213: 2891327857488379939
+    second: GrubM1_93
+  - first:
+      213: 8112438214197562792
+    second: GrubM1_94
+  - first:
+      213: -7730677150181143638
+    second: GrubM1_95
+  - first:
+      213: 6819015126348220321
+    second: GrubM1_96
+  - first:
+      213: -6344208255701448234
+    second: GrubM1_97
+  - first:
+      213: 5659633720639017729
+    second: GrubM1_98
+  - first:
+      213: -1654848236948654710
+    second: GrubM1_99
+  - first:
+      213: -9060524400799615598
+    second: GrubM1_100
+  - first:
+      213: 1845121340693324404
+    second: GrubM1_101
+  - first:
+      213: 8994909621875121917
+    second: GrubM1_102
+  - first:
+      213: 4272677432958605887
+    second: GrubM1_103
+  - first:
+      213: -4339592274951668606
+    second: GrubM1_104
+  - first:
+      213: 544424273046943149
+    second: GrubM1_105
+  - first:
+      213: -7920161955497800142
+    second: GrubM1_106
+  - first:
+      213: -7593843795300944224
+    second: GrubM1_107
+  - first:
+      213: -503965809894138606
+    second: GrubM1_108
+  - first:
+      213: 7732399612924701000
+    second: GrubM1_109
+  - first:
+      213: -3118173257361386191
+    second: GrubM1_110
+  - first:
+      213: -489585979773945598
+    second: GrubM1_111
+  - first:
+      213: 2786703143809921926
+    second: GrubM1_112
+  - first:
+      213: -1787085598263367247
+    second: GrubM1_113
+  - first:
+      213: 7805292961737876878
+    second: GrubM1_114
+  - first:
+      213: -3781957833055676408
+    second: GrubM1_115
+  - first:
+      213: 7167347945411224791
+    second: GrubM1_116
+  - first:
+      213: 503071349660392759
+    second: GrubM1_117
+  - first:
+      213: 959341752372726678
+    second: GrubM1_118
+  - first:
+      213: -7810490438049226499
+    second: GrubM1_119
+  - first:
+      213: -3154893151136470395
+    second: GrubM1_120
+  - first:
+      213: 1865166216594366302
+    second: GrubM1_121
+  - first:
+      213: -3341802928138255042
+    second: GrubM1_122
+  - first:
+      213: -3150232866713251432
+    second: GrubM1_123
+  - first:
+      213: 3327353948888041541
+    second: GrubM1_124
+  - first:
+      213: -6898929599951347328
+    second: GrubM1_125
+  - first:
+      213: -7613287154723714237
+    second: GrubM1_126
+  - first:
+      213: 1342947019836150352
+    second: GrubM1_127
+  - first:
+      213: 8412478577203262378
+    second: GrubM1_128
+  - first:
+      213: 3964846109497247832
+    second: GrubM1_129
+  - first:
+      213: 5119679809010725743
+    second: GrubM1_130
+  - first:
+      213: -553880949096903350
+    second: GrubM1_131
+  - first:
+      213: 1520421652500018772
+    second: GrubM1_132
+  - first:
+      213: -8335128240503010063
+    second: GrubM1_133
+  - first:
+      213: 6916655581508534551
+    second: GrubM1_134
+  - first:
+      213: -7060701002186220624
+    second: GrubM1_135
+  - first:
+      213: 8254318252635012081
+    second: GrubM1_136
+  - first:
+      213: -6515831905815372307
+    second: GrubM1_137
+  - first:
+      213: -3444014106070599954
+    second: GrubM1_138
+  - first:
+      213: 7554188942057059206
+    second: GrubM1_139
+  - first:
+      213: 3504038076115837030
+    second: GrubM1_140
+  - first:
+      213: 7851902415196942234
+    second: GrubM1_141
+  - first:
+      213: 8159071268660015252
+    second: GrubM1_142
+  - first:
+      213: -8137436907823435786
+    second: GrubM1_143
+  - first:
+      213: -1461673999001304919
+    second: GrubM1_144
+  - first:
+      213: 472336434698566819
+    second: GrubM1_145
+  - first:
+      213: -7606158704512367314
+    second: GrubM1_146
+  - first:
+      213: 1996042448622809268
+    second: GrubM1_147
+  - first:
+      213: 8746734552382578581
+    second: GrubM1_148
+  - first:
+      213: 8958700260933454615
+    second: GrubM1_149
+  - first:
+      213: 419600063705826168
+    second: GrubM1_150
+  - first:
+      213: -9198775344764382562
+    second: GrubM1_151
+  - first:
+      213: -4033772726125388101
+    second: GrubM1_152
+  - first:
+      213: -7567744008783528595
+    second: GrubM1_153
+  - first:
+      213: -4857079903834998440
+    second: GrubM1_154
+  - first:
+      213: 850003882661087359
+    second: GrubM1_155
+  - first:
+      213: 1144411299207064309
+    second: GrubM1_156
+  - first:
+      213: 1120876151304156668
+    second: GrubM1_157
+  - first:
+      213: 6749336724271944261
+    second: GrubM1_158
+  - first:
+      213: -6792241089886108920
+    second: GrubM1_159
+  - first:
+      213: 771518729119851739
+    second: GrubM1_160
+  - first:
+      213: 7827647804724598607
+    second: GrubM1_161
+  - first:
+      213: 5931411618346024500
+    second: GrubM1_162
+  - first:
+      213: -4623624704837991698
+    second: GrubM1_163
+  - first:
+      213: 652804244664984252
+    second: GrubM1_164
+  - first:
+      213: 2904574573914439391
+    second: GrubM1_165
+  - first:
+      213: -2957207674434642016
+    second: GrubM1_166
+  - first:
+      213: -2221041731486136662
+    second: GrubM1_167
+  - first:
+      213: -8491298786115554683
+    second: GrubM1_168
+  - first:
+      213: 7648592385834686036
+    second: GrubM1_169
+  - first:
+      213: 8715446202647571020
+    second: GrubM1_170
+  - first:
+      213: 2783540746954471866
+    second: GrubM1_171
+  - first:
+      213: 4258939343429157182
+    second: GrubM1_172
+  - first:
+      213: -770788722246189096
+    second: GrubM1_173
+  - first:
+      213: 4787364092193927733
+    second: GrubM1_174
+  - first:
+      213: -8594532775914212975
+    second: GrubM1_175
+  - first:
+      213: 806172586787918786
+    second: GrubM1_176
+  - first:
+      213: 4711935947702488428
+    second: GrubM1_177
+  - first:
+      213: -2419334310527468118
+    second: GrubM1_178
+  - first:
+      213: 1105594216146146385
+    second: GrubM1_179
+  - first:
+      213: -654112447325220581
+    second: GrubM1_180
+  - first:
+      213: -8048907930895744150
+    second: GrubM1_181
+  - first:
+      213: -4405184736781691577
+    second: GrubM1_182
+  - first:
+      213: 4951638362372864552
+    second: GrubM1_183
+  - first:
+      213: 4076200943431147999
+    second: GrubM1_184
+  - first:
+      213: 1625031551939236744
+    second: GrubM1_185
+  - first:
+      213: -404761828099200404
+    second: GrubM1_186
+  - first:
+      213: -5900076118323561237
+    second: GrubM1_187
+  - first:
+      213: 5848843744978140296
+    second: GrubM1_188
+  - first:
+      213: -5028222111027318398
+    second: GrubM1_189
+  - first:
+      213: 7621516184364134586
+    second: GrubM1_190
+  - first:
+      213: -771476961103375517
+    second: GrubM1_191
+  - first:
+      213: -7088922866783592004
+    second: GrubM1_192
+  - first:
+      213: -380484510734369704
+    second: GrubM1_193
+  - first:
+      213: -6816853420912714630
+    second: GrubM1_194
+  - first:
+      213: 268736599988789375
+    second: GrubM1_195
+  - first:
+      213: 9083644308872456383
+    second: GrubM1_196
+  - first:
+      213: -4929765459878170974
+    second: GrubM1_197
+  - first:
+      213: 540546697006909552
+    second: GrubM1_198
+  - first:
+      213: 4615475631304299869
+    second: GrubM1_199
+  - first:
+      213: 7923512906903902001
+    second: GrubM1_200
+  - first:
+      213: 854552380934959642
+    second: GrubM1_201
+  - first:
+      213: -5654471726200956135
+    second: GrubM1_202
+  - first:
+      213: 5909376081919655059
+    second: GrubM1_203
+  - first:
+      213: 2025337543440023278
+    second: GrubM1_204
+  - first:
+      213: -4789986862849708919
+    second: GrubM1_205
+  - first:
+      213: -6124395220381495089
+    second: GrubM1_206
+  - first:
+      213: 1486307853086847478
+    second: GrubM1_207
+  - first:
+      213: 4423074251437472697
+    second: GrubM1_208
+  - first:
+      213: 6934910955270589883
+    second: GrubM1_209
+  - first:
+      213: -1156857798197808989
+    second: GrubM1_210
+  - first:
+      213: 3523798533646349978
+    second: GrubM1_211
+  - first:
+      213: -9213440341253821339
+    second: GrubM1_212
+  - first:
+      213: -3807199655995362925
+    second: GrubM1_213
+  - first:
+      213: 669766406153901066
+    second: GrubM1_214
+  - first:
+      213: 6728393901781594441
+    second: GrubM1_215
+  - first:
+      213: -6066277670124358241
+    second: GrubM1_216
+  - first:
+      213: 976070635550703732
+    second: GrubM1_217
+  - first:
+      213: -279873396858807061
+    second: GrubM1_218
+  - first:
+      213: 8841839749362287456
+    second: GrubM1_219
+  - first:
+      213: 5081184718416595507
+    second: GrubM1_220
+  - first:
+      213: 9001928698873505620
+    second: GrubM1_221
+  - first:
+      213: 6886733181593165316
+    second: GrubM1_222
+  - first:
+      213: -3645614918204812274
+    second: GrubM1_223
+  - first:
+      213: -4738938248198273526
+    second: GrubM1_224
+  - first:
+      213: 4995857056013155879
+    second: GrubM1_225
+  - first:
+      213: -1991218813461393651
+    second: GrubM1_226
+  - first:
+      213: 6103309560804811664
+    second: GrubM1_227
+  - first:
+      213: 5250898520488169786
+    second: GrubM1_228
+  - first:
+      213: 6486726964402488257
+    second: GrubM1_229
+  - first:
+      213: 591648158692754880
+    second: GrubM1_230
+  - first:
+      213: 5404380406413291949
+    second: GrubM1_231
+  - first:
+      213: -1113453438464245676
+    second: GrubM1_232
+  - first:
+      213: 6306513082775778831
+    second: GrubM1_233
+  - first:
+      213: 4354755421992219418
+    second: GrubM1_234
+  - first:
+      213: 4843260125391064607
+    second: GrubM1_235
+  - first:
+      213: -3846622346220031830
+    second: GrubM1_236
+  - first:
+      213: -5968546239733938079
+    second: GrubM1_237
+  - first:
+      213: 451044416430685502
+    second: GrubM1_238
+  - first:
+      213: -4852142537396388260
+    second: GrubM1_239
+  - first:
+      213: 4875378528160831327
+    second: GrubM1_240
+  - first:
+      213: 31365018474623951
+    second: GrubM1_241
+  - first:
+      213: 1415127821260782027
+    second: GrubM1_242
+  - first:
+      213: 3756660466631736511
+    second: GrubM1_243
+  - first:
+      213: -190330410274679230
+    second: GrubM1_244
+  - first:
+      213: 2466310280738897819
+    second: GrubM1_245
+  - first:
+      213: 6769917517091957000
+    second: GrubM1_246
+  - first:
+      213: -3273452039142942500
+    second: GrubM1_247
+  - first:
+      213: -8985791166160005727
+    second: GrubM1_248
+  - first:
+      213: -5443076559095650878
+    second: GrubM1_249
+  - first:
+      213: 3308687883355560401
+    second: GrubM1_250
+  - first:
+      213: -7194510514145620861
+    second: GrubM1_251
+  - first:
+      213: 679485849415457602
+    second: GrubM1_252
+  - first:
+      213: -3957525797647635909
+    second: GrubM1_253
+  - first:
+      213: 8348970570281826865
+    second: GrubM1_254
+  - first:
+      213: 2133902143938505510
+    second: GrubM1_255
+  - first:
+      213: 3845931442471024991
+    second: GrubM1_256
+  - first:
+      213: -4321778172699680475
+    second: GrubM1_257
+  - first:
+      213: 4035893826524461029
+    second: GrubM1_258
+  - first:
+      213: -5157839884294065284
+    second: GrubM1_259
+  - first:
+      213: -5100772602796838030
+    second: GrubM1_260
+  - first:
+      213: -84029004546195735
+    second: GrubM1_261
+  - first:
+      213: -5514086507632793545
+    second: GrubM1_262
+  - first:
+      213: -3268292122533442978
+    second: GrubM1_263
+  - first:
+      213: -7660936846825333582
+    second: GrubM1_264
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrubM1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1d641379d3d3950800000000000000
+      internalID: 6430363562531017203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba489d55dd81edc70800000000000000
+      internalID: 8997656444439987371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967a1eef5ba5b40a0800000000000000
+      internalID: -6896318666676000919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939065f2b1f3924b0800000000000000
+      internalID: -5464767286846551751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ad31ef653079f30800000000000000
+      internalID: 4582134818037553781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362c83a22a5a2e0d0800000000000000
+      internalID: -3394969053172284829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08175533909e32d50800000000000000
+      internalID: 6711464095437386112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2215d95139f537f0800000000000000
+      internalID: -633326182219836883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b4b8da30caf6200800000000000000
+      internalID: 175548042287205182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38668b9c5da7e30800000000000000
+      internalID: 4502145839869101031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7479edcdf54efbc40800000000000000
+      internalID: 5530389967812859719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e6e3f5a4124d180800000000000000
+      internalID: -9091605144444965297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a68edfdb4c217060800000000000000
+      internalID: 6949384404399457956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5c59196c6f04cd0800000000000000
+      internalID: -2575787654149454352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e709ab34b290ddc0800000000000000
+      internalID: -3616229197985806366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d48d9584e331cb70800000000000000
+      internalID: 8917465793757545682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725fe33edaf9ff8c0800000000000000
+      internalID: -3963273577872034521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d4667379c61b3e0800000000000000
+      internalID: -2039729759496811227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5ddd4fc7778900800000000000000
+      internalID: 686649200445579260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf03fa1a9d14b9d70800000000000000
+      internalID: 9050900279107465468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab03d347f4d1fdda0800000000000000
+      internalID: -5917979158251753286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e580b0a0059cf8a0800000000000000
+      internalID: -6269972751278111259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90be36ae591847e0800000000000000
+      internalID: -1781145758318284645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed56be989c3647c0800000000000000
+      internalID: -4087512985596699153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4a15b0fb3159180800000000000000
+      internalID: -9109352960037378886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8648fe2248d609320800000000000000
+      internalID: 2562668602263045224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc91de25d0ab34a0800000000000000
+      internalID: -6612514790389474117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4d6573ade24fd90800000000000000
+      internalID: -7064970400671279905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb0c495ace11e230800000000000000
+      internalID: 3666245426086677482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b52bf4102ae80b0800000000000000
+      internalID: -5724459949825565794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586f6fcd1347e7cc0800000000000000
+      internalID: -3711401285397318011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa9441168cd21e80800000000000000
+      internalID: -8209256702369555714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83b4be75701d4580800000000000000
+      internalID: -8841392396635425905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7063032671e63a20800000000000000
+      internalID: 3041866495845163133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2118257c8752396d0800000000000000
+      internalID: -2985000927346130670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2c3090b1b6f67a0800000000000000
+      internalID: -6381764383101173078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83140671da09139f0800000000000000
+      internalID: -490451811310747336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af259eb092899f70800000000000000
+      internalID: 9194523672437927846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101cf55da5ca85130800000000000000
+      internalID: 3555781411935863041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b854b2868d3260f90800000000000000
+      internalID: -6987858359451171445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1c10f0415166020800000000000000
+      internalID: 2334576632733483503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db054cc50932eda0800000000000000
+      internalID: -5917104263346713647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a072832b342f97b0800000000000000
+      internalID: -5215410007054323543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff134d156af3a890800000000000000
+      internalID: -7447834046551089159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42254b211788029d0800000000000000
+      internalID: -2801088948997959132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2537a119e770d50800000000000000
+      internalID: 6703465732043395770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9a7cd6ba855adf0800000000000000
+      internalID: -169631917652072015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d37de9340b770f40800000000000000
+      internalID: 5694655511915230162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b475fdf10c5ddc140800000000000000
+      internalID: 4741681003836168011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facfd2e4d903cc430800000000000000
+      internalID: 3804469237400861871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c8511f870cb67c0800000000000000
+      internalID: -4076953411980522417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4435c1663d436e0800000000000000
+      internalID: -1858628310681828100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57fca8eff6c8dad0800000000000000
+      internalID: -2677171176049150116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d8b6ba154d31ff0800000000000000
+      internalID: -66476122247033459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebefbe4e38d7bcc0800000000000000
+      internalID: -3695247207113430034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398a55dfb742f4e50800000000000000
+      internalID: 6795690477675194515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fea4cecba7db7b0800000000000000
+      internalID: -5206870642333651200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1091237ce755fa300800000000000000
+      internalID: 265524906034338049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba226363e813ad400800000000000000
+      internalID: 349646407939269291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d0c9f4994698bd0800000000000000
+      internalID: -2627458297965572754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae113f12ec4f0980800000000000000
+      internalID: -8570547031793131862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7bf242624994ec0800000000000000
+      internalID: -3582169137059743750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2163323880f0b50800000000000000
+      internalID: 6561472541426586332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7eb0f9c3742b320800000000000000
+      internalID: 2572196662873941983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cee596b41bd5590800000000000000
+      internalID: -7683790451775706040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0fbdabd684d7dd0800000000000000
+      internalID: -2486751783115034457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2e1ea4e166db7f0800000000000000
+      internalID: -595207295451667728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999fcf33c5e368a50800000000000000
+      internalID: 6522969676022872473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba511ddc0d89aa10800000000000000
+      internalID: 1921221802438253243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ddc4b783b2485c0800000000000000
+      internalID: -4214195829725143710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f318d9bc343a04230800000000000000
+      internalID: 3621073611980112191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8652c39e8f1c6dd30800000000000000
+      internalID: 4455962156138767720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15265d75c56b71650800000000000000
+      internalID: 6203627519452996177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d34d483ebe03b20800000000000000
+      internalID: 3112246704931618062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07e65f93b8a3f1a0800000000000000
+      internalID: -6776887524836579572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8e66c2bf2eb9800800000000000000
+      internalID: 620338942103185631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c602fbef8f9ce6e30800000000000000
+      internalID: 4498755149052715116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835e32ba193e40ab0800000000000000
+      internalID: -5042655467967093448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3d1c23a230b3f70800000000000000
+      internalID: 9167924946217849802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180730b0379a27e30800000000000000
+      internalID: 4499845289267654785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c432f26ed30bdfc80800000000000000
+      internalID: -8287273959390502068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307f3f33e7baead20800000000000000
+      internalID: 3291756936180266755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2270756319c2a2040800000000000000
+      internalID: 4623556969642788642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9843963afbedb3e00800000000000000
+      internalID: 1025658254818620553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774b4542895920010800000000000000
+      internalID: 1153648935237366903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411230cb886a47bf0800000000000000
+      internalID: -327453766691118828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67457d54ac790c750800000000000000
+      internalID: 6323220771839104118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb81155d765de3770800000000000000
+      internalID: 8592539781006694590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7610a1dc86012a610800000000000000
+      internalID: 1630884057365217639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed377b9b4c6569a0800000000000000
+      internalID: -6240462636665324063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa5c8088b96e130800000000000000
+      internalID: 3595732361066949239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66a50cd4b9893610800000000000000
+      internalID: 1601462552385398378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd12166723dd1730800000000000000
+      internalID: 3971562612580294097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32049c21e5f002820800000000000000
+      internalID: 2891327857488379939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adcc83039b259070800000000000000
+      internalID: 8112438214197562792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab493e371e17b490800000000000000
+      internalID: -7730677150181143638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a74004f02202ae50800000000000000
+      internalID: 6819015126348220321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d980d95438d4f7a0800000000000000
+      internalID: -6344208255701448234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_98
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103d28502ee0b8e40800000000000000
+      internalID: 5659633720639017729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a857e77db4cc809e0800000000000000
+      internalID: -1654848236948654710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295749bef0d824280800000000000000
+      internalID: -9060524400799615598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472a48f55103b9910800000000000000
+      internalID: 1845121340693324404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe1c9ed4a654dc70800000000000000
+      internalID: 8994909621875121917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a5357dc799b4b30800000000000000
+      internalID: 4272677432958605887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cf97d61dba6c3c0800000000000000
+      internalID: -4339592274951668606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5301aedfe2e8700800000000000000
+      internalID: 544424273046943149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e8dfe0aaee51290800000000000000
+      internalID: -7920161955497800142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a678455d4f3d9690800000000000000
+      internalID: -7593843795300944224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d515a14cd8109f0800000000000000
+      internalID: -503965809894138606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849aebdda700f4b60800000000000000
+      internalID: 7732399612924701000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1351ad671f50ab4d0800000000000000
+      internalID: -3118173257361386191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209ff843524a439f0800000000000000
+      internalID: -489585979773945598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6833145aebb5ca620800000000000000
+      internalID: 2786703143809921926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9ab44ed1ff237e0800000000000000
+      internalID: -1787085598263367247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e852e303898f15c60800000000000000
+      internalID: 7805292961737876878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808d5357369c38bc0800000000000000
+      internalID: -3781957833055676408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4acdb6bf8877360800000000000000
+      internalID: 7167347945411224791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d1f252ab44bf600800000000000000
+      internalID: 503071349660392759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b8060bd34405d00800000000000000
+      internalID: 959341752372726678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubM1_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ad7e04509b9390800000000000000
+      internalID: -7810490438049226499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b09390e3eb1b9954fbe8609b552c554e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GrubM1_0: 6430363562531017203
+      GrubM1_1: 8997656444439987371
+      GrubM1_10: 5530389967812859719
+      GrubM1_100: -9060524400799615598
+      GrubM1_101: 1845121340693324404
+      GrubM1_102: 8994909621875121917
+      GrubM1_103: 4272677432958605887
+      GrubM1_104: -4339592274951668606
+      GrubM1_105: 544424273046943149
+      GrubM1_106: -7920161955497800142
+      GrubM1_107: -7593843795300944224
+      GrubM1_108: -503965809894138606
+      GrubM1_109: 7732399612924701000
+      GrubM1_11: -9091605144444965297
+      GrubM1_110: -3118173257361386191
+      GrubM1_111: -489585979773945598
+      GrubM1_112: 2786703143809921926
+      GrubM1_113: -1787085598263367247
+      GrubM1_114: 7805292961737876878
+      GrubM1_115: -3781957833055676408
+      GrubM1_116: 7167347945411224791
+      GrubM1_117: 503071349660392759
+      GrubM1_118: 959341752372726678
+      GrubM1_119: -7810490438049226499
+      GrubM1_12: 6949384404399457956
+      GrubM1_13: -2575787654149454352
+      GrubM1_14: -3616229197985806366
+      GrubM1_15: 8917465793757545682
+      GrubM1_16: -3963273577872034521
+      GrubM1_17: -2039729759496811227
+      GrubM1_18: 686649200445579260
+      GrubM1_19: 9050900279107465468
+      GrubM1_2: -6896318666676000919
+      GrubM1_20: -5917979158251753286
+      GrubM1_21: -6269972751278111259
+      GrubM1_22: -1781145758318284645
+      GrubM1_23: -4087512985596699153
+      GrubM1_24: -9109352960037378886
+      GrubM1_25: 2562668602263045224
+      GrubM1_26: -6612514790389474117
+      GrubM1_27: -7064970400671279905
+      GrubM1_28: 3666245426086677482
+      GrubM1_29: -5724459949825565794
+      GrubM1_3: -5464767286846551751
+      GrubM1_30: -3711401285397318011
+      GrubM1_31: -8209256702369555714
+      GrubM1_32: -8841392396635425905
+      GrubM1_33: 3041866495845163133
+      GrubM1_34: -2985000927346130670
+      GrubM1_35: -6381764383101173078
+      GrubM1_36: -490451811310747336
+      GrubM1_37: 9194523672437927846
+      GrubM1_38: 3555781411935863041
+      GrubM1_39: -6987858359451171445
+      GrubM1_4: 4582134818037553781
+      GrubM1_40: 2334576632733483503
+      GrubM1_41: -5917104263346713647
+      GrubM1_42: -5215410007054323543
+      GrubM1_43: -7447834046551089159
+      GrubM1_44: -2801088948997959132
+      GrubM1_45: 6703465732043395770
+      GrubM1_46: -169631917652072015
+      GrubM1_47: 5694655511915230162
+      GrubM1_48: 4741681003836168011
+      GrubM1_49: 3804469237400861871
+      GrubM1_5: -3394969053172284829
+      GrubM1_50: -4076953411980522417
+      GrubM1_51: -1858628310681828100
+      GrubM1_52: -2677171176049150116
+      GrubM1_53: -66476122247033459
+      GrubM1_54: -3695247207113430034
+      GrubM1_55: 6795690477675194515
+      GrubM1_56: -5206870642333651200
+      GrubM1_57: 265524906034338049
+      GrubM1_58: 349646407939269291
+      GrubM1_59: -2627458297965572754
+      GrubM1_6: 6711464095437386112
+      GrubM1_60: -8570547031793131862
+      GrubM1_61: -3582169137059743750
+      GrubM1_62: 6561472541426586332
+      GrubM1_63: 2572196662873941983
+      GrubM1_64: -7683790451775706040
+      GrubM1_65: -2486751783115034457
+      GrubM1_66: -595207295451667728
+      GrubM1_67: 6522969676022872473
+      GrubM1_68: 1921221802438253243
+      GrubM1_69: -4214195829725143710
+      GrubM1_7: -633326182219836883
+      GrubM1_70: 3621073611980112191
+      GrubM1_71: 4455962156138767720
+      GrubM1_72: 6203627519452996177
+      GrubM1_73: 3112246704931618062
+      GrubM1_74: -6776887524836579572
+      GrubM1_75: 620338942103185631
+      GrubM1_76: 4498755149052715116
+      GrubM1_77: -5042655467967093448
+      GrubM1_78: 9167924946217849802
+      GrubM1_79: 4499845289267654785
+      GrubM1_8: 175548042287205182
+      GrubM1_80: -8287273959390502068
+      GrubM1_81: 3291756936180266755
+      GrubM1_82: 4623556969642788642
+      GrubM1_83: 1025658254818620553
+      GrubM1_84: 1153648935237366903
+      GrubM1_85: -327453766691118828
+      GrubM1_86: 6323220771839104118
+      GrubM1_87: 8592539781006694590
+      GrubM1_88: 1630884057365217639
+      GrubM1_89: -6240462636665324063
+      GrubM1_9: 4502145839869101031
+      GrubM1_90: 3595732361066949239
+      GrubM1_91: 1601462552385398378
+      GrubM1_92: 3971562612580294097
+      GrubM1_93: 2891327857488379939
+      GrubM1_94: 8112438214197562792
+      GrubM1_95: -7730677150181143638
+      GrubM1_96: 6819015126348220321
+      GrubM1_97: -6344208255701448234
+      GrubM1_98: 5659633720639017729
+      GrubM1_99: -1654848236948654710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

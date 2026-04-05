@@ -1,0 +1,4659 @@
+fileFormatVersion: 2
+guid: 9fe5a0f5f1e2a4549a2e06c05774469a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1823647252153676673
+    second: GrubTele_0
+  - first:
+      213: -7610207149425886537
+    second: GrubTele_1
+  - first:
+      213: 4201368144904664673
+    second: GrubTele_2
+  - first:
+      213: -5688902336934478049
+    second: GrubTele_3
+  - first:
+      213: 8606472342654376098
+    second: GrubTele_4
+  - first:
+      213: 1759463239663953118
+    second: GrubTele_5
+  - first:
+      213: 7103195112142058843
+    second: GrubTele_6
+  - first:
+      213: 5926736035051073260
+    second: GrubTele_7
+  - first:
+      213: 2500831346549419302
+    second: GrubTele_8
+  - first:
+      213: -5052036260405457135
+    second: GrubTele_9
+  - first:
+      213: 9048237086445490102
+    second: GrubTele_10
+  - first:
+      213: 2364634958866101598
+    second: GrubTele_11
+  - first:
+      213: 741632800770753484
+    second: GrubTele_12
+  - first:
+      213: 839531276585085081
+    second: GrubTele_13
+  - first:
+      213: -6887741561887761390
+    second: GrubTele_14
+  - first:
+      213: 2156645322410376616
+    second: GrubTele_15
+  - first:
+      213: 6511563388929321993
+    second: GrubTele_16
+  - first:
+      213: 429328604094048409
+    second: GrubTele_17
+  - first:
+      213: 4550087046151182875
+    second: GrubTele_18
+  - first:
+      213: -1551133820753309769
+    second: GrubTele_19
+  - first:
+      213: 5467923070777180492
+    second: GrubTele_20
+  - first:
+      213: -6383024462436594028
+    second: GrubTele_21
+  - first:
+      213: 8586410060332913470
+    second: GrubTele_22
+  - first:
+      213: 7776594927200760987
+    second: GrubTele_23
+  - first:
+      213: 5789630256765751888
+    second: GrubTele_24
+  - first:
+      213: 2327440384817722895
+    second: GrubTele_25
+  - first:
+      213: 8072541056286762011
+    second: GrubTele_26
+  - first:
+      213: -398326304008801319
+    second: GrubTele_27
+  - first:
+      213: 3579050243497811502
+    second: GrubTele_28
+  - first:
+      213: -1335621890720968206
+    second: GrubTele_29
+  - first:
+      213: -4185392580414373798
+    second: GrubTele_30
+  - first:
+      213: -2636369842412299769
+    second: GrubTele_31
+  - first:
+      213: 4115122177839451869
+    second: GrubTele_32
+  - first:
+      213: -3126384713883502469
+    second: GrubTele_33
+  - first:
+      213: -6456956629536887158
+    second: GrubTele_34
+  - first:
+      213: 3766020731640575878
+    second: GrubTele_35
+  - first:
+      213: -4061112237335545129
+    second: GrubTele_36
+  - first:
+      213: -2750886428300489739
+    second: GrubTele_37
+  - first:
+      213: -6225652108053721618
+    second: GrubTele_38
+  - first:
+      213: 8262100665865876888
+    second: GrubTele_39
+  - first:
+      213: 6538322141509402412
+    second: GrubTele_40
+  - first:
+      213: -1951681669608905475
+    second: GrubTele_41
+  - first:
+      213: -5192240799948654024
+    second: GrubTele_42
+  - first:
+      213: -1865964977273034349
+    second: GrubTele_43
+  - first:
+      213: 5791417827887158343
+    second: GrubTele_44
+  - first:
+      213: -4420008353399647400
+    second: GrubTele_45
+  - first:
+      213: -8732498165699240338
+    second: GrubTele_46
+  - first:
+      213: -140371099565512540
+    second: GrubTele_47
+  - first:
+      213: 6149919799829921230
+    second: GrubTele_48
+  - first:
+      213: 7041269778081213523
+    second: GrubTele_49
+  - first:
+      213: -2408337898345410374
+    second: GrubTele_50
+  - first:
+      213: -2922558948814111031
+    second: GrubTele_51
+  - first:
+      213: 4237494074468120604
+    second: GrubTele_52
+  - first:
+      213: 7794787443796719930
+    second: GrubTele_53
+  - first:
+      213: 1797215122629663639
+    second: GrubTele_54
+  - first:
+      213: 7261722948823511777
+    second: GrubTele_55
+  - first:
+      213: 8882059944472629965
+    second: GrubTele_56
+  - first:
+      213: -1017539174947011609
+    second: GrubTele_57
+  - first:
+      213: 2304106466110809928
+    second: GrubTele_58
+  - first:
+      213: -1558587913832989481
+    second: GrubTele_59
+  - first:
+      213: -1560806459677905070
+    second: GrubTele_60
+  - first:
+      213: -6638724179973506039
+    second: GrubTele_61
+  - first:
+      213: -4381355746656635708
+    second: GrubTele_62
+  - first:
+      213: 4307139169392818782
+    second: GrubTele_63
+  - first:
+      213: 337107499878800723
+    second: GrubTele_64
+  - first:
+      213: 1420085678396776381
+    second: GrubTele_65
+  - first:
+      213: 857754388149582586
+    second: GrubTele_66
+  - first:
+      213: 7222316568812734905
+    second: GrubTele_67
+  - first:
+      213: -3531091273800513015
+    second: GrubTele_68
+  - first:
+      213: -5439431825769844331
+    second: GrubTele_69
+  - first:
+      213: 554690524086637548
+    second: GrubTele_70
+  - first:
+      213: 4149131192958218174
+    second: GrubTele_71
+  - first:
+      213: -8785118158178580538
+    second: GrubTele_72
+  - first:
+      213: 4594309342154178724
+    second: GrubTele_73
+  - first:
+      213: 3957318843972278736
+    second: GrubTele_74
+  - first:
+      213: -6219920600217232085
+    second: GrubTele_75
+  - first:
+      213: 1559290320887188505
+    second: GrubTele_76
+  - first:
+      213: 4531010235268703484
+    second: GrubTele_77
+  - first:
+      213: 3630621754126400963
+    second: GrubTele_78
+  - first:
+      213: -5514798985899000704
+    second: GrubTele_79
+  - first:
+      213: 1245431535461247758
+    second: GrubTele_80
+  - first:
+      213: -5899487901347294430
+    second: GrubTele_81
+  - first:
+      213: -7657203710409911857
+    second: GrubTele_82
+  - first:
+      213: 4382265651583448817
+    second: GrubTele_83
+  - first:
+      213: -1002500582800487686
+    second: GrubTele_84
+  - first:
+      213: -6215310327064521779
+    second: GrubTele_85
+  - first:
+      213: 6452552001290127515
+    second: GrubTele_86
+  - first:
+      213: -1042570073785028210
+    second: GrubTele_87
+  - first:
+      213: -6717629467067923289
+    second: GrubTele_88
+  - first:
+      213: 3657338287065201098
+    second: GrubTele_89
+  - first:
+      213: 6366617300643786503
+    second: GrubTele_90
+  - first:
+      213: 2535744706303593975
+    second: GrubTele_91
+  - first:
+      213: -5115635281575999192
+    second: GrubTele_92
+  - first:
+      213: -1953887614574497521
+    second: GrubTele_93
+  - first:
+      213: 7521566014415250432
+    second: GrubTele_94
+  - first:
+      213: 1798948254686365477
+    second: GrubTele_95
+  - first:
+      213: 8488284665682569435
+    second: GrubTele_96
+  - first:
+      213: -7196910331646562655
+    second: GrubTele_97
+  - first:
+      213: -9026305580665091119
+    second: GrubTele_98
+  - first:
+      213: 264948951687966436
+    second: GrubTele_99
+  - first:
+      213: 96343245410776936
+    second: GrubTele_100
+  - first:
+      213: 2448423457029051169
+    second: GrubTele_101
+  - first:
+      213: -3090781602867451821
+    second: GrubTele_102
+  - first:
+      213: 186937572333507504
+    second: GrubTele_103
+  - first:
+      213: -3215867840082872969
+    second: GrubTele_104
+  - first:
+      213: 3355925678804363304
+    second: GrubTele_105
+  - first:
+      213: 7887712761315916293
+    second: GrubTele_106
+  - first:
+      213: 2915180241279650882
+    second: GrubTele_107
+  - first:
+      213: -5628215227998322125
+    second: GrubTele_108
+  - first:
+      213: -2331731096462104350
+    second: GrubTele_109
+  - first:
+      213: -3960911736684747133
+    second: GrubTele_110
+  - first:
+      213: -46842143361450618
+    second: GrubTele_111
+  - first:
+      213: 4881326086859494368
+    second: GrubTele_112
+  - first:
+      213: -6405699539545589789
+    second: GrubTele_113
+  - first:
+      213: -2612739177616909916
+    second: GrubTele_114
+  - first:
+      213: -3706861125116475099
+    second: GrubTele_115
+  - first:
+      213: 334952423075469085
+    second: GrubTele_116
+  - first:
+      213: 2234507577974685862
+    second: GrubTele_117
+  - first:
+      213: -4904757963330125518
+    second: GrubTele_118
+  - first:
+      213: 2469189890415177662
+    second: GrubTele_119
+  - first:
+      213: -7782647223225112341
+    second: GrubTele_120
+  - first:
+      213: -4876481847590502333
+    second: GrubTele_121
+  - first:
+      213: -2255944457659979174
+    second: GrubTele_122
+  - first:
+      213: 1382811267853936660
+    second: GrubTele_123
+  - first:
+      213: 5405688537624462994
+    second: GrubTele_124
+  - first:
+      213: 544198082804719901
+    second: GrubTele_125
+  - first:
+      213: 4810896771903463153
+    second: GrubTele_126
+  - first:
+      213: -6656690419244136874
+    second: GrubTele_127
+  - first:
+      213: 5088589576017804550
+    second: GrubTele_128
+  - first:
+      213: 816948457431845497
+    second: GrubTele_129
+  - first:
+      213: -2343797752446342784
+    second: GrubTele_130
+  - first:
+      213: -5758965626459326846
+    second: GrubTele_131
+  - first:
+      213: -5350469920240483056
+    second: GrubTele_132
+  - first:
+      213: 6939586952769426939
+    second: GrubTele_133
+  - first:
+      213: 7491557489664713664
+    second: GrubTele_134
+  - first:
+      213: -8315993990201974815
+    second: GrubTele_135
+  - first:
+      213: 8761698104196736874
+    second: GrubTele_136
+  - first:
+      213: 6268276145250412333
+    second: GrubTele_137
+  - first:
+      213: -7652100612814051749
+    second: GrubTele_138
+  - first:
+      213: 8495171572335786939
+    second: GrubTele_139
+  - first:
+      213: 7182395558841494818
+    second: GrubTele_140
+  - first:
+      213: 1270963776079020606
+    second: GrubTele_141
+  - first:
+      213: -7074794618676944756
+    second: GrubTele_142
+  - first:
+      213: 8895005971445427596
+    second: GrubTele_143
+  - first:
+      213: 5428951823996472171
+    second: GrubTele_144
+  - first:
+      213: -5408126856364287905
+    second: GrubTele_145
+  - first:
+      213: -8482626642065939950
+    second: GrubTele_146
+  - first:
+      213: 620853224288926246
+    second: GrubTele_147
+  - first:
+      213: -579790600693873140
+    second: GrubTele_148
+  - first:
+      213: -2872084136220018889
+    second: GrubTele_149
+  - first:
+      213: 4864485688007503576
+    second: GrubTele_150
+  - first:
+      213: -3092441333771731764
+    second: GrubTele_151
+  - first:
+      213: 1271624653120380830
+    second: GrubTele_152
+  - first:
+      213: 9124043101625887694
+    second: GrubTele_153
+  - first:
+      213: 5964250149585893544
+    second: GrubTele_154
+  - first:
+      213: -1332422047928502095
+    second: GrubTele_155
+  - first:
+      213: -1829352985418588029
+    second: GrubTele_156
+  - first:
+      213: 3234921784229201690
+    second: GrubTele_157
+  - first:
+      213: 2639304331608933153
+    second: GrubTele_158
+  - first:
+      213: -923517302880674710
+    second: GrubTele_159
+  - first:
+      213: 3145155828988771137
+    second: GrubTele_160
+  - first:
+      213: -8009854580536509565
+    second: GrubTele_161
+  - first:
+      213: -9146899815566046820
+    second: GrubTele_162
+  - first:
+      213: 1846977208924445265
+    second: GrubTele_163
+  - first:
+      213: -311268850408946365
+    second: GrubTele_164
+  - first:
+      213: 3105027144112869343
+    second: GrubTele_165
+  - first:
+      213: -5760076260688559664
+    second: GrubTele_166
+  - first:
+      213: -6854204006789280743
+    second: GrubTele_167
+  - first:
+      213: 364787130301331797
+    second: GrubTele_168
+  - first:
+      213: 7092212662469217314
+    second: GrubTele_169
+  - first:
+      213: -5616539264532528219
+    second: GrubTele_170
+  - first:
+      213: 925059531222424959
+    second: GrubTele_171
+  - first:
+      213: 4906495748909299517
+    second: GrubTele_172
+  - first:
+      213: 8576995219733327264
+    second: GrubTele_173
+  - first:
+      213: -961518797297856835
+    second: GrubTele_174
+  - first:
+      213: 8071081798255525270
+    second: GrubTele_175
+  - first:
+      213: 5047827740642417041
+    second: GrubTele_176
+  - first:
+      213: -7829537746292488230
+    second: GrubTele_177
+  - first:
+      213: 5389348653665891203
+    second: GrubTele_178
+  - first:
+      213: -7931616810567102925
+    second: GrubTele_179
+  - first:
+      213: -3905959317651520290
+    second: GrubTele_180
+  - first:
+      213: 3276413805826419592
+    second: GrubTele_181
+  - first:
+      213: -7943166357888705380
+    second: GrubTele_182
+  - first:
+      213: 1755014396207089647
+    second: GrubTele_183
+  - first:
+      213: 8390289782541318595
+    second: GrubTele_184
+  - first:
+      213: 925109780336703233
+    second: GrubTele_185
+  - first:
+      213: -961591587275785415
+    second: GrubTele_186
+  - first:
+      213: -4738440539904101341
+    second: GrubTele_187
+  - first:
+      213: -4935279213475511966
+    second: GrubTele_188
+  - first:
+      213: 892924420635548167
+    second: GrubTele_189
+  - first:
+      213: -1164261081623398360
+    second: GrubTele_190
+  - first:
+      213: 666214504672791886
+    second: GrubTele_191
+  - first:
+      213: -8649541236248187329
+    second: GrubTele_192
+  - first:
+      213: 592007048703585894
+    second: GrubTele_193
+  - first:
+      213: -938449572711596041
+    second: GrubTele_194
+  - first:
+      213: -2993702280934627299
+    second: GrubTele_195
+  - first:
+      213: -8674302460214469930
+    second: GrubTele_196
+  - first:
+      213: 6052610677920366421
+    second: GrubTele_197
+  - first:
+      213: -6778541824946822703
+    second: GrubTele_198
+  - first:
+      213: 609887634155703759
+    second: GrubTele_199
+  - first:
+      213: 7272423442664516160
+    second: GrubTele_200
+  - first:
+      213: -1031861971496195180
+    second: GrubTele_201
+  - first:
+      213: -1628807105307023055
+    second: GrubTele_202
+  - first:
+      213: -2743980245157436886
+    second: GrubTele_203
+  - first:
+      213: -3264589044275923577
+    second: GrubTele_204
+  - first:
+      213: 7464445352747263629
+    second: GrubTele_205
+  - first:
+      213: 5211611805540581703
+    second: GrubTele_206
+  - first:
+      213: 8371248838826177912
+    second: GrubTele_207
+  - first:
+      213: -3419434581084550448
+    second: GrubTele_208
+  - first:
+      213: 7069489102268045555
+    second: GrubTele_209
+  - first:
+      213: 2999442439814843208
+    second: GrubTele_210
+  - first:
+      213: 4557561624961278434
+    second: GrubTele_211
+  - first:
+      213: 4905418535201329483
+    second: GrubTele_212
+  - first:
+      213: 518835938414586148
+    second: GrubTele_213
+  - first:
+      213: -2633069761528841260
+    second: GrubTele_214
+  - first:
+      213: 3417707691836261558
+    second: GrubTele_215
+  - first:
+      213: -2215493200365952255
+    second: GrubTele_216
+  - first:
+      213: 3196397534521806315
+    second: GrubTele_217
+  - first:
+      213: 7807052010817117059
+    second: GrubTele_218
+  - first:
+      213: -5367270848827590587
+    second: GrubTele_219
+  - first:
+      213: -5237398824731598672
+    second: GrubTele_220
+  - first:
+      213: -1396748894693787731
+    second: GrubTele_221
+  - first:
+      213: 6767652998297810154
+    second: GrubTele_222
+  - first:
+      213: 1092614010802502415
+    second: GrubTele_223
+  - first:
+      213: -5548459955181519941
+    second: GrubTele_224
+  - first:
+      213: -7155945967878798533
+    second: GrubTele_225
+  - first:
+      213: 8522542908470085884
+    second: GrubTele_226
+  - first:
+      213: 1968582997435188592
+    second: GrubTele_227
+  - first:
+      213: -7164575259283789531
+    second: GrubTele_228
+  - first:
+      213: 3413678019069115982
+    second: GrubTele_229
+  - first:
+      213: -4085524216227022625
+    second: GrubTele_230
+  - first:
+      213: -4134861506891096515
+    second: GrubTele_231
+  - first:
+      213: -6702144046392091834
+    second: GrubTele_232
+  - first:
+      213: -907092756461268629
+    second: GrubTele_233
+  - first:
+      213: -4458023230298533044
+    second: GrubTele_234
+  - first:
+      213: 7106210480525347732
+    second: GrubTele_235
+  - first:
+      213: -4831034906229787205
+    second: GrubTele_236
+  - first:
+      213: -1489551462994158242
+    second: GrubTele_237
+  - first:
+      213: -2542392602127282679
+    second: GrubTele_238
+  - first:
+      213: 2219623040342670908
+    second: GrubTele_239
+  - first:
+      213: 4685865613589429962
+    second: GrubTele_240
+  - first:
+      213: -1617919512543298856
+    second: GrubTele_241
+  - first:
+      213: 3130537048330601591
+    second: GrubTele_242
+  - first:
+      213: -4524059864122653299
+    second: GrubTele_243
+  - first:
+      213: 5212832054423068319
+    second: GrubTele_244
+  - first:
+      213: 4530594987407438026
+    second: GrubTele_245
+  - first:
+      213: -1007956313956559121
+    second: GrubTele_246
+  - first:
+      213: 2857360981656421348
+    second: GrubTele_247
+  - first:
+      213: -2760786585122398899
+    second: GrubTele_248
+  - first:
+      213: -4615581434403359445
+    second: GrubTele_249
+  - first:
+      213: 3226633247951005208
+    second: GrubTele_250
+  - first:
+      213: -8096886268229784578
+    second: GrubTele_251
+  - first:
+      213: 6001584182508129593
+    second: GrubTele_252
+  - first:
+      213: -3101651602677045950
+    second: GrubTele_253
+  - first:
+      213: -4668937020890678239
+    second: GrubTele_254
+  - first:
+      213: -6909952655201414252
+    second: GrubTele_255
+  - first:
+      213: -1937911236605168879
+    second: GrubTele_256
+  - first:
+      213: -1777897856283872779
+    second: GrubTele_257
+  - first:
+      213: 4988698083737042954
+    second: GrubTele_258
+  - first:
+      213: -8970977259402783458
+    second: GrubTele_259
+  - first:
+      213: -3776958753569816135
+    second: GrubTele_260
+  - first:
+      213: -3377546666877208426
+    second: GrubTele_261
+  - first:
+      213: 1496812667333530460
+    second: GrubTele_262
+  - first:
+      213: -666562091777767396
+    second: GrubTele_263
+  - first:
+      213: 42723558498571671
+    second: GrubTele_264
+  - first:
+      213: -11290134073093408
+    second: GrubTele_265
+  - first:
+      213: 7689462065863137556
+    second: GrubTele_266
+  - first:
+      213: -1732892488773367482
+    second: GrubTele_267
+  - first:
+      213: -3945966144580936678
+    second: GrubTele_268
+  - first:
+      213: -6006279982707316473
+    second: GrubTele_269
+  - first:
+      213: -6652821096190237175
+    second: GrubTele_270
+  - first:
+      213: 4453215939073198531
+    second: GrubTele_271
+  - first:
+      213: 3904354819328647667
+    second: GrubTele_272
+  - first:
+      213: -3456399271500568033
+    second: GrubTele_273
+  - first:
+      213: 4949367351619756641
+    second: GrubTele_274
+  - first:
+      213: 2033075427700957115
+    second: GrubTele_275
+  - first:
+      213: 3977428934599939199
+    second: GrubTele_276
+  - first:
+      213: -2474440201868791310
+    second: GrubTele_277
+  - first:
+      213: -1680115221825138840
+    second: GrubTele_278
+  - first:
+      213: 5166162095875964278
+    second: GrubTele_279
+  - first:
+      213: -65131237760429607
+    second: GrubTele_280
+  - first:
+      213: -1988143599597773514
+    second: GrubTele_281
+  - first:
+      213: 8503933750166851970
+    second: GrubTele_282
+  - first:
+      213: -1664492777648267991
+    second: GrubTele_283
+  - first:
+      213: -8928418555494369775
+    second: GrubTele_284
+  - first:
+      213: -6090492208020162608
+    second: GrubTele_285
+  - first:
+      213: 3154508276413063356
+    second: GrubTele_286
+  - first:
+      213: 6771445134569563311
+    second: GrubTele_287
+  - first:
+      213: 3776887604309475476
+    second: GrubTele_288
+  - first:
+      213: -5794604838787972945
+    second: GrubTele_289
+  - first:
+      213: 3904200526850056074
+    second: GrubTele_290
+  - first:
+      213: 7910689927273928733
+    second: GrubTele_291
+  - first:
+      213: 5288237183542975969
+    second: GrubTele_292
+  - first:
+      213: 1895159578019325950
+    second: GrubTele_293
+  - first:
+      213: -8662803366557928759
+    second: GrubTele_294
+  - first:
+      213: -8318314890743795479
+    second: GrubTele_295
+  - first:
+      213: -7732729552593976212
+    second: GrubTele_296
+  - first:
+      213: -6863592159005898721
+    second: GrubTele_297
+  - first:
+      213: 8388302928643243627
+    second: GrubTele_298
+  - first:
+      213: -9024707777034382303
+    second: GrubTele_299
+  - first:
+      213: -1246060543507578540
+    second: GrubTele_300
+  - first:
+      213: 1025552058356070972
+    second: GrubTele_301
+  - first:
+      213: -1494693894858902952
+    second: GrubTele_302
+  - first:
+      213: 1517400067775318589
+    second: GrubTele_303
+  - first:
+      213: -3519491072057975991
+    second: GrubTele_304
+  - first:
+      213: -1881554436464582845
+    second: GrubTele_305
+  - first:
+      213: -7690711528401254724
+    second: GrubTele_306
+  - first:
+      213: 8851007955012200636
+    second: GrubTele_307
+  - first:
+      213: -4192156125443835397
+    second: GrubTele_308
+  - first:
+      213: -9132986855908048684
+    second: GrubTele_309
+  - first:
+      213: -935949107804068903
+    second: GrubTele_310
+  - first:
+      213: -5130174941095881540
+    second: GrubTele_311
+  - first:
+      213: -1082872386160329853
+    second: GrubTele_312
+  - first:
+      213: -8878252861578547443
+    second: GrubTele_313
+  - first:
+      213: -3104352066041549200
+    second: GrubTele_314
+  - first:
+      213: 580439899380737901
+    second: GrubTele_315
+  - first:
+      213: 3956293381750442995
+    second: GrubTele_316
+  - first:
+      213: -631841353639908686
+    second: GrubTele_317
+  - first:
+      213: -8037568549239291777
+    second: GrubTele_318
+  - first:
+      213: 3957821622912727690
+    second: GrubTele_319
+  - first:
+      213: -2829181299527931209
+    second: GrubTele_320
+  - first:
+      213: 9222930764100976491
+    second: GrubTele_321
+  - first:
+      213: -1909799059376327420
+    second: GrubTele_322
+  - first:
+      213: -5229645663367107065
+    second: GrubTele_323
+  - first:
+      213: 6708262853658080850
+    second: GrubTele_324
+  - first:
+      213: 5358260974717051242
+    second: GrubTele_325
+  - first:
+      213: -5071393371864032091
+    second: GrubTele_326
+  - first:
+      213: -8136623736842481877
+    second: GrubTele_327
+  - first:
+      213: 5002031204804328156
+    second: GrubTele_328
+  - first:
+      213: 5655413177670598544
+    second: GrubTele_329
+  - first:
+      213: -6047630845737095896
+    second: GrubTele_330
+  - first:
+      213: 8129392166487997327
+    second: GrubTele_331
+  - first:
+      213: -3985709292963952182
+    second: GrubTele_332
+  - first:
+      213: 2443179744344380980
+    second: GrubTele_333
+  - first:
+      213: -5849224924958854975
+    second: GrubTele_334
+  - first:
+      213: -7184117334365459655
+    second: GrubTele_335
+  - first:
+      213: -6868628867911651628
+    second: GrubTele_336
+  - first:
+      213: 4236559503293159716
+    second: GrubTele_337
+  - first:
+      213: -2180853177802170777
+    second: GrubTele_338
+  - first:
+      213: 8969215288654528658
+    second: GrubTele_339
+  - first:
+      213: 7358960920565278519
+    second: GrubTele_340
+  - first:
+      213: 1095640014934836396
+    second: GrubTele_341
+  - first:
+      213: 5250407276726837553
+    second: GrubTele_342
+  - first:
+      213: -8522880295739936284
+    second: GrubTele_343
+  - first:
+      213: 1738671932827838758
+    second: GrubTele_344
+  - first:
+      213: 2178375194877555403
+    second: GrubTele_345
+  - first:
+      213: -5829734598229288536
+    second: GrubTele_346
+  - first:
+      213: 4725523222159374373
+    second: GrubTele_347
+  - first:
+      213: -5206417054871638075
+    second: GrubTele_348
+  - first:
+      213: 972274981168946372
+    second: GrubTele_349
+  - first:
+      213: 4527419033400661120
+    second: GrubTele_350
+  - first:
+      213: 7567632775666453049
+    second: GrubTele_351
+  - first:
+      213: 28943927866860397
+    second: GrubTele_352
+  - first:
+      213: 8277349478332236460
+    second: GrubTele_353
+  - first:
+      213: 6434232669872277436
+    second: GrubTele_354
+  - first:
+      213: 5516431963198764306
+    second: GrubTele_355
+  - first:
+      213: 2968717841241871407
+    second: GrubTele_356
+  - first:
+      213: 5241382179715693124
+    second: GrubTele_357
+  - first:
+      213: 8091072480196191649
+    second: GrubTele_358
+  - first:
+      213: -5776300654815167741
+    second: GrubTele_359
+  - first:
+      213: 1493022963150107526
+    second: GrubTele_360
+  - first:
+      213: -5697512978078799191
+    second: GrubTele_361
+  - first:
+      213: -831194673256541343
+    second: GrubTele_362
+  - first:
+      213: -1364654614715189621
+    second: GrubTele_363
+  - first:
+      213: 802630082717823205
+    second: GrubTele_364
+  - first:
+      213: -6386354276258476450
+    second: GrubTele_365
+  - first:
+      213: 6891054902382299095
+    second: GrubTele_366
+  - first:
+      213: -4841158029038557436
+    second: GrubTele_367
+  - first:
+      213: -6137864371284290979
+    second: GrubTele_368
+  - first:
+      213: 5865801074401331238
+    second: GrubTele_369
+  - first:
+      213: -369995616515073729
+    second: GrubTele_370
+  - first:
+      213: -3183884736965890339
+    second: GrubTele_371
+  - first:
+      213: -6534090807104421079
+    second: GrubTele_372
+  - first:
+      213: 6629116589206648432
+    second: GrubTele_373
+  - first:
+      213: 6448399797233800364
+    second: GrubTele_374
+  - first:
+      213: -7987717762663916610
+    second: GrubTele_375
+  - first:
+      213: 1316691487019957848
+    second: GrubTele_376
+  - first:
+      213: -152491915168538992
+    second: GrubTele_377
+  - first:
+      213: -3976447549437883338
+    second: GrubTele_378
+  - first:
+      213: -4021139441150488098
+    second: GrubTele_379
+  - first:
+      213: -6174014513425416293
+    second: GrubTele_380
+  - first:
+      213: -6981828423487681165
+    second: GrubTele_381
+  - first:
+      213: -8617739692835687080
+    second: GrubTele_382
+  - first:
+      213: -8430417372700803144
+    second: GrubTele_383
+  - first:
+      213: 9060797799169398111
+    second: GrubTele_384
+  - first:
+      213: -8079053043904760178
+    second: GrubTele_385
+  - first:
+      213: 1737123465572783953
+    second: GrubTele_386
+  - first:
+      213: 5371208027692856532
+    second: GrubTele_387
+  - first:
+      213: -4111328353464108571
+    second: GrubTele_388
+  - first:
+      213: 1173773268097909888
+    second: GrubTele_389
+  - first:
+      213: 3691776013522486175
+    second: GrubTele_390
+  - first:
+      213: 1706256954953449747
+    second: GrubTele_391
+  - first:
+      213: -4923772499087464765
+    second: GrubTele_392
+  - first:
+      213: -2289781638730952256
+    second: GrubTele_393
+  - first:
+      213: 4872606930124424457
+    second: GrubTele_394
+  - first:
+      213: 1781432060424309514
+    second: GrubTele_395
+  - first:
+      213: -2612616819860156524
+    second: GrubTele_396
+  - first:
+      213: 8659121186795871014
+    second: GrubTele_397
+  - first:
+      213: 268721325295223235
+    second: GrubTele_398
+  - first:
+      213: -2657058997103076105
+    second: GrubTele_399
+  - first:
+      213: -2957024183891705653
+    second: GrubTele_400
+  - first:
+      213: -8381239380552503037
+    second: GrubTele_401
+  - first:
+      213: 2462361420976002629
+    second: GrubTele_402
+  - first:
+      213: 8597511026424282368
+    second: GrubTele_403
+  - first:
+      213: 462296625458739726
+    second: GrubTele_404
+  - first:
+      213: -3617053941271734608
+    second: GrubTele_405
+  - first:
+      213: -4508273773245670946
+    second: GrubTele_406
+  - first:
+      213: 3031130421888693332
+    second: GrubTele_407
+  - first:
+      213: -4563623095650750346
+    second: GrubTele_408
+  - first:
+      213: -911898550699419192
+    second: GrubTele_409
+  - first:
+      213: 7605480346383385802
+    second: GrubTele_410
+  - first:
+      213: -2133455313970644344
+    second: GrubTele_411
+  - first:
+      213: -6498157009947230388
+    second: GrubTele_412
+  - first:
+      213: 3582021873623320972
+    second: GrubTele_413
+  - first:
+      213: -6911964490153337708
+    second: GrubTele_414
+  - first:
+      213: -2029697476958907820
+    second: GrubTele_415
+  - first:
+      213: 2099635963753663992
+    second: GrubTele_416
+  - first:
+      213: -4401084993473278613
+    second: GrubTele_417
+  - first:
+      213: 2539423648233455386
+    second: GrubTele_418
+  - first:
+      213: 3921749754561785637
+    second: GrubTele_419
+  - first:
+      213: 2826214491727087
+    second: GrubTele_420
+  - first:
+      213: -8519437199945278823
+    second: GrubTele_421
+  - first:
+      213: -5827977854588078749
+    second: GrubTele_422
+  - first:
+      213: -1170046169847281717
+    second: GrubTele_423
+  - first:
+      213: 8275816015283782888
+    second: GrubTele_424
+  - first:
+      213: 8036582479105330288
+    second: GrubTele_425
+  - first:
+      213: 2252473833466394375
+    second: GrubTele_426
+  - first:
+      213: -8538337552161996213
+    second: GrubTele_427
+  - first:
+      213: 7607584987415175095
+    second: GrubTele_428
+  - first:
+      213: 4211966717908840800
+    second: GrubTele_429
+  - first:
+      213: -6834888169021009364
+    second: GrubTele_430
+  - first:
+      213: -1796776754276722183
+    second: GrubTele_431
+  - first:
+      213: -397096436263527849
+    second: GrubTele_432
+  - first:
+      213: -505172541507972262
+    second: GrubTele_433
+  - first:
+      213: 771104699068659573
+    second: GrubTele_434
+  - first:
+      213: -6679266287955477173
+    second: GrubTele_435
+  - first:
+      213: -8919005883792980647
+    second: GrubTele_436
+  - first:
+      213: 106923235112338007
+    second: GrubTele_437
+  - first:
+      213: -7960598149233508135
+    second: GrubTele_438
+  - first:
+      213: -459705627565559014
+    second: GrubTele_439
+  - first:
+      213: -9132969477913067531
+    second: GrubTele_440
+  - first:
+      213: 1196565818644174577
+    second: GrubTele_441
+  - first:
+      213: 8820131094227870660
+    second: GrubTele_442
+  - first:
+      213: 3903009166647906180
+    second: GrubTele_443
+  - first:
+      213: -7170332808616254815
+    second: GrubTele_444
+  - first:
+      213: -5001262022860022835
+    second: GrubTele_445
+  - first:
+      213: 4128450669886227921
+    second: GrubTele_446
+  - first:
+      213: -2326977385539873901
+    second: GrubTele_447
+  - first:
+      213: 4680554028268835042
+    second: GrubTele_448
+  - first:
+      213: -1635766213814340620
+    second: GrubTele_449
+  - first:
+      213: -4219874158533512661
+    second: GrubTele_450
+  - first:
+      213: -4892227727789031365
+    second: GrubTele_451
+  - first:
+      213: 7637942540968293129
+    second: GrubTele_452
+  - first:
+      213: -9003941422808656756
+    second: GrubTele_453
+  - first:
+      213: -1861161480259336873
+    second: GrubTele_454
+  - first:
+      213: 6514037806271477580
+    second: GrubTele_455
+  - first:
+      213: 1438452939504916584
+    second: GrubTele_456
+  - first:
+      213: 925070538012220735
+    second: GrubTele_457
+  - first:
+      213: -7703048029910501657
+    second: GrubTele_458
+  - first:
+      213: -909412582308990865
+    second: GrubTele_459
+  - first:
+      213: -7901089293293135857
+    second: GrubTele_460
+  - first:
+      213: 5268665701818931679
+    second: GrubTele_461
+  - first:
+      213: 94806938582192566
+    second: GrubTele_462
+  - first:
+      213: -6933208114696014641
+    second: GrubTele_463
+  - first:
+      213: 8640325993792225228
+    second: GrubTele_464
+  - first:
+      213: 6696837987373431177
+    second: GrubTele_465
+  - first:
+      213: 3229458511676166838
+    second: GrubTele_466
+  - first:
+      213: 1450454747784141892
+    second: GrubTele_467
+  - first:
+      213: -3888697247072554577
+    second: GrubTele_468
+  - first:
+      213: -8070162859364965559
+    second: GrubTele_469
+  - first:
+      213: 2169866098991908903
+    second: GrubTele_470
+  - first:
+      213: -6103126599914018564
+    second: GrubTele_471
+  - first:
+      213: -1577650371782363696
+    second: GrubTele_472
+  - first:
+      213: 1816040083764021567
+    second: GrubTele_473
+  - first:
+      213: -6101952126489652064
+    second: GrubTele_474
+  - first:
+      213: 8317004259619324816
+    second: GrubTele_475
+  - first:
+      213: -4331697053460572681
+    second: GrubTele_476
+  - first:
+      213: -5568642184937486912
+    second: GrubTele_477
+  - first:
+      213: -4432363378241467689
+    second: GrubTele_478
+  - first:
+      213: 3535561575069134064
+    second: GrubTele_479
+  - first:
+      213: 3188931466424486572
+    second: GrubTele_480
+  - first:
+      213: 2211647230905303483
+    second: GrubTele_481
+  - first:
+      213: -2505236806387839936
+    second: GrubTele_482
+  - first:
+      213: 3411714294096512180
+    second: GrubTele_483
+  - first:
+      213: 6607943231485566623
+    second: GrubTele_484
+  - first:
+      213: 7599687329952656620
+    second: GrubTele_485
+  - first:
+      213: 5991930945789255694
+    second: GrubTele_486
+  - first:
+      213: -592848067726144115
+    second: GrubTele_487
+  - first:
+      213: -8329326516105903623
+    second: GrubTele_488
+  - first:
+      213: 6964865624956174145
+    second: GrubTele_489
+  - first:
+      213: -2141439005741584727
+    second: GrubTele_490
+  - first:
+      213: 425766987861285806
+    second: GrubTele_491
+  - first:
+      213: -6485492845041809489
+    second: GrubTele_492
+  - first:
+      213: 7446158638713342321
+    second: GrubTele_493
+  - first:
+      213: -7030001201717982875
+    second: GrubTele_494
+  - first:
+      213: -5144494762738436385
+    second: GrubTele_495
+  - first:
+      213: -7734147602573729460
+    second: GrubTele_496
+  - first:
+      213: 129317146639270558
+    second: GrubTele_497
+  - first:
+      213: -7598997713832236459
+    second: GrubTele_498
+  - first:
+      213: 1027399762983648382
+    second: GrubTele_499
+  - first:
+      213: -958118537572806479
+    second: GrubTele_500
+  - first:
+      213: -4292646598148622334
+    second: GrubTele_501
+  - first:
+      213: -112173790243060706
+    second: GrubTele_502
+  - first:
+      213: -1895227752091922171
+    second: GrubTele_503
+  - first:
+      213: 8311889331721854558
+    second: GrubTele_504
+  - first:
+      213: -8075315865743393301
+    second: GrubTele_505
+  - first:
+      213: 7073680188425710112
+    second: GrubTele_506
+  - first:
+      213: -6243713117839024739
+    second: GrubTele_507
+  - first:
+      213: 8612242555588877307
+    second: GrubTele_508
+  - first:
+      213: -8466332304737272742
+    second: GrubTele_509
+  - first:
+      213: 8108130699216898763
+    second: GrubTele_510
+  - first:
+      213: -2109155672114579112
+    second: GrubTele_511
+  - first:
+      213: -1581208413436572912
+    second: GrubTele_512
+  - first:
+      213: 5010397566998662956
+    second: GrubTele_513
+  - first:
+      213: -7502988985080111471
+    second: GrubTele_514
+  - first:
+      213: -8686558385426145759
+    second: GrubTele_515
+  - first:
+      213: 2415090078087690308
+    second: GrubTele_516
+  - first:
+      213: -3368812902108923506
+    second: GrubTele_517
+  - first:
+      213: -1330089120886491341
+    second: GrubTele_518
+  - first:
+      213: -7517190123893065119
+    second: GrubTele_519
+  - first:
+      213: -1728464931609529857
+    second: GrubTele_520
+  - first:
+      213: -3766494758259987763
+    second: GrubTele_521
+  - first:
+      213: -4380762060527694305
+    second: GrubTele_522
+  - first:
+      213: 4712357141088884880
+    second: GrubTele_523
+  - first:
+      213: -4030536421163231713
+    second: GrubTele_524
+  - first:
+      213: 185207866494339433
+    second: GrubTele_525
+  - first:
+      213: 852219155862034694
+    second: GrubTele_526
+  - first:
+      213: 7148105437661269074
+    second: GrubTele_527
+  - first:
+      213: -3501722592836036209
+    second: GrubTele_528
+  - first:
+      213: -1892987034097460668
+    second: GrubTele_529
+  - first:
+      213: 1217215542256039715
+    second: GrubTele_530
+  - first:
+      213: 4706081566516315142
+    second: GrubTele_531
+  - first:
+      213: 7580357790271575962
+    second: GrubTele_532
+  - first:
+      213: 5469677548654038317
+    second: GrubTele_533
+  - first:
+      213: -784894762843548387
+    second: GrubTele_534
+  - first:
+      213: 5843863269749449987
+    second: GrubTele_535
+  - first:
+      213: -8278574121829049968
+    second: GrubTele_536
+  - first:
+      213: 7455386755492843864
+    second: GrubTele_537
+  - first:
+      213: -2673015151093316276
+    second: GrubTele_538
+  - first:
+      213: -971422039672054466
+    second: GrubTele_539
+  - first:
+      213: 8728447631919995935
+    second: GrubTele_540
+  - first:
+      213: -8919027070061149845
+    second: GrubTele_541
+  - first:
+      213: -6480498242287953133
+    second: GrubTele_542
+  - first:
+      213: -7886528931309735238
+    second: GrubTele_543
+  - first:
+      213: -6590985103998983590
+    second: GrubTele_544
+  - first:
+      213: 5964468198337170139
+    second: GrubTele_545
+  - first:
+      213: -1235884719440584385
+    second: GrubTele_546
+  - first:
+      213: -5916881096840776791
+    second: GrubTele_547
+  - first:
+      213: 349078014428782341
+    second: GrubTele_548
+  - first:
+      213: -4693491115605767634
+    second: GrubTele_549
+  - first:
+      213: -5899529700055149194
+    second: GrubTele_550
+  - first:
+      213: 3496342688074548210
+    second: GrubTele_551
+  - first:
+      213: 1424211157328901534
+    second: GrubTele_552
+  - first:
+      213: 4636530129798744818
+    second: GrubTele_553
+  - first:
+      213: 6341792345114342516
+    second: GrubTele_554
+  - first:
+      213: -5725186562347523150
+    second: GrubTele_555
+  - first:
+      213: 2689381387645589531
+    second: GrubTele_556
+  - first:
+      213: -2115538178677789341
+    second: GrubTele_557
+  - first:
+      213: 7665008437435574465
+    second: GrubTele_558
+  - first:
+      213: -8240892527337345784
+    second: GrubTele_559
+  - first:
+      213: -9006257642024836657
+    second: GrubTele_560
+  - first:
+      213: 2645223479468625687
+    second: GrubTele_561
+  - first:
+      213: 4747892353684267644
+    second: GrubTele_562
+  - first:
+      213: -2658857802248037682
+    second: GrubTele_563
+  - first:
+      213: 1881662720685229594
+    second: GrubTele_564
+  - first:
+      213: 1074603865446065463
+    second: GrubTele_565
+  - first:
+      213: -2719656634263472645
+    second: GrubTele_566
+  - first:
+      213: 3577725205577750858
+    second: GrubTele_567
+  - first:
+      213: 1702732616282920276
+    second: GrubTele_568
+  - first:
+      213: 1318194744910240803
+    second: GrubTele_569
+  - first:
+      213: -6881505178378297722
+    second: GrubTele_570
+  - first:
+      213: -5566745346662938523
+    second: GrubTele_571
+  - first:
+      213: -2803849766769810468
+    second: GrubTele_572
+  - first:
+      213: -4379637347042575662
+    second: GrubTele_573
+  - first:
+      213: 7650898313334841785
+    second: GrubTele_574
+  - first:
+      213: -7279018462672219382
+    second: GrubTele_575
+  - first:
+      213: 285514182891861831
+    second: GrubTele_576
+  - first:
+      213: -8132958043263734684
+    second: GrubTele_577
+  - first:
+      213: 1064445732205472975
+    second: GrubTele_578
+  - first:
+      213: -5056439202039626756
+    second: GrubTele_579
+  - first:
+      213: 3142565864487811990
+    second: GrubTele_580
+  - first:
+      213: -3829528142429018097
+    second: GrubTele_581
+  - first:
+      213: 1917383534654336905
+    second: GrubTele_582
+  - first:
+      213: -6256957928711162798
+    second: GrubTele_583
+  - first:
+      213: 8201992939034127580
+    second: GrubTele_584
+  - first:
+      213: -6969224834342815097
+    second: GrubTele_585
+  - first:
+      213: 2974446924723673810
+    second: GrubTele_586
+  - first:
+      213: -583065631265276200
+    second: GrubTele_587
+  - first:
+      213: 4227602430198133532
+    second: GrubTele_588
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrubTele_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c43cb7c7a11b6e0800000000000000
+      internalID: -1823647252153676673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baf45f0bec136690800000000000000
+      internalID: -7610207149425886537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1663fa761124e4a30800000000000000
+      internalID: 4201368144904664673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f71253775fc01b0800000000000000
+      internalID: -5688902336934478049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a853212ff4507770800000000000000
+      internalID: 8606472342654376098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed427839e7eda6810800000000000000
+      internalID: 1759463239663953118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55b485f15e939260800000000000000
+      internalID: 7103195112142058843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee9bec50fff3250800000000000000
+      internalID: 5926736035051073260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d6d361cdcb4b220800000000000000
+      internalID: 2500831346549419302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc32ab9cf83e9b0800000000000000
+      internalID: -5052036260405457135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf4915c0bbc19d70800000000000000
+      internalID: 9048237086445490102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e553faa77fed0d020800000000000000
+      internalID: 2364634958866101598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc308bb5a1fca4a00800000000000000
+      internalID: 741632800770753484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9982fae7f3d96ab00800000000000000
+      internalID: 839531276585085081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c5cf2da83d960a0800000000000000
+      internalID: -6887741561887761390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad37cc8e71fded10800000000000000
+      internalID: 2156645322410376616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c22990768bd5a50800000000000000
+      internalID: 6511563388929321993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998a0fa371845f500800000000000000
+      internalID: 429328604094048409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a92f2af08252f30800000000000000
+      internalID: 4550087046151182875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf87ee1204497ae0800000000000000
+      internalID: -1551133820753309769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4146d40017f1eb40800000000000000
+      internalID: 5467923070777180492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e86d3f111fa67a0800000000000000
+      internalID: -6383024462436594028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33dbf5057e092770800000000000000
+      internalID: 8586410060332913470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f7e552e30ceb60800000000000000
+      internalID: 7776594927200760987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05250633b06e85050800000000000000
+      internalID: 5789630256765751888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0675fcd2babc4020800000000000000
+      internalID: 2327440384817722895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14aabe025d670070800000000000000
+      internalID: 8072541056286762011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d37cd0465cd87af0800000000000000
+      internalID: -398326304008801319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e56fcdb375ba130800000000000000
+      internalID: 3579050243497811502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1575187fae67de0800000000000000
+      internalID: -1335621890720968206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5088de8f9f7ae5c0800000000000000
+      internalID: -4185392580414373798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a567ea89bb96bd0800000000000000
+      internalID: -2636369842412299769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec37161d9db1930800000000000000
+      internalID: 4115122177839451869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7833c1caa9dc94d0800000000000000
+      internalID: -3126384713883502469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ea956e7284466a0800000000000000
+      internalID: -6456956629536887158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6877136f6e7934430800000000000000
+      internalID: 3766020731640575878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da7f94dfe704a7c0800000000000000
+      internalID: -4061112237335545129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbc4b74e53e2d9d0800000000000000
+      internalID: -2750886428300489739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedcb44846a0a99a0800000000000000
+      internalID: -6225652108053721618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8953477f7c0e8a270800000000000000
+      internalID: 8262100665865876888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f3dbf9859ccba50800000000000000
+      internalID: 6538322141509402412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e158acdb3ae4e0800000000000000
+      internalID: -1951681669608905475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a35ca808471f7b0800000000000000
+      internalID: -5192240799948654024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399225e4db2ca16e0800000000000000
+      internalID: -1865964977273034349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744141984df3f5050800000000000000
+      internalID: 5791417827887158343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853da5f12d9f8a2c0800000000000000
+      internalID: -4420008353399647400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1fbf5f2fefc680800000000000000
+      internalID: -8732498165699240338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8aaa98a3d4d0ef0800000000000000
+      internalID: -140371099565512540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdf00a6977e85550800000000000000
+      internalID: 6149919799829921230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c69329e8d97b160800000000000000
+      internalID: 7041269778081213523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0d20ef07dd39ed0800000000000000
+      internalID: -2408337898345410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cebbc4de1cf077d0800000000000000
+      internalID: -2922558948814111031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18be76d86a9eca30800000000000000
+      internalID: 4237494074468120604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39bd2fa1e5ac2c60800000000000000
+      internalID: 7794787443796719930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b1d49c1adf0f810800000000000000
+      internalID: 1797215122629663639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e27de53c82d6c460800000000000000
+      internalID: 7261722948823511777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc25408d57a634b70800000000000000
+      internalID: 8882059944472629965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e34d34f289f0e1f0800000000000000
+      internalID: -1017539174947011609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847273d8f94d9ff10800000000000000
+      internalID: 2304106466110809928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc74c4dc88ce5ae0800000000000000
+      internalID: -1558587913832989481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f63cf5bc6e65ae0800000000000000
+      internalID: -1560806459677905070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cf1e228838ed3a0800000000000000
+      internalID: -6638724179973506039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c43aed692c4233c0800000000000000
+      internalID: -4381355746656635708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a74dd114806cb30800000000000000
+      internalID: 4307139169392818782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d556d2c75ada400800000000000000
+      internalID: 337107499878800723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf957b866825b310800000000000000
+      internalID: 1420085678396776381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa303a421b57eb00800000000000000
+      internalID: 857754388149582586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9408367a2da3460800000000000000
+      internalID: 7222316568812734905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a83abe13b0ffec0800000000000000
+      internalID: -3531091273800513015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591b805e2914384b0800000000000000
+      internalID: -5439431825769844331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce39570c718a2b700800000000000000
+      internalID: 554690524086637548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf64c246dca49930800000000000000
+      internalID: 4149131192958218174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c78ee7a49df41680800000000000000
+      internalID: -8785118158178580538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0cb57410442cf30800000000000000
+      internalID: 4594309342154178724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d95de595883be630800000000000000
+      internalID: 3957318843972278736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ddaec2b276ea9a0800000000000000
+      internalID: -6219920600217232085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c8f2e0946b3a510800000000000000
+      internalID: 1559290320887188505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4a9da7dc161ee30800000000000000
+      internalID: 4531010235268703484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd7280ef3f826230800000000000000
+      internalID: 3630621754126400963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c3ecd7a8f7773b0800000000000000
+      internalID: -5514798985899000704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bac370269a84110800000000000000
+      internalID: 1245431535461247758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223da73b20fc02ea0800000000000000
+      internalID: -5899487901347294430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d6348bc52cb590800000000000000
+      internalID: -7657203710409911857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6f602546fe0dc30800000000000000
+      internalID: 4382265651583448817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0e0b08076612f0800000000000000
+      internalID: -1002500582800487686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3908a0038ceb9a0800000000000000
+      internalID: -6215310327064521779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9842ababd11c8950800000000000000
+      internalID: 6452552001290127515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81379aaa0c0881f0800000000000000
+      internalID: -1042570073785028210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a448ba579f26c2a0800000000000000
+      internalID: -6717629467067923289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9f4ff6bc971c230800000000000000
+      internalID: 3657338287065201098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70faab104b4ca5850800000000000000
+      internalID: 6366617300643786503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd8d4c1066c03320800000000000000
+      internalID: 2535744706303593975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8290531b0dc9109b0800000000000000
+      internalID: -5115635281575999192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f017042119562e4e0800000000000000
+      internalID: -1953887614574497521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0042fdb6078f16860800000000000000
+      internalID: 7521566014415250432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c3e908e527f810800000000000000
+      internalID: 1798948254686365477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8a76a3ee17cc570800000000000000
+      internalID: 8488284665682569435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae2ed92f207f1c90800000000000000
+      internalID: -7196910331646562655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_98
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbc456d5ee1cb280800000000000000
+      internalID: -9026305580665091119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee29f4faa94da300800000000000000
+      internalID: 264948951687966436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867b737dba7465100800000000000000
+      internalID: 96343245410776936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12353ff692c8af120800000000000000
+      internalID: 2448423457029051169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e5c202865b15d0800000000000000
+      internalID: -3090781602867451821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3dc1a4bb2289200800000000000000
+      internalID: 186937572333507504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775f143ec31fe53d0800000000000000
+      internalID: -3215867840082872969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828eeb9df94a29e20800000000000000
+      internalID: 3355925678804363304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50afc8c27f8c67d60800000000000000
+      internalID: 7887712761315916293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c06b1fbfcc47820800000000000000
+      internalID: 2915180241279650882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33247b7d11094e1b0800000000000000
+      internalID: -5628215227998322125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8e4abfbe604afd0800000000000000
+      internalID: -2331731096462104350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386ea34e2c30809c0800000000000000
+      internalID: -3960911736684747133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3c6c9155995ff0800000000000000
+      internalID: -46842143361450618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e39b10b634fdb340800000000000000
+      internalID: 4881326086859494368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7708725326a17a0800000000000000
+      internalID: -6405699539545589789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9d5639f8fadbbd0800000000000000
+      internalID: -2612739177616909916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5294abd42759e8cc0800000000000000
+      internalID: -3706861125116475099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17d112447df5a400800000000000000
+      internalID: 334952423075469085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08911adc0920f10800000000000000
+      internalID: 2234507577974685862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231807e6e9cceebb0800000000000000
+      internalID: -4904757963330125518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrubTele_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfae2d7f13544220800000000000000
+      internalID: 2469189890415177662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5986eab9ba57f2347b78363f49d4f1bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GrubTele_0: -1823647252153676673
+      GrubTele_1: -7610207149425886537
+      GrubTele_10: 9048237086445490102
+      GrubTele_100: 96343245410776936
+      GrubTele_101: 2448423457029051169
+      GrubTele_102: -3090781602867451821
+      GrubTele_103: 186937572333507504
+      GrubTele_104: -3215867840082872969
+      GrubTele_105: 3355925678804363304
+      GrubTele_106: 7887712761315916293
+      GrubTele_107: 2915180241279650882
+      GrubTele_108: -5628215227998322125
+      GrubTele_109: -2331731096462104350
+      GrubTele_11: 2364634958866101598
+      GrubTele_110: -3960911736684747133
+      GrubTele_111: -46842143361450618
+      GrubTele_112: 4881326086859494368
+      GrubTele_113: -6405699539545589789
+      GrubTele_114: -2612739177616909916
+      GrubTele_115: -3706861125116475099
+      GrubTele_116: 334952423075469085
+      GrubTele_117: 2234507577974685862
+      GrubTele_118: -4904757963330125518
+      GrubTele_119: 2469189890415177662
+      GrubTele_12: 741632800770753484
+      GrubTele_13: 839531276585085081
+      GrubTele_14: -6887741561887761390
+      GrubTele_15: 2156645322410376616
+      GrubTele_16: 6511563388929321993
+      GrubTele_17: 429328604094048409
+      GrubTele_18: 4550087046151182875
+      GrubTele_19: -1551133820753309769
+      GrubTele_2: 4201368144904664673
+      GrubTele_20: 5467923070777180492
+      GrubTele_21: -6383024462436594028
+      GrubTele_22: 8586410060332913470
+      GrubTele_23: 7776594927200760987
+      GrubTele_24: 5789630256765751888
+      GrubTele_25: 2327440384817722895
+      GrubTele_26: 8072541056286762011
+      GrubTele_27: -398326304008801319
+      GrubTele_28: 3579050243497811502
+      GrubTele_29: -1335621890720968206
+      GrubTele_3: -5688902336934478049
+      GrubTele_30: -4185392580414373798
+      GrubTele_31: -2636369842412299769
+      GrubTele_32: 4115122177839451869
+      GrubTele_33: -3126384713883502469
+      GrubTele_34: -6456956629536887158
+      GrubTele_35: 3766020731640575878
+      GrubTele_36: -4061112237335545129
+      GrubTele_37: -2750886428300489739
+      GrubTele_38: -6225652108053721618
+      GrubTele_39: 8262100665865876888
+      GrubTele_4: 8606472342654376098
+      GrubTele_40: 6538322141509402412
+      GrubTele_41: -1951681669608905475
+      GrubTele_42: -5192240799948654024
+      GrubTele_43: -1865964977273034349
+      GrubTele_44: 5791417827887158343
+      GrubTele_45: -4420008353399647400
+      GrubTele_46: -8732498165699240338
+      GrubTele_47: -140371099565512540
+      GrubTele_48: 6149919799829921230
+      GrubTele_49: 7041269778081213523
+      GrubTele_5: 1759463239663953118
+      GrubTele_50: -2408337898345410374
+      GrubTele_51: -2922558948814111031
+      GrubTele_52: 4237494074468120604
+      GrubTele_53: 7794787443796719930
+      GrubTele_54: 1797215122629663639
+      GrubTele_55: 7261722948823511777
+      GrubTele_56: 8882059944472629965
+      GrubTele_57: -1017539174947011609
+      GrubTele_58: 2304106466110809928
+      GrubTele_59: -1558587913832989481
+      GrubTele_6: 7103195112142058843
+      GrubTele_60: -1560806459677905070
+      GrubTele_61: -6638724179973506039
+      GrubTele_62: -4381355746656635708
+      GrubTele_63: 4307139169392818782
+      GrubTele_64: 337107499878800723
+      GrubTele_65: 1420085678396776381
+      GrubTele_66: 857754388149582586
+      GrubTele_67: 7222316568812734905
+      GrubTele_68: -3531091273800513015
+      GrubTele_69: -5439431825769844331
+      GrubTele_7: 5926736035051073260
+      GrubTele_70: 554690524086637548
+      GrubTele_71: 4149131192958218174
+      GrubTele_72: -8785118158178580538
+      GrubTele_73: 4594309342154178724
+      GrubTele_74: 3957318843972278736
+      GrubTele_75: -6219920600217232085
+      GrubTele_76: 1559290320887188505
+      GrubTele_77: 4531010235268703484
+      GrubTele_78: 3630621754126400963
+      GrubTele_79: -5514798985899000704
+      GrubTele_8: 2500831346549419302
+      GrubTele_80: 1245431535461247758
+      GrubTele_81: -5899487901347294430
+      GrubTele_82: -7657203710409911857
+      GrubTele_83: 4382265651583448817
+      GrubTele_84: -1002500582800487686
+      GrubTele_85: -6215310327064521779
+      GrubTele_86: 6452552001290127515
+      GrubTele_87: -1042570073785028210
+      GrubTele_88: -6717629467067923289
+      GrubTele_89: 3657338287065201098
+      GrubTele_9: -5052036260405457135
+      GrubTele_90: 6366617300643786503
+      GrubTele_91: 2535744706303593975
+      GrubTele_92: -5115635281575999192
+      GrubTele_93: -1953887614574497521
+      GrubTele_94: 7521566014415250432
+      GrubTele_95: 1798948254686365477
+      GrubTele_96: 8488284665682569435
+      GrubTele_97: -7196910331646562655
+      GrubTele_98: -9026305580665091119
+      GrubTele_99: 264948951687966436
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

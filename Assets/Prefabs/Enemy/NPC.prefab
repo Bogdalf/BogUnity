@@ -36,6 +36,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3290062246152012487
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -79,8 +80,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1070447607
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -90,7 +92,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &6422373153318990959
 MonoBehaviour:
@@ -105,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   npcName: Villager
+  proximityTrigger: 0
   dialogueLines:
   - With all the King's soldiers recalled to the Capital City... I can't imagine
     what chaos will erupt.
@@ -112,6 +114,12 @@ MonoBehaviour:
     Be wary of bandits.
   - My Guard and I must catch up. Hopefully we've freed a righteous man. Be on your
     way.
+  onDialogueComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  moveAfterDialogue: 0
+  moveTargets: []
+  moveSpeed: 2
 --- !u!58 &8855266285870144228
 CircleCollider2D:
   m_ObjectHideFlags: 0
