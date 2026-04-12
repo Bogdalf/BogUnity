@@ -6,11 +6,21 @@ using System.Collections.Generic;
 /// <summary>
 /// Drives the TilemapReveal shader across multiple tilemap layers simultaneously.
 /// Also controls the foreshock pulse and synchronized edge spark ring.
-/// Attach to any GameObject in the boss arena scene.
-/// Call TriggerReveal() from KhatunSequence to start the effect.
+///
+/// TriggerMode.Dialogue  — Call TriggerReveal() manually from a dialogue event (used in the intro scene).
+/// TriggerMode.Proximity — Triggers automatically when the player enters the activation radius.
+///
+/// Designed to be dropped as a prefab into any scene.
 /// </summary>
 public class MoonPlaneReveal : MonoBehaviour
 {
+    public enum TriggerMode { Dialogue, Proximity }
+
+    [Header("Trigger")]
+    [SerializeField] private TriggerMode triggerMode = TriggerMode.Dialogue;
+    [SerializeField] private float proximityRadius = 6f;
+    [SerializeField] private string playerTag = "Player";
+
     [Header("Tilemap Layers")]
     [SerializeField] private List<Tilemap> revealLayers;
 
@@ -23,8 +33,15 @@ public class MoonPlaneReveal : MonoBehaviour
     [SerializeField] private ParticleSystem foreshockPulse;
     [SerializeField] private ParticleSystem revealEdgeSparks;
 
+    [Header("Spawner (optional)")]
+    [SerializeField] private MoonRiftSpawner riftSpawner;
+
+    [Header("Scene Sequence (optional)")]
+    [SerializeField] private SunPriestessInterjection sunPriestessInterjection;
+
     // Cached materials
     private List<Material> revealMaterials = new List<Material>();
+    private bool triggered = false;
 
     private static readonly int RadiusProperty = Shader.PropertyToID("_Radius");
     private static readonly int CenterProperty = Shader.PropertyToID("_Center");
@@ -43,69 +60,77 @@ public class MoonPlaneReveal : MonoBehaviour
             instance.SetFloat(RadiusProperty, 0f);
         }
 
-        // Position both particle systems at the origin
-        UpdateParticlePositions();
-    }
-
-    void UpdateParticlePositions()
-    {
-        Vector3 origin = originTransform != null ? originTransform.position : Vector3.zero;
-
-        if (foreshockPulse != null)
-            foreshockPulse.transform.position = origin;
-
+        // Sparks start stopped — we'll play them when the reveal begins
         if (revealEdgeSparks != null)
-            revealEdgeSparks.transform.position = origin;
+        {
+            revealEdgeSparks.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            SetEdgeSparkRadius(0f);
+        }
     }
 
-    public void TriggerReveal()
-    {
-        StartCoroutine(RevealSequence());
-    }
-
-    // Test trigger — remove when hooking up to real sequence
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-            TriggerReveal();
+        if (triggered) return;
+
+        if (triggerMode == TriggerMode.Proximity)
+        {
+            // Simple distance check — no trigger collider needed on the prefab
+            GameObject player = GameObject.FindWithTag(playerTag);
+            if (player != null)
+            {
+                float dist = Vector2.Distance(transform.position, player.transform.position);
+                if (dist <= proximityRadius)
+                    TriggerReveal();
+            }
+        }
+    }
+
+    /// <summary>
+    /// Call this from KhatunSequence (or any dialogue event) when TriggerMode is Dialogue.
+    /// Safe to call from proximity path too — guarded by the triggered flag.
+    /// </summary>
+    public void TriggerReveal()
+    {
+        if (triggered) return;
+        triggered = true;
+        StartCoroutine(RevealSequence());
     }
 
     IEnumerator RevealSequence()
     {
-        Vector2 center = originTransform != null
-            ? (Vector2)originTransform.position
-            : Vector2.zero;
+        Vector3 origin3D = originTransform != null ? originTransform.position : transform.position;
+        Vector2 center = (Vector2)origin3D;
 
         // Set center on all materials
         foreach (Material mat in revealMaterials)
             mat.SetVector(CenterProperty, center);
 
-        // --- Fire foreshock pulse immediately ---
+        // --- Fire foreshock pulse ---
         if (foreshockPulse != null)
         {
-            foreshockPulse.transform.position = originTransform != null
-                ? originTransform.position
-                : Vector3.zero;
+            foreshockPulse.transform.position = origin3D;
             foreshockPulse.Play();
         }
 
-        // Brief pause after foreshock before main reveal starts
-        // Gives the pulse time to shoot out before the circle begins
+        // --- Kick off monster spawner in parallel with the reveal ---
+        if (riftSpawner != null)
+            riftSpawner.BeginSpawning();
+
+        // --- Start the Sun Priestess countdown ---
+        if (sunPriestessInterjection != null)
+            sunPriestessInterjection.BeginCountdown();
+
         yield return new WaitForSeconds(0.3f);
 
-        // --- Start edge sparks ---
+        // --- Start edge sparks at radius 0, let them loop permanently ---
         if (revealEdgeSparks != null)
         {
-            revealEdgeSparks.transform.position = originTransform != null
-                ? originTransform.position
-                : Vector3.zero;
-
-            // Set initial shape radius to 0 before playing
+            revealEdgeSparks.transform.position = origin3D;
             SetEdgeSparkRadius(0f);
             revealEdgeSparks.Play();
         }
 
-        // --- Animate radius ---
+        // --- Animate reveal radius ---
         float elapsed = 0f;
 
         while (elapsed < revealDuration)
@@ -115,37 +140,29 @@ public class MoonPlaneReveal : MonoBehaviour
             float smoothT = Mathf.SmoothStep(0f, 1f, t);
             float currentRadius = Mathf.Lerp(0f, maxRadius, smoothT);
 
-            // Update shader on all layers
             foreach (Material mat in revealMaterials)
                 mat.SetFloat(RadiusProperty, currentRadius);
 
-            // Keep edge sparks locked to the circle boundary
             SetEdgeSparkRadius(currentRadius);
 
             yield return null;
         }
 
-        // Ensure we land exactly at max
+        // Lock to final radius
         foreach (Material mat in revealMaterials)
             mat.SetFloat(RadiusProperty, maxRadius);
 
         SetEdgeSparkRadius(maxRadius);
 
-        // Let the trailing sparks finish naturally
-        if (revealEdgeSparks != null)
-            revealEdgeSparks.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+        // Sparks stay playing at maxRadius permanently — the rift is now open.
+        // No Stop() call here.
 
-        Debug.Log("Moon plane reveal complete");
+        Debug.Log("[MoonPlaneReveal] Rift fully open.");
     }
 
-    /// <summary>
-    /// Updates the edge spark particle system's shape radius to match the current reveal radius.
-    /// This is what keeps the sparks locked to the expanding circle boundary.
-    /// </summary>
     void SetEdgeSparkRadius(float radius)
     {
         if (revealEdgeSparks == null) return;
-
         var shape = revealEdgeSparks.shape;
         shape.radius = radius;
     }
@@ -153,17 +170,32 @@ public class MoonPlaneReveal : MonoBehaviour
     public void ResetReveal()
     {
         StopAllCoroutines();
+        triggered = false;
 
         foreach (Material mat in revealMaterials)
             mat.SetFloat(RadiusProperty, 0f);
 
-        if (foreshockPulse != null) foreshockPulse.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-        if (revealEdgeSparks != null) revealEdgeSparks.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        if (foreshockPulse != null)
+            foreshockPulse.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        if (revealEdgeSparks != null)
+        {
+            revealEdgeSparks.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            SetEdgeSparkRadius(0f);
+        }
     }
 
     void OnDestroy()
     {
         foreach (Material mat in revealMaterials)
             Destroy(mat);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (triggerMode == TriggerMode.Proximity)
+        {
+            Gizmos.color = new Color(0.4f, 0.2f, 0.8f, 0.4f);
+            Gizmos.DrawWireSphere(transform.position, proximityRadius);
+        }
     }
 }

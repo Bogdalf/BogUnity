@@ -722,7 +722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1994796186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d014d7153e3eaaa48aea1bd731453bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  firstSceneName: PlayerHousePlot
+  firstSceneName: Prison
 --- !u!4 &1994796187
 Transform:
   m_ObjectHideFlags: 0
@@ -777,11 +777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 341384758959195243, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.48
+      value: -0.47
       objectReference: {fileID: 0}
     - target: {fileID: 341384758959195243, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.71
+      value: 17.26
       objectReference: {fileID: 0}
     - target: {fileID: 341384758959195243, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -834,6 +834,10 @@ PrefabInstance:
     - target: {fileID: 2723428962598596787, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172278232162793575, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
+      propertyPath: attackRange
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3172278232162793575, guid: 907c97c9e9869214b9e29e85ce6f88e2, type: 3}
       propertyPath: AttackTelegraphs

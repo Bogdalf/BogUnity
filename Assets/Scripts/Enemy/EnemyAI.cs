@@ -42,6 +42,9 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
 
     void Update()
     {
+        //Pause
+        if (CombatPauseManager.IsPaused) return;
+
         // Stun timer
         if (isStunned)
         {
@@ -85,6 +88,12 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
 
     void FixedUpdate()
     {
+        if (CombatPauseManager.IsPaused)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        } 
+        
         if (isStunned || isAttacking)
         {
             rb.linearVelocity = Vector2.zero;
