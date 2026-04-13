@@ -45,22 +45,34 @@ public class ActionBar : MonoBehaviour
 
     void Update()
     {
-        if (PersistentInputManager.Instance != null && PersistentInputManager.Instance.IsCombatInputBlocked())
+        if (PersistentInputManager.Instance != null && 
+            PersistentInputManager.Instance.IsCombatInputBlocked())
             return;
 
-        // LMB — held for continuous attack
-        if (Input.GetMouseButton(0))
+        // Block LMB if any other skill is currently executing
+        bool otherSkillActive = IsAnyNonLMBSkillActive();
+
+        if (!otherSkillActive && Input.GetMouseButton(0))
             lmbSlot?.TryExecute();
 
-        // RMB — pressed
         if (Input.GetMouseButtonDown(1))
             rmbSlot?.TryExecute();
 
-        // 1-4
         if (Input.GetKeyDown(KeyCode.Alpha1)) slot1?.TryExecute();
         if (Input.GetKeyDown(KeyCode.Alpha2)) slot2?.TryExecute();
         if (Input.GetKeyDown(KeyCode.Alpha3)) slot3?.TryExecute();
         if (Input.GetKeyDown(KeyCode.Alpha4)) slot4?.TryExecute();
+    }
+
+    bool IsAnyNonLMBSkillActive()
+    {
+        foreach (var kvp in slots)
+        {
+            if (kvp.Key == SlotType.LMB) continue;
+            ISkill skill = kvp.Value?.GetAssignedSkill();
+            if (skill != null && skill.IsActive()) return true;
+        }
+        return false;
     }
 
     /// <summary>

@@ -18,6 +18,9 @@ public class SkillData : ScriptableObject
 
     [Header("Aspect")]
     public AspectType requiredAspect = AspectType.None; // None = available to all
+    [Header("Spellbook")]
+    [Tooltip("Uncheck for abilities that are permanently assigned and shouldn't appear in the spellbook.")]
+    public bool showInSpellbook = true;
 }
 
 public enum AspectType

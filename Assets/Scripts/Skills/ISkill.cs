@@ -18,4 +18,6 @@ public interface ISkill
     /// 0 = ready, 1 = full cooldown. Used by the action bar radial fill.
     /// </summary>
     float GetCooldownPercent();
+    /// <summary>True while the skill is mid-execution (animation playing, etc.)</summary>
+    bool IsActive();
 }

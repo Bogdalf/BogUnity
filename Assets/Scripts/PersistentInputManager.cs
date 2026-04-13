@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// Centralized input manager. Single source of truth for all input blocking.
@@ -8,10 +9,8 @@ public class PersistentInputManager : MonoBehaviour
 {
     public static PersistentInputManager Instance { get; private set; }
 
-    private bool forcedMovement = false;
-    private bool spellbookOpen = false;
+    private bool forcedMovement  = false;
     private bool sequenceBlocked = false;
-    private bool stashOpen = false;
 
     void Awake()
     {
@@ -29,24 +28,27 @@ public class PersistentInputManager : MonoBehaviour
     // ─── Setters ──────────────────────────────────────────────────────────────────
 
     public void SetForcedMovement(bool value)  => forcedMovement  = value;
-    public void SetSpellbookOpen(bool value)   => spellbookOpen   = value;
     public void SetSequenceBlocked(bool value) => sequenceBlocked = value;
-    public void SetStashOpen(bool value)       => stashOpen       = value;
+
+    // Kept for backwards compatibility — no longer affect blocking logic
+    public void SetSpellbookOpen(bool value)  { }
+    public void SetStashOpen(bool value)      { }
+    public void SetStatSheetOpen(bool value)  { }
 
     // ─── Queries ──────────────────────────────────────────────────────────────────
 
-    public bool IsForcedMovement()   => forcedMovement;
-    public bool IsSequenceBlocked()  => sequenceBlocked;
+    public bool IsForcedMovement()  => forcedMovement;
+    public bool IsSequenceBlocked() => sequenceBlocked;
 
     /// <summary>
     /// True when all gameplay input should be blocked.
+    /// Currently only dialogue, cutscenes, and the talent tree (navigated by click).
+    /// UI panels like inventory, stash, and stat sheet no longer block movement.
     /// </summary>
     public bool IsPlayerInputBlocked()
     {
-        if (forcedMovement)   return true;
-        if (spellbookOpen)    return true;
-        if (sequenceBlocked)  return true;
-        if (stashOpen)        return true;
+        if (forcedMovement)  return true;
+        if (sequenceBlocked) return true;
 
         if (DialogueUI.Instance != null && DialogueUI.Instance.IsDialogueShowing())
             return true;
@@ -59,15 +61,16 @@ public class PersistentInputManager : MonoBehaviour
     }
 
     /// <summary>
-    /// True when combat input should be blocked.
-    /// Superset of IsPlayerInputBlocked.
+    /// True when combat input (LMB attack) should be blocked.
+    /// Blocks when mouse is physically over any UI element — inventory, stash,
+    /// spellbook, stat sheet, etc. Movement is NOT affected by this check.
     /// </summary>
     public bool IsCombatInputBlocked()
     {
         if (IsPlayerInputBlocked()) return true;
 
-        InventoryUI inventoryUI = FindFirstObjectByType<InventoryUI>();
-        if (inventoryUI != null && inventoryUI.IsInventoryOpen() && inventoryUI.IsMouseOverInventory())
+        // Block LMB only when the cursor is over any UI element
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
             return true;
 
         return false;

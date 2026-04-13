@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f95c1a10e2d5fb4f8853f932680a0f0, type: 3}
+  m_Name: R2N1
+  m_EditorClassIdentifier: Assembly-CSharp::TalentNodeData
+  nodeName: Node 4
+  description: Testing Node4
+  icon: {fileID: 0}
+  aspect: 1
+  nodeType: 2
+  angle: 50
+  radius: 90
+  effectType: 0
+  effectValue: 1
+  maxRank: 2
+  connectedNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  - {fileID: 11400000, guid: 64b05435939ec6b48b29e79fd0454b9e, type: 2}
+  - {fileID: 11400000, guid: 93703449d67353740afa2dd4c02129d3, type: 2}
+  prerequisiteNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  aspectPointsRequired: 1
+  requiresHybridUnlock: 0
+  grantedSkill: {fileID: 0}

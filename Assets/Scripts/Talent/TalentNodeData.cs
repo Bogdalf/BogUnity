@@ -7,6 +7,7 @@ using System.Collections.Generic;
 /// radial layout can be reconstructed purely from data.
 /// Create via: Right Click > Create > Talents > Talent Node
 /// </summary>
+
 [CreateAssetMenu(fileName = "NewTalentNode", menuName = "Talents/Talent Node")]
 public class TalentNodeData : ScriptableObject
 {
@@ -45,6 +46,9 @@ public class TalentNodeData : ScriptableObject
 
     [Tooltip("If true, this node can only be reached after the story unlocks hybrid progression.")]
     public bool requiresHybridUnlock = false;
+
+    [Header("Granted Skill")]
+    public SkillData grantedSkill;
 }
 
 public enum NodeType

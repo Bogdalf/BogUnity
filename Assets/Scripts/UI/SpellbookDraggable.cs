@@ -9,16 +9,14 @@ using UnityEngine.UI;
 public class SpellbookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public SkillData SkillData { get; private set; }
-
-    private Image iconImage;
     private Transform originalParent;
     private Canvas rootCanvas;
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
 
+    [SerializeField] private Image iconImage;
     void Awake()
     {
-        iconImage = GetComponent<Image>();
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         rootCanvas = GetComponentInParent<Canvas>();

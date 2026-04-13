@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f95c1a10e2d5fb4f8853f932680a0f0, type: 3}
+  m_Name: A_Ring7Node1
+  m_EditorClassIdentifier: Assembly-CSharp::TalentNodeData
+  nodeName: R7N1
+  description: Testing Node4
+  icon: {fileID: 0}
+  aspect: 3
+  nodeType: 2
+  angle: 150
+  radius: 650
+  effectType: 2
+  effectValue: 1
+  maxRank: 1
+  connectedNodes:
+  - {fileID: 11400000, guid: 3d0297830be5dc34a8daba9e91c4eff9, type: 2}
+  - {fileID: 11400000, guid: 718a8414423ae124ea1d227e9d626713, type: 2}
+  prerequisiteNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  aspectPointsRequired: 1
+  requiresHybridUnlock: 0
+  grantedSkill: {fileID: 0}

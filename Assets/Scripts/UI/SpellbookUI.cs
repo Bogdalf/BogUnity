@@ -3,15 +3,16 @@ using UnityEngine.UI;
 using TMPro;
 
 /// <summary>
-/// Spellbook panel — opened/closed with P.
-/// Displays all skills in PlayerSkillbook as draggable icons.
+/// Displays the player's unlocked skills and allows drag-and-drop
+/// assignment to action bar slots.
+/// Toggle with P key.
 /// </summary>
-public class SpellbookUI : MonoBehaviour
+public class SpellbookUI : MonoBehaviour, IUIPanel
 {
     [Header("References")]
     [SerializeField] private GameObject spellbookPanel;
-    [SerializeField] private Transform skillGridParent;    // Grid layout group parent
-    [SerializeField] private GameObject skillEntryPrefab; // Prefab with SpellbookDraggable + Image + TextMeshProUGUI
+    [SerializeField] private Transform skillGridParent;
+    [SerializeField] private GameObject skillEntryPrefab;
 
     private PlayerSkillbook skillbook;
     private bool isOpen = false;
@@ -21,7 +22,6 @@ public class SpellbookUI : MonoBehaviour
         if (spellbookPanel != null)
             spellbookPanel.SetActive(false);
 
-        // Find skillbook on the persistent player
         skillbook = FindFirstObjectByType<PlayerSkillbook>();
         if (skillbook != null)
             skillbook.OnSkillsChanged += RefreshSkillList;
@@ -31,25 +31,37 @@ public class SpellbookUI : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-            ToggleSpellbook();
+        if (!Input.GetKeyDown(KeyCode.P)) return;
+
+        if (isOpen)
+            Close();
+        else
+            Open();
     }
 
-    void ToggleSpellbook()
+    // ─── Open / Close ─────────────────────────────────────────────────────────────
+
+    void Open()
     {
-        isOpen = !isOpen;
-        spellbookPanel?.SetActive(isOpen);
-
-        // Block/unblock input while spellbook is open
-        if (PersistentInputManager.Instance != null)
-            PersistentInputManager.Instance.SetSpellbookOpen(isOpen);
+        isOpen = true;
+        UIPanelManager.Instance?.OnPanelOpening(this, UIPanelManager.PanelRegion.Center);
+        spellbookPanel?.SetActive(true);
+        RefreshSkillList();
     }
+
+    public void Close()
+    {
+        isOpen = false;
+        spellbookPanel?.SetActive(false);
+        UIPanelManager.Instance?.OnPanelClosed(this, UIPanelManager.PanelRegion.Center);
+    }
+
+    // ─── Skill List ───────────────────────────────────────────────────────────────
 
     void RefreshSkillList()
     {
         if (skillGridParent == null || skillEntryPrefab == null) return;
 
-        // Clear existing entries
         foreach (Transform child in skillGridParent)
             Destroy(child.gameObject);
 
@@ -57,18 +69,15 @@ public class SpellbookUI : MonoBehaviour
 
         foreach (SkillData skill in skillbook.GetUnlockedSkills())
         {
+            if (!skill.showInSpellbook) continue;
+
             GameObject entry = Instantiate(skillEntryPrefab, skillGridParent);
 
-            // Set icon
             SpellbookDraggable draggable = entry.GetComponent<SpellbookDraggable>();
             draggable?.Initialize(skill);
 
-            // Set name label
             TextMeshProUGUI label = entry.GetComponentInChildren<TextMeshProUGUI>();
             if (label != null) label.text = skill.skillName;
-
-            // Set tooltip (optional — can expand later)
-            // entry.GetComponent<SkillTooltip>()?.Initialize(skill);
         }
     }
 

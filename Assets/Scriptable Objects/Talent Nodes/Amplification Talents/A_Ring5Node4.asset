@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f95c1a10e2d5fb4f8853f932680a0f0, type: 3}
+  m_Name: A_Ring5Node4
+  m_EditorClassIdentifier: Assembly-CSharp::TalentNodeData
+  nodeName: R5N4
+  description: Testing Node4
+  icon: {fileID: 0}
+  aspect: 3
+  nodeType: 2
+  angle: 243
+  radius: 290
+  effectType: 2
+  effectValue: 1
+  maxRank: 1
+  connectedNodes:
+  - {fileID: 11400000, guid: f5c060a948e7cb1429ef6bc90ed80136, type: 2}
+  prerequisiteNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  aspectPointsRequired: 1
+  requiresHybridUnlock: 0
+  grantedSkill: {fileID: 0}

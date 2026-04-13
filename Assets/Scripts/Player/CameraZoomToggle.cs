@@ -57,18 +57,16 @@ public class CameraZoomToggle : MonoBehaviour
 
     void HandleZoomInput()
     {
+        if (PersistentInputManager.Instance != null && 
+            PersistentInputManager.Instance.IsPlayerInputBlocked())
+            return;
+
         float scroll = Input.GetAxis("Mouse ScrollWheel");
 
-        // Scroll up = zoom in (to close-up state)
         if (scroll >= scrollThreshold && !isZoomed)
-        {
             ZoomIn();
-        }
-        // Scroll down = zoom out (to normal state)
         else if (scroll <= -scrollThreshold && isZoomed)
-        {
             ZoomOut();
-        }
     }
 
     void ZoomIn()

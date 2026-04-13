@@ -161,7 +161,13 @@ public class PlayerTalents : MonoBehaviour
             aspectPointsSpent[node.aspect]++;
 
         ApplyNodeEffect(node);
-
+        if (node.grantedSkill != null)
+        {
+            PlayerSkillbook skillbook = GetComponent<PlayerSkillbook>();
+            skillbook?.UnlockSkill(node.grantedSkill);
+            Debug.Log($"Unlocked skill: {node.grantedSkill.skillName}");
+        }
+        
         Debug.Log($"Learned: {node.nodeName} (Rank {learnedNodes[node]}) — {node.aspect}");
     }
 
@@ -187,7 +193,9 @@ public class PlayerTalents : MonoBehaviour
             case TalentEffectType.SorceryDamageBonus:
             case TalentEffectType.AmplificationBonus:
                 break;
-
+            //Empowerment is percentage *more*, no flat str increase per point.
+            case TalentEffectType.ReverberationEmpowerment:
+                break;
             // Dash reads these via GetDashDistanceBonus / GetDashCooldownReduction
             case TalentEffectType.IncreaseDashDistance:
             case TalentEffectType.DecreaseDashCooldown:

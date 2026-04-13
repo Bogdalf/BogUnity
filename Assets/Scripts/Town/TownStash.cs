@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// Materials are stored as quantities, not inventory slots.
 /// Managed by GameStateManager for persistence.
 /// </summary>
-public class TownStash : MonoBehaviour
+public class TownStash : MonoBehaviour, IUIPanel
 {
     public static TownStash Instance { get; private set; }
 
@@ -56,30 +56,31 @@ public class TownStash : MonoBehaviour
 
     public void ToggleStash()
     {
-        if (stashPanel == null) return;
-
-        isStashOpen = !isStashOpen;
-        stashPanel.SetActive(isStashOpen);
-
-        // Register open state with input manager so movement/combat are blocked
-        if (PersistentInputManager.Instance != null)
-            PersistentInputManager.Instance.SetStashOpen(isStashOpen);
-
         if (isStashOpen)
-            RefreshStashUI();
+            Close();
+        else
+            OpenStash();
+    }
+
+    void OpenStash()
+    {
+        if (stashPanel == null) return;
+        isStashOpen = true;
+        UIPanelManager.Instance?.OnPanelOpening(this, UIPanelManager.PanelRegion.Center);
+        stashPanel.SetActive(true);
+        RefreshStashUI();
+    }
+
+    public void Close()
+    {
+        if (stashPanel == null) return;
+        isStashOpen = false;
+        stashPanel.SetActive(false);
+        UIPanelManager.Instance?.OnPanelClosed(this, UIPanelManager.PanelRegion.Center);
     }
 
     /// <summary>Button handler — Close the stash.</summary>
-    public void OnCloseButtonClicked()
-    {
-        if (stashPanel == null) return;
-
-        isStashOpen = false;
-        stashPanel.SetActive(false);
-
-        if (PersistentInputManager.Instance != null)
-            PersistentInputManager.Instance.SetStashOpen(false);
-    }
+    public void OnCloseButtonClicked() => Close();
 
     // ─── Deposit ──────────────────────────────────────────────────────────────────
 

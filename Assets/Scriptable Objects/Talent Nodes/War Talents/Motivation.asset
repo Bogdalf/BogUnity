@@ -10,19 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f95c1a10e2d5fb4f8853f932680a0f0, type: 3}
-  m_Name: WarNode1
+  m_Name: Motivation
   m_EditorClassIdentifier: Assembly-CSharp::TalentNodeData
-  nodeName: Start Node 1
-  description: Testing Start Node 1 for War Aspect
+  nodeName: Motivation
+  description: Reverberation grants you 5% more strength, per point, for 10 seconds
   icon: {fileID: 0}
   aspect: 1
-  nodeType: 0
+  nodeType: 2
   angle: 90
-  radius: 100
-  effectType: 0
-  effectValue: 1
-  maxRank: 1
-  connectedNodes: []
-  prerequisiteNodes: []
-  aspectPointsRequired: 0
+  radius: 90
+  effectType: 7
+  effectValue: 5
+  maxRank: 4
+  connectedNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  prerequisiteNodes:
+  - {fileID: 11400000, guid: d3ea3ec8de602bf46b334833a60fbe20, type: 2}
+  aspectPointsRequired: 1
   requiresHybridUnlock: 0
+  grantedSkill: {fileID: 0}

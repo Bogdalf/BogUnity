@@ -143,13 +143,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   moveSpeed: 5
-  health: 20
+  health: 200
   stunDuration: 0.5
   detectionRange: 5
   startAggressive: 1
   attackRange: 1.2
   attackDamage: 1
-  attackCooldown: 1.5
+  attackCooldown: 0.5
 --- !u!50 &5914882186997527591
 Rigidbody2D:
   serializedVersion: 5
