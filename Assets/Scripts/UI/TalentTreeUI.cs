@@ -20,13 +20,14 @@ using System.Collections.Generic;
 ///   - talentNodePrefab: small button prefab with TalentNodeUI component.
 ///   - linePrefab: a GameObject with an Image component (plain white 1x1 sprite).
 /// </summary>
-public class TalentTreeUI : MonoBehaviour
+public class TalentTreeUI : MonoBehaviour, IUIPanel
 {
     [Header("References")]
     [SerializeField] private PlayerTalents playerTalents;
     [SerializeField] private GameObject talentTreePanel;
     [SerializeField] private RectTransform nodeContainer;
     [SerializeField] private RectTransform lineContainer;
+    [SerializeField] private TalentTreePanner panner;
 
     [Header("Prefabs")]
     [SerializeField] private GameObject talentNodePrefab;
@@ -100,23 +101,38 @@ public class TalentTreeUI : MonoBehaviour
 
     void ToggleTalentTree()
     {
-        isTalentTreeOpen = !isTalentTreeOpen;
+        if (isTalentTreeOpen)
+            Close();
+        else
+            Open();
+    }
+
+    void Open()
+    {
+        isTalentTreeOpen = true;
+
+        UIPanelManager.Instance?.OnPanelOpening(this, UIPanelManager.PanelRegion.TalentTree);
 
         if (talentTreePanel != null)
-            talentTreePanel.SetActive(isTalentTreeOpen);
+            talentTreePanel.SetActive(true);
 
-        if (PersistentInputManager.Instance != null)
-            PersistentInputManager.Instance.SetSpellbookOpen(isTalentTreeOpen);
+        // Reset to centered 1x view every time the tree opens
+        panner?.ResetView();
 
-        if (isTalentTreeOpen)
-        {
-            BuildTree();
-            RefreshAllNodes();
-        }
-        else
-        {
-            HideTooltip();
-        }
+        BuildTree();
+        RefreshAllNodes();
+    }
+
+    public void Close()
+    {
+        isTalentTreeOpen = false;
+
+        if (talentTreePanel != null)
+            talentTreePanel.SetActive(false);
+
+        HideTooltip();
+
+        UIPanelManager.Instance?.OnPanelClosed(this, UIPanelManager.PanelRegion.TalentTree);
     }
 
     // ─── Build ────────────────────────────────────────────────────────────────────
@@ -178,8 +194,6 @@ public class TalentTreeUI : MonoBehaviour
 
     void DrawConnection(TalentNodeData from, TalentNodeData to)
     {
-        Debug.Log($"Drawing line: {from.nodeName} → {to.nodeName}");
-        
         string key = GetConnectionKey(from, to);
         if (spawnedLines.ContainsKey(key)) return;
         if (linePrefab == null || lineContainer == null) return;
@@ -280,7 +294,7 @@ public class TalentTreeUI : MonoBehaviour
         {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 nodeContainer, Input.mousePosition, null, out Vector2 localPos);
-            tooltipRT.anchoredPosition = localPos + new Vector2(-125f, 100f);
+            tooltipRT.anchoredPosition = localPos + new Vector2(-125f, 80f);
         }
     }
 

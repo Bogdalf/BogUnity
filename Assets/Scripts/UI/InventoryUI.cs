@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class InventoryUI : MonoBehaviour
+public class InventoryUI : MonoBehaviour, IUIPanel
 {
     [Header("References")]
     [SerializeField] private Inventory inventory;
@@ -68,13 +68,25 @@ public class InventoryUI : MonoBehaviour
 
     void ToggleInventory()
     {
-        isInventoryOpen = !isInventoryOpen;
-
-        if (inventoryPanel != null)
-            inventoryPanel.SetActive(isInventoryOpen);
-
         if (isInventoryOpen)
-            RefreshGridDisplay();
+            Close();
+        else
+            Open();
+    }
+
+    void Open()
+    {
+        isInventoryOpen = true;
+        UIPanelManager.Instance?.OnPanelOpening(this, UIPanelManager.PanelRegion.Right);
+        if (inventoryPanel != null) inventoryPanel.SetActive(true);
+        RefreshGridDisplay();
+    }
+
+    public void Close()
+    {
+        isInventoryOpen = false;
+        if (inventoryPanel != null) inventoryPanel.SetActive(false);
+        UIPanelManager.Instance?.OnPanelClosed(this, UIPanelManager.PanelRegion.Right);
     }
 
     void RefreshGridDisplay()
@@ -157,6 +169,9 @@ public class InventoryUI : MonoBehaviour
 
         CanvasGroup cg = draggedItemVisual.AddComponent<CanvasGroup>();
         cg.blocksRaycasts = false;
+
+        // Reveal the trash zone while dragging
+        trashZone?.ShowForDrag();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -173,10 +188,15 @@ public class InventoryUI : MonoBehaviour
             draggedItemVisual = null;
         }
 
+        // Check trash zone BEFORE hiding it — HideAfterDrag resets IsMouseOver
+        bool droppedOnTrash = trashZone != null && trashZone.IsMouseOver();
+
+        // Always hide the trash zone when drag ends
+        trashZone?.HideAfterDrag();
+
         if (inventory == null) { draggedItem = null; return; }
 
-        // Check trash zone
-        if (trashZone != null && trashZone.IsMouseOver())
+        if (droppedOnTrash)
         {
             inventory.RemoveItemAtPosition(fromX, fromY);
             Debug.Log("Item trashed!");

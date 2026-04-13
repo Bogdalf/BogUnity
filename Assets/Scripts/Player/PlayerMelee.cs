@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMelee : MonoBehaviour
@@ -10,6 +11,10 @@ public class PlayerMelee : MonoBehaviour
     [Header("VFX")]
     [SerializeField] private Animator AttackTelegraphs;
 
+    [Header("Hit Feel")]
+    [SerializeField] private float hitStopDuration  = 0.06f;
+    [SerializeField] private float hitStopTimeScale = 0.05f;
+
     private PlayerStats playerStats;
     private PlayerWarCry playerWarCry;
     private Animator animator;
@@ -19,18 +24,24 @@ public class PlayerMelee : MonoBehaviour
 
     private Vector3 cachedAttackDirection;
     private bool hitRegistered = false;
+    private Rigidbody2D rb;
+    private PlayerMovement playerMovement;
 
     void Start()
     {
-        playerStats = GetComponent<PlayerStats>();
+        rb             = GetComponent<Rigidbody2D>();
+        playerMovement = GetComponent<PlayerMovement>();
+        playerStats  = GetComponent<PlayerStats>();
         playerWarCry = GetComponent<PlayerWarCry>();
-        animator = GetComponent<Animator>();
+        animator     = GetComponent<Animator>();
     }
 
     public bool CanAttack()
     {
         return !isAttacking && Time.time >= lastAttackTime + attackCooldown;
     }
+
+    public bool IsAttacking() => isAttacking;
 
     public void TriggerAttack()
     {
@@ -56,6 +67,23 @@ public class PlayerMelee : MonoBehaviour
             AttackTelegraphs.SetFloat("DirectionX", cachedAttackDirection.x);
             AttackTelegraphs.SetFloat("DirectionY", cachedAttackDirection.y);
         }
+        if (playerMovement != null) playerMovement.enabled = false;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+
+        StartCoroutine(DelayedMovementLock());
+    }
+
+    [SerializeField] private float movementLockDelay = 0.1f;
+
+    IEnumerator DelayedMovementLock()
+    {
+        yield return new WaitForSeconds(movementLockDelay);
+
+        if (isAttacking)
+        {
+            if (rb != null) rb.linearVelocity = Vector2.zero;
+            if (playerMovement != null) playerMovement.enabled = false;
+        }
     }
 
     /// <summary>
@@ -66,6 +94,7 @@ public class PlayerMelee : MonoBehaviour
         if (hitRegistered) return;
         hitRegistered = true;
 
+        int enemiesHit = 0;
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, attackRange);
 
         foreach (Collider2D hit in hits)
@@ -81,29 +110,39 @@ public class PlayerMelee : MonoBehaviour
             if (damageable == null) continue;
 
             damageable.TakeDamage(CalculateDamage());
+            enemiesHit++;
         }
+
+        if (enemiesHit > 0)
+            StartCoroutine(HitStop(hitStopDuration, hitStopTimeScale));
 
         isAttacking = false;
     }
 
     /// <summary>
     /// Called by Animation Event on the last frame of the attack animation.
-    /// Ensures isAttacking resets even if OnAttackHit was never triggered.
     /// </summary>
     public void OnAttackEnd()
     {
         isAttacking = false;
+        if (playerMovement != null) playerMovement.enabled = true;
     }
 
     float CalculateDamage()
     {
         float damage = playerStats != null ? playerStats.GetAttackDamage() : 0f;
 
-        // War Cry damage buff
         if (playerWarCry != null)
             damage *= playerWarCry.GetDamageMultiplier();
 
         return damage;
+    }
+
+    IEnumerator HitStop(float duration, float timeScale)
+    {
+        Time.timeScale = timeScale;
+        yield return new WaitForSecondsRealtime(duration);
+        Time.timeScale = 1f;
     }
 
     public void SetAttackSpeed(float newCooldown)

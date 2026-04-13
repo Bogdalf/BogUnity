@@ -13,6 +13,7 @@ public class MeleeSkill : MonoBehaviour, ISkill
     private PlayerMelee playerMelee;
 
     public SkillData SkillData => meleeSkillData;
+    public bool IsActive() => playerMelee != null && playerMelee.IsAttacking();
 
     void Start()
     {

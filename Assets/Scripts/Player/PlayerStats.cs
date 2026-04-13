@@ -18,7 +18,12 @@ public class PlayerStats : MonoBehaviour
     private float bonusFocus = 0f;
     private float bonusVitality = 0f;
 
-    // Derived values (recalculated whenever stats change)
+    // Temporary multipliers applied by buffs (1.0 = no buff)
+    private float strengthMultiplier     = 1f;
+    private float intelligenceMultiplier = 1f;
+    private float focusMultiplier        = 1f;
+
+    // Derived values
     private float attackDamage;
     private float maxHealth;
 
@@ -33,89 +38,76 @@ public class PlayerStats : MonoBehaviour
 
     void CalculateStats()
     {
-        // All three offensive stats contribute equally to attack power
         attackDamage = (GetStrength() + GetIntelligence() + GetFocus()) * attackPerStatPoint;
-        maxHealth = GetVitality() * vitalityToHealthRatio;
+        maxHealth    = GetVitality() * vitalityToHealthRatio;
     }
 
     void InitializeHealth()
     {
         PlayerHealth health = GetComponent<PlayerHealth>();
         if (health != null)
-        {
             health.SetMaxHealth(maxHealth, fullyHeal: !initialized);
-        }
     }
 
-    // ─── Gear Bonuses ───────────────────────────────────────────────────────────
+    // ─── Gear Bonuses ─────────────────────────────────────────────────────────────
 
-    /// <summary>
-    /// Called by PlayerRuneBook when a book is equipped or unequipped.
-    /// </summary>
     public void SetRuneBookBonuses(float str, float intel, float focus, float vit)
     {
-        bonusStrength = str;
+        bonusStrength     = str;
         bonusIntelligence = intel;
-        bonusFocus = focus;
-        bonusVitality = vit;
+        bonusFocus        = focus;
+        bonusVitality     = vit;
         CalculateStats();
         InitializeHealth();
     }
 
-    // ─── Talent Bonuses ──────────────────────────────────────────────────────────
+    // ─── Talent Bonuses ───────────────────────────────────────────────────────────
 
-    public void AddStrength(float amount)
+    public void AddStrength(float amount)     { bonusStrength     += amount; CalculateStats(); }
+    public void AddIntelligence(float amount) { bonusIntelligence += amount; CalculateStats(); }
+    public void AddFocus(float amount)        { bonusFocus        += amount; CalculateStats(); }
+    public void AddVitality(float amount)     { bonusVitality     += amount; CalculateStats(); InitializeHealth(); }
+
+    // ─── Buff Multipliers ─────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Sets a temporary multiplier on Strength (e.g. 1.2 = +20%).
+    /// Pass 1.0 to remove the buff. Recalculates stats immediately.
+    /// </summary>
+    public void SetStrengthMultiplier(float multiplier)
     {
-        bonusStrength += amount;
+        strengthMultiplier = Mathf.Max(0f, multiplier);
         CalculateStats();
     }
 
-    public void AddIntelligence(float amount)
+    public void SetIntelligenceMultiplier(float multiplier)
     {
-        bonusIntelligence += amount;
+        intelligenceMultiplier = Mathf.Max(0f, multiplier);
         CalculateStats();
     }
 
-    public void AddFocus(float amount)
+    public void SetFocusMultiplier(float multiplier)
     {
-        bonusFocus += amount;
+        focusMultiplier = Mathf.Max(0f, multiplier);
         CalculateStats();
     }
 
-    public void AddVitality(float amount)
-    {
-        bonusVitality += amount;
-        CalculateStats();
-        InitializeHealth();
-    }
+    // ─── Stat Totals ──────────────────────────────────────────────────────────────
 
-    // ─── Stat Totals ─────────────────────────────────────────────────────────────
-
-    public float GetStrength()     => baseStrength     + bonusStrength;
-    public float GetIntelligence() => baseIntelligence + bonusIntelligence;
-    public float GetFocus()        => baseFocus        + bonusFocus;
-    public float GetVitality()     => baseVitality     + bonusVitality;
+    /// <summary>Total Strength including gear, talents, and active buffs.</summary>
+    public float GetStrength()     => (baseStrength     + bonusStrength)     * strengthMultiplier;
+    public float GetIntelligence() => (baseIntelligence + bonusIntelligence) * intelligenceMultiplier;
+    public float GetFocus()        => (baseFocus        + bonusFocus)        * focusMultiplier;
+    public float GetVitality()     => baseVitality      + bonusVitality;
 
     // ─── Derived Stats ────────────────────────────────────────────────────────────
 
-    /// <summary>
-    /// Total attack power used by basic melee attacks.
-    /// Combines all three offensive stats equally.
-    /// </summary>
     public float GetAttackDamage() => attackDamage;
-
-    public float GetMaxHealth() => maxHealth;
+    public float GetMaxHealth()    => maxHealth;
 
     // ─── Aspect Power ─────────────────────────────────────────────────────────────
-    // Aspect abilities use these instead of GetAttackDamage(), so a War ability
-    // scales only from Strength, a Sorcery ability from Intelligence, etc.
 
-    /// <summary>War Aspect abilities scale from Strength.</summary>
     public float GetWarPower()           => GetStrength();
-
-    /// <summary>Sorcery Aspect abilities scale from Intelligence.</summary>
     public float GetSorceryPower()       => GetIntelligence();
-
-    /// <summary>Amplification Aspect abilities scale from Focus.</summary>
     public float GetAmplificationPower() => GetFocus();
 }

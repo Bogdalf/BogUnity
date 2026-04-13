@@ -15,5 +15,6 @@ MonoBehaviour:
   skillName: Attack
   description: Basic Attack
   icon: {fileID: -7166569462567030093, guid: 7b057f3e864478f4a91fa1b6aa79c972, type: 3}
-  cooldown: 0.25
+  cooldown: 2
   requiredAspect: 0
+  showInSpellbook: 0
