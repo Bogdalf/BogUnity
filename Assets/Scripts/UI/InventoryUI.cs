@@ -7,22 +7,19 @@ public class InventoryUI : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Inventory inventory;
-    [SerializeField] private PlayerEquipment playerEquipment;
+    [SerializeField] private PlayerRuneBook playerRuneBook;
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private Transform gridContainer;
     [SerializeField] private GameObject gridSlotPrefab;
-    [SerializeField] private InventoryTrashZone trashZone; // Optional trash zone
+    [SerializeField] private InventoryTrashZone trashZone;
 
     [Header("Equipment Display")]
-    [SerializeField] private TextMeshProUGUI mainHandText;
-    [SerializeField] private TextMeshProUGUI offHandText;
+    [SerializeField] private TextMeshProUGUI runeBookText;
 
     [Header("Settings")]
     [SerializeField] private KeyCode toggleKey = KeyCode.I;
 
     private bool isInventoryOpen = false;
-
-    // Track if mouse is over inventory
     private bool isMouseOverInventory = false;
 
     // Drag state
@@ -33,79 +30,40 @@ public class InventoryUI : MonoBehaviour
 
     void Start()
     {
-        // Find player references if not set
         FindPlayerReferences();
     }
 
     void Update()
     {
-        // If references are null, try to find them again
-        if (inventory == null || playerEquipment == null)
-        {
+        if (inventory == null || playerRuneBook == null)
             FindPlayerReferences();
-        }
 
         if (Input.GetKeyDown(toggleKey) || Input.GetKeyDown(KeyCode.Tab))
-        {
             ToggleInventory();
-        }
 
         if (isInventoryOpen)
-        {
             UpdateEquipmentDisplay();
-        }
     }
 
     void FindPlayerReferences()
     {
-        // Try to find via PersistentPlayer first
-        if (PersistentPlayer.Instance != null)
-        {
-            if (inventory == null)
-            {
-                inventory = PersistentPlayer.Instance.GetComponent<Inventory>();
-                if (inventory != null)
-                {
-                    Debug.Log("InventoryUI: Found Inventory on PersistentPlayer");
-                }
-            }
+        GameObject player = PersistentPlayer.Instance != null
+            ? PersistentPlayer.Instance.gameObject
+            : GameObject.FindGameObjectWithTag("Player");
 
-            if (playerEquipment == null)
-            {
-                playerEquipment = PersistentPlayer.Instance.GetComponent<PlayerEquipment>();
-                if (playerEquipment != null)
-                {
-                    Debug.Log("InventoryUI: Found PlayerEquipment on PersistentPlayer");
-                }
-            }
-        }
-        else
-        {
-            // Fallback - find by tag
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
-            {
-                if (inventory == null)
-                {
-                    inventory = player.GetComponent<Inventory>();
-                }
-
-                if (playerEquipment == null)
-                {
-                    playerEquipment = player.GetComponent<PlayerEquipment>();
-                }
-            }
-        }
+        if (player == null) return;
 
         if (inventory == null)
-        {
-            Debug.LogWarning("InventoryUI: Could not find Inventory component!");
-        }
+            inventory = player.GetComponent<Inventory>();
 
-        if (playerEquipment == null)
-        {
-            Debug.LogWarning("InventoryUI: Could not find PlayerEquipment component!");
-        }
+        if (playerRuneBook == null)
+            playerRuneBook = player.GetComponent<PlayerRuneBook>();
+
+        if (inventory == null)
+            Debug.LogWarning("InventoryUI: Could not find Inventory component!");
+
+        if (playerRuneBook == null)
+            Debug.LogWarning("InventoryUI: Could not find PlayerRuneBook component!");
     }
 
     void ToggleInventory()
@@ -113,37 +71,25 @@ public class InventoryUI : MonoBehaviour
         isInventoryOpen = !isInventoryOpen;
 
         if (inventoryPanel != null)
-        {
             inventoryPanel.SetActive(isInventoryOpen);
-        }
 
         if (isInventoryOpen)
-        {
             RefreshGridDisplay();
-        }
     }
 
     void RefreshGridDisplay()
     {
         if (inventory == null || gridContainer == null) return;
 
-        // Clear existing slots
         foreach (Transform child in gridContainer)
-        {
             Destroy(child.gameObject);
-        }
 
         int gridWidth = inventory.GetGridWidth();
         int gridHeight = inventory.GetGridHeight();
 
-        // Create a slot for every grid position
         for (int y = 0; y < gridHeight; y++)
-        {
             for (int x = 0; x < gridWidth; x++)
-            {
                 CreateGridSlot(x, y);
-            }
-        }
     }
 
     void CreateGridSlot(int x, int y)
@@ -161,22 +107,34 @@ public class InventoryUI : MonoBehaviour
         }
     }
 
-    // Called by InventorySlot when right-clicked (EQUIP)
+    void UpdateEquipmentDisplay()
+    {
+        if (runeBookText != null && playerRuneBook != null)
+        {
+            RuneBookData book = playerRuneBook.GetEquippedBook();
+            runeBookText.text = book != null ? book.itemName : "No Rune Book";
+        }
+    }
+
+    // Called by InventorySlot when right-clicked
     public void OnSlotRightClicked(int x, int y, ItemData item)
     {
         if (item == null || inventory == null) return;
 
-        Debug.Log("Right-clicked " + item.itemName + " at (" + x + ", " + y + ")");
-
-        // Equip weapons when right-clicked
-        if (item.itemType == ItemType.Weapon)
+        if (item.itemType == ItemType.RuneBook)
         {
-            inventory.EquipWeaponFromPosition(x, y);
-            RefreshGridDisplay();
+            RuneBookData book = item as RuneBookData;
+            if (book != null && playerRuneBook != null)
+            {
+                playerRuneBook.EquipBook(book);
+                Debug.Log("Equipped Rune Book: " + book.itemName);
+                RefreshGridDisplay();
+            }
         }
     }
 
-    // Drag and Drop handlers
+    // ─── Drag and Drop ────────────────────────────────────────────────────────────
+
     public void OnBeginDrag(int fromX, int fromY, ItemData item, GameObject slotObject)
     {
         if (inventory == null) return;
@@ -185,122 +143,71 @@ public class InventoryUI : MonoBehaviour
         dragFromY = fromY;
         draggedItem = item;
 
-        // Create a visual representation that follows the mouse
         draggedItemVisual = new GameObject("DraggedItem");
-        draggedItemVisual.transform.SetParent(transform, false);
+        Canvas rootCanvas = GetComponentInParent<Canvas>();
+        if (rootCanvas != null)
+            draggedItemVisual.transform.SetParent(rootCanvas.transform, false);
 
-        Canvas canvas = GetComponentInParent<Canvas>();
-        if (canvas != null)
-        {
-            draggedItemVisual.transform.SetParent(canvas.transform, false);
-        }
-
-        Image image = draggedItemVisual.AddComponent<Image>();
-        image.sprite = item.icon;
-        image.raycastTarget = false;
+        Image dragImage = draggedItemVisual.AddComponent<Image>();
+        if (item?.icon != null)
+            dragImage.sprite = item.icon;
 
         RectTransform rt = draggedItemVisual.GetComponent<RectTransform>();
         rt.sizeDelta = new Vector2(50, 50);
+
+        CanvasGroup cg = draggedItemVisual.AddComponent<CanvasGroup>();
+        cg.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         if (draggedItemVisual != null)
-        {
             draggedItemVisual.transform.position = Input.mousePosition;
-        }
     }
 
     public void OnEndDrag(int fromX, int fromY, PointerEventData eventData)
     {
-        if (inventory == null) return;
-
-        // Destroy the visual
         if (draggedItemVisual != null)
         {
             Destroy(draggedItemVisual);
+            draggedItemVisual = null;
         }
 
-        // Check if dropped on trash zone
+        if (inventory == null) { draggedItem = null; return; }
+
+        // Check trash zone
         if (trashZone != null && trashZone.IsMouseOver())
         {
             inventory.RemoveItemAtPosition(fromX, fromY);
             Debug.Log("Item trashed!");
             RefreshGridDisplay();
+            draggedItem = null;
             return;
         }
 
-        // Find what slot we dropped on
+        // Find drop target slot
         GameObject dropTarget = eventData.pointerCurrentRaycast.gameObject;
-
-        if (dropTarget == null)
+        if (dropTarget != null)
         {
-            Debug.Log("Dropped outside inventory - cancelled");
-            return;
-        }
+            InventorySlot targetSlot = dropTarget.GetComponent<InventorySlot>()
+                ?? dropTarget.GetComponentInParent<InventorySlot>();
 
-        // Check if we dropped on a valid inventory slot
-        InventorySlot targetSlot = dropTarget.GetComponent<InventorySlot>();
-        if (targetSlot == null)
-        {
-            // Might have dropped on a child (like the image), check parent
-            targetSlot = dropTarget.GetComponentInParent<InventorySlot>();
-        }
-
-        if (targetSlot != null)
-        {
-            int toX = targetSlot.GetGridX();
-            int toY = targetSlot.GetGridY();
-
-            // Move the item
-            if (inventory.MoveItem(fromX, fromY, toX, toY))
-            {
-                Debug.Log("Moved item from (" + fromX + ", " + fromY + ") to (" + toX + ", " + toY + ")");
-            }
+            if (targetSlot != null)
+                inventory.MoveItem(fromX, fromY, targetSlot.GetGridX(), targetSlot.GetGridY());
         }
 
         RefreshGridDisplay();
+        draggedItem = null;
     }
 
-    public void RefreshDisplay()
-    {
-        RefreshGridDisplay();
-    }
+    /// <summary>Alias called by Inventory when it needs to trigger a UI refresh.</summary>
+    public void RefreshDisplay() => RefreshGridDisplay();
 
-    void UpdateEquipmentDisplay()
-    {
-        if (playerEquipment == null) return;
+    // ─── Helpers ──────────────────────────────────────────────────────────────────
 
-        if (mainHandText != null)
-        {
-            WeaponData mainHand = playerEquipment.GetMainHandWeapon();
-            mainHandText.text = mainHand != null ? mainHand.itemName : "Empty";
-        }
-
-        if (offHandText != null)
-        {
-            WeaponData offHand = playerEquipment.GetOffHandWeapon();
-            offHandText.text = offHand != null ? offHand.itemName : "Empty";
-        }
-    }
-
-    // Track mouse over inventory
-    public void SetMouseOverInventory(bool isOver)
-    {
-        isMouseOverInventory = isOver;
-    }
-
-    public bool IsMouseOverInventory()
-    {
-        return isMouseOverInventory;
-    }
-
-    public bool IsInventoryOpen()
-    {
-        return isInventoryOpen;
-    }
-
-    // Getters
+    public void SetMouseOverInventory(bool isOver) => isMouseOverInventory = isOver;
+    public bool IsMouseOverInventory() => isMouseOverInventory;
+    public bool IsInventoryOpen() => isInventoryOpen;
     public Inventory GetInventory() => inventory;
-    public PlayerEquipment GetPlayerEquipment() => playerEquipment;
+    public PlayerRuneBook GetPlayerRuneBook() => playerRuneBook;
 }

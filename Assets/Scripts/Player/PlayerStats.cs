@@ -4,19 +4,23 @@ public class PlayerStats : MonoBehaviour
 {
     [Header("Base Stats")]
     [SerializeField] private float baseStrength = 10f;
+    [SerializeField] private float baseIntelligence = 10f;
+    [SerializeField] private float baseFocus = 10f;
     [SerializeField] private float baseVitality = 10f;
 
-    [Header("Stat Modifiers")]
+    [Header("Stat Scaling")]
+    [SerializeField] private float attackPerStatPoint = 1f;
+    [SerializeField] private float vitalityToHealthRatio = 10f;
+
+    // Bonus stats from gear and talents
     private float bonusStrength = 0f;
+    private float bonusIntelligence = 0f;
+    private float bonusFocus = 0f;
     private float bonusVitality = 0f;
 
-    // Calculated values
+    // Derived values (recalculated whenever stats change)
     private float attackDamage;
     private float maxHealth;
-
-    [Header("Stat Scaling")]
-    [SerializeField] private float strengthToAttackRatio = 1f;
-    [SerializeField] private float vitalityToHealthRatio = 10f;
 
     private bool initialized = false;
 
@@ -29,11 +33,9 @@ public class PlayerStats : MonoBehaviour
 
     void CalculateStats()
     {
-        float totalStrength = baseStrength + bonusStrength;
-        float totalVitality = baseVitality + bonusVitality;
-
-        attackDamage = totalStrength * strengthToAttackRatio;
-        maxHealth = totalVitality * vitalityToHealthRatio;
+        // All three offensive stats contribute equally to attack power
+        attackDamage = (GetStrength() + GetIntelligence() + GetFocus()) * attackPerStatPoint;
+        maxHealth = GetVitality() * vitalityToHealthRatio;
     }
 
     void InitializeHealth()
@@ -41,28 +43,42 @@ public class PlayerStats : MonoBehaviour
         PlayerHealth health = GetComponent<PlayerHealth>();
         if (health != null)
         {
-            // fullyHeal=true only on first init, so equipment changes don't restore health
             health.SetMaxHealth(maxHealth, fullyHeal: !initialized);
         }
     }
 
-    // Getters
-    public float GetAttackDamage() => attackDamage;
-    public float GetMaxHealth() => maxHealth;
-    public float GetStrength() => baseStrength + bonusStrength;
-    public float GetVitality() => baseVitality + bonusVitality;
+    // ─── Gear Bonuses ───────────────────────────────────────────────────────────
 
-    public void SetEquipmentBonuses(float equipStrength, float equipVitality)
+    /// <summary>
+    /// Called by PlayerRuneBook when a book is equipped or unequipped.
+    /// </summary>
+    public void SetRuneBookBonuses(float str, float intel, float focus, float vit)
     {
-        bonusStrength = equipStrength;
-        bonusVitality = equipVitality;
+        bonusStrength = str;
+        bonusIntelligence = intel;
+        bonusFocus = focus;
+        bonusVitality = vit;
         CalculateStats();
-        InitializeHealth(); // Will NOT fully heal since initialized = true
+        InitializeHealth();
     }
+
+    // ─── Talent Bonuses ──────────────────────────────────────────────────────────
 
     public void AddStrength(float amount)
     {
         bonusStrength += amount;
+        CalculateStats();
+    }
+
+    public void AddIntelligence(float amount)
+    {
+        bonusIntelligence += amount;
+        CalculateStats();
+    }
+
+    public void AddFocus(float amount)
+    {
+        bonusFocus += amount;
         CalculateStats();
     }
 
@@ -72,4 +88,34 @@ public class PlayerStats : MonoBehaviour
         CalculateStats();
         InitializeHealth();
     }
+
+    // ─── Stat Totals ─────────────────────────────────────────────────────────────
+
+    public float GetStrength()     => baseStrength     + bonusStrength;
+    public float GetIntelligence() => baseIntelligence + bonusIntelligence;
+    public float GetFocus()        => baseFocus        + bonusFocus;
+    public float GetVitality()     => baseVitality     + bonusVitality;
+
+    // ─── Derived Stats ────────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Total attack power used by basic melee attacks.
+    /// Combines all three offensive stats equally.
+    /// </summary>
+    public float GetAttackDamage() => attackDamage;
+
+    public float GetMaxHealth() => maxHealth;
+
+    // ─── Aspect Power ─────────────────────────────────────────────────────────────
+    // Aspect abilities use these instead of GetAttackDamage(), so a War ability
+    // scales only from Strength, a Sorcery ability from Intelligence, etc.
+
+    /// <summary>War Aspect abilities scale from Strength.</summary>
+    public float GetWarPower()           => GetStrength();
+
+    /// <summary>Sorcery Aspect abilities scale from Intelligence.</summary>
+    public float GetSorceryPower()       => GetIntelligence();
+
+    /// <summary>Amplification Aspect abilities scale from Focus.</summary>
+    public float GetAmplificationPower() => GetFocus();
 }

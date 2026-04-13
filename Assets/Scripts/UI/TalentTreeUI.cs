@@ -1,128 +1,117 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
+/// <summary>
+/// Builds and manages the radial talent tree UI.
+/// Reads TalentTreeData to spawn TalentNodeUI buttons at polar coordinate positions
+/// and draws lines between connected nodes.
+///
+/// Layout:
+///   War           = 30° – 150°  (top)
+///   Amplification = 150° – 270° (bottom-left)
+///   Sorcery       = 270° – 30°  (bottom-right)
+///
+/// Setup requirements:
+///   - nodeContainer: RectTransform centered in the panel, anchored at center.
+///     Nodes spawn relative to its origin (the tree center).
+///   - lineContainer: sibling of nodeContainer, placed behind it in hierarchy.
+///   - talentNodePrefab: small button prefab with TalentNodeUI component.
+///   - linePrefab: a GameObject with an Image component (plain white 1x1 sprite).
+/// </summary>
 public class TalentTreeUI : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private PlayerTalents playerTalents;
     [SerializeField] private GameObject talentTreePanel;
-    [SerializeField] private TextMeshProUGUI talentPointsText;
+    [SerializeField] private RectTransform nodeContainer;
+    [SerializeField] private RectTransform lineContainer;
+
+    [Header("Prefabs")]
+    [SerializeField] private GameObject talentNodePrefab;
+    [SerializeField] private GameObject linePrefab;
+
+    [Header("Lines")]
+    [SerializeField] private Color lineColorDefault = new Color(0.4f, 0.4f, 0.4f, 0.8f);
+    [SerializeField] private Color lineColorLearned = new Color(0.85f, 0.75f, 0.3f, 1f);
+    [SerializeField] private float lineThickness = 3f;
 
     [Header("Tooltip")]
     [SerializeField] private GameObject tooltipPanel;
-    [SerializeField] private TextMeshProUGUI tooltipTitleText;
-    [SerializeField] private TextMeshProUGUI tooltipDescriptionText;
+    [SerializeField] private TextMeshProUGUI tooltipNameText;
+    [SerializeField] private TextMeshProUGUI tooltipDescText;
     [SerializeField] private TextMeshProUGUI tooltipRankText;
     [SerializeField] private TextMeshProUGUI tooltipEffectText;
+    [SerializeField] private TextMeshProUGUI tooltipRequirementText;
 
-    [Header("Talent Nodes")]
-    [SerializeField] private TalentNodeUI[] talentNodes;
+    [Header("Header")]
+    [SerializeField] private TextMeshProUGUI talentPointsText;
+    [SerializeField] private TextMeshProUGUI startingAspectText;
 
     [Header("Settings")]
     [SerializeField] private KeyCode toggleKey = KeyCode.N;
+    [SerializeField] private float nodeSize = 60f;
 
     private bool isTalentTreeOpen = false;
+    private bool treeBuilt = false;
 
-    public bool IsTalentTreeOpen()
-    {
-        return isTalentTreeOpen;
-    }
+    private Dictionary<TalentNodeData, TalentNodeUI> spawnedNodes
+        = new Dictionary<TalentNodeData, TalentNodeUI>();
+    private Dictionary<string, Image> spawnedLines
+        = new Dictionary<string, Image>();
+
+    public bool IsTalentTreeOpen() => isTalentTreeOpen;
+
+    // ─── Lifecycle ────────────────────────────────────────────────────────────────
 
     void Start()
     {
-        // Find player reference if not set
         FindPlayerReferences();
 
-        // Hide tooltip initially
-        if (tooltipPanel != null)
-        {
-            tooltipPanel.SetActive(false);
-        }
-
-        // Initialize all nodes
-        InitializeAllNodes();
-        RefreshAllNodes();
-    }
-
-    void FindPlayerReferences()
-    {
-        // Try to find via PersistentPlayer first
-        if (PersistentPlayer.Instance != null)
-        {
-            if (playerTalents == null)
-            {
-                playerTalents = PersistentPlayer.Instance.GetComponent<PlayerTalents>();
-                if (playerTalents != null)
-                {
-                    Debug.Log("TalentTreeUI: Found PlayerTalents on PersistentPlayer");
-                }
-            }
-        }
-        else
-        {
-            // Fallback - find by tag
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null && playerTalents == null)
-            {
-                playerTalents = player.GetComponent<PlayerTalents>();
-            }
-        }
-
-        if (playerTalents == null)
-        {
-            Debug.LogWarning("TalentTreeUI: Could not find PlayerTalents component!");
-        }
-    }
-
-    void InitializeAllNodes()
-    {
-        if (playerTalents == null) return;
-
-        foreach (TalentNodeUI node in talentNodes)
-        {
-            if (node != null)
-            {
-                TalentData talent = node.GetTalentData();
-                node.Initialize(talent, this, playerTalents);
-            }
-        }
+        if (tooltipPanel != null)   tooltipPanel.SetActive(false);
+        if (talentTreePanel != null) talentTreePanel.SetActive(false);
     }
 
     void Update()
     {
-        // If player talents is null, try to find it again
-        if (playerTalents == null)
-        {
-            FindPlayerReferences();
-        }
+        if (playerTalents == null) FindPlayerReferences();
 
-        // Toggle talent tree with N key
         if (Input.GetKeyDown(toggleKey))
-        {
             ToggleTalentTree();
-        }
-
-        // Update talent points display if tree is open
-        if (isTalentTreeOpen)
-        {
-            UpdateTalentPointsDisplay();
-        }
     }
+
+    void FindPlayerReferences()
+    {
+        if (playerTalents != null) return;
+
+        GameObject player = PersistentPlayer.Instance != null
+            ? PersistentPlayer.Instance.gameObject
+            : GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+            playerTalents = player.GetComponent<PlayerTalents>();
+
+        if (playerTalents == null)
+            Debug.LogWarning("TalentTreeUI: Could not find PlayerTalents!");
+    }
+
+    // ─── Toggle ───────────────────────────────────────────────────────────────────
 
     void ToggleTalentTree()
     {
         isTalentTreeOpen = !isTalentTreeOpen;
 
         if (talentTreePanel != null)
-        {
             talentTreePanel.SetActive(isTalentTreeOpen);
-        }
+
+        if (PersistentInputManager.Instance != null)
+            PersistentInputManager.Instance.SetSpellbookOpen(isTalentTreeOpen);
 
         if (isTalentTreeOpen)
         {
+            BuildTree();
             RefreshAllNodes();
-            UpdateTalentPointsDisplay();
         }
         else
         {
@@ -130,109 +119,242 @@ public class TalentTreeUI : MonoBehaviour
         }
     }
 
-    public void RefreshAllNodes()
+    // ─── Build ────────────────────────────────────────────────────────────────────
+
+    void BuildTree()
     {
+        if (treeBuilt) return;
         if (playerTalents == null) return;
 
-        foreach (TalentNodeUI node in talentNodes)
+        TalentTreeData tree = playerTalents.GetTalentTree();
+        if (tree == null)
+        {
+            Debug.LogWarning("TalentTreeUI: No TalentTreeData assigned to PlayerTalents!");
+            return;
+        }
+
+        // Spawn all node buttons
+        foreach (TalentNodeData node in tree.allNodes)
         {
             if (node != null)
+                SpawnNode(node);
+        }
+
+        // Draw connections (after all nodes exist so positions are available)
+        foreach (TalentNodeData node in tree.allNodes)
+        {
+            if (node == null) continue;
+            foreach (TalentNodeData connected in node.connectedNodes)
             {
-                node.UpdateDisplay();
+                if (connected != null)
+                    DrawConnection(node, connected);
             }
         }
 
-        UpdateTalentPointsDisplay();
+        treeBuilt = true;
     }
 
-    void UpdateTalentPointsDisplay()
+    void SpawnNode(TalentNodeData node)
     {
-        if (talentPointsText != null && playerTalents != null)
+        if (talentNodePrefab == null || nodeContainer == null) return;
+
+        GameObject obj = Instantiate(talentNodePrefab, nodeContainer);
+        obj.name = node.nodeName;
+
+        RectTransform rt = obj.GetComponent<RectTransform>();
+        if (rt != null)
         {
-            int availablePoints = playerTalents.GetAvailableTalentPoints();
-            talentPointsText.text = "Available Points: " + availablePoints;
+            rt.sizeDelta        = new Vector2(nodeSize, nodeSize);
+            rt.anchoredPosition = PolarToCanvas(node.angle, node.radius);
+        }
+
+        TalentNodeUI nodeUI = obj.GetComponent<TalentNodeUI>();
+        if (nodeUI != null)
+        {
+            nodeUI.Initialize(node, this, playerTalents);
+            spawnedNodes[node] = nodeUI;
         }
     }
 
-    public void ShowTooltip(TalentData talent, PlayerTalents talents)
+    void DrawConnection(TalentNodeData from, TalentNodeData to)
     {
-        if (tooltipPanel == null || talent == null) return;
+        Debug.Log($"Drawing line: {from.nodeName} → {to.nodeName}");
+        
+        string key = GetConnectionKey(from, to);
+        if (spawnedLines.ContainsKey(key)) return;
+        if (linePrefab == null || lineContainer == null) return;
+
+        Vector2 posA = PolarToCanvas(from.angle, from.radius);
+        Vector2 posB = PolarToCanvas(to.angle,   to.radius);
+
+        GameObject lineObj   = Instantiate(linePrefab, lineContainer);
+        Image      lineImage = lineObj.GetComponent<Image>();
+        if (lineImage == null) return;
+
+        RectTransform rt  = lineObj.GetComponent<RectTransform>();
+        Vector2 direction = posB - posA;
+        float length      = direction.magnitude;
+
+        rt.sizeDelta        = new Vector2(length, lineThickness);
+        rt.anchoredPosition = posA + direction * 0.5f;
+        rt.localEulerAngles = new Vector3(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
+        rt.pivot            = new Vector2(0.5f, 0.5f);
+
+        lineImage.color   = lineColorDefault;
+        lineImage.raycastTarget = false;
+
+        spawnedLines[key] = lineImage;
+    }
+
+    // ─── Refresh ──────────────────────────────────────────────────────────────────
+
+    public void RefreshAllNodes()
+    {
+        foreach (var kvp in spawnedNodes)
+            kvp.Value?.UpdateDisplay();
+
+        RefreshLines();
+        UpdateHeader();
+    }
+
+    void RefreshLines()
+    {
+        if (playerTalents == null) return;
+
+        TalentTreeData tree = playerTalents.GetTalentTree();
+        if (tree == null) return;
+
+        foreach (TalentNodeData node in tree.allNodes)
+        {
+            if (node == null) continue;
+            foreach (TalentNodeData connected in node.connectedNodes)
+            {
+                if (connected == null) continue;
+                string key = GetConnectionKey(node, connected);
+                if (!spawnedLines.ContainsKey(key)) continue;
+
+                bool bothLearned = playerTalents.GetNodeRank(node)      > 0
+                                && playerTalents.GetNodeRank(connected) > 0;
+
+                spawnedLines[key].color = bothLearned ? lineColorLearned : lineColorDefault;
+            }
+        }
+    }
+
+    void UpdateHeader()
+    {
+        if (talentPointsText != null && playerTalents != null)
+            talentPointsText.text = "Points: " + playerTalents.GetAvailableTalentPoints();
+
+        if (startingAspectText != null && playerTalents != null)
+        {
+            AspectType aspect = playerTalents.GetStartingAspect();
+            startingAspectText.text = aspect == AspectType.None
+                ? "Choose your Aspect"
+                : aspect.ToString();
+        }
+    }
+
+    // ─── Tooltip ──────────────────────────────────────────────────────────────────
+
+    public void ShowTooltip(TalentNodeData node)
+    {
+        if (tooltipPanel == null || node == null) return;
 
         tooltipPanel.SetActive(true);
 
-        // Title
-        if (tooltipTitleText != null)
-        {
-            tooltipTitleText.text = talent.talentName;
-        }
+        if (tooltipNameText != null)   tooltipNameText.text   = node.nodeName;
+        if (tooltipDescText != null)   tooltipDescText.text   = node.description;
 
-        // Description
-        if (tooltipDescriptionText != null)
-        {
-            tooltipDescriptionText.text = talent.talentDescription;
-        }
+        if (tooltipRankText != null && playerTalents != null)
+            tooltipRankText.text = $"Rank: {playerTalents.GetNodeRank(node)} / {node.maxRank}";
 
-        // Rank info
-        if (tooltipRankText != null && talents != null)
-        {
-            int currentRank = talents.GetTalentRank(talent);
-            tooltipRankText.text = "Rank: " + currentRank + "/" + talent.maxRank;
-        }
-
-        // Effect info
         if (tooltipEffectText != null)
-        {
-            string effectText = GetEffectDescription(talent);
-            tooltipEffectText.text = effectText;
-        }
+            tooltipEffectText.text = GetEffectDescription(node);
 
-        // Position tooltip near mouse (optional - you can adjust this)
-        Vector3 mousePos = Input.mousePosition;
-        tooltipPanel.transform.position = mousePos + new Vector3(100, -50, 0);
+        if (tooltipRequirementText != null)
+            tooltipRequirementText.text = GetRequirementDescription(node);
+
+        // Position near mouse
+        if (tooltipPanel.transform is RectTransform tooltipRT && nodeContainer != null)
+        {
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                nodeContainer, Input.mousePosition, null, out Vector2 localPos);
+            tooltipRT.anchoredPosition = localPos + new Vector2(-125f, 100f);
+        }
     }
 
     public void HideTooltip()
     {
         if (tooltipPanel != null)
-        {
             tooltipPanel.SetActive(false);
-        }
     }
 
-    string GetEffectDescription(TalentData talent)
+    // ─── Helpers ──────────────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Converts polar coordinates to canvas anchored position.
+    /// 90° = top of screen (War region center), consistent with Unity's coordinate system.
+    /// </summary>
+    Vector2 PolarToCanvas(float angleDegrees, float radius)
     {
-        // Get current rank to calculate total effect
-        int currentRank = 0;
-        if (playerTalents != null)
+        float rad = angleDegrees * Mathf.Deg2Rad;
+        return new Vector2(Mathf.Cos(rad) * radius, Mathf.Sin(rad) * radius);
+    }
+
+    string GetConnectionKey(TalentNodeData a, TalentNodeData b)
+    {
+        return string.Compare(a.name, b.name, System.StringComparison.Ordinal) < 0
+            ? a.name + "|" + b.name
+            : b.name + "|" + a.name;
+    }
+
+    string GetEffectDescription(TalentNodeData node)
+    {
+        int   rank  = playerTalents != null ? playerTalents.GetNodeRank(node) : 0;
+        float total = node.effectValue * Mathf.Max(1, rank);
+
+        return node.effectType switch
         {
-            currentRank = playerTalents.GetTalentRank(talent);
+            TalentEffectType.IncreaseStrength     => $"+{total} Strength",
+            TalentEffectType.IncreaseIntelligence => $"+{total} Intelligence",
+            TalentEffectType.IncreaseFocus        => $"+{total} Focus",
+            TalentEffectType.IncreaseVitality     => $"+{total} Vitality",
+            TalentEffectType.WarDamageBonus       => $"+{total}% War Ability Damage",
+            TalentEffectType.SorceryDamageBonus   => $"+{total}% Sorcery Ability Damage",
+            TalentEffectType.AmplificationBonus   => $"+{total}% Amplification Potency",
+            TalentEffectType.IncreaseDashDistance => $"+{total}% Dash Distance",
+            TalentEffectType.DecreaseDashCooldown => $"-{total}% Dash Cooldown",
+            TalentEffectType.IncreaseMeleeRange   => $"+{total}% Melee Range",
+            TalentEffectType.IncreaseMeleeArc     => $"+{total}% Melee Arc",
+            _ => node.effectType.ToString()
+        };
+    }
+
+    string GetRequirementDescription(TalentNodeData node)
+    {
+        if (playerTalents == null) return "";
+        if (node.nodeType == NodeType.Starter) return "Choose this as your starting Aspect";
+
+        var lines = new List<string>();
+
+        if (node.aspectPointsRequired > 0)
+        {
+            int spent = playerTalents.GetAspectPointsSpent(node.aspect);
+            if (spent < node.aspectPointsRequired)
+                lines.Add($"Requires {node.aspectPointsRequired} {node.aspect} points ({spent}/{node.aspectPointsRequired})");
         }
 
-        // Calculate total effect (base value * current rank)
-        float totalEffect = talent.effectValue * Mathf.Max(1, currentRank);
+        if (node.requiresHybridUnlock && !playerTalents.HybridProgressionUnlocked())
+            lines.Add("Requires: Hybrid progression unlocked");
 
-        switch (talent.effectType)
-        {
-            case TalentEffectType.IncreaseStrength:
-                return "+" + totalEffect + " Strength";
+        if (node.prerequisiteNodes != null)
+            foreach (TalentNodeData prereq in node.prerequisiteNodes)
+                if (prereq != null && playerTalents.GetNodeRank(prereq) == 0)
+                    lines.Add($"Requires: {prereq.nodeName}");
 
-            case TalentEffectType.IncreaseVitality:
-                return "+" + totalEffect + " Vitality";
-
-            case TalentEffectType.WeaponDamageBonus:
-                return "+" + totalEffect + "% " + talent.affectedWeaponClass + " Damage";
-
-            case TalentEffectType.WeaponSpeedBonus:
-                return "+" + totalEffect + "% " + talent.affectedWeaponClass + " Attack Speed";
-
-            case TalentEffectType.IncreaseDashDistance:
-                return "+" + totalEffect + "% Dash Distance";
-
-            case TalentEffectType.DecreaseDashCooldown:
-                return "-" + totalEffect + "% Dash Cooldown";
-            
-            default:
-                return talent.effectType.ToString();
-        }
+        return lines.Count > 0
+            ? string.Join("\n", lines)
+            : (playerTalents.CanLearnTalent(node) ? "Ready to learn" : "");
     }
 }

@@ -6,11 +6,11 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private float attackArc = 90f;
     [SerializeField] private float attackCooldown = 0.5f;
+
     [Header("VFX")]
     [SerializeField] private Animator AttackTelegraphs;
+
     private PlayerStats playerStats;
-    private PlayerEquipment playerEquipment;
-    private PlayerBuffs playerBuffs;
     private PlayerWarCry playerWarCry;
     private Animator animator;
 
@@ -23,14 +23,9 @@ public class PlayerMelee : MonoBehaviour
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
-        playerEquipment = GetComponent<PlayerEquipment>();
-        playerBuffs = GetComponent<PlayerBuffs>();
         playerWarCry = GetComponent<PlayerWarCry>();
         animator = GetComponent<Animator>();
     }
-
-    // Update no longer handles input — ActionBar drives this via MeleeSkill
-    // CanAttack and TriggerAttack are public for MeleeSkill to call
 
     public bool CanAttack()
     {
@@ -39,27 +34,27 @@ public class PlayerMelee : MonoBehaviour
 
     public void TriggerAttack()
     {
-    if (!CanAttack()) return;
+        if (!CanAttack()) return;
 
-    isAttacking = true;
-    hitRegistered = false;
-    lastAttackTime = Time.time;
+        isAttacking = true;
+        hitRegistered = false;
+        lastAttackTime = Time.time;
 
-    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    cachedAttackDirection = (mousePos - transform.position).normalized;
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        cachedAttackDirection = (mousePos - transform.position).normalized;
 
-    if (animator != null)
+        if (animator != null)
         {
-        animator.SetTrigger("Attack");
-        animator.SetFloat("DirectionX", cachedAttackDirection.x);
-        animator.SetFloat("DirectionY", cachedAttackDirection.y);
-     }
+            animator.SetTrigger("Attack");
+            animator.SetFloat("DirectionX", cachedAttackDirection.x);
+            animator.SetFloat("DirectionY", cachedAttackDirection.y);
+        }
 
-    if (AttackTelegraphs != null)
+        if (AttackTelegraphs != null)
         {
-        AttackTelegraphs.SetTrigger("Slash");
-        AttackTelegraphs.SetFloat("DirectionX", cachedAttackDirection.x);
-        AttackTelegraphs.SetFloat("DirectionY", cachedAttackDirection.y);
+            AttackTelegraphs.SetTrigger("Slash");
+            AttackTelegraphs.SetFloat("DirectionX", cachedAttackDirection.x);
+            AttackTelegraphs.SetFloat("DirectionY", cachedAttackDirection.y);
         }
     }
 
@@ -85,77 +80,30 @@ public class PlayerMelee : MonoBehaviour
             IDamageable damageable = hit.GetComponent<IDamageable>();
             if (damageable == null) continue;
 
-            if (playerEquipment != null && playerEquipment.IsDualWielding())
-            {
-                float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
-                float mainHandDamage = CalculateDamageWithMastery(
-                    baseAttack,
-                    playerEquipment.GetMainHandDamage(),
-                    playerEquipment.GetMainHandWeaponClass()
-                );
-                damageable.TakeDamage(mainHandDamage);
-                StartCoroutine(DualWieldSecondHit(damageable, baseAttack));
-            }
-            else
-            {
-                float baseAttack = playerStats != null ? playerStats.GetAttackDamage() : 0f;
-                float weaponDamage = playerEquipment != null ? playerEquipment.GetWeaponDamage() : 0f;
-                WeaponClass weaponClass = playerEquipment != null
-                    ? playerEquipment.GetMainHandWeaponClass()
-                    : WeaponClass.None;
-
-                float totalDamage = CalculateDamageWithMastery(baseAttack, weaponDamage, weaponClass);
-                damageable.TakeDamage(totalDamage);
-            }
-
-            if (playerEquipment != null && playerBuffs != null)
-            {
-                if (playerEquipment.GetMainHandWeaponClass() == WeaponClass.Axe)
-                    playerBuffs.OnAxeHit();
-
-                if (playerEquipment.IsDualWielding() && playerEquipment.GetOffHandWeaponClass() == WeaponClass.Axe)
-                    playerBuffs.OnAxeHit();
-            }
+            damageable.TakeDamage(CalculateDamage());
         }
 
         isAttacking = false;
     }
 
-    System.Collections.IEnumerator DualWieldSecondHit(IDamageable damageable, float baseAttack)
+    /// <summary>
+    /// Called by Animation Event on the last frame of the attack animation.
+    /// Ensures isAttacking resets even if OnAttackHit was never triggered.
+    /// </summary>
+    public void OnAttackEnd()
     {
-        yield return new WaitForSeconds(0.1f);
-
-        if (damageable != null && playerEquipment != null)
-        {
-            float offHandDamage = CalculateDamageWithMastery(
-                baseAttack,
-                playerEquipment.GetOffHandDamage(),
-                playerEquipment.GetOffHandWeaponClass()
-            );
-            damageable.TakeDamage(offHandDamage);
-        }
+        isAttacking = false;
     }
 
-    float CalculateDamageWithMastery(float baseAttack, float weaponDamage, WeaponClass weaponClass)
+    float CalculateDamage()
     {
-        float totalDamage = baseAttack + weaponDamage;
+        float damage = playerStats != null ? playerStats.GetAttackDamage() : 0f;
 
-        PlayerTalents talents = GetComponent<PlayerTalents>();
-        if (talents != null && weaponClass != WeaponClass.None)
-        {
-            float masteryBonus = talents.GetWeaponMasteryDamageBonus(weaponClass);
-            if (masteryBonus > 0)
-                totalDamage += totalDamage * (masteryBonus / 100f);
-        }
-
+        // War Cry damage buff
         if (playerWarCry != null)
-        {
-            float warCryMultiplier = playerWarCry.GetDamageMultiplier();
-            if (warCryMultiplier > 1f)
-                totalDamage *= warCryMultiplier;
-        }
+            damage *= playerWarCry.GetDamageMultiplier();
 
-        return totalDamage;
+        return damage;
     }
 
     public void SetAttackSpeed(float newCooldown)
