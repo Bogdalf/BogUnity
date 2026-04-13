@@ -10,7 +10,8 @@ public class PersistentInputManager : MonoBehaviour
 
     private bool forcedMovement = false;
     private bool spellbookOpen = false;
-    private bool sequenceBlocked = false; // For cutscenes/boss intros
+    private bool sequenceBlocked = false;
+    private bool stashOpen = false;
 
     void Awake()
     {
@@ -25,22 +26,27 @@ public class PersistentInputManager : MonoBehaviour
         }
     }
 
-    // --- Setters ---
-    public void SetForcedMovement(bool value) => forcedMovement = value;
-    public void SetSpellbookOpen(bool value) => spellbookOpen = value;
-    public void SetSequenceBlocked(bool value) => sequenceBlocked = value;
+    // ─── Setters ──────────────────────────────────────────────────────────────────
 
-    // --- Queries ---
-    public bool IsForcedMovement() => forcedMovement;
+    public void SetForcedMovement(bool value)  => forcedMovement  = value;
+    public void SetSpellbookOpen(bool value)   => spellbookOpen   = value;
+    public void SetSequenceBlocked(bool value) => sequenceBlocked = value;
+    public void SetStashOpen(bool value)       => stashOpen       = value;
+
+    // ─── Queries ──────────────────────────────────────────────────────────────────
+
+    public bool IsForcedMovement()   => forcedMovement;
+    public bool IsSequenceBlocked()  => sequenceBlocked;
 
     /// <summary>
     /// True when all gameplay input should be blocked.
     /// </summary>
     public bool IsPlayerInputBlocked()
     {
-        if (forcedMovement) return true;
-        if (spellbookOpen) return true;
-        if (sequenceBlocked) return true;
+        if (forcedMovement)   return true;
+        if (spellbookOpen)    return true;
+        if (sequenceBlocked)  return true;
+        if (stashOpen)        return true;
 
         if (DialogueUI.Instance != null && DialogueUI.Instance.IsDialogueShowing())
             return true;

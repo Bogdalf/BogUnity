@@ -1,25 +1,17 @@
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// Displays active player buffs in the UI.
+/// Currently a placeholder — hook active buffs in here when the buff system is built out.
+/// </summary>
 public class BuffUI : MonoBehaviour
 {
-    [SerializeField] private PlayerBuffs playerBuffs;
     [SerializeField] private TextMeshProUGUI buffText;
 
     void Update()
     {
-        if (playerBuffs != null && buffText != null)
-        {
-            if (playerBuffs.HasAxeFrenzy())
-            {
-                int stacks = playerBuffs.GetAxeFrenzyStacks();
-                float duration = playerBuffs.GetAxeFrenzyDuration();
-                buffText.text = stacks + " Flurry stacks (" + duration.ToString("F1") + "s)";
-            }
-            else
-            {
-                buffText.text = "";
-            }
-        }
+        if (buffText != null)
+            buffText.text = "";
     }
 }

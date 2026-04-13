@@ -10,69 +10,52 @@ public class Inventory : MonoBehaviour
     [Header("Starting Items (for testing)")]
     [SerializeField] private List<ItemData> startingItems = new List<ItemData>();
 
-    // 2D array to hold items
     private ItemData[,] inventoryGrid;
-
-    // Track stack sizes for stackable items
     private int[,] stackSizes;
 
-    private PlayerEquipment playerEquipment;
+    private PlayerRuneBook playerRuneBook;
     private InventoryUI inventoryUI;
 
     void Start()
     {
-        playerEquipment = GetComponent<PlayerEquipment>();
+        playerRuneBook = GetComponent<PlayerRuneBook>();
         inventoryUI = FindFirstObjectByType<InventoryUI>();
 
-        // Initialize the grid
         inventoryGrid = new ItemData[gridWidth, gridHeight];
         stackSizes = new int[gridWidth, gridHeight];
 
-        // Add starting items for testing
         foreach (ItemData item in startingItems)
         {
             if (item != null)
-            {
                 AddItemToFirstAvailableSlot(item);
-            }
         }
     }
 
-    // Add item to the first available slot (with stacking support)
+    // ─── Add / Remove ─────────────────────────────────────────────────────────────
+
     public bool AddItemToFirstAvailableSlot(ItemData item)
     {
         if (item == null) return false;
 
-        // If item is stackable, first try to add to existing stacks
+        // Try to stack first
         if (item.isStackable)
         {
             for (int y = 0; y < gridHeight; y++)
             {
                 for (int x = 0; x < gridWidth; x++)
                 {
-                    // Found a matching item
-                    if (inventoryGrid[x, y] == item)
+                    if (inventoryGrid[x, y] == item && stackSizes[x, y] < item.maxStackSize)
                     {
-                        // Check if we can add to this stack
-                        if (stackSizes[x, y] < item.maxStackSize)
-                        {
-                            stackSizes[x, y]++;
-                            Debug.Log("Added to stack at (" + x + ", " + y + "). New stack size: " + stackSizes[x, y]);
-
-                            // Refresh UI if inventory is open
-                            if (inventoryUI != null)
-                            {
-                                inventoryUI.RefreshDisplay();
-                            }
-
-                            return true;
-                        }
+                        stackSizes[x, y]++;
+                        Debug.Log("Added to stack at (" + x + ", " + y + "). New size: " + stackSizes[x, y]);
+                        inventoryUI?.RefreshDisplay();
+                        return true;
                     }
                 }
             }
         }
 
-        // Either not stackable, or no existing stacks with room - find empty slot
+        // Find empty slot
         for (int y = 0; y < gridHeight; y++)
         {
             for (int x = 0; x < gridWidth; x++)
@@ -80,15 +63,9 @@ public class Inventory : MonoBehaviour
                 if (inventoryGrid[x, y] == null)
                 {
                     inventoryGrid[x, y] = item;
-                    stackSizes[x, y] = 1; // Start with stack of 1
+                    stackSizes[x, y] = 1;
                     Debug.Log("Added " + item.itemName + " at (" + x + ", " + y + ")");
-
-                    // Refresh UI if inventory is open
-                    if (inventoryUI != null)
-                    {
-                        inventoryUI.RefreshDisplay();
-                    }
-
+                    inventoryUI?.RefreshDisplay();
                     return true;
                 }
             }
@@ -98,7 +75,6 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    // Add item to a specific grid position
     public bool AddItemAtPosition(ItemData item, int x, int y)
     {
         if (x < 0 || x >= gridWidth || y < 0 || y >= gridHeight)
@@ -118,7 +94,6 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-    // Remove item at a specific position
     public void RemoveItemAtPosition(int x, int y)
     {
         if (x < 0 || x >= gridWidth || y < 0 || y >= gridHeight) return;
@@ -132,14 +107,8 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    // Get item at position
-    public ItemData GetItemAtPosition(int x, int y)
-    {
-        if (x < 0 || x >= gridWidth || y < 0 || y >= gridHeight) return null;
-        return inventoryGrid[x, y];
-    }
+    // ─── Move / Equip ─────────────────────────────────────────────────────────────
 
-    // Move item from one slot to another
     public bool MoveItem(int fromX, int fromY, int toX, int toY)
     {
         ItemData item = GetItemAtPosition(fromX, fromY);
@@ -147,21 +116,16 @@ public class Inventory : MonoBehaviour
 
         ItemData targetItem = GetItemAtPosition(toX, toY);
 
-        // If target has the same stackable item, try to merge stacks
+        // Merge stacks
         if (targetItem == item && item.isStackable)
         {
-            int fromStack = stackSizes[fromX, fromY];
-            int toStack = stackSizes[toX, toY];
-            int spaceInTarget = item.maxStackSize - toStack;
-
+            int spaceInTarget = item.maxStackSize - stackSizes[toX, toY];
             if (spaceInTarget > 0)
             {
-                int amountToMove = Mathf.Min(fromStack, spaceInTarget);
-
+                int amountToMove = Mathf.Min(stackSizes[fromX, fromY], spaceInTarget);
                 stackSizes[toX, toY] += amountToMove;
                 stackSizes[fromX, fromY] -= amountToMove;
 
-                // If source stack is now empty, clear it
                 if (stackSizes[fromX, fromY] <= 0)
                 {
                     inventoryGrid[fromX, fromY] = null;
@@ -178,7 +142,6 @@ public class Inventory : MonoBehaviour
             }
         }
 
-        // Normal move to empty slot
         if (targetItem != null)
         {
             Debug.Log("Target slot occupied!");
@@ -187,47 +150,42 @@ public class Inventory : MonoBehaviour
 
         inventoryGrid[toX, toY] = item;
         stackSizes[toX, toY] = stackSizes[fromX, fromY];
-
         inventoryGrid[fromX, fromY] = null;
         stackSizes[fromX, fromY] = 0;
         return true;
     }
 
-    // Equip weapon from inventory (only for weapons)
-    public void EquipWeaponFromPosition(int x, int y)
+    /// <summary>
+    /// Equips a Rune Book from the given inventory position.
+    /// Called by InventoryUI on right-click.
+    /// </summary>
+    public void EquipRuneBookFromPosition(int x, int y)
     {
         ItemData item = GetItemAtPosition(x, y);
 
-        if (item == null || item.itemType != ItemType.Weapon)
+        if (item == null || item.itemType != ItemType.RuneBook)
         {
-            Debug.Log("Not a weapon!");
+            Debug.Log("Not a Rune Book!");
             return;
         }
 
-        WeaponData weapon = item as WeaponData;
-        if (weapon == null || playerEquipment == null) return;
+        RuneBookData book = item as RuneBookData;
+        if (book == null || playerRuneBook == null) return;
 
-        // Same equipping logic as before
-        if (weapon.weaponType == WeaponType.TwoHanded)
-        {
-            playerEquipment.EquipMainHand(weapon);
-            Debug.Log("Equipped " + weapon.itemName + " (Two-Handed)");
-        }
-        else if (weapon.weaponType == WeaponType.OneHanded)
-        {
-            playerEquipment.EquipMainHand(weapon);
-            Debug.Log("Equipped " + weapon.itemName + " (Main Hand)");
-        }
-        else if (weapon.weaponType == WeaponType.Shield)
-        {
-            playerEquipment.EquipOffHand(weapon);
-            Debug.Log("Equipped " + weapon.itemName + " (Off Hand)");
-        }
+        playerRuneBook.EquipBook(book);
+        Debug.Log("Equipped Rune Book: " + book.itemName);
     }
 
-    // Getters
-    public int GetGridWidth() { return gridWidth; }
-    public int GetGridHeight() { return gridHeight; }
+    // ─── Getters ──────────────────────────────────────────────────────────────────
+
+    public ItemData GetItemAtPosition(int x, int y)
+    {
+        if (x < 0 || x >= gridWidth || y < 0 || y >= gridHeight) return null;
+        return inventoryGrid[x, y];
+    }
+
+    public int GetGridWidth()  => gridWidth;
+    public int GetGridHeight() => gridHeight;
 
     public int GetStackSizeAtPosition(int x, int y)
     {

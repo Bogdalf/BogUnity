@@ -3,38 +3,55 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class TalentNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+/// <summary>
+/// UI representation of a single talent node.
+/// Spawned dynamically by TalentTreeUI at the node's polar coordinate position.
+/// </summary>
+public class TalentNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    [Header("References")]
-    [SerializeField] private TalentData talentData;
-    [SerializeField] private Button button;
+    [Header("UI References")]
     [SerializeField] private Image background;
-    [SerializeField] private TextMeshProUGUI talentNameText;
+    [SerializeField] private Image iconImage;
+    [SerializeField] private Image border;
     [SerializeField] private TextMeshProUGUI rankText;
 
-    [Header("Colors")]
-    [SerializeField] private Color availableColor = new Color(0.2f, 0.8f, 0.2f); // Green
-    [SerializeField] private Color lockedColor = new Color(0.3f, 0.3f, 0.3f); // Gray
-    [SerializeField] private Color learnedColor = new Color(0.8f, 0.6f, 0.2f); // Gold
-    [SerializeField] private Color maxedColor = new Color(1f, 0.8f, 0f); // Bright Gold
+    [Header("Node Colors")]
+    [SerializeField] private Color lockedColor       = new Color(0.15f, 0.15f, 0.15f);
+    [SerializeField] private Color aspectLockedColor = new Color(0.25f, 0.15f, 0.30f);
+    [SerializeField] private Color availableColor    = new Color(0.2f,  0.8f,  0.2f);
+    [SerializeField] private Color learnedColor      = new Color(0.8f,  0.6f,  0.2f);
+    [SerializeField] private Color maxedColor        = new Color(1f,    0.85f, 0f);
 
-    private TalentTreeUI talentTreeUI;
+    [Header("Border Colors by Aspect")]
+    [SerializeField] private Color warBorderColor            = new Color(0.9f, 0.2f, 0.2f);
+    [SerializeField] private Color sorceryBorderColor        = new Color(0.2f, 0.4f, 0.9f);
+    [SerializeField] private Color amplificationBorderColor  = new Color(0.4f, 0.9f, 0.5f);
+    [SerializeField] private Color bridgeBorderColor         = new Color(0.9f, 0.9f, 0.2f);
+
+    private TalentNodeData nodeData;
+    private TalentTreeUI treeUI;
     private PlayerTalents playerTalents;
 
-    public void Initialize(TalentData talent, TalentTreeUI treeUI, PlayerTalents talents)
+    public TalentNodeData NodeData => nodeData;
+
+    public void Initialize(TalentNodeData data, TalentTreeUI tree, PlayerTalents talents)
     {
-        talentData = talent;
-        talentTreeUI = treeUI;
+        nodeData      = data;
+        treeUI        = tree;
         playerTalents = talents;
 
-        if (button == null) button = GetComponent<Button>();
         if (background == null) background = GetComponent<Image>();
 
-        // Set up button click
-        if (button != null)
+        if (iconImage != null && data.icon != null)
+            iconImage.sprite = data.icon;
+
+        if (border != null)
         {
-            button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(OnNodeClicked);
+            border.color = data.nodeType == NodeType.Bridge    ? bridgeBorderColor :
+                           data.aspect == AspectType.War           ? warBorderColor :
+                           data.aspect == AspectType.Sorcery       ? sorceryBorderColor :
+                           data.aspect == AspectType.Amplification ? amplificationBorderColor :
+                           Color.white;
         }
 
         UpdateDisplay();
@@ -42,120 +59,59 @@ public class TalentNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void UpdateDisplay()
     {
-        if (talentData == null || playerTalents == null) return;
+        if (nodeData == null || playerTalents == null) return;
 
-        int currentRank = playerTalents.GetTalentRank(talentData);
-        int maxRank = talentData.maxRank;
-        bool canLearn = playerTalents.CanLearnTalent(talentData);
+        int currentRank = playerTalents.GetNodeRank(nodeData);
+        bool canLearn   = playerTalents.CanLearnTalent(nodeData);
 
-        // Update name
-        if (talentNameText != null)
-        {
-            talentNameText.text = talentData.talentName;
-        }
-
-        // Update rank display
         if (rankText != null)
         {
-            rankText.text = currentRank + "/" + maxRank;
+            rankText.text = nodeData.maxRank > 1
+                ? $"{currentRank}/{nodeData.maxRank}"
+                : (currentRank > 0 ? "+" : "");
         }
 
-        // Update visual state
         if (background != null)
         {
-            if (currentRank >= maxRank)
-            {
-                // Maxed out
+            if (currentRank >= nodeData.maxRank && currentRank > 0)
                 background.color = maxedColor;
-            }
             else if (currentRank > 0)
-            {
-                // Partially learned
                 background.color = learnedColor;
-            }
             else if (canLearn)
-            {
-                // Available to learn
                 background.color = availableColor;
-            }
+            else if (IsAspectLocked())
+                background.color = aspectLockedColor;
             else
-            {
-                // Locked (prerequisites not met)
                 background.color = lockedColor;
-            }
-        }
-
-        // Update button interactability
-        if (button != null)
-        {
-            button.interactable = canLearn;
         }
     }
 
-    void OnNodeClicked()
+    bool IsAspectLocked()
     {
-        Debug.Log("Node clicked! Talent: " + (talentData != null ? talentData.talentName : "NULL"));
+        if (playerTalents == null || nodeData == null) return false;
+        if (!playerTalents.HasStartingAspect()) return false;
+        return nodeData.aspect != playerTalents.GetStartingAspect()
+            && nodeData.aspect != AspectType.None
+            && !playerTalents.HybridProgressionUnlocked();
+    }
 
-        if (playerTalents == null)
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
+        if (playerTalents == null || nodeData == null) return;
+
+        if (playerTalents.CanLearnTalent(nodeData))
         {
-            Debug.LogError("PlayerTalents is NULL!");
-            return;
-        }
-
-        if (talentData == null)
-        {
-            Debug.LogError("TalentData is NULL!");
-            return;
-        }
-
-        Debug.Log("Can learn? " + playerTalents.CanLearnTalent(talentData));
-        Debug.Log("Available points: " + playerTalents.GetAvailableTalentPoints());
-
-        if (playerTalents.CanLearnTalent(talentData))
-        {
-            playerTalents.LearnTalent(talentData);
-
-            // Update this node
-            UpdateDisplay();
-
-            // Refresh tooltip immediately (if it's currently showing)
-            if (talentTreeUI != null)
-            {
-                talentTreeUI.RefreshAllNodes();
-                // Update tooltip with new values
-                talentTreeUI.ShowTooltip(talentData, playerTalents);
-            }
+            playerTalents.LearnTalent(nodeData);
+            treeUI?.RefreshAllNodes();
+            treeUI?.ShowTooltip(nodeData);
         }
         else
         {
-            Debug.Log("Cannot learn talent - prerequisites not met or no points available");
+            Debug.Log($"Cannot learn {nodeData.nodeName} yet.");
         }
     }
 
-    // Tooltip on hover
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        if (talentTreeUI != null && talentData != null)
-        {
-            talentTreeUI.ShowTooltip(talentData, playerTalents);
-        }
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        if (talentTreeUI != null)
-        {
-            talentTreeUI.HideTooltip();
-        }
-    }
-
-    public TalentData GetTalentData()
-    {
-        return talentData;
-    }
-
-    public void SetTalentData(TalentData talent)
-    {
-        talentData = talent;
-    }
+    public void OnPointerEnter(PointerEventData eventData) => treeUI?.ShowTooltip(nodeData);
+    public void OnPointerExit(PointerEventData eventData)  => treeUI?.HideTooltip();
 }
