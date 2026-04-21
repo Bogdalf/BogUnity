@@ -31,6 +31,7 @@ public class SpellbookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        PersistentInputManager.Instance?.SetDragging(true);
         originalParent = transform.parent;
 
         // Move to root canvas so it renders on top of everything
@@ -52,5 +53,6 @@ public class SpellbookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         rectTransform.anchoredPosition = Vector2.zero;
 
         if (canvasGroup != null) canvasGroup.blocksRaycasts = true;
+        PersistentInputManager.Instance?.SetDragging(false);
     }
 }

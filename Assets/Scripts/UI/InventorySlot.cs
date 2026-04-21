@@ -109,6 +109,9 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler, IBeginDragHand
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (eventData.button != PointerEventData.InputButton.Left || item == null) return;
+        isDragging = true;
+        PersistentInputManager.Instance?.SetDragging(true);
         // Only allow dragging with left mouse button and if there's an item
         if (eventData.button != PointerEventData.InputButton.Left || item == null) return;
 
@@ -130,6 +133,10 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler, IBeginDragHand
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (!isDragging) return;
+        isDragging = false;
+        PersistentInputManager.Instance?.SetDragging(false);
+        
         if (!isDragging) return;
 
         isDragging = false;

@@ -1,0 +1,5483 @@
+fileFormatVersion: 2
+guid: 0b1865d7e33a01d40b94aa60c7e1a2b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1032013854177526951
+    second: ReverbTele_0
+  - first:
+      213: -1107331253630631279
+    second: ReverbTele_1
+  - first:
+      213: 4304214426333556748
+    second: ReverbTele_2
+  - first:
+      213: 6263989696491760801
+    second: ReverbTele_3
+  - first:
+      213: 4493595836408399264
+    second: ReverbTele_4
+  - first:
+      213: 4383797174326257768
+    second: ReverbTele_5
+  - first:
+      213: -7976298607932558365
+    second: ReverbTele_6
+  - first:
+      213: -2006990348416255997
+    second: ReverbTele_7
+  - first:
+      213: -4471270500880246629
+    second: ReverbTele_8
+  - first:
+      213: -4457598916710751539
+    second: ReverbTele_9
+  - first:
+      213: -2540028068898295164
+    second: ReverbTele_10
+  - first:
+      213: -4744613183419047562
+    second: ReverbTele_11
+  - first:
+      213: -5000591985906786583
+    second: ReverbTele_12
+  - first:
+      213: 7115540223099622335
+    second: ReverbTele_13
+  - first:
+      213: -4418215941483143486
+    second: ReverbTele_14
+  - first:
+      213: -1091447110858587856
+    second: ReverbTele_15
+  - first:
+      213: 2437040347711032788
+    second: ReverbTele_16
+  - first:
+      213: -1079239556375229629
+    second: ReverbTele_17
+  - first:
+      213: 5875054924385327346
+    second: ReverbTele_18
+  - first:
+      213: -6020296421119511626
+    second: ReverbTele_19
+  - first:
+      213: -7524987574814492252
+    second: ReverbTele_20
+  - first:
+      213: -7938032103298804941
+    second: ReverbTele_21
+  - first:
+      213: -2925867380080094627
+    second: ReverbTele_22
+  - first:
+      213: -2359298466696847651
+    second: ReverbTele_23
+  - first:
+      213: -6599126612325139079
+    second: ReverbTele_24
+  - first:
+      213: 1390028863916949841
+    second: ReverbTele_25
+  - first:
+      213: 1395364194076964265
+    second: ReverbTele_26
+  - first:
+      213: 5732461510398328995
+    second: ReverbTele_27
+  - first:
+      213: 387869098385438837
+    second: ReverbTele_28
+  - first:
+      213: -3417400323689663031
+    second: ReverbTele_29
+  - first:
+      213: -2325900517243665328
+    second: ReverbTele_30
+  - first:
+      213: 4032013623112599899
+    second: ReverbTele_31
+  - first:
+      213: 6154782968599570421
+    second: ReverbTele_32
+  - first:
+      213: -5506939721716639173
+    second: ReverbTele_33
+  - first:
+      213: -9008851781959609331
+    second: ReverbTele_34
+  - first:
+      213: 6322359728783771410
+    second: ReverbTele_35
+  - first:
+      213: 6870100655815921345
+    second: ReverbTele_36
+  - first:
+      213: 3907641825242227741
+    second: ReverbTele_37
+  - first:
+      213: -8233193772711538866
+    second: ReverbTele_38
+  - first:
+      213: -330601259468935893
+    second: ReverbTele_39
+  - first:
+      213: -4810375868645979961
+    second: ReverbTele_40
+  - first:
+      213: -893397532844718220
+    second: ReverbTele_41
+  - first:
+      213: -8239359841925088003
+    second: ReverbTele_42
+  - first:
+      213: 3258991014336078750
+    second: ReverbTele_43
+  - first:
+      213: -6585508635324525627
+    second: ReverbTele_44
+  - first:
+      213: 427661605931454496
+    second: ReverbTele_45
+  - first:
+      213: 8211458553162426979
+    second: ReverbTele_46
+  - first:
+      213: -7006035472619823452
+    second: ReverbTele_47
+  - first:
+      213: -6476830529234666829
+    second: ReverbTele_48
+  - first:
+      213: -6704656495459837120
+    second: ReverbTele_49
+  - first:
+      213: -2261775909230584490
+    second: ReverbTele_50
+  - first:
+      213: -891160629860944347
+    second: ReverbTele_51
+  - first:
+      213: 3456897152658893870
+    second: ReverbTele_52
+  - first:
+      213: -2338095778014704951
+    second: ReverbTele_53
+  - first:
+      213: -3111123636642376582
+    second: ReverbTele_54
+  - first:
+      213: -3816921346691665083
+    second: ReverbTele_55
+  - first:
+      213: -8545509868458692190
+    second: ReverbTele_56
+  - first:
+      213: -3747912152847059983
+    second: ReverbTele_57
+  - first:
+      213: 8832607382237278703
+    second: ReverbTele_58
+  - first:
+      213: -5972330396636767744
+    second: ReverbTele_59
+  - first:
+      213: 8605594242642488847
+    second: ReverbTele_60
+  - first:
+      213: 7629813467003598191
+    second: ReverbTele_61
+  - first:
+      213: 2471757339633768009
+    second: ReverbTele_62
+  - first:
+      213: -7083574125770529681
+    second: ReverbTele_63
+  - first:
+      213: -2853267368435046196
+    second: ReverbTele_64
+  - first:
+      213: 416609436705079924
+    second: ReverbTele_65
+  - first:
+      213: 5952127039953993978
+    second: ReverbTele_66
+  - first:
+      213: 2091369627709129202
+    second: ReverbTele_67
+  - first:
+      213: 4634280401250733210
+    second: ReverbTele_68
+  - first:
+      213: 1318532089449077232
+    second: ReverbTele_69
+  - first:
+      213: -3825920575742135400
+    second: ReverbTele_70
+  - first:
+      213: -3797456527624795002
+    second: ReverbTele_71
+  - first:
+      213: -7417778385633571039
+    second: ReverbTele_72
+  - first:
+      213: -3964243143352663299
+    second: ReverbTele_73
+  - first:
+      213: 4483604242890277287
+    second: ReverbTele_74
+  - first:
+      213: -8181089442317573634
+    second: ReverbTele_75
+  - first:
+      213: 1827600322927476286
+    second: ReverbTele_76
+  - first:
+      213: -5910131353448513380
+    second: ReverbTele_77
+  - first:
+      213: 6336776740445020965
+    second: ReverbTele_78
+  - first:
+      213: 7876910430251156758
+    second: ReverbTele_79
+  - first:
+      213: 6219754058764198490
+    second: ReverbTele_80
+  - first:
+      213: 4654594110295445549
+    second: ReverbTele_81
+  - first:
+      213: 5799411966842468307
+    second: ReverbTele_82
+  - first:
+      213: 1911442665197329584
+    second: ReverbTele_83
+  - first:
+      213: -2484231817141192882
+    second: ReverbTele_84
+  - first:
+      213: 3582738625935536248
+    second: ReverbTele_85
+  - first:
+      213: 1212086830653472017
+    second: ReverbTele_86
+  - first:
+      213: 1226428544076338822
+    second: ReverbTele_87
+  - first:
+      213: -7030617830891754148
+    second: ReverbTele_88
+  - first:
+      213: 7842298082806340078
+    second: ReverbTele_89
+  - first:
+      213: -6549426416674231433
+    second: ReverbTele_90
+  - first:
+      213: -4215897024303538222
+    second: ReverbTele_91
+  - first:
+      213: -393668810695369029
+    second: ReverbTele_92
+  - first:
+      213: 1885445082343855815
+    second: ReverbTele_93
+  - first:
+      213: 6193730605662687195
+    second: ReverbTele_94
+  - first:
+      213: 4447111304643163883
+    second: ReverbTele_95
+  - first:
+      213: 8032536339824892075
+    second: ReverbTele_96
+  - first:
+      213: -5203664960662339528
+    second: ReverbTele_97
+  - first:
+      213: 8552235315531041994
+    second: ReverbTele_98
+  - first:
+      213: 1738840516970058990
+    second: ReverbTele_99
+  - first:
+      213: 7258314258876450877
+    second: ReverbTele_100
+  - first:
+      213: 5749683091052881200
+    second: ReverbTele_101
+  - first:
+      213: -2698134101966063486
+    second: ReverbTele_102
+  - first:
+      213: -235314183523424927
+    second: ReverbTele_103
+  - first:
+      213: -6088856976258348413
+    second: ReverbTele_104
+  - first:
+      213: -1872618901415328762
+    second: ReverbTele_105
+  - first:
+      213: -2284390153104343492
+    second: ReverbTele_106
+  - first:
+      213: 7299102347163079142
+    second: ReverbTele_107
+  - first:
+      213: 5291200721001860696
+    second: ReverbTele_108
+  - first:
+      213: -4477023805657914886
+    second: ReverbTele_109
+  - first:
+      213: 6422204497336098414
+    second: ReverbTele_110
+  - first:
+      213: 8372636732253978482
+    second: ReverbTele_111
+  - first:
+      213: -941226210849223761
+    second: ReverbTele_112
+  - first:
+      213: 7655702818654844749
+    second: ReverbTele_113
+  - first:
+      213: -5657384036191372070
+    second: ReverbTele_114
+  - first:
+      213: -232697333726323018
+    second: ReverbTele_115
+  - first:
+      213: 4005173385182906948
+    second: ReverbTele_116
+  - first:
+      213: 1602617523714627829
+    second: ReverbTele_117
+  - first:
+      213: 7912084991394372020
+    second: ReverbTele_118
+  - first:
+      213: -8451045768563532786
+    second: ReverbTele_119
+  - first:
+      213: 5157183426445402958
+    second: ReverbTele_120
+  - first:
+      213: 2720406890634082993
+    second: ReverbTele_121
+  - first:
+      213: -6564281818578551884
+    second: ReverbTele_122
+  - first:
+      213: -5424386852618068423
+    second: ReverbTele_123
+  - first:
+      213: 7429200043407515731
+    second: ReverbTele_124
+  - first:
+      213: -7244393376334939385
+    second: ReverbTele_125
+  - first:
+      213: 5024480882217735899
+    second: ReverbTele_126
+  - first:
+      213: 9082673743761719701
+    second: ReverbTele_127
+  - first:
+      213: -3628141154826452555
+    second: ReverbTele_128
+  - first:
+      213: -7551551283182542156
+    second: ReverbTele_129
+  - first:
+      213: 365510108305785409
+    second: ReverbTele_130
+  - first:
+      213: -560253931511777345
+    second: ReverbTele_131
+  - first:
+      213: -1689305777508894567
+    second: ReverbTele_132
+  - first:
+      213: 2004314892999903200
+    second: ReverbTele_133
+  - first:
+      213: -6983530923582781508
+    second: ReverbTele_134
+  - first:
+      213: 170749514015877146
+    second: ReverbTele_135
+  - first:
+      213: -1628602221537073445
+    second: ReverbTele_136
+  - first:
+      213: 1113744586097297022
+    second: ReverbTele_137
+  - first:
+      213: -4288081204946017194
+    second: ReverbTele_138
+  - first:
+      213: 573484874378656893
+    second: ReverbTele_139
+  - first:
+      213: -3080068027906596314
+    second: ReverbTele_140
+  - first:
+      213: 5499962778413638546
+    second: ReverbTele_141
+  - first:
+      213: -2921214135739112866
+    second: ReverbTele_142
+  - first:
+      213: 3767748521815005609
+    second: ReverbTele_143
+  - first:
+      213: 2532855924797115648
+    second: ReverbTele_144
+  - first:
+      213: 8129836435208456608
+    second: ReverbTele_145
+  - first:
+      213: 8921661507942711028
+    second: ReverbTele_146
+  - first:
+      213: 4072220350601045615
+    second: ReverbTele_147
+  - first:
+      213: -4537325958315839392
+    second: ReverbTele_148
+  - first:
+      213: 6136527651346451904
+    second: ReverbTele_149
+  - first:
+      213: -3852872833202525212
+    second: ReverbTele_150
+  - first:
+      213: -5809663923124424282
+    second: ReverbTele_151
+  - first:
+      213: -7414425408715515940
+    second: ReverbTele_152
+  - first:
+      213: -1112507985020742022
+    second: ReverbTele_153
+  - first:
+      213: -8251646772069668846
+    second: ReverbTele_154
+  - first:
+      213: 4089061640496069245
+    second: ReverbTele_155
+  - first:
+      213: -2298762789052318811
+    second: ReverbTele_156
+  - first:
+      213: -4032198589893572323
+    second: ReverbTele_157
+  - first:
+      213: 2275059904244498876
+    second: ReverbTele_158
+  - first:
+      213: 8173170014404308350
+    second: ReverbTele_159
+  - first:
+      213: -2667225491714057500
+    second: ReverbTele_160
+  - first:
+      213: 6168652018937791591
+    second: ReverbTele_161
+  - first:
+      213: 3554605028800563001
+    second: ReverbTele_162
+  - first:
+      213: -2053950666504381093
+    second: ReverbTele_163
+  - first:
+      213: 5942758439071168143
+    second: ReverbTele_164
+  - first:
+      213: -1526545804637815300
+    second: ReverbTele_165
+  - first:
+      213: -6460433904386733108
+    second: ReverbTele_166
+  - first:
+      213: -6950812438746409315
+    second: ReverbTele_167
+  - first:
+      213: 9019002861892733886
+    second: ReverbTele_168
+  - first:
+      213: -6750188219666695958
+    second: ReverbTele_169
+  - first:
+      213: -1557681214214709131
+    second: ReverbTele_170
+  - first:
+      213: -6969883066346994378
+    second: ReverbTele_171
+  - first:
+      213: 8378104648169608180
+    second: ReverbTele_172
+  - first:
+      213: 3787899752333683106
+    second: ReverbTele_173
+  - first:
+      213: -362371797810115211
+    second: ReverbTele_174
+  - first:
+      213: -9001772344454081564
+    second: ReverbTele_175
+  - first:
+      213: -283497876125413703
+    second: ReverbTele_176
+  - first:
+      213: 6298117874987855021
+    second: ReverbTele_177
+  - first:
+      213: -6883417838211288490
+    second: ReverbTele_178
+  - first:
+      213: 6965104550465467962
+    second: ReverbTele_179
+  - first:
+      213: 5097568183666793279
+    second: ReverbTele_180
+  - first:
+      213: 6753146704236127992
+    second: ReverbTele_181
+  - first:
+      213: 6708402694208341088
+    second: ReverbTele_182
+  - first:
+      213: -6522850663349474846
+    second: ReverbTele_183
+  - first:
+      213: 7973894676478879777
+    second: ReverbTele_184
+  - first:
+      213: 8421410206239839222
+    second: ReverbTele_185
+  - first:
+      213: 6569948007939214654
+    second: ReverbTele_186
+  - first:
+      213: 3327379232054670799
+    second: ReverbTele_187
+  - first:
+      213: 4644512985155471466
+    second: ReverbTele_188
+  - first:
+      213: -6037575726659829080
+    second: ReverbTele_189
+  - first:
+      213: -1355108077958091482
+    second: ReverbTele_190
+  - first:
+      213: -7737733725148981328
+    second: ReverbTele_191
+  - first:
+      213: 5281704781348305443
+    second: ReverbTele_192
+  - first:
+      213: -980653519875758506
+    second: ReverbTele_193
+  - first:
+      213: -5937587733985963959
+    second: ReverbTele_194
+  - first:
+      213: -8193223698694692790
+    second: ReverbTele_195
+  - first:
+      213: -7072404884739840291
+    second: ReverbTele_196
+  - first:
+      213: 5547623209220249224
+    second: ReverbTele_197
+  - first:
+      213: -3537357004337725398
+    second: ReverbTele_198
+  - first:
+      213: 8578056247886732896
+    second: ReverbTele_199
+  - first:
+      213: 993087456508756201
+    second: ReverbTele_200
+  - first:
+      213: 5549380115018426781
+    second: ReverbTele_201
+  - first:
+      213: -3792756584763217075
+    second: ReverbTele_202
+  - first:
+      213: -7705427102965179247
+    second: ReverbTele_203
+  - first:
+      213: -1224528043658511262
+    second: ReverbTele_204
+  - first:
+      213: -7127212424041984657
+    second: ReverbTele_205
+  - first:
+      213: -3217068507977234253
+    second: ReverbTele_206
+  - first:
+      213: 3177607917453871036
+    second: ReverbTele_207
+  - first:
+      213: -8729787128220908957
+    second: ReverbTele_208
+  - first:
+      213: -7907321806575596841
+    second: ReverbTele_209
+  - first:
+      213: 8175406043518179187
+    second: ReverbTele_210
+  - first:
+      213: 4440581376502083501
+    second: ReverbTele_211
+  - first:
+      213: 1025251946421529307
+    second: ReverbTele_212
+  - first:
+      213: -3663712071067509430
+    second: ReverbTele_213
+  - first:
+      213: -6375414923875823420
+    second: ReverbTele_214
+  - first:
+      213: -7737503955133800736
+    second: ReverbTele_215
+  - first:
+      213: -5366831268382806
+    second: ReverbTele_216
+  - first:
+      213: -7986263544962363356
+    second: ReverbTele_217
+  - first:
+      213: 6938477542730107342
+    second: ReverbTele_218
+  - first:
+      213: 3095321737878072488
+    second: ReverbTele_219
+  - first:
+      213: -2291677379347807524
+    second: ReverbTele_220
+  - first:
+      213: -7607671462611435085
+    second: ReverbTele_221
+  - first:
+      213: -3028071749100106827
+    second: ReverbTele_222
+  - first:
+      213: 349510926597836056
+    second: ReverbTele_223
+  - first:
+      213: -244569769879849967
+    second: ReverbTele_224
+  - first:
+      213: 7826759244601021129
+    second: ReverbTele_225
+  - first:
+      213: -7429170011438650584
+    second: ReverbTele_226
+  - first:
+      213: -5594503584254288197
+    second: ReverbTele_227
+  - first:
+      213: -7804500202506951315
+    second: ReverbTele_228
+  - first:
+      213: 2893200625556544663
+    second: ReverbTele_229
+  - first:
+      213: 7113581373910847334
+    second: ReverbTele_230
+  - first:
+      213: -7493218205917041281
+    second: ReverbTele_231
+  - first:
+      213: 4784670940697997932
+    second: ReverbTele_232
+  - first:
+      213: 1280604034676258667
+    second: ReverbTele_233
+  - first:
+      213: -1349008675970793449
+    second: ReverbTele_234
+  - first:
+      213: 4086829215805857424
+    second: ReverbTele_235
+  - first:
+      213: -4819914360449740460
+    second: ReverbTele_236
+  - first:
+      213: -3773710948024056985
+    second: ReverbTele_237
+  - first:
+      213: -4452298042499651541
+    second: ReverbTele_238
+  - first:
+      213: 4579078996553805893
+    second: ReverbTele_239
+  - first:
+      213: 5753708170435093304
+    second: ReverbTele_240
+  - first:
+      213: 1551906651701973633
+    second: ReverbTele_241
+  - first:
+      213: 2983355883323723766
+    second: ReverbTele_242
+  - first:
+      213: 292985227386622941
+    second: ReverbTele_243
+  - first:
+      213: -6103859806858476271
+    second: ReverbTele_244
+  - first:
+      213: 6888156504326132400
+    second: ReverbTele_245
+  - first:
+      213: -6071272127358084154
+    second: ReverbTele_246
+  - first:
+      213: -6952822557055933714
+    second: ReverbTele_247
+  - first:
+      213: -5653566007603348121
+    second: ReverbTele_248
+  - first:
+      213: 8759666001903526905
+    second: ReverbTele_249
+  - first:
+      213: 391856508214669570
+    second: ReverbTele_250
+  - first:
+      213: 7897983255729355794
+    second: ReverbTele_251
+  - first:
+      213: -7072025668084283912
+    second: ReverbTele_252
+  - first:
+      213: -8720727918944894357
+    second: ReverbTele_253
+  - first:
+      213: 6931924257519026588
+    second: ReverbTele_254
+  - first:
+      213: -4462017779603114977
+    second: ReverbTele_255
+  - first:
+      213: -684511900106287717
+    second: ReverbTele_256
+  - first:
+      213: -1896519917037744289
+    second: ReverbTele_257
+  - first:
+      213: -1001896829646241065
+    second: ReverbTele_258
+  - first:
+      213: 5414976544529948742
+    second: ReverbTele_259
+  - first:
+      213: 428172441325669816
+    second: ReverbTele_260
+  - first:
+      213: 5069959117632901587
+    second: ReverbTele_261
+  - first:
+      213: -8332087769351054024
+    second: ReverbTele_262
+  - first:
+      213: -2262582573975338090
+    second: ReverbTele_263
+  - first:
+      213: -9089808647945211842
+    second: ReverbTele_264
+  - first:
+      213: -7887463438567805516
+    second: ReverbTele_265
+  - first:
+      213: 6591939024558702800
+    second: ReverbTele_266
+  - first:
+      213: -6635666244197080203
+    second: ReverbTele_267
+  - first:
+      213: -4529976289384225557
+    second: ReverbTele_268
+  - first:
+      213: -9150575757512482666
+    second: ReverbTele_269
+  - first:
+      213: 7455594719401538646
+    second: ReverbTele_270
+  - first:
+      213: -2529732321930250585
+    second: ReverbTele_271
+  - first:
+      213: 3144678409708022122
+    second: ReverbTele_272
+  - first:
+      213: 6503441568984613504
+    second: ReverbTele_273
+  - first:
+      213: -8707603247190634308
+    second: ReverbTele_274
+  - first:
+      213: 3812287687565155983
+    second: ReverbTele_275
+  - first:
+      213: 3331780067441617098
+    second: ReverbTele_276
+  - first:
+      213: -6497575973737330685
+    second: ReverbTele_277
+  - first:
+      213: -1561679136517199890
+    second: ReverbTele_278
+  - first:
+      213: 4147268565611354776
+    second: ReverbTele_279
+  - first:
+      213: 1364722750098110836
+    second: ReverbTele_280
+  - first:
+      213: 7293983463175296412
+    second: ReverbTele_281
+  - first:
+      213: -2142061564430929548
+    second: ReverbTele_282
+  - first:
+      213: -2758660972846741966
+    second: ReverbTele_283
+  - first:
+      213: -2942492561976741538
+    second: ReverbTele_284
+  - first:
+      213: 6953545895153834626
+    second: ReverbTele_285
+  - first:
+      213: -5493504499452548686
+    second: ReverbTele_286
+  - first:
+      213: -3842273752313512346
+    second: ReverbTele_287
+  - first:
+      213: -1244688989312787628
+    second: ReverbTele_288
+  - first:
+      213: -6137669035159351175
+    second: ReverbTele_289
+  - first:
+      213: -2958372958595350847
+    second: ReverbTele_290
+  - first:
+      213: 6104445013527039818
+    second: ReverbTele_291
+  - first:
+      213: 4803103967949988348
+    second: ReverbTele_292
+  - first:
+      213: -59593759389212891
+    second: ReverbTele_293
+  - first:
+      213: 4381224968448225392
+    second: ReverbTele_294
+  - first:
+      213: -1080896829050338212
+    second: ReverbTele_295
+  - first:
+      213: 2762612357132108313
+    second: ReverbTele_296
+  - first:
+      213: 1253397497688768719
+    second: ReverbTele_297
+  - first:
+      213: 3904659517283964545
+    second: ReverbTele_298
+  - first:
+      213: 3637280911850878618
+    second: ReverbTele_299
+  - first:
+      213: -1110353311929660810
+    second: ReverbTele_300
+  - first:
+      213: 620306714126751520
+    second: ReverbTele_301
+  - first:
+      213: -7761523780360049677
+    second: ReverbTele_302
+  - first:
+      213: 1641570777033472173
+    second: ReverbTele_303
+  - first:
+      213: 5236602006840794904
+    second: ReverbTele_304
+  - first:
+      213: -329358958080960467
+    second: ReverbTele_305
+  - first:
+      213: 1264854970550971450
+    second: ReverbTele_306
+  - first:
+      213: -8742769043989014022
+    second: ReverbTele_307
+  - first:
+      213: 5219522797437841442
+    second: ReverbTele_308
+  - first:
+      213: 1262062381974695322
+    second: ReverbTele_309
+  - first:
+      213: 3119830548086842982
+    second: ReverbTele_310
+  - first:
+      213: 8294523070520350342
+    second: ReverbTele_311
+  - first:
+      213: -3631031108545068882
+    second: ReverbTele_312
+  - first:
+      213: 4463464516389945543
+    second: ReverbTele_313
+  - first:
+      213: -7684848626479636520
+    second: ReverbTele_314
+  - first:
+      213: -5022569618715657656
+    second: ReverbTele_315
+  - first:
+      213: 2847852490599397800
+    second: ReverbTele_316
+  - first:
+      213: -2353069960328894205
+    second: ReverbTele_317
+  - first:
+      213: 588219134813736961
+    second: ReverbTele_318
+  - first:
+      213: -2276569966839635429
+    second: ReverbTele_319
+  - first:
+      213: 3194354212995690110
+    second: ReverbTele_320
+  - first:
+      213: 6844425381554261034
+    second: ReverbTele_321
+  - first:
+      213: -7364461413363194645
+    second: ReverbTele_322
+  - first:
+      213: 8157545817675877946
+    second: ReverbTele_323
+  - first:
+      213: 3919070261185331594
+    second: ReverbTele_324
+  - first:
+      213: -5733152903247370809
+    second: ReverbTele_325
+  - first:
+      213: -2464523177577049270
+    second: ReverbTele_326
+  - first:
+      213: -2146684428946984627
+    second: ReverbTele_327
+  - first:
+      213: 1499163186091636998
+    second: ReverbTele_328
+  - first:
+      213: 702678315711955961
+    second: ReverbTele_329
+  - first:
+      213: 1884132713390790009
+    second: ReverbTele_330
+  - first:
+      213: -1521762048889578691
+    second: ReverbTele_331
+  - first:
+      213: -7305460344703982295
+    second: ReverbTele_332
+  - first:
+      213: 7115703072982906754
+    second: ReverbTele_333
+  - first:
+      213: 2168402257160686660
+    second: ReverbTele_334
+  - first:
+      213: 5575916074627087952
+    second: ReverbTele_335
+  - first:
+      213: -3734270015127121757
+    second: ReverbTele_336
+  - first:
+      213: -2182177096002263628
+    second: ReverbTele_337
+  - first:
+      213: -1989337646217007465
+    second: ReverbTele_338
+  - first:
+      213: 6897562774649351535
+    second: ReverbTele_339
+  - first:
+      213: 4362596293402408675
+    second: ReverbTele_340
+  - first:
+      213: -4844419600777181324
+    second: ReverbTele_341
+  - first:
+      213: -4316800266629531307
+    second: ReverbTele_342
+  - first:
+      213: -6744988887843900715
+    second: ReverbTele_343
+  - first:
+      213: -2772274288440218173
+    second: ReverbTele_344
+  - first:
+      213: 8629969587134674032
+    second: ReverbTele_345
+  - first:
+      213: -5483251736728674915
+    second: ReverbTele_346
+  - first:
+      213: -5130794582496284255
+    second: ReverbTele_347
+  - first:
+      213: 840285584557941495
+    second: ReverbTele_348
+  - first:
+      213: -2814652663184870389
+    second: ReverbTele_349
+  - first:
+      213: -7484161709810559604
+    second: ReverbTele_350
+  - first:
+      213: 6332758878674761434
+    second: ReverbTele_351
+  - first:
+      213: 2333335998751272776
+    second: ReverbTele_352
+  - first:
+      213: 3977440928635278673
+    second: ReverbTele_353
+  - first:
+      213: 6725581761489961746
+    second: ReverbTele_354
+  - first:
+      213: 3296151210897857825
+    second: ReverbTele_355
+  - first:
+      213: -7738569865244889693
+    second: ReverbTele_356
+  - first:
+      213: -4798585450493319500
+    second: ReverbTele_357
+  - first:
+      213: -2444007440524520301
+    second: ReverbTele_358
+  - first:
+      213: -1239331529554485224
+    second: ReverbTele_359
+  - first:
+      213: 3469517437423483427
+    second: ReverbTele_360
+  - first:
+      213: -6526939087561850954
+    second: ReverbTele_361
+  - first:
+      213: 3751700561325356987
+    second: ReverbTele_362
+  - first:
+      213: 1403449285870767541
+    second: ReverbTele_363
+  - first:
+      213: -2377072753168868685
+    second: ReverbTele_364
+  - first:
+      213: -8225463237844681679
+    second: ReverbTele_365
+  - first:
+      213: 7929591888681701790
+    second: ReverbTele_366
+  - first:
+      213: -4612216990422631881
+    second: ReverbTele_367
+  - first:
+      213: 6804926469625942572
+    second: ReverbTele_368
+  - first:
+      213: -751459675288192492
+    second: ReverbTele_369
+  - first:
+      213: 5209661643548039125
+    second: ReverbTele_370
+  - first:
+      213: -8788085593717600200
+    second: ReverbTele_371
+  - first:
+      213: -5534580408859442232
+    second: ReverbTele_372
+  - first:
+      213: -1935134849875882712
+    second: ReverbTele_373
+  - first:
+      213: 2785595763218683152
+    second: ReverbTele_374
+  - first:
+      213: -8545795987753060114
+    second: ReverbTele_375
+  - first:
+      213: -6411073326966662676
+    second: ReverbTele_376
+  - first:
+      213: -1161279810780465560
+    second: ReverbTele_377
+  - first:
+      213: 3160799155539244264
+    second: ReverbTele_378
+  - first:
+      213: -6688454281944524034
+    second: ReverbTele_379
+  - first:
+      213: -6179633726491964677
+    second: ReverbTele_380
+  - first:
+      213: 3180598265457913615
+    second: ReverbTele_381
+  - first:
+      213: -2970130558041025810
+    second: ReverbTele_382
+  - first:
+      213: 6051465768438307675
+    second: ReverbTele_383
+  - first:
+      213: -7800948409213838655
+    second: ReverbTele_384
+  - first:
+      213: 3491049297469118116
+    second: ReverbTele_385
+  - first:
+      213: 1594251976720700639
+    second: ReverbTele_386
+  - first:
+      213: 3382411841818284121
+    second: ReverbTele_387
+  - first:
+      213: 6215893841136545294
+    second: ReverbTele_388
+  - first:
+      213: 7324649208574926456
+    second: ReverbTele_389
+  - first:
+      213: -1864112877990733042
+    second: ReverbTele_390
+  - first:
+      213: -5855631589547108019
+    second: ReverbTele_391
+  - first:
+      213: -5847371174645650939
+    second: ReverbTele_392
+  - first:
+      213: -1628225599847769592
+    second: ReverbTele_393
+  - first:
+      213: -8779096351644296762
+    second: ReverbTele_394
+  - first:
+      213: -775599097973407111
+    second: ReverbTele_395
+  - first:
+      213: -1248049863113594228
+    second: ReverbTele_396
+  - first:
+      213: -2823826573235632643
+    second: ReverbTele_397
+  - first:
+      213: 1640728262050371467
+    second: ReverbTele_398
+  - first:
+      213: 4878647524793143120
+    second: ReverbTele_399
+  - first:
+      213: -8573361021106160662
+    second: ReverbTele_400
+  - first:
+      213: -3713790403322959894
+    second: ReverbTele_401
+  - first:
+      213: -3195584569447020894
+    second: ReverbTele_402
+  - first:
+      213: 8957075155648391019
+    second: ReverbTele_403
+  - first:
+      213: 1553091521605208040
+    second: ReverbTele_404
+  - first:
+      213: -7984835277532303427
+    second: ReverbTele_405
+  - first:
+      213: 3197010109636381462
+    second: ReverbTele_406
+  - first:
+      213: -5888436969087394459
+    second: ReverbTele_407
+  - first:
+      213: 4275695043266048475
+    second: ReverbTele_408
+  - first:
+      213: -5578762487327730094
+    second: ReverbTele_409
+  - first:
+      213: -6986572875133524700
+    second: ReverbTele_410
+  - first:
+      213: 1672331470903543007
+    second: ReverbTele_411
+  - first:
+      213: 648517144850096794
+    second: ReverbTele_412
+  - first:
+      213: -5018127121951923720
+    second: ReverbTele_413
+  - first:
+      213: -5372215847456846282
+    second: ReverbTele_414
+  - first:
+      213: -5043424095150166982
+    second: ReverbTele_415
+  - first:
+      213: -5354619778069367662
+    second: ReverbTele_416
+  - first:
+      213: -7210161597291307520
+    second: ReverbTele_417
+  - first:
+      213: 3123865159044375551
+    second: ReverbTele_418
+  - first:
+      213: 5316171101648721141
+    second: ReverbTele_419
+  - first:
+      213: 8571613451754178082
+    second: ReverbTele_420
+  - first:
+      213: -9063789753898843543
+    second: ReverbTele_421
+  - first:
+      213: 1019562518981540086
+    second: ReverbTele_422
+  - first:
+      213: 793985988132417675
+    second: ReverbTele_423
+  - first:
+      213: -5739048308394542733
+    second: ReverbTele_424
+  - first:
+      213: -7951121065387888096
+    second: ReverbTele_425
+  - first:
+      213: -987831155834612355
+    second: ReverbTele_426
+  - first:
+      213: 4095688363712244513
+    second: ReverbTele_427
+  - first:
+      213: -9033922077135046552
+    second: ReverbTele_428
+  - first:
+      213: 8139426042632057012
+    second: ReverbTele_429
+  - first:
+      213: -1954084503586180326
+    second: ReverbTele_430
+  - first:
+      213: 7896449267293823043
+    second: ReverbTele_431
+  - first:
+      213: 1732045479442735165
+    second: ReverbTele_432
+  - first:
+      213: -5648881808710772514
+    second: ReverbTele_433
+  - first:
+      213: -8791280974721452019
+    second: ReverbTele_434
+  - first:
+      213: 5270868245000877765
+    second: ReverbTele_435
+  - first:
+      213: 6532309907060918066
+    second: ReverbTele_436
+  - first:
+      213: -5291259986577401541
+    second: ReverbTele_437
+  - first:
+      213: -2273356730790498009
+    second: ReverbTele_438
+  - first:
+      213: 2649057343235399904
+    second: ReverbTele_439
+  - first:
+      213: -6368157298143398826
+    second: ReverbTele_440
+  - first:
+      213: 5674347325992128257
+    second: ReverbTele_441
+  - first:
+      213: -6394423589668566896
+    second: ReverbTele_442
+  - first:
+      213: 3857237050965943523
+    second: ReverbTele_443
+  - first:
+      213: -6901852055490004223
+    second: ReverbTele_444
+  - first:
+      213: -8622856300037656060
+    second: ReverbTele_445
+  - first:
+      213: 6582710834543702131
+    second: ReverbTele_446
+  - first:
+      213: -6793895736901143629
+    second: ReverbTele_447
+  - first:
+      213: -7675617023222894793
+    second: ReverbTele_448
+  - first:
+      213: -8970337988645726085
+    second: ReverbTele_449
+  - first:
+      213: -2297402919143018770
+    second: ReverbTele_450
+  - first:
+      213: 4715135974887353970
+    second: ReverbTele_451
+  - first:
+      213: 623935344211610997
+    second: ReverbTele_452
+  - first:
+      213: 677410545864308861
+    second: ReverbTele_453
+  - first:
+      213: 732190298052830204
+    second: ReverbTele_454
+  - first:
+      213: -3744747285630407664
+    second: ReverbTele_455
+  - first:
+      213: 4956553378277858819
+    second: ReverbTele_456
+  - first:
+      213: -7328065479412094116
+    second: ReverbTele_457
+  - first:
+      213: -4512008787734940701
+    second: ReverbTele_458
+  - first:
+      213: -2965124709699159127
+    second: ReverbTele_459
+  - first:
+      213: 8315795304299374293
+    second: ReverbTele_460
+  - first:
+      213: 7122902201800469248
+    second: ReverbTele_461
+  - first:
+      213: 7686373322074332889
+    second: ReverbTele_462
+  - first:
+      213: -3053072551751317417
+    second: ReverbTele_463
+  - first:
+      213: 3400948809036117194
+    second: ReverbTele_464
+  - first:
+      213: 1532256247015400562
+    second: ReverbTele_465
+  - first:
+      213: -1651039240091778739
+    second: ReverbTele_466
+  - first:
+      213: 6270441676591940838
+    second: ReverbTele_467
+  - first:
+      213: -2389089580942795889
+    second: ReverbTele_468
+  - first:
+      213: 3136573333323636563
+    second: ReverbTele_469
+  - first:
+      213: -8383870465566426574
+    second: ReverbTele_470
+  - first:
+      213: 8223842827394680001
+    second: ReverbTele_471
+  - first:
+      213: -4687677807472143950
+    second: ReverbTele_472
+  - first:
+      213: -7675026297733266442
+    second: ReverbTele_473
+  - first:
+      213: -6337881256482653950
+    second: ReverbTele_474
+  - first:
+      213: 8944447925923180948
+    second: ReverbTele_475
+  - first:
+      213: 6151370753195121394
+    second: ReverbTele_476
+  - first:
+      213: -3381027844579608359
+    second: ReverbTele_477
+  - first:
+      213: -3268443624393215473
+    second: ReverbTele_478
+  - first:
+      213: 3411124438518075121
+    second: ReverbTele_479
+  - first:
+      213: 1230883283438356108
+    second: ReverbTele_480
+  - first:
+      213: -778077632811127519
+    second: ReverbTele_481
+  - first:
+      213: -6522114054472947721
+    second: ReverbTele_482
+  - first:
+      213: -5881553982550503184
+    second: ReverbTele_483
+  - first:
+      213: 9162879761602901469
+    second: ReverbTele_484
+  - first:
+      213: -4629204752842273442
+    second: ReverbTele_485
+  - first:
+      213: 3053954320907257011
+    second: ReverbTele_486
+  - first:
+      213: 2770410821098494679
+    second: ReverbTele_487
+  - first:
+      213: 4956056185274947811
+    second: ReverbTele_488
+  - first:
+      213: -4427564563912300846
+    second: ReverbTele_489
+  - first:
+      213: -4513482232549004002
+    second: ReverbTele_490
+  - first:
+      213: -8523134597836310051
+    second: ReverbTele_491
+  - first:
+      213: 742351170407194545
+    second: ReverbTele_492
+  - first:
+      213: -1215457679381021289
+    second: ReverbTele_493
+  - first:
+      213: 3691333019326701433
+    second: ReverbTele_494
+  - first:
+      213: -3405355175120073217
+    second: ReverbTele_495
+  - first:
+      213: 7951959711033779497
+    second: ReverbTele_496
+  - first:
+      213: 2296952368733274401
+    second: ReverbTele_497
+  - first:
+      213: 4778352850824778811
+    second: ReverbTele_498
+  - first:
+      213: -2025739171858937356
+    second: ReverbTele_499
+  - first:
+      213: -5534754170214965797
+    second: ReverbTele_500
+  - first:
+      213: 8146570686396196173
+    second: ReverbTele_501
+  - first:
+      213: 4448460533909770932
+    second: ReverbTele_502
+  - first:
+      213: -2820424907296421358
+    second: ReverbTele_503
+  - first:
+      213: 8871759549476111961
+    second: ReverbTele_504
+  - first:
+      213: 2653971206062633756
+    second: ReverbTele_505
+  - first:
+      213: 5184341131329304243
+    second: ReverbTele_506
+  - first:
+      213: -1719913264144455421
+    second: ReverbTele_507
+  - first:
+      213: -3369241783570280541
+    second: ReverbTele_508
+  - first:
+      213: -6118885225786795417
+    second: ReverbTele_509
+  - first:
+      213: -8273108665596381852
+    second: ReverbTele_510
+  - first:
+      213: -8739661405321991952
+    second: ReverbTele_511
+  - first:
+      213: -911033232020704049
+    second: ReverbTele_512
+  - first:
+      213: 7422949604314183420
+    second: ReverbTele_513
+  - first:
+      213: -5773119732871871726
+    second: ReverbTele_514
+  - first:
+      213: -3436375838198853556
+    second: ReverbTele_515
+  - first:
+      213: 8110349204773777100
+    second: ReverbTele_516
+  - first:
+      213: -2376598190082163862
+    second: ReverbTele_517
+  - first:
+      213: 331878848845363323
+    second: ReverbTele_518
+  - first:
+      213: 7360501613119505235
+    second: ReverbTele_519
+  - first:
+      213: 918255668478880338
+    second: ReverbTele_520
+  - first:
+      213: -5659358255779004452
+    second: ReverbTele_521
+  - first:
+      213: -6513196062485131108
+    second: ReverbTele_522
+  - first:
+      213: 7052736949026662790
+    second: ReverbTele_523
+  - first:
+      213: 5185938262946655678
+    second: ReverbTele_524
+  - first:
+      213: 3239857682816301318
+    second: ReverbTele_525
+  - first:
+      213: 5904763230667116189
+    second: ReverbTele_526
+  - first:
+      213: 1131809856603075686
+    second: ReverbTele_527
+  - first:
+      213: -3571212673995166246
+    second: ReverbTele_528
+  - first:
+      213: -2392625115899063341
+    second: ReverbTele_529
+  - first:
+      213: 3007275808195356814
+    second: ReverbTele_530
+  - first:
+      213: -8089364183646363024
+    second: ReverbTele_531
+  - first:
+      213: 4974156831478661753
+    second: ReverbTele_532
+  - first:
+      213: -1297067886914791464
+    second: ReverbTele_533
+  - first:
+      213: 5702879964132769479
+    second: ReverbTele_534
+  - first:
+      213: 3965608962581536043
+    second: ReverbTele_535
+  - first:
+      213: 395328488876209662
+    second: ReverbTele_536
+  - first:
+      213: 8843702469685407711
+    second: ReverbTele_537
+  - first:
+      213: -1207243135348118164
+    second: ReverbTele_538
+  - first:
+      213: -1459798776012230791
+    second: ReverbTele_539
+  - first:
+      213: -7767313649238797852
+    second: ReverbTele_540
+  - first:
+      213: -147862919372854115
+    second: ReverbTele_541
+  - first:
+      213: 8532764418116802299
+    second: ReverbTele_542
+  - first:
+      213: 384099611862461008
+    second: ReverbTele_543
+  - first:
+      213: -8914547061408948745
+    second: ReverbTele_544
+  - first:
+      213: 5274460039988511698
+    second: ReverbTele_545
+  - first:
+      213: -5658347207614850034
+    second: ReverbTele_546
+  - first:
+      213: 5447715271173732094
+    second: ReverbTele_547
+  - first:
+      213: -1462754071001204952
+    second: ReverbTele_548
+  - first:
+      213: -3222018804885939398
+    second: ReverbTele_549
+  - first:
+      213: 5025872726257741650
+    second: ReverbTele_550
+  - first:
+      213: -3153026984397392871
+    second: ReverbTele_551
+  - first:
+      213: 7979228957998668202
+    second: ReverbTele_552
+  - first:
+      213: -3123708628951354114
+    second: ReverbTele_553
+  - first:
+      213: -8537432706763339663
+    second: ReverbTele_554
+  - first:
+      213: 820523823633565652
+    second: ReverbTele_555
+  - first:
+      213: -7204432952088110608
+    second: ReverbTele_556
+  - first:
+      213: -4135061066688562168
+    second: ReverbTele_557
+  - first:
+      213: 1789930299821622500
+    second: ReverbTele_558
+  - first:
+      213: 4801731221877043632
+    second: ReverbTele_559
+  - first:
+      213: 4154153049617055697
+    second: ReverbTele_560
+  - first:
+      213: -6669387773038842460
+    second: ReverbTele_561
+  - first:
+      213: -4417345757548004579
+    second: ReverbTele_562
+  - first:
+      213: 4196001108023594468
+    second: ReverbTele_563
+  - first:
+      213: 2191734244360683189
+    second: ReverbTele_564
+  - first:
+      213: 3856898952488254493
+    second: ReverbTele_565
+  - first:
+      213: -3361281031153903710
+    second: ReverbTele_566
+  - first:
+      213: -4460715692572445571
+    second: ReverbTele_567
+  - first:
+      213: 5207084531911058711
+    second: ReverbTele_568
+  - first:
+      213: 1354575164244326165
+    second: ReverbTele_569
+  - first:
+      213: 4664839443482551214
+    second: ReverbTele_570
+  - first:
+      213: 5036960334973488292
+    second: ReverbTele_571
+  - first:
+      213: 281836720003071740
+    second: ReverbTele_572
+  - first:
+      213: 1554633956770433624
+    second: ReverbTele_573
+  - first:
+      213: 5202680533711103641
+    second: ReverbTele_574
+  - first:
+      213: -1924843051157972691
+    second: ReverbTele_575
+  - first:
+      213: 8096274584018855863
+    second: ReverbTele_576
+  - first:
+      213: 5022798623159952134
+    second: ReverbTele_577
+  - first:
+      213: 4189752866209557440
+    second: ReverbTele_578
+  - first:
+      213: -5446221571573778442
+    second: ReverbTele_579
+  - first:
+      213: 8905361007226253854
+    second: ReverbTele_580
+  - first:
+      213: 477143790894085181
+    second: ReverbTele_581
+  - first:
+      213: -4852911955532090674
+    second: ReverbTele_582
+  - first:
+      213: 9094885000326147103
+    second: ReverbTele_583
+  - first:
+      213: 5609750488094257061
+    second: ReverbTele_584
+  - first:
+      213: -252234897272848971
+    second: ReverbTele_585
+  - first:
+      213: -2284397958666656688
+    second: ReverbTele_586
+  - first:
+      213: 1907947500768070504
+    second: ReverbTele_587
+  - first:
+      213: 6563545195880417444
+    second: ReverbTele_588
+  - first:
+      213: 3791592906611978556
+    second: ReverbTele_589
+  - first:
+      213: -2177493598206002205
+    second: ReverbTele_590
+  - first:
+      213: -1337375900571018141
+    second: ReverbTele_591
+  - first:
+      213: -3286544776694318605
+    second: ReverbTele_592
+  - first:
+      213: -4370148941539311457
+    second: ReverbTele_593
+  - first:
+      213: -9200499952342939994
+    second: ReverbTele_594
+  - first:
+      213: 2749584292926076637
+    second: ReverbTele_595
+  - first:
+      213: 857081355741470693
+    second: ReverbTele_596
+  - first:
+      213: -7510618036484584944
+    second: ReverbTele_597
+  - first:
+      213: 279344623980633562
+    second: ReverbTele_598
+  - first:
+      213: 7303995486502604706
+    second: ReverbTele_599
+  - first:
+      213: -3265585470062754316
+    second: ReverbTele_600
+  - first:
+      213: 7138361286639477955
+    second: ReverbTele_601
+  - first:
+      213: 3401915665632030142
+    second: ReverbTele_602
+  - first:
+      213: 3990810756600778988
+    second: ReverbTele_603
+  - first:
+      213: -5131950926362300177
+    second: ReverbTele_604
+  - first:
+      213: -8179467356752725913
+    second: ReverbTele_605
+  - first:
+      213: 2903000966706635295
+    second: ReverbTele_606
+  - first:
+      213: -5716594146694540446
+    second: ReverbTele_607
+  - first:
+      213: 674437631839824831
+    second: ReverbTele_608
+  - first:
+      213: -7195042666801227124
+    second: ReverbTele_609
+  - first:
+      213: -6119418140727906408
+    second: ReverbTele_610
+  - first:
+      213: -294357175312510972
+    second: ReverbTele_611
+  - first:
+      213: 1926123205242377837
+    second: ReverbTele_612
+  - first:
+      213: 83382160485855962
+    second: ReverbTele_613
+  - first:
+      213: -2426275286715275844
+    second: ReverbTele_614
+  - first:
+      213: 187718318486944614
+    second: ReverbTele_615
+  - first:
+      213: -5491755742417690625
+    second: ReverbTele_616
+  - first:
+      213: -4576075553497065113
+    second: ReverbTele_617
+  - first:
+      213: 4056149327559701320
+    second: ReverbTele_618
+  - first:
+      213: -119269632037034958
+    second: ReverbTele_619
+  - first:
+      213: 4052773949229400585
+    second: ReverbTele_620
+  - first:
+      213: -8466660375257205986
+    second: ReverbTele_621
+  - first:
+      213: 2166667337487034049
+    second: ReverbTele_622
+  - first:
+      213: 3653471940324170116
+    second: ReverbTele_623
+  - first:
+      213: -8907854109177748053
+    second: ReverbTele_624
+  - first:
+      213: -6659146460548568462
+    second: ReverbTele_625
+  - first:
+      213: -8927242182679506242
+    second: ReverbTele_626
+  - first:
+      213: 4362020498452960824
+    second: ReverbTele_627
+  - first:
+      213: 1859865338916732603
+    second: ReverbTele_628
+  - first:
+      213: 3391852790779156618
+    second: ReverbTele_629
+  - first:
+      213: 6292271932933767890
+    second: ReverbTele_630
+  - first:
+      213: -5421736657921032883
+    second: ReverbTele_631
+  - first:
+      213: 4088728759228215235
+    second: ReverbTele_632
+  - first:
+      213: -608264887694301334
+    second: ReverbTele_633
+  - first:
+      213: -7619194284689897382
+    second: ReverbTele_634
+  - first:
+      213: -8429035869997941503
+    second: ReverbTele_635
+  - first:
+      213: -5385085643445162531
+    second: ReverbTele_636
+  - first:
+      213: -6719442875766340397
+    second: ReverbTele_637
+  - first:
+      213: 2088161937400746440
+    second: ReverbTele_638
+  - first:
+      213: -2364189813676258726
+    second: ReverbTele_639
+  - first:
+      213: -7147066851593101894
+    second: ReverbTele_640
+  - first:
+      213: 3471405315289687654
+    second: ReverbTele_641
+  - first:
+      213: -8773159087612937466
+    second: ReverbTele_642
+  - first:
+      213: 4224946640521944742
+    second: ReverbTele_643
+  - first:
+      213: -5415769893549265141
+    second: ReverbTele_644
+  - first:
+      213: 1781821332784485485
+    second: ReverbTele_645
+  - first:
+      213: -7177134406553035894
+    second: ReverbTele_646
+  - first:
+      213: 7272725867656264426
+    second: ReverbTele_647
+  - first:
+      213: 4775996042880597579
+    second: ReverbTele_648
+  - first:
+      213: -2787248450415539519
+    second: ReverbTele_649
+  - first:
+      213: 1660925770479943881
+    second: ReverbTele_650
+  - first:
+      213: -4943867297009505745
+    second: ReverbTele_651
+  - first:
+      213: -4219632013891613189
+    second: ReverbTele_652
+  - first:
+      213: 8429760671202188128
+    second: ReverbTele_653
+  - first:
+      213: 1471339514231013708
+    second: ReverbTele_654
+  - first:
+      213: 7699146485127327348
+    second: ReverbTele_655
+  - first:
+      213: -1828647133466351597
+    second: ReverbTele_656
+  - first:
+      213: -9089681445476145484
+    second: ReverbTele_657
+  - first:
+      213: 7196625172519674030
+    second: ReverbTele_658
+  - first:
+      213: 7254751308490036511
+    second: ReverbTele_659
+  - first:
+      213: 8554072076082464832
+    second: ReverbTele_660
+  - first:
+      213: 5360740706412006859
+    second: ReverbTele_661
+  - first:
+      213: 7740853557725781737
+    second: ReverbTele_662
+  - first:
+      213: -1473175538134679681
+    second: ReverbTele_663
+  - first:
+      213: 5833987155473793907
+    second: ReverbTele_664
+  - first:
+      213: 8421206260907060060
+    second: ReverbTele_665
+  - first:
+      213: 7523779441532012073
+    second: ReverbTele_666
+  - first:
+      213: -4820673137584200220
+    second: ReverbTele_667
+  - first:
+      213: -6945718691225361655
+    second: ReverbTele_668
+  - first:
+      213: 198439403357175378
+    second: ReverbTele_669
+  - first:
+      213: 7089394533030961418
+    second: ReverbTele_670
+  - first:
+      213: 1457819113244333835
+    second: ReverbTele_671
+  - first:
+      213: 224583503313767512
+    second: ReverbTele_672
+  - first:
+      213: 5040733790580649118
+    second: ReverbTele_673
+  - first:
+      213: 846276189147899533
+    second: ReverbTele_674
+  - first:
+      213: 2156796466101600389
+    second: ReverbTele_675
+  - first:
+      213: -1963748050910336265
+    second: ReverbTele_676
+  - first:
+      213: -1667792884251848832
+    second: ReverbTele_677
+  - first:
+      213: -2080201611649880931
+    second: ReverbTele_678
+  - first:
+      213: -9035752080712324042
+    second: ReverbTele_679
+  - first:
+      213: -1822571724136002980
+    second: ReverbTele_680
+  - first:
+      213: 7080172818841333783
+    second: ReverbTele_681
+  - first:
+      213: -3868958683702004894
+    second: ReverbTele_682
+  - first:
+      213: -8155592053287880333
+    second: ReverbTele_683
+  - first:
+      213: -6234577912712280217
+    second: ReverbTele_684
+  - first:
+      213: 4795704440334760525
+    second: ReverbTele_685
+  - first:
+      213: 7424406397113034418
+    second: ReverbTele_686
+  - first:
+      213: 4012785717357173012
+    second: ReverbTele_687
+  - first:
+      213: -3520724934784537355
+    second: ReverbTele_688
+  - first:
+      213: -4241882505736233803
+    second: ReverbTele_689
+  - first:
+      213: 1406814789171716292
+    second: ReverbTele_690
+  - first:
+      213: -1726690735049652234
+    second: ReverbTele_691
+  - first:
+      213: 6024424228658806236
+    second: ReverbTele_692
+  - first:
+      213: -8695658140018643575
+    second: ReverbTele_693
+  - first:
+      213: -662465218871393495
+    second: ReverbTele_694
+  - first:
+      213: 937091836783271615
+    second: ReverbTele_695
+  - first:
+      213: 4884249638502190002
+    second: ReverbTele_696
+  - first:
+      213: -8869175527641465651
+    second: ReverbTele_697
+  - first:
+      213: -5923851484237378426
+    second: ReverbTele_698
+  - first:
+      213: -2969348666443935714
+    second: ReverbTele_699
+  - first:
+      213: 1112685586071997420
+    second: ReverbTele_700
+  - first:
+      213: 5560646933668171636
+    second: ReverbTele_701
+  - first:
+      213: 2330707461874657542
+    second: ReverbTele_702
+  - first:
+      213: 3136299438274630693
+    second: ReverbTele_703
+  - first:
+      213: -5609110476799927492
+    second: ReverbTele_704
+  - first:
+      213: -1707764250858539455
+    second: ReverbTele_705
+  - first:
+      213: -5005150403493411789
+    second: ReverbTele_706
+  - first:
+      213: -7171885170331117611
+    second: ReverbTele_707
+  - first:
+      213: -6770303951753180331
+    second: ReverbTele_708
+  - first:
+      213: -1677098779872951888
+    second: ReverbTele_709
+  - first:
+      213: 5924315067891502493
+    second: ReverbTele_710
+  - first:
+      213: 1274761820065338418
+    second: ReverbTele_711
+  - first:
+      213: 7465420171886716914
+    second: ReverbTele_712
+  - first:
+      213: -9057467045944890019
+    second: ReverbTele_713
+  - first:
+      213: 5634237831536112661
+    second: ReverbTele_714
+  - first:
+      213: -4064933427645977862
+    second: ReverbTele_715
+  - first:
+      213: -7574018820027734886
+    second: ReverbTele_716
+  - first:
+      213: -2631017181210639988
+    second: ReverbTele_717
+  - first:
+      213: -3320965771648979941
+    second: ReverbTele_718
+  - first:
+      213: 8135612652333737694
+    second: ReverbTele_719
+  - first:
+      213: -5443233677042854118
+    second: ReverbTele_720
+  - first:
+      213: 412711144185000775
+    second: ReverbTele_721
+  - first:
+      213: 1405763941691358756
+    second: ReverbTele_722
+  - first:
+      213: -5044982926082866277
+    second: ReverbTele_723
+  - first:
+      213: -7917064767003654781
+    second: ReverbTele_724
+  - first:
+      213: -794909671782916629
+    second: ReverbTele_725
+  - first:
+      213: 8682022193465668555
+    second: ReverbTele_726
+  - first:
+      213: 2923514314842024181
+    second: ReverbTele_727
+  - first:
+      213: -7721587988083358406
+    second: ReverbTele_728
+  - first:
+      213: 1468728280410653533
+    second: ReverbTele_729
+  - first:
+      213: 4151901078206708288
+    second: ReverbTele_730
+  - first:
+      213: 4089964577950907793
+    second: ReverbTele_731
+  - first:
+      213: 8838227809737313333
+    second: ReverbTele_732
+  - first:
+      213: -3742563568448273982
+    second: ReverbTele_733
+  - first:
+      213: -7239179969552465878
+    second: ReverbTele_734
+  - first:
+      213: -8170190621632207647
+    second: ReverbTele_735
+  - first:
+      213: -5817155601068126707
+    second: ReverbTele_736
+  - first:
+      213: 2814206494449780964
+    second: ReverbTele_737
+  - first:
+      213: 2732064474518898961
+    second: ReverbTele_738
+  - first:
+      213: 5585147105336062192
+    second: ReverbTele_739
+  - first:
+      213: -3244671231773030663
+    second: ReverbTele_740
+  - first:
+      213: 4500425206119039652
+    second: ReverbTele_741
+  - first:
+      213: -1128264852510784778
+    second: ReverbTele_742
+  - first:
+      213: -2673916862786782888
+    second: ReverbTele_743
+  - first:
+      213: 6211303793356392178
+    second: ReverbTele_744
+  - first:
+      213: -8875461282795749805
+    second: ReverbTele_745
+  - first:
+      213: -9116977996667379841
+    second: ReverbTele_746
+  - first:
+      213: -495379919812356345
+    second: ReverbTele_747
+  - first:
+      213: -9112946271444658416
+    second: ReverbTele_748
+  - first:
+      213: -7336623972557190190
+    second: ReverbTele_749
+  - first:
+      213: -3291171247995632552
+    second: ReverbTele_750
+  - first:
+      213: -1435754704254165892
+    second: ReverbTele_751
+  - first:
+      213: -3557180346002807592
+    second: ReverbTele_752
+  - first:
+      213: 8465499026415681463
+    second: ReverbTele_753
+  - first:
+      213: 3203872750522375069
+    second: ReverbTele_754
+  - first:
+      213: 3291159360611189029
+    second: ReverbTele_755
+  - first:
+      213: 961959558515516635
+    second: ReverbTele_756
+  - first:
+      213: 7533817974224615817
+    second: ReverbTele_757
+  - first:
+      213: -1087644535625456496
+    second: ReverbTele_758
+  - first:
+      213: -1557552800520276335
+    second: ReverbTele_759
+  - first:
+      213: 6693787632525914069
+    second: ReverbTele_760
+  - first:
+      213: 4434846221572858190
+    second: ReverbTele_761
+  - first:
+      213: 7539218683759021272
+    second: ReverbTele_762
+  - first:
+      213: 3213334795958137312
+    second: ReverbTele_763
+  - first:
+      213: 3373542350823836361
+    second: ReverbTele_764
+  - first:
+      213: 2562918368468760561
+    second: ReverbTele_765
+  - first:
+      213: 9083089516127019297
+    second: ReverbTele_766
+  - first:
+      213: -6158305745619477089
+    second: ReverbTele_767
+  - first:
+      213: 6391568136727867233
+    second: ReverbTele_768
+  - first:
+      213: 201254484130978772
+    second: ReverbTele_769
+  - first:
+      213: 7136401463619667468
+    second: ReverbTele_770
+  - first:
+      213: 8787673744913048979
+    second: ReverbTele_771
+  - first:
+      213: 1315188584035391429
+    second: ReverbTele_772
+  - first:
+      213: -3539895543753594745
+    second: ReverbTele_773
+  - first:
+      213: 1811359930280704429
+    second: ReverbTele_774
+  - first:
+      213: 8573078722090509671
+    second: ReverbTele_775
+  - first:
+      213: -4993733865725021840
+    second: ReverbTele_776
+  - first:
+      213: 3568660844167949048
+    second: ReverbTele_777
+  - first:
+      213: -7028264244281352215
+    second: ReverbTele_778
+  - first:
+      213: -321553865787909438
+    second: ReverbTele_779
+  - first:
+      213: 6136979714062557411
+    second: ReverbTele_780
+  - first:
+      213: -5200256939811101425
+    second: ReverbTele_781
+  - first:
+      213: -7662457622546163152
+    second: ReverbTele_782
+  - first:
+      213: 3370198971968409235
+    second: ReverbTele_783
+  - first:
+      213: -7799019207834279931
+    second: ReverbTele_784
+  - first:
+      213: 729244898446073771
+    second: ReverbTele_785
+  - first:
+      213: -245394536665714170
+    second: ReverbTele_786
+  - first:
+      213: -7700413104459205754
+    second: ReverbTele_787
+  - first:
+      213: 6736886666309300663
+    second: ReverbTele_788
+  - first:
+      213: 8933634661406835182
+    second: ReverbTele_789
+  - first:
+      213: -7781291210001902911
+    second: ReverbTele_790
+  - first:
+      213: 562878078030234479
+    second: ReverbTele_791
+  - first:
+      213: 7621259237950178331
+    second: ReverbTele_792
+  - first:
+      213: 4593353266264631482
+    second: ReverbTele_793
+  - first:
+      213: -8137510641095294980
+    second: ReverbTele_794
+  - first:
+      213: -2550555914179087707
+    second: ReverbTele_795
+  - first:
+      213: -4736300037016430137
+    second: ReverbTele_796
+  - first:
+      213: 4398417873406691282
+    second: ReverbTele_797
+  - first:
+      213: 2001440527101614078
+    second: ReverbTele_798
+  - first:
+      213: -7668881456170760458
+    second: ReverbTele_799
+  - first:
+      213: -2456209773716414252
+    second: ReverbTele_800
+  - first:
+      213: 1478396574006514473
+    second: ReverbTele_801
+  - first:
+      213: -7450864343566509347
+    second: ReverbTele_802
+  - first:
+      213: -4527364054160901891
+    second: ReverbTele_803
+  - first:
+      213: 5034023121978815221
+    second: ReverbTele_804
+  - first:
+      213: -2222194124889919177
+    second: ReverbTele_805
+  - first:
+      213: 5406812797360602671
+    second: ReverbTele_806
+  - first:
+      213: -3120404703921039822
+    second: ReverbTele_807
+  - first:
+      213: 712238875371938475
+    second: ReverbTele_808
+  - first:
+      213: -3274897014732874695
+    second: ReverbTele_809
+  - first:
+      213: 6529207290399540818
+    second: ReverbTele_810
+  - first:
+      213: -2132214157580043466
+    second: ReverbTele_811
+  - first:
+      213: 8138619469855658300
+    second: ReverbTele_812
+  - first:
+      213: 6300933869113989424
+    second: ReverbTele_813
+  - first:
+      213: 7061787030320512965
+    second: ReverbTele_814
+  - first:
+      213: -6885134693215429171
+    second: ReverbTele_815
+  - first:
+      213: -164841303026706168
+    second: ReverbTele_816
+  - first:
+      213: 1412368013994196007
+    second: ReverbTele_817
+  - first:
+      213: 1586367804516030195
+    second: ReverbTele_818
+  - first:
+      213: 1481129867814927705
+    second: ReverbTele_819
+  - first:
+      213: -2301039815309166124
+    second: ReverbTele_820
+  - first:
+      213: 7415624194805405447
+    second: ReverbTele_821
+  - first:
+      213: 5506657295849611182
+    second: ReverbTele_822
+  - first:
+      213: -619645125465791485
+    second: ReverbTele_823
+  - first:
+      213: 5860485849294922409
+    second: ReverbTele_824
+  - first:
+      213: 4600233897767293766
+    second: ReverbTele_825
+  - first:
+      213: -5184022255809346460
+    second: ReverbTele_826
+  - first:
+      213: -6135434223543268266
+    second: ReverbTele_827
+  - first:
+      213: -1810538129405766665
+    second: ReverbTele_828
+  - first:
+      213: 2192830765247998656
+    second: ReverbTele_829
+  - first:
+      213: -2386722900623796926
+    second: ReverbTele_830
+  - first:
+      213: 855771769442121432
+    second: ReverbTele_831
+  - first:
+      213: -3498913712371260617
+    second: ReverbTele_832
+  - first:
+      213: -353147330140858408
+    second: ReverbTele_833
+  - first:
+      213: 7632845317813193618
+    second: ReverbTele_834
+  - first:
+      213: 6278469277515432542
+    second: ReverbTele_835
+  - first:
+      213: 1823916038703247320
+    second: ReverbTele_836
+  - first:
+      213: -3517103362629561323
+    second: ReverbTele_837
+  - first:
+      213: 3957455985372325419
+    second: ReverbTele_838
+  - first:
+      213: -4582142111945585023
+    second: ReverbTele_839
+  - first:
+      213: -784063742185139169
+    second: ReverbTele_840
+  - first:
+      213: -1020919869431383762
+    second: ReverbTele_841
+  - first:
+      213: -8804477468336258396
+    second: ReverbTele_842
+  - first:
+      213: 2541868501781779849
+    second: ReverbTele_843
+  - first:
+      213: 1177595527539590623
+    second: ReverbTele_844
+  - first:
+      213: -3846775858979037590
+    second: ReverbTele_845
+  - first:
+      213: -2674831000398403892
+    second: ReverbTele_846
+  - first:
+      213: -5207051946529510567
+    second: ReverbTele_847
+  - first:
+      213: -6982644860497666187
+    second: ReverbTele_848
+  - first:
+      213: 1489977828925565409
+    second: ReverbTele_849
+  - first:
+      213: 8102194279659259798
+    second: ReverbTele_850
+  - first:
+      213: -4572454859988176383
+    second: ReverbTele_851
+  - first:
+      213: -3631550697130355944
+    second: ReverbTele_852
+  - first:
+      213: 4956833571423520562
+    second: ReverbTele_853
+  - first:
+      213: 6522299925241774000
+    second: ReverbTele_854
+  - first:
+      213: -1458043759962695692
+    second: ReverbTele_855
+  - first:
+      213: -9016058700424407676
+    second: ReverbTele_856
+  - first:
+      213: -7351749724940495878
+    second: ReverbTele_857
+  - first:
+      213: 5076622724597041465
+    second: ReverbTele_858
+  - first:
+      213: -8499393982955031858
+    second: ReverbTele_859
+  - first:
+      213: -4554474846480130871
+    second: ReverbTele_860
+  - first:
+      213: 6776525508746817145
+    second: ReverbTele_861
+  - first:
+      213: 8207877519171768402
+    second: ReverbTele_862
+  - first:
+      213: 2077974984632696576
+    second: ReverbTele_863
+  - first:
+      213: -4866060481006588331
+    second: ReverbTele_864
+  - first:
+      213: -1839738987642688935
+    second: ReverbTele_865
+  - first:
+      213: -4797136482129582437
+    second: ReverbTele_866
+  - first:
+      213: 6190750381713916171
+    second: ReverbTele_867
+  - first:
+      213: -1982252203436800733
+    second: ReverbTele_868
+  - first:
+      213: -61019828185987716
+    second: ReverbTele_869
+  - first:
+      213: -3048895335398231087
+    second: ReverbTele_870
+  - first:
+      213: 6532797537395284996
+    second: ReverbTele_871
+  - first:
+      213: -5433809215131238672
+    second: ReverbTele_872
+  - first:
+      213: -6229828059300659393
+    second: ReverbTele_873
+  - first:
+      213: -443171013884870424
+    second: ReverbTele_874
+  - first:
+      213: 3903486427207572671
+    second: ReverbTele_875
+  - first:
+      213: -5495825912162917072
+    second: ReverbTele_876
+  - first:
+      213: -3636006434119844816
+    second: ReverbTele_877
+  - first:
+      213: -8926019837997614265
+    second: ReverbTele_878
+  - first:
+      213: 3042223221887543010
+    second: ReverbTele_879
+  - first:
+      213: 8867575203303614818
+    second: ReverbTele_880
+  - first:
+      213: 1070502708677602680
+    second: ReverbTele_881
+  - first:
+      213: 6634381448101060600
+    second: ReverbTele_882
+  - first:
+      213: 2445331464005052335
+    second: ReverbTele_883
+  - first:
+      213: 2556238028656533992
+    second: ReverbTele_884
+  - first:
+      213: 5100023435148723495
+    second: ReverbTele_885
+  - first:
+      213: -492181448999171339
+    second: ReverbTele_886
+  - first:
+      213: -1621994309519373641
+    second: ReverbTele_887
+  - first:
+      213: 646498096447763676
+    second: ReverbTele_888
+  - first:
+      213: -525100291833959739
+    second: ReverbTele_889
+  - first:
+      213: 3900239357228586885
+    second: ReverbTele_890
+  - first:
+      213: 2801400686867534328
+    second: ReverbTele_891
+  - first:
+      213: 9097677070586777534
+    second: ReverbTele_892
+  - first:
+      213: 6990973387096580231
+    second: ReverbTele_893
+  - first:
+      213: -2158553695253064542
+    second: ReverbTele_894
+  - first:
+      213: 2513441849327449831
+    second: ReverbTele_895
+  - first:
+      213: -6147814217574721808
+    second: ReverbTele_896
+  - first:
+      213: 8152948711280498717
+    second: ReverbTele_897
+  - first:
+      213: -2975826693996398869
+    second: ReverbTele_898
+  - first:
+      213: -5735582917511528541
+    second: ReverbTele_899
+  - first:
+      213: 1642526211205590544
+    second: ReverbTele_900
+  - first:
+      213: 7429367919808841245
+    second: ReverbTele_901
+  - first:
+      213: 2604448957095282906
+    second: ReverbTele_902
+  - first:
+      213: 3300263320912987889
+    second: ReverbTele_903
+  - first:
+      213: 8832618462260919009
+    second: ReverbTele_904
+  - first:
+      213: 9019313822598491212
+    second: ReverbTele_905
+  - first:
+      213: 4280039629259362478
+    second: ReverbTele_906
+  - first:
+      213: 4261558198291006725
+    second: ReverbTele_907
+  - first:
+      213: 6554382859089538913
+    second: ReverbTele_908
+  - first:
+      213: 8532900937683983256
+    second: ReverbTele_909
+  - first:
+      213: -5532437040200268793
+    second: ReverbTele_910
+  - first:
+      213: -8780860768884719361
+    second: ReverbTele_911
+  - first:
+      213: -474044899446772147
+    second: ReverbTele_912
+  - first:
+      213: -491726587957065557
+    second: ReverbTele_913
+  - first:
+      213: 3061973233665825891
+    second: ReverbTele_914
+  - first:
+      213: -4526051907922830244
+    second: ReverbTele_915
+  - first:
+      213: 873277586576308813
+    second: ReverbTele_916
+  - first:
+      213: -6484112005539413587
+    second: ReverbTele_917
+  - first:
+      213: 3382883363672141859
+    second: ReverbTele_918
+  - first:
+      213: 4474077601501605706
+    second: ReverbTele_919
+  - first:
+      213: 3373403730013776075
+    second: ReverbTele_920
+  - first:
+      213: 919612057971757060
+    second: ReverbTele_921
+  - first:
+      213: -7035074501528131389
+    second: ReverbTele_922
+  - first:
+      213: 4237028056310086400
+    second: ReverbTele_923
+  - first:
+      213: -8581738732633141757
+    second: ReverbTele_924
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReverbTele_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4888de123725e00800000000000000
+      internalID: 1032013854177526951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19288aa7718f1a0f0800000000000000
+      internalID: -1107331253630631279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0039be4734abbb30800000000000000
+      internalID: 4304214426333556748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac2910e0792ee650800000000000000
+      internalID: 6263989696491760801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a50c49ea957c5e30800000000000000
+      internalID: 4493595836408399264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868e31fbd4066dc30800000000000000
+      internalID: 4383797174326257768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_6
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3bcb32dae7e4190800000000000000
+      internalID: -7976298607932558365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308f20f59ecb524e0800000000000000
+      internalID: -2006990348416255997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9899545b2bd2f1c0800000000000000
+      internalID: -4471270500880246629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_9
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc22a42176d6322c0800000000000000
+      internalID: -4457598916710751539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_10
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482bbc1dde100ccd0800000000000000
+      internalID: -2540028068898295164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6712cad927fb72eb0800000000000000
+      internalID: -4744613183419047562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_12
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee5c5545145a9ab0800000000000000
+      internalID: -5000591985906786583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_13
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb35bd6122a7fb260800000000000000
+      internalID: 7115540223099622335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceddea82085fa2c0800000000000000
+      internalID: -4418215941483143486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031c52aa2a66ad0f0800000000000000
+      internalID: -1091447110858587856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd4c94c84b12d120800000000000000
+      internalID: 2437040347711032788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b44be6755c501f0800000000000000
+      internalID: -1079239556375229629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f895eb8353688150800000000000000
+      internalID: 5875054924385327346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3bd984d4c937ca0800000000000000
+      internalID: -6020296421119511626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_20
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a934f77bafd19790800000000000000
+      internalID: -7524987574814492252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335a3b0cd176d190800000000000000
+      internalID: -7938032103298804941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d525c66ae1b3567d0800000000000000
+      internalID: -2925867380080094627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde196d6b86124fd0800000000000000
+      internalID: -2359298466696847651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_24
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d788c4f413b64a0800000000000000
+      internalID: -6599126612325139079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1514f4513ef5a4310800000000000000
+      internalID: 1390028863916949841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5b14077545d5310800000000000000
+      internalID: 1395364194076964265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_27
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a044ef2f5bcd8f40800000000000000
+      internalID: 5732461510398328995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5787d94d3ecf16500800000000000000
+      internalID: 387869098385438837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c53c230384f290d0800000000000000
+      internalID: -3417400323689663031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0544bce7dcdb8bfd0800000000000000
+      internalID: -2325900517243665328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b598927170794f730800000000000000
+      internalID: 4032013623112599899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f76001208e2a6550800000000000000
+      internalID: 6154782968599570421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a5797008b6393b0800000000000000
+      internalID: -5506939721716639173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04172609012af280800000000000000
+      internalID: -9008851781959609331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21744601da88db750800000000000000
+      internalID: 6322359728783771410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce0619a520875f50800000000000000
+      internalID: 6870100655815921345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14a507598bba3630800000000000000
+      internalID: 3907641825242227741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f029292e1ddbd80800000000000000
+      internalID: -8233193772711538866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dae07f7e7796bf0800000000000000
+      internalID: -330601259468935893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_40
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8ce3942ac1e3db0800000000000000
+      internalID: -4810375868645979961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_41
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47784936da30a93f0800000000000000
+      internalID: -893397532844718220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcbf65b0e9e7ad80800000000000000
+      internalID: -8239359841925088003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9321b78f034a3d20800000000000000
+      internalID: 3258991014336078750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3d636a9c29b94a0800000000000000
+      internalID: -6585508635324525627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_45
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0201e99f6fb5fe500800000000000000
+      internalID: 427661605931454496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ae6154c06f4f170800000000000000
+      internalID: 8211458553162426979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_47
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae95b27bdf85ce90800000000000000
+      internalID: -7006035472619823452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_48
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baff8a03fcad16a0800000000000000
+      internalID: -6476830529234666829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bd91fa07644f2a0800000000000000
+      internalID: -6704656495459837120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d56c04bce8c90e0800000000000000
+      internalID: -2261775909230584490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_51
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5263353f026f1a3f0800000000000000
+      internalID: -891160629860944347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_52
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cea4915ad59ff20800000000000000
+      internalID: 3456897152658893870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cac794174a6d8fd0800000000000000
+      internalID: -2338095778014704951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_54
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a741c91398113d4d0800000000000000
+      internalID: -3111123636642376582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_55
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54376d21242970bc0800000000000000
+      internalID: -3816921346691665083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1bce9fc00486980800000000000000
+      internalID: -8545509868458692190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f37e2811cdbcfbc0800000000000000
+      internalID: -3747912152847059983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1feb2fd99b39a70800000000000000
+      internalID: 8832607382237278703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_59
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a9233a5250e1da0800000000000000
+      internalID: -5972330396636767744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_60
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e2ad98e563d6770800000000000000
+      internalID: 8605594242642488847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_61
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65bd3b7cea82e960800000000000000
+      internalID: 7629813467003598191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946d5d754327d4220800000000000000
+      internalID: 2471757339633768009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_63
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64ac4decd612bd90800000000000000
+      internalID: -7083574125770529681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_64
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8273712782768d0800000000000000
+      internalID: -2853267368435046196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_65
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472c1ec431818c500800000000000000
+      internalID: 416609436705079924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_66
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af08472d1043a9250800000000000000
+      internalID: 5952127039953993978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_67
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1c4a98899060d10800000000000000
+      internalID: 2091369627709129202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_68
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cca12b875405040800000000000000
+      internalID: 4634280401250733210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_69
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9d09013fd5c4210800000000000000
+      internalID: 1318532089449077232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8933808c18997eac0800000000000000
+      internalID: -3825920575742135400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c8fec6869bc4bc0800000000000000
+      internalID: -3797456527624795002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f8dbdfbd1ce0990800000000000000
+      internalID: -7417778385633571039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2cf255ddd2cf8c0800000000000000
+      internalID: -3964243143352663299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1c8e2cd46f83e30800000000000000
+      internalID: 4483604242890277287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef166fa5f7ee67e80800000000000000
+      internalID: -8181089442317573634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_76
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e3b778fc0fc5910800000000000000
+      internalID: 1827600322927476286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_77
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c908dc5e8defafda0800000000000000
+      internalID: -5910131353448513380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523ee2b2fd0c0f750800000000000000
+      internalID: 6336776740445020965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_79
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61580ba7d48605d60800000000000000
+      internalID: 7876910430251156758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_80
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a522feedc51015650800000000000000
+      internalID: 6219754058764198490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_81
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2019c5aea0789040800000000000000
+      internalID: 4654594110295445549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_82
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d77bcd0576ab7050800000000000000
+      internalID: 5799411966842468307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_83
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcdc9b0afec68a10800000000000000
+      internalID: 1911442665197329584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e477397035c368dd0800000000000000
+      internalID: -2484231817141192882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87075f15cc178b130800000000000000
+      internalID: 3582738625935536248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d7702fc8232d010800000000000000
+      internalID: 1212086830653472017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_87
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686d1105346250110800000000000000
+      internalID: 1226428544076338822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d6b26255a3e6e90800000000000000
+      internalID: -7030617830891754148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_89
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee916685e8075dc60800000000000000
+      internalID: 7842298082806340078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_90
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ba297df53cb15a0800000000000000
+      internalID: -6549426416674231433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_91
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfd2c04eff1e75c0800000000000000
+      internalID: -4215897024303538222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_92
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe1a5b6d48698af0800000000000000
+      internalID: -393668810695369029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_93
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6dc9810527a2a10800000000000000
+      internalID: 1885445082343855815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_94
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf4df88b2d84f550800000000000000
+      internalID: 6193730605662687195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_95
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be631e57b2057bd30800000000000000
+      internalID: 4447111304643163883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_96
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8ddac2e3d497f60800000000000000
+      internalID: 8032536339824892075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_97
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8300399d94ed8c7b0800000000000000
+      internalID: -5203664960662339528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc47c135b4afa670800000000000000
+      internalID: 8552235315531041994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee49e07cc3a912810800000000000000
+      internalID: 1738840516970058990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38cb7cbc56bab460800000000000000
+      internalID: 7258314258876450877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035e645ee4afacf40800000000000000
+      internalID: 5749683091052881200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_102
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f1ff545d4e8ad0800000000000000
+      internalID: -2698134101966063486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165a9703ffefbbcf0800000000000000
+      internalID: -235314183523424927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a46f917d8008ba0800000000000000
+      internalID: -6088856976258348413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_105
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604057dd70f1306e0800000000000000
+      internalID: -1872618901415328762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_106
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eb0db42473c40e0800000000000000
+      internalID: -2284390153104343492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_107
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e110e599ee9b4560800000000000000
+      internalID: 7299102347163079142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_108
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e4b92950f1e6940800000000000000
+      internalID: 5291200721001860696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_109
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1eacca19a6ed1c0800000000000000
+      internalID: -4477023805657914886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_110
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e52aac6f0402950800000000000000
+      internalID: 6422204497336098414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReverbTele_111
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fb2637fb4913470800000000000000
+      internalID: 8372636732253978482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 620e5f241ad276c4cbd22592dd70591b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ReverbTele_0: 1032013854177526951
+      ReverbTele_1: -1107331253630631279
+      ReverbTele_10: -2540028068898295164
+      ReverbTele_100: 7258314258876450877
+      ReverbTele_101: 5749683091052881200
+      ReverbTele_102: -2698134101966063486
+      ReverbTele_103: -235314183523424927
+      ReverbTele_104: -6088856976258348413
+      ReverbTele_105: -1872618901415328762
+      ReverbTele_106: -2284390153104343492
+      ReverbTele_107: 7299102347163079142
+      ReverbTele_108: 5291200721001860696
+      ReverbTele_109: -4477023805657914886
+      ReverbTele_11: -4744613183419047562
+      ReverbTele_110: 6422204497336098414
+      ReverbTele_111: 8372636732253978482
+      ReverbTele_12: -5000591985906786583
+      ReverbTele_13: 7115540223099622335
+      ReverbTele_14: -4418215941483143486
+      ReverbTele_15: -1091447110858587856
+      ReverbTele_16: 2437040347711032788
+      ReverbTele_17: -1079239556375229629
+      ReverbTele_18: 5875054924385327346
+      ReverbTele_19: -6020296421119511626
+      ReverbTele_2: 4304214426333556748
+      ReverbTele_20: -7524987574814492252
+      ReverbTele_21: -7938032103298804941
+      ReverbTele_22: -2925867380080094627
+      ReverbTele_23: -2359298466696847651
+      ReverbTele_24: -6599126612325139079
+      ReverbTele_25: 1390028863916949841
+      ReverbTele_26: 1395364194076964265
+      ReverbTele_27: 5732461510398328995
+      ReverbTele_28: 387869098385438837
+      ReverbTele_29: -3417400323689663031
+      ReverbTele_3: 6263989696491760801
+      ReverbTele_30: -2325900517243665328
+      ReverbTele_31: 4032013623112599899
+      ReverbTele_32: 6154782968599570421
+      ReverbTele_33: -5506939721716639173
+      ReverbTele_34: -9008851781959609331
+      ReverbTele_35: 6322359728783771410
+      ReverbTele_36: 6870100655815921345
+      ReverbTele_37: 3907641825242227741
+      ReverbTele_38: -8233193772711538866
+      ReverbTele_39: -330601259468935893
+      ReverbTele_4: 4493595836408399264
+      ReverbTele_40: -4810375868645979961
+      ReverbTele_41: -893397532844718220
+      ReverbTele_42: -8239359841925088003
+      ReverbTele_43: 3258991014336078750
+      ReverbTele_44: -6585508635324525627
+      ReverbTele_45: 427661605931454496
+      ReverbTele_46: 8211458553162426979
+      ReverbTele_47: -7006035472619823452
+      ReverbTele_48: -6476830529234666829
+      ReverbTele_49: -6704656495459837120
+      ReverbTele_5: 4383797174326257768
+      ReverbTele_50: -2261775909230584490
+      ReverbTele_51: -891160629860944347
+      ReverbTele_52: 3456897152658893870
+      ReverbTele_53: -2338095778014704951
+      ReverbTele_54: -3111123636642376582
+      ReverbTele_55: -3816921346691665083
+      ReverbTele_56: -8545509868458692190
+      ReverbTele_57: -3747912152847059983
+      ReverbTele_58: 8832607382237278703
+      ReverbTele_59: -5972330396636767744
+      ReverbTele_6: -7976298607932558365
+      ReverbTele_60: 8605594242642488847
+      ReverbTele_61: 7629813467003598191
+      ReverbTele_62: 2471757339633768009
+      ReverbTele_63: -7083574125770529681
+      ReverbTele_64: -2853267368435046196
+      ReverbTele_65: 416609436705079924
+      ReverbTele_66: 5952127039953993978
+      ReverbTele_67: 2091369627709129202
+      ReverbTele_68: 4634280401250733210
+      ReverbTele_69: 1318532089449077232
+      ReverbTele_7: -2006990348416255997
+      ReverbTele_70: -3825920575742135400
+      ReverbTele_71: -3797456527624795002
+      ReverbTele_72: -7417778385633571039
+      ReverbTele_73: -3964243143352663299
+      ReverbTele_74: 4483604242890277287
+      ReverbTele_75: -8181089442317573634
+      ReverbTele_76: 1827600322927476286
+      ReverbTele_77: -5910131353448513380
+      ReverbTele_78: 6336776740445020965
+      ReverbTele_79: 7876910430251156758
+      ReverbTele_8: -4471270500880246629
+      ReverbTele_80: 6219754058764198490
+      ReverbTele_81: 4654594110295445549
+      ReverbTele_82: 5799411966842468307
+      ReverbTele_83: 1911442665197329584
+      ReverbTele_84: -2484231817141192882
+      ReverbTele_85: 3582738625935536248
+      ReverbTele_86: 1212086830653472017
+      ReverbTele_87: 1226428544076338822
+      ReverbTele_88: -7030617830891754148
+      ReverbTele_89: 7842298082806340078
+      ReverbTele_9: -4457598916710751539
+      ReverbTele_90: -6549426416674231433
+      ReverbTele_91: -4215897024303538222
+      ReverbTele_92: -393668810695369029
+      ReverbTele_93: 1885445082343855815
+      ReverbTele_94: 6193730605662687195
+      ReverbTele_95: 4447111304643163883
+      ReverbTele_96: 8032536339824892075
+      ReverbTele_97: -5203664960662339528
+      ReverbTele_98: 8552235315531041994
+      ReverbTele_99: 1738840516970058990
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

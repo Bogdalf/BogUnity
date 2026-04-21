@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2436234567230413942}
   - component: {fileID: 5914882186997527591}
   - component: {fileID: 7215208125076752657}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: TESTBOSS1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -142,11 +142,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc0afd78dc2b2b43bb853a2bafcc719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  moveSpeed: 5
+  moveSpeed: 6
   health: 200
   stunDuration: 0.5
   detectionRange: 5
   startAggressive: 1
+  knockbackForce: 50
+  knockbackDuration: 0.15
   attackRange: 1.2
   attackDamage: 1
   attackCooldown: 0.5
@@ -162,7 +164,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -211,7 +213,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.004068896, y: -0.052895423}
+  m_Offset: {x: 0.013113728, y: -0.052895427}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -221,5 +223,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.16180739, y: 0.2486105}
+  m_Size: {x: 0.095478565, y: 0.2486105}
   m_EdgeRadius: 0

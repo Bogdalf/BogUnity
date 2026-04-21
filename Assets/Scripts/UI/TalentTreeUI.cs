@@ -80,6 +80,27 @@ public class TalentTreeUI : MonoBehaviour, IUIPanel
 
         if (Input.GetKeyDown(toggleKey))
             ToggleTalentTree();
+
+        // Keep tooltip following mouse while visible
+        if (tooltipPanel != null && tooltipPanel.activeSelf)
+            RepositionTooltip();
+    }
+
+    void RepositionTooltip()
+    {
+        if (!(tooltipPanel.transform is RectTransform tooltipRT)) return;
+
+        Canvas rootCanvas = GetComponentInParent<Canvas>();
+        if (rootCanvas == null) return;
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            rootCanvas.GetComponent<RectTransform>(),
+            Input.mousePosition,
+            rootCanvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : Camera.main,
+            out Vector2 localPos
+        );
+
+        tooltipRT.anchoredPosition = localPos + new Vector2(-48f, 38f);
     }
 
     void FindPlayerReferences()
@@ -288,14 +309,6 @@ public class TalentTreeUI : MonoBehaviour, IUIPanel
 
         if (tooltipRequirementText != null)
             tooltipRequirementText.text = GetRequirementDescription(node);
-
-        // Position near mouse
-        if (tooltipPanel.transform is RectTransform tooltipRT && nodeContainer != null)
-        {
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                nodeContainer, Input.mousePosition, null, out Vector2 localPos);
-            tooltipRT.anchoredPosition = localPos + new Vector2(-125f, 80f);
-        }
     }
 
     public void HideTooltip()
@@ -330,17 +343,20 @@ public class TalentTreeUI : MonoBehaviour, IUIPanel
 
         return node.effectType switch
         {
-            TalentEffectType.IncreaseStrength     => $"+{total} Strength",
-            TalentEffectType.IncreaseIntelligence => $"+{total} Intelligence",
-            TalentEffectType.IncreaseFocus        => $"+{total} Focus",
-            TalentEffectType.IncreaseVitality     => $"+{total} Vitality",
-            TalentEffectType.WarDamageBonus       => $"+{total}% War Ability Damage",
-            TalentEffectType.SorceryDamageBonus   => $"+{total}% Sorcery Ability Damage",
-            TalentEffectType.AmplificationBonus   => $"+{total}% Amplification Potency",
-            TalentEffectType.IncreaseDashDistance => $"+{total}% Dash Distance",
-            TalentEffectType.DecreaseDashCooldown => $"-{total}% Dash Cooldown",
-            TalentEffectType.IncreaseMeleeRange   => $"+{total}% Melee Range",
-            TalentEffectType.IncreaseMeleeArc     => $"+{total}% Melee Arc",
+            TalentEffectType.IncreaseStrength          => $"+{total} Strength",
+            TalentEffectType.IncreaseIntelligence      => $"+{total} Intelligence",
+            TalentEffectType.IncreaseFocus             => $"+{total} Focus",
+            TalentEffectType.IncreaseVitality          => $"+{total} Vitality",
+            TalentEffectType.WarDamageBonus            => $"+{total}% War Ability Damage",
+            TalentEffectType.SorceryDamageBonus        => $"+{total}% Sorcery Ability Damage",
+            TalentEffectType.AmplificationBonus        => $"+{total}% Amplification Potency",
+            TalentEffectType.IncreaseDashDistance      => $"+{total}% Dash Distance",
+            TalentEffectType.DecreaseDashCooldown      => $"-{total}% Dash Cooldown",
+            TalentEffectType.IncreaseMeleeRange        => $"+{total}% Melee Range",
+            TalentEffectType.IncreaseMeleeArc          => $"+{total}% Melee Arc",
+            TalentEffectType.ReverberationRadiusBonus  => $"+{total} Reverberation Radius",
+            TalentEffectType.ReverberationEmpowerment  => $"+{node.effectValue * rank}% Reverberation Strength Buff",
+            TalentEffectType.ReverberationEchoPulse    => (null),
             _ => node.effectType.ToString()
         };
     }
