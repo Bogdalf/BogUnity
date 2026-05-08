@@ -13,11 +13,17 @@ public enum TalentEffectType
     WarDamageBonus,
     SorceryDamageBonus,
     AmplificationBonus,
-    ReverberationEmpowerment,
 
     // ── Ability Modifications ────────────────────────────────────
     IncreaseDashDistance,
     DecreaseDashCooldown,
     IncreaseMeleeRange,
     IncreaseMeleeArc,
+        // ── Reverberation Specific ───────────────────────────────────
+   
+    ReverberationRadiusBonus,
+    
+    ReverberationEmpowerment,
+    
+    ReverberationEchoPulse,
 }

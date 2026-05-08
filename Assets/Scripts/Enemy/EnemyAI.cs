@@ -9,7 +9,9 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
     [Header("Detection")]
     [SerializeField] private float detectionRange = 5f;
     [SerializeField] private bool startAggressive = false;
-
+    [Header("Knockback")]
+    [SerializeField] private float knockbackForce = 5f;
+    [SerializeField] private float knockbackDuration = 0.1f;
     
 
     [Header("Attack")]
@@ -180,7 +182,12 @@ public class EnemyAI : MonoBehaviour, IDamageable, IStunnable
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
-
+        if (player != null && rb != null)
+        {
+            Vector2 knockbackDir = (transform.position - player.position).normalized;
+            rb.linearVelocity = Vector2.zero;
+            rb.AddForce(knockbackDir * knockbackForce, ForceMode2D.Impulse);
+        }
         if (!isAggressive)
             BecomeAggressive();
 

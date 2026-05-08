@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f95c1a10e2d5fb4f8853f932680a0f0, type: 3}
+  m_Name: R5N3 - Reverb Echo
+  m_EditorClassIdentifier: Assembly-CSharp::TalentNodeData
+  nodeName: Billowing Shadows
+  description: Khatun's Shadows mimic your slam, echoing every second for each enemy
+    hit by its initial blow. Maximum 3 Echoes.
+  icon: {fileID: 0}
+  aspect: 1
+  nodeType: 1
+  angle: 90
+  radius: 240
+  effectType: 13
+  effectValue: 1
+  maxRank: 1
+  connectedNodes:
+  - {fileID: 11400000, guid: b5462fbcdd87eb94a9b8cb66c6b5c554, type: 2}
+  - {fileID: 11400000, guid: 972e9b34d9e2226408156388d3637717, type: 2}
+  prerequisiteNodes:
+  - {fileID: 11400000, guid: b5462fbcdd87eb94a9b8cb66c6b5c554, type: 2}
+  - {fileID: 11400000, guid: 972e9b34d9e2226408156388d3637717, type: 2}
+  aspectPointsRequired: 1
+  requiresHybridUnlock: 0
+  grantedSkill: {fileID: 0}

@@ -161,14 +161,13 @@ public class PlayerTalents : MonoBehaviour
             aspectPointsSpent[node.aspect]++;
 
         ApplyNodeEffect(node);
+
         if (node.grantedSkill != null)
         {
             PlayerSkillbook skillbook = GetComponent<PlayerSkillbook>();
+            Debug.Log($"grantedSkill: {node.grantedSkill.skillName}, skillbook: {skillbook}");
             skillbook?.UnlockSkill(node.grantedSkill);
-            Debug.Log($"Unlocked skill: {node.grantedSkill.skillName}");
         }
-        
-        Debug.Log($"Learned: {node.nodeName} (Rank {learnedNodes[node]}) — {node.aspect}");
     }
 
     void ApplyNodeEffect(TalentNodeData node)
@@ -193,12 +192,16 @@ public class PlayerTalents : MonoBehaviour
             case TalentEffectType.SorceryDamageBonus:
             case TalentEffectType.AmplificationBonus:
                 break;
-            //Empowerment is percentage *more*, no flat str increase per point.
-            case TalentEffectType.ReverberationEmpowerment:
-                break;
+
             // Dash reads these via GetDashDistanceBonus / GetDashCooldownReduction
             case TalentEffectType.IncreaseDashDistance:
             case TalentEffectType.DecreaseDashCooldown:
+                break;
+
+            // Reverberation — read dynamically by ReverberationSkill / ReverberationBuff
+            case TalentEffectType.ReverberationRadiusBonus:
+            case TalentEffectType.ReverberationEmpowerment:
+            case TalentEffectType.ReverberationEchoPulse:
                 break;
 
             default:
@@ -262,6 +265,29 @@ public class PlayerTalents : MonoBehaviour
             if (kvp.Key.effectType == TalentEffectType.DecreaseDashCooldown)
                 total += kvp.Key.effectValue * kvp.Value;
         return total;
+    }
+
+    /// <summary>
+    /// Total flat AoE radius bonus for Reverberation from all learned nodes.
+    /// </summary>
+    public float GetReverberationRadiusBonus()
+    {
+        float total = 0f;
+        foreach (var kvp in learnedNodes)
+            if (kvp.Key.effectType == TalentEffectType.ReverberationRadiusBonus)
+                total += kvp.Key.effectValue * kvp.Value;
+        return total;
+    }
+
+    /// <summary>
+    /// Returns true if the player has learned the Reverberation Echo Pulse keystone.
+    /// </summary>
+    public bool HasReverberationEchoPulse()
+    {
+        foreach (var kvp in learnedNodes)
+            if (kvp.Key.effectType == TalentEffectType.ReverberationEchoPulse && kvp.Value > 0)
+                return true;
+        return false;
     }
 
     public TalentTreeData GetTalentTree() => talentTree;

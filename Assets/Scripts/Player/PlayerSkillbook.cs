@@ -28,7 +28,7 @@ public class PlayerSkillbook : MonoBehaviour
     public void UnlockSkill(SkillData skill)
     {
         if (skill == null || HasSkill(skill)) return;
-
+        Debug.Log($"UnlockSkill called: {skill.skillName}");
         unlockedSkills.Add(skill);
         OnSkillsChanged?.Invoke();
 

@@ -11,6 +11,10 @@ public class PersistentInputManager : MonoBehaviour
 
     private bool forcedMovement  = false;
     private bool sequenceBlocked = false;
+    private bool isDragging = false;
+
+    public void SetDragging(bool value) => isDragging = value;
+
 
     void Awake()
     {
@@ -72,7 +76,7 @@ public class PersistentInputManager : MonoBehaviour
         // Block LMB only when the cursor is over any UI element
         if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
             return true;
-
+        if (isDragging) return true;
         return false;
     }
 
