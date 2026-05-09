@@ -1,0 +1,4167 @@
+fileFormatVersion: 2
+guid: 82ec363293e2bed4b8d5bdb51f71e03d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3882729438411915723
+    second: Special1_0
+  - first:
+      213: 5443550130792638538
+    second: Special1_1
+  - first:
+      213: 1552848592747089323
+    second: Special1_2
+  - first:
+      213: -6165386307878933063
+    second: Special1_3
+  - first:
+      213: 3215294830808096215
+    second: Special1_4
+  - first:
+      213: -3230950217843555231
+    second: Special1_5
+  - first:
+      213: -6491682612590103768
+    second: Special1_6
+  - first:
+      213: -2396827964389492913
+    second: Special1_7
+  - first:
+      213: 5694017985943300233
+    second: Special1_8
+  - first:
+      213: 6591871476467289959
+    second: Special1_9
+  - first:
+      213: 621634049565685458
+    second: Special1_10
+  - first:
+      213: -6834372856068580390
+    second: Special1_11
+  - first:
+      213: 4920211236913768626
+    second: Special1_12
+  - first:
+      213: -8913673881204238287
+    second: Special1_13
+  - first:
+      213: 4429107875736738668
+    second: Special1_14
+  - first:
+      213: 6626122099376390504
+    second: Special1_15
+  - first:
+      213: -7259143585875510251
+    second: Special1_16
+  - first:
+      213: 8610801976110306559
+    second: Special1_17
+  - first:
+      213: -8717069857985936519
+    second: Special1_18
+  - first:
+      213: 4904821487252344328
+    second: Special1_19
+  - first:
+      213: 3581115811923386457
+    second: Special1_20
+  - first:
+      213: -3824747860006847054
+    second: Special1_21
+  - first:
+      213: -8657661453563302705
+    second: Special1_22
+  - first:
+      213: -4627030480745640228
+    second: Special1_23
+  - first:
+      213: -965957998857321868
+    second: Special1_24
+  - first:
+      213: 8151990888326789063
+    second: Special1_25
+  - first:
+      213: 1284096123869267624
+    second: Special1_26
+  - first:
+      213: -3678959488711620999
+    second: Special1_27
+  - first:
+      213: -6777520195178780525
+    second: Special1_28
+  - first:
+      213: -685320577692911448
+    second: Special1_29
+  - first:
+      213: 4058710714913392177
+    second: Special1_30
+  - first:
+      213: -5581577290328957011
+    second: Special1_31
+  - first:
+      213: -8063498061873740888
+    second: Special1_32
+  - first:
+      213: 5398589589649417606
+    second: Special1_33
+  - first:
+      213: 4929854384412153228
+    second: Special1_34
+  - first:
+      213: 7828053713626446085
+    second: Special1_35
+  - first:
+      213: 2979572883917318332
+    second: Special1_36
+  - first:
+      213: 4637915596274913801
+    second: Special1_37
+  - first:
+      213: 2446166447560263467
+    second: Special1_38
+  - first:
+      213: 1738809692063695722
+    second: Special1_39
+  - first:
+      213: -5429190658511549128
+    second: Special1_40
+  - first:
+      213: -3000292145262450886
+    second: Special1_41
+  - first:
+      213: -2839209427932742628
+    second: Special1_42
+  - first:
+      213: 8813349701451483171
+    second: Special1_43
+  - first:
+      213: 3867721378757472956
+    second: Special1_44
+  - first:
+      213: -1564232461192479660
+    second: Special1_45
+  - first:
+      213: 4569322150763938301
+    second: Special1_46
+  - first:
+      213: 3320674236772380905
+    second: Special1_47
+  - first:
+      213: -3798759470687622802
+    second: Special1_48
+  - first:
+      213: -7755616280183948160
+    second: Special1_49
+  - first:
+      213: 7320026146412160221
+    second: Special1_50
+  - first:
+      213: 8649468841776516031
+    second: Special1_51
+  - first:
+      213: 6224129004184229409
+    second: Special1_52
+  - first:
+      213: 7268085638108539679
+    second: Special1_53
+  - first:
+      213: -8053189569064079561
+    second: Special1_54
+  - first:
+      213: 7048715475774590749
+    second: Special1_55
+  - first:
+      213: 2500490297692704211
+    second: Special1_56
+  - first:
+      213: 2828783528199284912
+    second: Special1_57
+  - first:
+      213: 7981607863422125722
+    second: Special1_58
+  - first:
+      213: -6166369658313168302
+    second: Special1_59
+  - first:
+      213: 315846658746778902
+    second: Special1_60
+  - first:
+      213: -8403726115266832240
+    second: Special1_61
+  - first:
+      213: 3056907115360192595
+    second: Special1_62
+  - first:
+      213: 3806794714688407824
+    second: Special1_63
+  - first:
+      213: 4422360862057523254
+    second: Special1_64
+  - first:
+      213: 2807764750505329600
+    second: Special1_65
+  - first:
+      213: 765404163455059591
+    second: Special1_66
+  - first:
+      213: 7916724625986131772
+    second: Special1_67
+  - first:
+      213: -2569891702694228516
+    second: Special1_68
+  - first:
+      213: -7315312925091061111
+    second: Special1_69
+  - first:
+      213: -8588218591400971799
+    second: Special1_70
+  - first:
+      213: -9008606458101137062
+    second: Special1_71
+  - first:
+      213: 2104896074347597215
+    second: Special1_72
+  - first:
+      213: -806489362975255023
+    second: Special1_73
+  - first:
+      213: -6403478932204220229
+    second: Special1_74
+  - first:
+      213: 3674196897931293620
+    second: Special1_75
+  - first:
+      213: -8680294910021263173
+    second: Special1_76
+  - first:
+      213: 1012687429020336103
+    second: Special1_77
+  - first:
+      213: -2656735494932884018
+    second: Special1_78
+  - first:
+      213: 5791971738217843996
+    second: Special1_79
+  - first:
+      213: -7469014276927465373
+    second: Special1_80
+  - first:
+      213: 8075449640060196491
+    second: Special1_81
+  - first:
+      213: 1093125788248996071
+    second: Special1_82
+  - first:
+      213: 7762932681198464968
+    second: Special1_83
+  - first:
+      213: -2430699707800193912
+    second: Special1_84
+  - first:
+      213: 5390831579348071466
+    second: Special1_85
+  - first:
+      213: -7817759151222930043
+    second: Special1_86
+  - first:
+      213: -5741171865628957920
+    second: Special1_87
+  - first:
+      213: 46613062141194326
+    second: Special1_88
+  - first:
+      213: 5998803820396900406
+    second: Special1_89
+  - first:
+      213: 5065184546969439767
+    second: Special1_90
+  - first:
+      213: 5121871597730160734
+    second: Special1_91
+  - first:
+      213: -1578620778210327362
+    second: Special1_92
+  - first:
+      213: 8463634180522504525
+    second: Special1_93
+  - first:
+      213: -5194374283479066221
+    second: Special1_94
+  - first:
+      213: -8305645267911393472
+    second: Special1_95
+  - first:
+      213: -8526818580770074048
+    second: Special1_96
+  - first:
+      213: -756806408335945220
+    second: Special1_97
+  - first:
+      213: 388777817302395472
+    second: Special1_98
+  - first:
+      213: -4100009614905361059
+    second: Special1_99
+  - first:
+      213: -7179903406551686010
+    second: Special1_100
+  - first:
+      213: 9094516651435529121
+    second: Special1_101
+  - first:
+      213: -5230596944586348987
+    second: Special1_102
+  - first:
+      213: 2449251092993746994
+    second: Special1_103
+  - first:
+      213: 2338116428522539017
+    second: Special1_104
+  - first:
+      213: -7584182539118099084
+    second: Special1_105
+  - first:
+      213: -7681524723250667235
+    second: Special1_106
+  - first:
+      213: 7754011170875761643
+    second: Special1_107
+  - first:
+      213: 3973747618506818475
+    second: Special1_108
+  - first:
+      213: -5780592399056212350
+    second: Special1_109
+  - first:
+      213: -6284809322761967170
+    second: Special1_110
+  - first:
+      213: -6928367361666281343
+    second: Special1_111
+  - first:
+      213: 7339832624640727142
+    second: Special1_112
+  - first:
+      213: -1230818427980048335
+    second: Special1_113
+  - first:
+      213: -230562842838515261
+    second: Special1_114
+  - first:
+      213: -5700681703478934991
+    second: Special1_115
+  - first:
+      213: -1963811207974381761
+    second: Special1_116
+  - first:
+      213: 7507531165486549336
+    second: Special1_117
+  - first:
+      213: 7159047613738219058
+    second: Special1_118
+  - first:
+      213: -3543203771358083867
+    second: Special1_119
+  - first:
+      213: 3203383117827387285
+    second: Special1_120
+  - first:
+      213: 4783707577084461818
+    second: Special1_121
+  - first:
+      213: 2265711973916327960
+    second: Special1_122
+  - first:
+      213: -1390170618997368607
+    second: Special1_123
+  - first:
+      213: -7518293041796283480
+    second: Special1_124
+  - first:
+      213: -5968305101064892666
+    second: Special1_125
+  - first:
+      213: 8950327986854995971
+    second: Special1_126
+  - first:
+      213: -5030843131446657273
+    second: Special1_127
+  - first:
+      213: 838431909162147438
+    second: Special1_128
+  - first:
+      213: 2453800907671928704
+    second: Special1_129
+  - first:
+      213: 5492146527413353048
+    second: Special1_130
+  - first:
+      213: -1501979125813664357
+    second: Special1_131
+  - first:
+      213: -7011027794329573571
+    second: Special1_132
+  - first:
+      213: 3153045198779338019
+    second: Special1_133
+  - first:
+      213: 1965353990648186387
+    second: Special1_134
+  - first:
+      213: -8294911637850312609
+    second: Special1_135
+  - first:
+      213: 1588851567733158798
+    second: Special1_136
+  - first:
+      213: -3798489040819440383
+    second: Special1_137
+  - first:
+      213: -8986172554651073833
+    second: Special1_138
+  - first:
+      213: 1713627106372426514
+    second: Special1_139
+  - first:
+      213: -8871132726351154063
+    second: Special1_140
+  - first:
+      213: -3533473741676776293
+    second: Special1_141
+  - first:
+      213: 8867550869390546889
+    second: Special1_142
+  - first:
+      213: 8331176442834007223
+    second: Special1_143
+  - first:
+      213: 7056796070786225071
+    second: Special1_144
+  - first:
+      213: -7979375082561872762
+    second: Special1_145
+  - first:
+      213: 2755863874051032903
+    second: Special1_146
+  - first:
+      213: -5978168878955756452
+    second: Special1_147
+  - first:
+      213: -5162240220150372507
+    second: Special1_148
+  - first:
+      213: -6037675285437910160
+    second: Special1_149
+  - first:
+      213: -7497729910708343744
+    second: Special1_150
+  - first:
+      213: -5881052316244731480
+    second: Special1_151
+  - first:
+      213: -3668707366436486647
+    second: Special1_152
+  - first:
+      213: 2240659141497062923
+    second: Special1_153
+  - first:
+      213: -416338639708094382
+    second: Special1_154
+  - first:
+      213: -3258837728911328377
+    second: Special1_155
+  - first:
+      213: -984022366505518574
+    second: Special1_156
+  - first:
+      213: 3051008269636850895
+    second: Special1_157
+  - first:
+      213: 1828425310232584609
+    second: Special1_158
+  - first:
+      213: -219700933676577923
+    second: Special1_159
+  - first:
+      213: 1281905835223215432
+    second: Special1_160
+  - first:
+      213: -6704171762031492269
+    second: Special1_161
+  - first:
+      213: -3170603285004146576
+    second: Special1_162
+  - first:
+      213: 8543729462527469998
+    second: Special1_163
+  - first:
+      213: -1811808418173310292
+    second: Special1_164
+  - first:
+      213: -7981012114481291494
+    second: Special1_165
+  - first:
+      213: 1520650170031345893
+    second: Special1_166
+  - first:
+      213: -646284300364090416
+    second: Special1_167
+  - first:
+      213: 4557833520370713267
+    second: Special1_168
+  - first:
+      213: 7878645369629922038
+    second: Special1_169
+  - first:
+      213: -1833515439015173579
+    second: Special1_170
+  - first:
+      213: -591834478327187952
+    second: Special1_171
+  - first:
+      213: -5934263608735399419
+    second: Special1_172
+  - first:
+      213: 3083506667582061766
+    second: Special1_173
+  - first:
+      213: 325461347400505300
+    second: Special1_174
+  - first:
+      213: 9046637019062924380
+    second: Special1_175
+  - first:
+      213: -3783840373749120682
+    second: Special1_176
+  - first:
+      213: 6544973897493740096
+    second: Special1_177
+  - first:
+      213: 1212432618923398390
+    second: Special1_178
+  - first:
+      213: 1549701678381237563
+    second: Special1_179
+  - first:
+      213: 5466492609896411118
+    second: Special1_180
+  - first:
+      213: 6876986876690937746
+    second: Special1_181
+  - first:
+      213: 8529552544636668980
+    second: Special1_182
+  - first:
+      213: 251638797847112333
+    second: Special1_183
+  - first:
+      213: -5255896504195319663
+    second: Special1_184
+  - first:
+      213: -6609041291211018987
+    second: Special1_185
+  - first:
+      213: 169470336788163814
+    second: Special1_186
+  - first:
+      213: -5670297723642208541
+    second: Special1_187
+  - first:
+      213: 5138113732800205176
+    second: Special1_188
+  - first:
+      213: 4249304503132519375
+    second: Special1_189
+  - first:
+      213: -7288464999947817471
+    second: Special1_190
+  - first:
+      213: -8438060963734414600
+    second: Special1_191
+  - first:
+      213: -211981299674330166
+    second: Special1_192
+  - first:
+      213: -3514383413390276431
+    second: Special1_193
+  - first:
+      213: 2019463743112254913
+    second: Special1_194
+  - first:
+      213: -8231222207273480309
+    second: Special1_195
+  - first:
+      213: 5961511702986063339
+    second: Special1_196
+  - first:
+      213: 1486690691117451149
+    second: Special1_197
+  - first:
+      213: 2763523960338257335
+    second: Special1_198
+  - first:
+      213: -8844690648025512376
+    second: Special1_199
+  - first:
+      213: 2737514452494965235
+    second: Special1_200
+  - first:
+      213: -2646927323500608654
+    second: Special1_201
+  - first:
+      213: -7726395649311767571
+    second: Special1_202
+  - first:
+      213: 3176611212287325701
+    second: Special1_203
+  - first:
+      213: -9062119433350663765
+    second: Special1_204
+  - first:
+      213: 3271088685685506657
+    second: Special1_205
+  - first:
+      213: -8722497598422592910
+    second: Special1_206
+  - first:
+      213: -377746478451485432
+    second: Special1_207
+  - first:
+      213: 8043487035000445718
+    second: Special1_208
+  - first:
+      213: -5852436337977360239
+    second: Special1_209
+  - first:
+      213: -1850271631637350211
+    second: Special1_210
+  - first:
+      213: -5357928780060819142
+    second: Special1_211
+  - first:
+      213: 7213226934503544395
+    second: Special1_212
+  - first:
+      213: -9059984159452336252
+    second: Special1_213
+  - first:
+      213: -4005481139739506439
+    second: Special1_214
+  - first:
+      213: -3806385239610735758
+    second: Special1_215
+  - first:
+      213: 1410881060711652432
+    second: Special1_216
+  - first:
+      213: -5522627755819483044
+    second: Special1_217
+  - first:
+      213: 6413891797843436806
+    second: Special1_218
+  - first:
+      213: -266663702716236909
+    second: Special1_219
+  - first:
+      213: 6754891748477547159
+    second: Special1_220
+  - first:
+      213: -8726937012102845017
+    second: Special1_221
+  - first:
+      213: -6254417249880687266
+    second: Special1_222
+  - first:
+      213: -1664927328775517616
+    second: Special1_223
+  - first:
+      213: -5677171164771914459
+    second: Special1_224
+  - first:
+      213: 9107834617718392115
+    second: Special1_225
+  - first:
+      213: 7910369732227602672
+    second: Special1_226
+  - first:
+      213: 5689749672946928058
+    second: Special1_227
+  - first:
+      213: 3014934473739707407
+    second: Special1_228
+  - first:
+      213: -8639942156066887026
+    second: Special1_229
+  - first:
+      213: -766458744226879101
+    second: Special1_230
+  - first:
+      213: -6902739070229404838
+    second: Special1_231
+  - first:
+      213: -7043410974040740062
+    second: Special1_232
+  - first:
+      213: -5846376349714024048
+    second: Special1_233
+  - first:
+      213: -8082676399643012909
+    second: Special1_234
+  - first:
+      213: 8362290385970737591
+    second: Special1_235
+  - first:
+      213: 5532706854721205705
+    second: Special1_236
+  - first:
+      213: -1064890668663411636
+    second: Special1_237
+  - first:
+      213: 7724593390501027122
+    second: Special1_238
+  - first:
+      213: -1912260248828747159
+    second: Special1_239
+  - first:
+      213: 7966802791811692066
+    second: Special1_240
+  - first:
+      213: 5105270055427904245
+    second: Special1_241
+  - first:
+      213: -5800467731812900707
+    second: Special1_242
+  - first:
+      213: 4959338722012509475
+    second: Special1_243
+  - first:
+      213: 5443833657512218820
+    second: Special1_244
+  - first:
+      213: -2639416086509690917
+    second: Special1_245
+  - first:
+      213: -7424837370589202905
+    second: Special1_246
+  - first:
+      213: -2238559651105227908
+    second: Special1_247
+  - first:
+      213: -7751160047860471641
+    second: Special1_248
+  - first:
+      213: -4187236605110924280
+    second: Special1_249
+  - first:
+      213: 1772558536270180832
+    second: Special1_250
+  - first:
+      213: 2674906582643644041
+    second: Special1_251
+  - first:
+      213: -599941444955448268
+    second: Special1_252
+  - first:
+      213: 1077076924389632411
+    second: Special1_253
+  - first:
+      213: 6049725369553157403
+    second: Special1_254
+  - first:
+      213: 1662009062563574615
+    second: Special1_255
+  - first:
+      213: -7884838907463797727
+    second: Special1_256
+  - first:
+      213: -1912609859519676945
+    second: Special1_257
+  - first:
+      213: 3618537728449424300
+    second: Special1_258
+  - first:
+      213: 6922161060577283370
+    second: Special1_259
+  - first:
+      213: -7995158281005817516
+    second: Special1_260
+  - first:
+      213: -1533026679097508365
+    second: Special1_261
+  - first:
+      213: 8296371368875806603
+    second: Special1_262
+  - first:
+      213: 5404329530521282555
+    second: Special1_263
+  - first:
+      213: 9074541670660454740
+    second: Special1_264
+  - first:
+      213: -9084191015724199417
+    second: Special1_265
+  - first:
+      213: -4992875166483343959
+    second: Special1_266
+  - first:
+      213: -2212818089464279084
+    second: Special1_267
+  - first:
+      213: 6345012216155975975
+    second: Special1_268
+  - first:
+      213: 3794482624102541099
+    second: Special1_269
+  - first:
+      213: 2910177099477745546
+    second: Special1_270
+  - first:
+      213: 4565519447208453082
+    second: Special1_271
+  - first:
+      213: -3745314100140743702
+    second: Special1_272
+  - first:
+      213: -6138986811825195572
+    second: Special1_273
+  - first:
+      213: -2062623812285254876
+    second: Special1_274
+  - first:
+      213: -3129744473833596567
+    second: Special1_275
+  - first:
+      213: -8344545863078556984
+    second: Special1_276
+  - first:
+      213: 4625773068477436590
+    second: Special1_277
+  - first:
+      213: -7191462705312584797
+    second: Special1_278
+  - first:
+      213: -5099318787418717379
+    second: Special1_279
+  - first:
+      213: -1990095475008974169
+    second: Special1_280
+  - first:
+      213: -7316411624224301682
+    second: Special1_281
+  - first:
+      213: 5867981923050798738
+    second: Special1_282
+  - first:
+      213: 2620796020661078983
+    second: Special1_283
+  - first:
+      213: -1826172674107018672
+    second: Special1_284
+  - first:
+      213: -299040313822148891
+    second: Special1_285
+  - first:
+      213: -1002883891824150521
+    second: Special1_286
+  - first:
+      213: -4630788493186309059
+    second: Special1_287
+  - first:
+      213: 8896676255321243326
+    second: Special1_288
+  - first:
+      213: -7556982392766782898
+    second: Special1_289
+  - first:
+      213: 7807562291644094906
+    second: Special1_290
+  - first:
+      213: 8829119257029180001
+    second: Special1_291
+  - first:
+      213: 8917255093360930710
+    second: Special1_292
+  - first:
+      213: -6153857045206189991
+    second: Special1_293
+  - first:
+      213: 3177336358221989217
+    second: Special1_294
+  - first:
+      213: -235510482464658736
+    second: Special1_295
+  - first:
+      213: -7172870477908677317
+    second: Special1_296
+  - first:
+      213: -8300805472136980254
+    second: Special1_297
+  - first:
+      213: -6153536314654396599
+    second: Special1_298
+  - first:
+      213: 6519134511088401857
+    second: Special1_299
+  - first:
+      213: 1874502442140684662
+    second: Special1_300
+  - first:
+      213: -4279239482911665374
+    second: Special1_301
+  - first:
+      213: -6814746925008964454
+    second: Special1_302
+  - first:
+      213: -7586088335071654357
+    second: Special1_303
+  - first:
+      213: -8404172926409599111
+    second: Special1_304
+  - first:
+      213: -4531272301082673400
+    second: Special1_305
+  - first:
+      213: 2705094344123262600
+    second: Special1_306
+  - first:
+      213: -1991741829240593272
+    second: Special1_307
+  - first:
+      213: -7527174530212399837
+    second: Special1_308
+  - first:
+      213: -613473543090977108
+    second: Special1_309
+  - first:
+      213: 5810019761192389060
+    second: Special1_310
+  - first:
+      213: 8426087012586691453
+    second: Special1_311
+  - first:
+      213: 5250267373570129815
+    second: Special1_312
+  - first:
+      213: 5564078306317229465
+    second: Special1_313
+  - first:
+      213: 6811440730441208066
+    second: Special1_314
+  - first:
+      213: -9003040285725618455
+    second: Special1_315
+  - first:
+      213: -8628486238458664483
+    second: Special1_316
+  - first:
+      213: 4866671825182770084
+    second: Special1_317
+  - first:
+      213: 6800431095522053294
+    second: Special1_318
+  - first:
+      213: 897770299307228440
+    second: Special1_319
+  - first:
+      213: -8709462768401677379
+    second: Special1_320
+  - first:
+      213: 1104918898213355600
+    second: Special1_321
+  - first:
+      213: 3632950435625010445
+    second: Special1_322
+  - first:
+      213: -9009806538931073905
+    second: Special1_323
+  - first:
+      213: 1320097691853787456
+    second: Special1_324
+  - first:
+      213: 1185870556781308142
+    second: Special1_325
+  - first:
+      213: 8329143295373644118
+    second: Special1_326
+  - first:
+      213: 9039966271467153544
+    second: Special1_327
+  - first:
+      213: -8457246294424957295
+    second: Special1_328
+  - first:
+      213: -2862862964464022805
+    second: Special1_329
+  - first:
+      213: 6866395017182227158
+    second: Special1_330
+  - first:
+      213: -6085193014797620315
+    second: Special1_331
+  - first:
+      213: 1672728910315570070
+    second: Special1_332
+  - first:
+      213: -2632052079172663234
+    second: Special1_333
+  - first:
+      213: -2009129504060879514
+    second: Special1_334
+  - first:
+      213: -1696079196623112366
+    second: Special1_335
+  - first:
+      213: 6793026271825512808
+    second: Special1_336
+  - first:
+      213: -570095077337113278
+    second: Special1_337
+  - first:
+      213: 5378147450733026914
+    second: Special1_338
+  - first:
+      213: 2299574931964629008
+    second: Special1_339
+  - first:
+      213: -590867240096391081
+    second: Special1_340
+  - first:
+      213: 1298494945299726454
+    second: Special1_341
+  - first:
+      213: -8761436981295147377
+    second: Special1_342
+  - first:
+      213: 4097443945827441291
+    second: Special1_343
+  - first:
+      213: 3738722449445655756
+    second: Special1_344
+  - first:
+      213: -3334290564236987254
+    second: Special1_345
+  - first:
+      213: 8231225710919450687
+    second: Special1_346
+  - first:
+      213: 5913369389242224008
+    second: Special1_347
+  - first:
+      213: 7016165347776617496
+    second: Special1_348
+  - first:
+      213: 1320761381967530513
+    second: Special1_349
+  - first:
+      213: 7755910975649204254
+    second: Special1_350
+  - first:
+      213: -5230834174650460409
+    second: Special1_351
+  - first:
+      213: -2485952188469432461
+    second: Special1_352
+  - first:
+      213: -2568977837277529918
+    second: Special1_353
+  - first:
+      213: -6561196540845060128
+    second: Special1_354
+  - first:
+      213: 437785475609854364
+    second: Special1_355
+  - first:
+      213: 6801374648624172258
+    second: Special1_356
+  - first:
+      213: -931213122306651338
+    second: Special1_357
+  - first:
+      213: 6317457291316913533
+    second: Special1_358
+  - first:
+      213: -8138031013402817781
+    second: Special1_359
+  - first:
+      213: 6516166372899651206
+    second: Special1_360
+  - first:
+      213: 3261850284443646164
+    second: Special1_361
+  - first:
+      213: -5650570227376068211
+    second: Special1_362
+  - first:
+      213: 6047553632285959123
+    second: Special1_363
+  - first:
+      213: 8942695181116258523
+    second: Special1_364
+  - first:
+      213: -6223324513281086280
+    second: Special1_365
+  - first:
+      213: -6649069013795306238
+    second: Special1_366
+  - first:
+      213: 3264837928773418135
+    second: Special1_367
+  - first:
+      213: -5301804307143722239
+    second: Special1_368
+  - first:
+      213: 531004719947357555
+    second: Special1_369
+  - first:
+      213: 916853516716805390
+    second: Special1_370
+  - first:
+      213: -7539102304622049559
+    second: Special1_371
+  - first:
+      213: -4565129893190339010
+    second: Special1_372
+  - first:
+      213: 8239796805596440550
+    second: Special1_373
+  - first:
+      213: 2949571740287508103
+    second: Special1_374
+  - first:
+      213: -7339507733960731358
+    second: Special1_375
+  - first:
+      213: -5821875830498018401
+    second: Special1_376
+  - first:
+      213: -1811381519689146231
+    second: Special1_377
+  - first:
+      213: 9143561184185217352
+    second: Special1_378
+  - first:
+      213: -8440441218573965955
+    second: Special1_379
+  - first:
+      213: 3362021642648377449
+    second: Special1_380
+  - first:
+      213: 1104177234972295009
+    second: Special1_381
+  - first:
+      213: 118857765286664354
+    second: Special1_382
+  - first:
+      213: -6894800672168545594
+    second: Special1_383
+  - first:
+      213: -1179201633607927373
+    second: Special1_384
+  - first:
+      213: -875893425930326431
+    second: Special1_385
+  - first:
+      213: -2042477784619859196
+    second: Special1_386
+  - first:
+      213: 2435671772804735165
+    second: Special1_387
+  - first:
+      213: -1575730037693484700
+    second: Special1_388
+  - first:
+      213: -5387355382323433077
+    second: Special1_389
+  - first:
+      213: -5791044299475580784
+    second: Special1_390
+  - first:
+      213: -836986350284558519
+    second: Special1_391
+  - first:
+      213: 1132465447757905668
+    second: Special1_392
+  - first:
+      213: 5818229859809497524
+    second: Special1_393
+  - first:
+      213: 4981606542168237206
+    second: Special1_394
+  - first:
+      213: -781916725012553749
+    second: Special1_395
+  - first:
+      213: -4654140774385272028
+    second: Special1_396
+  - first:
+      213: -1365930816253199580
+    second: Special1_397
+  - first:
+      213: 4018842480398259754
+    second: Special1_398
+  - first:
+      213: 5055282969612783951
+    second: Special1_399
+  - first:
+      213: 4823031764922261425
+    second: Special1_400
+  - first:
+      213: -5262513738661363975
+    second: Special1_401
+  - first:
+      213: -1387941347805397817
+    second: Special1_402
+  - first:
+      213: 216699175155875809
+    second: Special1_403
+  - first:
+      213: -1308160833978764806
+    second: Special1_404
+  - first:
+      213: 812204467319921241
+    second: Special1_405
+  - first:
+      213: 5453700837032904154
+    second: Special1_406
+  - first:
+      213: -6607547180263782124
+    second: Special1_407
+  - first:
+      213: -8913520968837288141
+    second: Special1_408
+  - first:
+      213: 4385071870032553805
+    second: Special1_409
+  - first:
+      213: 5509825334547492441
+    second: Special1_410
+  - first:
+      213: 1914278811284582610
+    second: Special1_411
+  - first:
+      213: -571163774203058627
+    second: Special1_412
+  - first:
+      213: 4630578310107719972
+    second: Special1_413
+  - first:
+      213: -1273455203035024842
+    second: Special1_414
+  - first:
+      213: -1134973371047328819
+    second: Special1_415
+  - first:
+      213: -1967346332646277518
+    second: Special1_416
+  - first:
+      213: -8194033477063357929
+    second: Special1_417
+  - first:
+      213: -7236913670371415369
+    second: Special1_418
+  - first:
+      213: 3449871118105285231
+    second: Special1_419
+  - first:
+      213: -6194612535414576758
+    second: Special1_420
+  - first:
+      213: 4904016434770993434
+    second: Special1_421
+  - first:
+      213: -7412936928401520924
+    second: Special1_422
+  - first:
+      213: -8916748783946678781
+    second: Special1_423
+  - first:
+      213: -4127228794066964530
+    second: Special1_424
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Charge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee00d98adab9fd49aff641e6e3c8043
+      internalID: -198934783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5d790ed5267774d8630d49184dc288
+      internalID: 859357063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ab9c0fd53f60246888c7587bdd9654
+      internalID: 1422113424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e168ef592358a4fa07f13a02304486
+      internalID: -1399259354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c293e4239f788439f14b75b16d0afd
+      internalID: -2003681208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778473b68be714b448e47646924cb5c9
+      internalID: -1877506338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33dbdb2850629849bdb81d93fa07e57
+      internalID: -939807318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb91840dd7dea1d49b52708bcc50bded
+      internalID: 1436805922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523d899f71f5b484aaff2d1eafbd3e56
+      internalID: -466457666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5151c8c1f75e1b44a82fb9c0d216243
+      internalID: -46819177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8b967ef517a8540bf8831f9362a87d
+      internalID: 482811275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dabed3ef508a3d4ba3ec51e9f381638
+      internalID: 506630980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b11a8e242cba3408a2db4d45f667af
+      internalID: -1761142044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6b806c5aae2e04b90ebea041bb1747
+      internalID: 370479156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540558a943b51604d9d46e4250072f48
+      internalID: -2066068039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73fa0b1a8d93ea4e8b66eaa8ed5e047
+      internalID: -1088335512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17b715441055940907659133783165
+      internalID: 293034458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b658c92b83ac342a05980d8967d689
+      internalID: -217565206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4d2fbc9d8817f47a5072875d3c1b08
+      internalID: -690716559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f4eb484c4b7d479fa7d9f55cc7caf
+      internalID: 1238534114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a13862d5f09dc4080f6ec32a7ff6d1
+      internalID: -1805228272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d76173a0d917304a93a794dc291eac5
+      internalID: -1351628272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d1961bddcf40b488d4d350ba25011e
+      internalID: -2109828900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deaf0ff51f6ca047b4cf9b733914c30
+      internalID: 1160382251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fced0269306cd543a7ab404e63f18f6
+      internalID: 857349336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d08153ae27b041a67134a75123c77
+      internalID: 2063012314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9d7cfd716f66749bcb9414162ea3fc
+      internalID: -1126907442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4ddfad46bc58e409cd4ce8c0ce3efa
+      internalID: -54976760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f63671f96f4e194a9f4a3cf426ad131
+      internalID: -1481345123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d904ce34ab1e2c43bfa85a0296e7a7f
+      internalID: -1926257791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e13d3a37d37e5f40bb7783722d3f437
+      internalID: 2104944841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02538d4376b640429f2ec77c3f76398
+      internalID: 1238797535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1244a9b8dd0620542bf609c597c37b5c
+      internalID: 1283555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28986434dadd7e4f94b3523a294379a
+      internalID: 1382434247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62db7767eb2e48459dfe4da057c8e3e
+      internalID: 1974127378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f29da6a7d6254643851aad3baae9bc1
+      internalID: 354786357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe82c129b928c4597e5b296754eb42
+      internalID: 1116691659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df8e311814f3344682b4ff1ca1613d0
+      internalID: 1364191501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905d6435838f6b48b08f8f67c62a65a
+      internalID: 1128583570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad3ed2db072779488967b6948b748c5
+      internalID: 178701106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b8290af611f2e44a88933387148ea1
+      internalID: -1008663613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435a9691e2735a441b0e50212ca3caa0
+      internalID: 1657287509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f33799b564ce442bc6d6966b6e3fa7
+      internalID: 412359252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48934ae6fa1bfb4982ef2a69bcaba8f
+      internalID: -1463648479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aced5fa6a677c3f4294b9b667f8d659c
+      internalID: 1273298981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce27b70e8a95f478f21a7f7f3dc7b8
+      internalID: -1983154471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1334ce355852fe4ca1f2417d117c356
+      internalID: -1940644798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e7a7db396289a42861571c31354f76
+      internalID: 243184994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f5e3cbb3dc1e40b89255eb2d2a407
+      internalID: -1802488053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7433506419660ff479b96e2d20e6815b
+      internalID: -415032557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28236625a825cf04eb4c9e1648c1e6c0
+      internalID: -1464792302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1de286d99d9cb644834824b0cd95a9d
+      internalID: -1240286962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f682c3190479eeb4a90135466ab416f2
+      internalID: -1952966817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb37ad5a0bc22642abc6288e1ecd87b
+      internalID: 987164865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529e06ec3133c1a41ab4183cac23299a
+      internalID: 2143751461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3860e5fffdeeb478d41a2749b19808
+      internalID: 333477064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_56
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243af774db47fb34185bc19c63465d25
+      internalID: -23723452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1889da1257e8f9428b9437041a61349
+      internalID: -1369752768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_58
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edf13199e0fed548b04f6069f869057
+      internalID: -591409904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45974c34ca632984188037208561a3b2
+      internalID: 1754323821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada75279b2f64546b8339c797b56af6
+      internalID: 1521377198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1efc1cf44169f45a14e9464ca33706
+      internalID: 1487154576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a80c0365a4dcb49a868c0702365252
+      internalID: -1336867244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4486ba31ab3e141ab05e165cbcb58f
+      internalID: -1708809976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89666e47935a0834286e7232f8613e8c
+      internalID: 1960177996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd59caf2204823469ac8e9711c691e3
+      internalID: -1349291887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513361a7297214d489bce22a792b691f
+      internalID: 502580772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ebebd699bc9a4db2a789c8587f86f
+      internalID: -1095356135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff3ac21f47605340a19950cdb83f8de
+      internalID: -980876276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e149a694dcbb14ca360e77a050347c
+      internalID: -1726239276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c448aa0d133b408c1304553478e69
+      internalID: -1992069977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52ee2a588f4a1b49b830d1577be9eb0
+      internalID: 356937501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728b5a34fa1e2dc41bd15560f2242ad0
+      internalID: 2035829598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58593c7383cf359409000df728e87531
+      internalID: -919280973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d494d09c07a31479cb179c0b4817c2
+      internalID: -1534425092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a0618a327131409b2c1059082d52d
+      internalID: 249951389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1dba412386c84593a930643d8eec5
+      internalID: -185255622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54efd99e1dfb2c4889a05a6d8fe6925
+      internalID: -225701024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cecd4c0fc23a544da3f887b0843769e
+      internalID: 2062321939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cce3a20cd6ac44f9bb15dacf3092c5
+      internalID: 1928572084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0764060c6b4062146b3020c144686522
+      internalID: -1677380132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec906ddac8d61e5419dbefcbd2505b1b
+      internalID: -580754838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c339546028b8d045be6a4e4c2e2d064
+      internalID: 1662395256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_83
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a217047342cb84296df90fe105c816
+      internalID: -2090552402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa597767df97254aa47bb5ec8e60dd9
+      internalID: -819991702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1d18532706f6d45a767c84061a1509
+      internalID: -825851616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c0ef38e4a7eb47b78d3642bb3f659
+      internalID: 824253853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ee023c644d82d43bb389dfddf030e9
+      internalID: 2096069816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d18265c68cedfe46a76016825a3dcd1
+      internalID: -867521152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ac98cb0b51f145a9fed050b582c94
+      internalID: -954972950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61840a5a40f0079439654d43b409df0b
+      internalID: -943649274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c2dde3cdd2d648829a7e942df6c8d
+      internalID: -273556234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5019690f28576cc49bc13cf7c4940553
+      internalID: -513064822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd44b6c472c7e04894a9ca278dae9f1
+      internalID: -669459216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a5c4d3827eec240b92e5aad7a06b93
+      internalID: 413777136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debd4dc38e7d2c144bb0a30f4fc2650d
+      internalID: -1408627599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af2c0f491dc14649a28a711f9a390a3
+      internalID: -871996874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ea9a1d80a874245acf3481b457fd31
+      internalID: -1411792476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_98
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14a0b1db1894d34e8de28a0b2e5183b
+      internalID: 1892309280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa53071f59d7c404aa63bdd11e6c3e6b
+      internalID: 1076165132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2c34ac430db44f8caa959d0e947c6
+      internalID: -926934168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e8467cf0c00f4a839280f2ed5211a
+      internalID: -1560047950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1ae8ee1f8dc74aa4fa1c8199919ac
+      internalID: 1065978599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dbd66c3cad4b742bbc81f87136b05a
+      internalID: -1497486600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9572fbf39b9ca13438d88cde2b07e499
+      internalID: -517205519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d03b6f190c63fa448fed1e3604da8ab
+      internalID: 952840138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cb0350c6173ca4a833e8552152ab97
+      internalID: 2129083371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2721131af884e8e47b01a998d2acdcbd
+      internalID: -994438893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1f490fec7e1fa43b4a994e9d3c0801
+      internalID: -879985861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318cb51d9c4b6444b229b3328b66bec
+      internalID: -2115115518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ae389568e3ab141afa128ade5b91a9
+      internalID: 262457653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f2e3e174818484c8acdf827523b446
+      internalID: 666909810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbae912210fede4ea81d14c5ec37066
+      internalID: -300267216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a8064ee905dfc4482d9a0c7703e299
+      internalID: 789453901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432e6eb98dcc2e44a8df60366d182c7c
+      internalID: -223704104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f052eada441d5d40a009c786c0e3f8c
+      internalID: -1380981786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bc2ce7b07aa6345a05613226c25108
+      internalID: -626341804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baae9df00c9d6664c955bdc389d575ac
+      internalID: -435803349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3af7779603f945489331be4d479ef8e
+      internalID: 438732949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1978c75c0ccb4f74e9ca570d7eba5efa
+      internalID: 1354032476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 749166b80f968844bbe9739427e46855
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Charge_0: -198934783
+      Charge_1: 859357063
+      Charge_10: 482811275
+      Charge_100: -926934168
+      Charge_101: -1560047950
+      Charge_102: 1065978599
+      Charge_103: -1497486600
+      Charge_104: -517205519
+      Charge_105: 952840138
+      Charge_106: 2129083371
+      Charge_107: -994438893
+      Charge_108: -879985861
+      Charge_109: -2115115518
+      Charge_11: 506630980
+      Charge_110: 262457653
+      Charge_111: 666909810
+      Charge_112: -300267216
+      Charge_113: 789453901
+      Charge_114: -223704104
+      Charge_115: -1380981786
+      Charge_116: -626341804
+      Charge_117: -435803349
+      Charge_118: 438732949
+      Charge_119: 1354032476
+      Charge_12: -1761142044
+      Charge_13: 370479156
+      Charge_14: -2066068039
+      Charge_15: -1088335512
+      Charge_16: 293034458
+      Charge_17: -217565206
+      Charge_18: -690716559
+      Charge_19: 1238534114
+      Charge_2: 1422113424
+      Charge_20: -1805228272
+      Charge_21: -1351628272
+      Charge_22: -2109828900
+      Charge_23: 1160382251
+      Charge_24: 857349336
+      Charge_25: 2063012314
+      Charge_26: -1126907442
+      Charge_27: -54976760
+      Charge_28: -1481345123
+      Charge_29: -1926257791
+      Charge_3: -1399259354
+      Charge_30: 2104944841
+      Charge_31: 1238797535
+      Charge_32: 1283555
+      Charge_33: 1382434247
+      Charge_34: 1974127378
+      Charge_35: 354786357
+      Charge_36: 1116691659
+      Charge_37: 1364191501
+      Charge_38: 1128583570
+      Charge_39: 178701106
+      Charge_4: -2003681208
+      Charge_40: -1008663613
+      Charge_41: 1657287509
+      Charge_42: 412359252
+      Charge_43: -1463648479
+      Charge_44: 1273298981
+      Charge_45: -1983154471
+      Charge_46: -1940644798
+      Charge_47: 243184994
+      Charge_48: -1802488053
+      Charge_49: -415032557
+      Charge_5: -1877506338
+      Charge_50: -1464792302
+      Charge_51: -1240286962
+      Charge_52: -1952966817
+      Charge_53: 987164865
+      Charge_54: 2143751461
+      Charge_55: 333477064
+      Charge_56: -23723452
+      Charge_57: -1369752768
+      Charge_58: -591409904
+      Charge_59: 1754323821
+      Charge_6: -939807318
+      Charge_60: 1521377198
+      Charge_61: 1487154576
+      Charge_62: -1336867244
+      Charge_63: -1708809976
+      Charge_64: 1960177996
+      Charge_65: -1349291887
+      Charge_66: 502580772
+      Charge_67: -1095356135
+      Charge_68: -980876276
+      Charge_69: -1726239276
+      Charge_7: 1436805922
+      Charge_70: -1992069977
+      Charge_71: 356937501
+      Charge_72: 2035829598
+      Charge_73: -919280973
+      Charge_74: -1534425092
+      Charge_75: 249951389
+      Charge_76: -185255622
+      Charge_77: -225701024
+      Charge_78: 2062321939
+      Charge_79: 1928572084
+      Charge_8: -466457666
+      Charge_80: -1677380132
+      Charge_81: -580754838
+      Charge_82: 1662395256
+      Charge_83: -2090552402
+      Charge_84: -819991702
+      Charge_85: -825851616
+      Charge_86: 824253853
+      Charge_87: 2096069816
+      Charge_88: -867521152
+      Charge_89: -954972950
+      Charge_9: -46819177
+      Charge_90: -943649274
+      Charge_91: -273556234
+      Charge_92: -513064822
+      Charge_93: -669459216
+      Charge_94: 413777136
+      Charge_95: -1408627599
+      Charge_96: -871996874
+      Charge_97: -1411792476
+      Charge_98: 1892309280
+      Charge_99: 1076165132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
