@@ -216,6 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6cff2151958534996fe08933435767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeteorProjectile
+  debuffStackPercent: 0.2
+  debuffDuration: 10
   meteorRenderer: {fileID: 5073950154687161592}
   trailRenderer: {fileID: 6738107907545918644}
   telegraphPrefab: {fileID: 5480530684714606239, guid: e865775100984234d88858f519e32bae, type: 3}
@@ -223,7 +225,7 @@ MonoBehaviour:
   telegraphDuration: 1.5
   fallDistance: 8
   fallDuration: 0.3
-  damage: 30
+  damage: 40
   impactRadius: 0.7
   telegraphColor: {r: 1, g: 0.3, b: 0, a: 0.33333334}
   meteorColor: {r: 1, g: 0.5, b: 0.1, a: 1}

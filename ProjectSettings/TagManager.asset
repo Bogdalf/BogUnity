@@ -19,7 +19,7 @@ TagManager:
   - Gatherable
   - Collider
   - Enemy
-  - 
+  - PlayerHitBox
   - 
   - 
   - 

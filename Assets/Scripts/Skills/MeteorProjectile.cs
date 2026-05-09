@@ -14,7 +14,11 @@ using UnityEngine;
 /// Spawned by boss AI via MeteorProjectile.Spawn() static method.
 /// </summary>
 public class MeteorProjectile : MonoBehaviour
-{
+    {
+    [Header("Debuff")]
+    [SerializeField] private float debuffStackPercent = 0.20f; // 20% per stack
+    [SerializeField] private float debuffDuration     = 10f; 
+    
     [Header("Visuals")]
     [SerializeField] private SpriteRenderer meteorRenderer;
     [SerializeField] private TrailRenderer  trailRenderer;
@@ -163,16 +167,47 @@ public class MeteorProjectile : MonoBehaviour
             if (!hit.CompareTag("Player")) continue;
 
             PlayerHealth playerHealth = hit.GetComponent<PlayerHealth>();
-            playerHealth?.TakeDamage(damage);
-
-            Debug.Log($"Meteor hit player for {damage} damage.");
-            break; // Only hit player once
+            if (playerHealth != null)
+            {
+                float finalDamage = damage * GetDamageMultiplier();
+                playerHealth.TakeDamage(finalDamage);
+                AddDebuffStack(); // Stack after hit so first meteor deals base damage
+                Debug.Log($"Meteor hit player for {finalDamage} damage (stack {debuffStacks}).");
+            }
+            break;
         }
 
         // Destroy after particle system has time to finish
         Destroy(gameObject, 2f);
     }
+    private static int    debuffStacks     = 0;
+    private static float  debuffExpireTime = 0f;
 
+    public static float GetDamageMultiplier()
+    {
+        // Clear stacks if debuff has expired
+        if (Time.time > debuffExpireTime)
+            debuffStacks = 0;
+
+        return 1f + (debuffStacks * 0.20f);
+    }
+
+    static void AddDebuffStack()
+    {
+        // Clear expired stacks first
+        if (Time.time > debuffExpireTime)
+            debuffStacks = 0;
+
+        debuffStacks++;
+        debuffExpireTime = Time.time + 10f; // Reset duration on each hit
+        Debug.Log($"Meteor debuff stack: {debuffStacks} — damage taken multiplier: {GetDamageMultiplier() * 100f}%");
+    }
+
+    public static void ResetDebuff()
+    {
+        debuffStacks = 0;
+        debuffExpireTime = 0f;
+    }
     // ─── Telegraph Pulse ──────────────────────────────────────────────────────────
 
     /// <summary>
